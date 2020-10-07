@@ -1,0 +1,446 @@
+2020-10-05 00:45:23,879 ERROR 13556 [-/127.0.0.1/-/5ms GET /createPDF] nodejs.ReferenceError: src is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:21:9)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 13556
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:46:35,981 ERROR 9768 [-/127.0.0.1/-/5ms GET /createPDF] nodejs.ReferenceError: callback is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:24:14)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9768
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:46:47,850 ERROR 4276 [-/127.0.0.1/-/6ms GET /createPDF] nodejs.ReferenceError: pandoc is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4276
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:46:49,417 ERROR 4276 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.ReferenceError: pandoc is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4276
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:09,436 ERROR 8204 [-/127.0.0.1/-/8ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 8204
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:16,654 ERROR 14436 [-/127.0.0.1/-/5ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:17,195 ERROR 14436 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:17,822 ERROR 14436 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:18,266 ERROR 14436 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:18,681 ERROR 14436 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:19,099 ERROR 14436 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:19,516 ERROR 14436 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:20,009 ERROR 14436 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:20,435 ERROR 14436 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:20,910 ERROR 14436 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:47:42,467 ERROR 14436 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14436
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:48:02,904 ERROR 15756 [-/127.0.0.1/-/14ms GET /createPDF] nodejs.TypeError: Cannot read property 'constructor' of undefined
+    at module.exports (F:\workercv\node_modules\node-pandoc\index.js:79:12)
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+
+pid: 15756
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:48:42,985 ERROR 5696 [-/127.0.0.1/-/5ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 5696
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:48:43,870 ERROR 5696 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 5696
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:48:44,284 ERROR 5696 [-/127.0.0.1/-/0ms GET /createPDF] nodejs.TypeError: nodePandoc is not a function
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 5696
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:52:06,663 ERROR 984 [-/127.0.0.1/-/8ms GET /createPDF] nodejs.ReferenceError: callback is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:14)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 984
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:52:08,053 ERROR 984 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.ReferenceError: callback is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:14)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 984
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:52:08,548 ERROR 984 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.ReferenceError: callback is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:14)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 984
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:52:09,054 ERROR 984 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.ReferenceError: callback is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:14)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 984
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:52:09,515 ERROR 984 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.ReferenceError: callback is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:14)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 984
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:52:19,285 ERROR 13456 [-/127.0.0.1/-/7ms GET /createPDF] nodejs.TypeError: Cannot read property 'constructor' of undefined
+    at module.exports (F:\workercv\node_modules\node-pandoc\index.js:79:12)
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+
+pid: 13456
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 00:52:20,513 ERROR 13456 [-/127.0.0.1/-/1ms GET /createPDF] nodejs.TypeError: Cannot read property 'constructor' of undefined
+    at module.exports (F:\workercv\node_modules\node-pandoc\index.js:79:12)
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:5)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+
+pid: 13456
+hostname: DESKTOP-EF7P7GO
+
+2020-10-05 01:00:02,965 ERROR 16260 [-/127.0.0.1/-/76ms GET /createPDF] nodejs.ReferenceError: callback is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:25:14)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 16260
+hostname: DESKTOP-EF7P7GO
+
+2020-10-06 01:18:35,346 ERROR 18996 [-/127.0.0.1/-/68ms GET /createPDF?html=%0A%09%09%09%09%3Cstyle%3E%0A%09%09%09%09%09%23temp-name%7Bpadding%3A%2010px%3B%7D%0A%09%09%09%09%09%23temp-description%7Bpadding%3A%2010px%3B%7D%0A%09%09%09%09%3C%2Fstyle%3E%0A%09%09%09%09%3Ch1%20id%3D%22temp-name%22%20class%3D%22temp-edit%22%20contenteditable%3D%22true%22%3E%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97fcb%3C%2Fh1%3E%0A%09%09%09%09%3Cp%20id%3D%22temp-description%22%20class%3D%22temp-edit%22%20contenteditable%3D%22true%22%3E%E4%BD%A0%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D%3C%2Fp%3E%0A%09%09%09] nodejs.ReferenceError: res is not defined
+    at HomeController.createPDF (F:\workercv\app\controller\home.js:23:86)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 18996
+hostname: DESKTOP-EF7P7GO
+
+2020-10-06 01:28:14,672 ERROR 17744 [-/undefined/-/3ms GET /frontend/images/favicon.ico] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 17744
+hostname: DESKTOP-EF7P7GO
+
+2020-10-06 16:40:34,189 WARN 16288 A client (::ffff:127.0.0.1:64901) error [HPE_HEADER_OVERFLOW] occurred: Parse Error: Header overflow
