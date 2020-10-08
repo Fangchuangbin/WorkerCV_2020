@@ -176,8 +176,6 @@
       "egg": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "node-latex-pdf": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "node-pandoc": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
       "wkhtmltopdf": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
