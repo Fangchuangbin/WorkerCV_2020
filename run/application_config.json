@@ -106,6 +106,7 @@
         "F:\\workercv\\node_modules\\egg-static\\config\\locales",
         "F:\\workercv\\node_modules\\egg-view\\config\\locales",
         "F:\\workercv\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "F:\\workercv\\node_modules\\egg-mysql\\config\\locales",
         "F:\\workercv\\node_modules\\egg\\config\\locales",
         "F:\\workercv\\config\\locales"
       ],
@@ -190,6 +191,21 @@
       "lstripBlocks": false,
       "cache": false
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "120.78.188.217",
+        "port": "3306",
+        "user": "workercv",
+        "password": "<String len: 12>",
+        "database": "workercv"
+      }
+    },
     "env": "local",
     "name": "workercv",
     "keys": "<String len: 27>",
@@ -210,6 +226,7 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0",
         "egg-view-nunjucks": "^2.2.0",
         "wkhtmltopdf": "^0.3.4"
@@ -527,6 +544,17 @@
       "from": "F:\\workercv\\config\\plugin.js",
       "path": "F:\\workercv\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\workercv\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-mysql",
+      "version": "3.0.0"
     }
   }
 }
