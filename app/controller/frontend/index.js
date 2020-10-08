@@ -14,7 +14,9 @@ class IndexController extends Controller {
 
   async login() {
     const { ctx } = this;
-    const user = await ctx.service.frontend.user.login();
+    const username = ctx.query.username;
+    const password = ctx.query.password;
+    const user = await ctx.service.frontend.user.login(username, password);
     ctx.body = user;
   }
 
