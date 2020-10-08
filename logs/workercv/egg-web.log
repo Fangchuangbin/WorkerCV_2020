@@ -29,3 +29,17 @@
 2020-10-08 10:34:12,245 INFO 6416 [egg-watcher:application] watcher start success
 2020-10-08 10:34:12,277 INFO 6416 [egg:core] dump config after ready, 17ms
 2020-10-08 10:34:59,444 INFO 6416 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]
+2020-10-08 11:10:38,269 INFO 6504 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-08 11:10:38,292 INFO 6504 [egg-multipart] stream mode enable
+2020-10-08 11:10:38,366 INFO 6504 [egg-static] starting static serve / -> F:\workercv\app\public
+2020-10-08 11:10:38,368 INFO 6504 [egg-security] use csrf middleware
+2020-10-08 11:10:38,369 INFO 6504 [egg-security] use methodnoallow middleware
+2020-10-08 11:10:38,370 INFO 6504 [egg-security] use noopen middleware
+2020-10-08 11:10:38,370 INFO 6504 [egg-security] use nosniff middleware
+2020-10-08 11:10:38,371 INFO 6504 [egg-security] use xssProtection middleware
+2020-10-08 11:10:38,371 INFO 6504 [egg-security] use xframe middleware
+2020-10-08 11:10:38,371 INFO 6504 [egg-security] use dta middleware
+2020-10-08 11:10:38,371 INFO 6504 [egg-security] compose 7 middlewares into one security middleware
+2020-10-08 11:10:38,392 INFO 6504 [egg:core] dump config after load, 15ms
+2020-10-08 11:10:38,402 INFO 6504 [egg-watcher:application] watcher start success
+2020-10-08 11:10:38,422 INFO 6504 [egg:core] dump config after ready, 18ms
