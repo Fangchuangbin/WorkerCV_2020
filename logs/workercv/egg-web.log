@@ -701,3 +701,7 @@ hostname: DESKTOP-RN33ASL
 2020-10-09 10:37:36,121 INFO 5656 [egg-security] use dta middleware
 2020-10-09 10:37:36,121 INFO 5656 [egg-security] compose 6 middlewares into one security middleware
 2020-10-09 10:37:36,179 INFO 5656 [egg:core] dump config after load, 8ms
+2020-10-09 10:37:36,204 INFO 5656 [egg-watcher:application] watcher start success
+2020-10-09 10:37:36,251 INFO 5656 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 09 2020 10:37:45 GMT+0800 (GMT+08:00)
+2020-10-09 10:37:36,265 INFO 5656 [egg:core] dump config after ready, 11ms
+2020-10-09 10:38:23,935 INFO 5656 [egg-view-nunjucks] loading templates from ["F:\\WorkerCV\\app\\view"]
