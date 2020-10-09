@@ -2908,3 +2908,255 @@ name: "ER_PARSE_ERRORError"
 pid: 7608
 hostname: DESKTOP-RN33ASL
 
+2020-10-09 16:52:01,266 ERROR 6488 [-/192.168.0.254/-/48ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:8:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:22)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6488
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 16:52:04,761 ERROR 6488 [-/192.168.0.254/-/32ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:8:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:22)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6488
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:03:11,782 ERROR 16124 [-/192.168.0.254/-/64ms POST /login] nodejs.ReferenceError: getCookie is not defined
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:13:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:10:22)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16124
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:03:40,271 ERROR 9248 [-/192.168.0.254/-/42ms POST /login] nodejs.ReferenceError: document is not defined
+    at getCookie (F:\WorkerCV\app\service\frontend\account.js:6:3)
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:22:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:10:22)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+
+pid: 9248
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:25:08,246 ERROR 11480 [-/192.168.0.254/-/43ms POST /login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:10:34)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at F:\WorkerCV\node_modules\koa-compose\index.js:36:12
+
+pid: 11480
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:26:50,581 ERROR 4600 [-/192.168.0.254/-/28ms POST /login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:10:34)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at F:\WorkerCV\node_modules\koa-compose\index.js:36:12
+
+pid: 4600
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:34:07,056 WARN 5244 [-/192.168.0.254/-/21ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-09 17:34:07,058 WARN 5244 [-/192.168.0.254/-/23ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\WorkerCV\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\WorkerCV\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\WorkerCV\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\WorkerCV\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 5244
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:34:22,739 WARN 5244 [-/192.168.0.254/-/1ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-09 17:34:22,740 WARN 5244 [-/192.168.0.254/-/2ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\WorkerCV\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\WorkerCV\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\WorkerCV\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\WorkerCV\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 5244
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:55:03,663 ERROR 12528 [-/192.168.0.254/-/34ms POST /login] nodejs.AssertionError: argument value is invalid
+    at new Cookie (F:\WorkerCV\node_modules\egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (F:\WorkerCV\node_modules\egg-cookies\lib\cookies.js:123:20)
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 12528
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:55:20,221 ERROR 15096 [-/192.168.0.254/-/25ms POST /login] nodejs.AssertionError: argument value is invalid
+    at new Cookie (F:\WorkerCV\node_modules\egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (F:\WorkerCV\node_modules\egg-cookies\lib\cookies.js:123:20)
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 15096
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:56:33,424 ERROR 3504 [-/192.168.0.254/-/36ms POST /login] nodejs.AssertionError: argument value is invalid
+    at new Cookie (F:\WorkerCV\node_modules\egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (F:\WorkerCV\node_modules\egg-cookies\lib\cookies.js:123:20)
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 3504
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:56:42,660 ERROR 3504 [-/192.168.0.254/-/2ms POST /login] nodejs.AssertionError: argument value is invalid
+    at new Cookie (F:\WorkerCV\node_modules\egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (F:\WorkerCV\node_modules\egg-cookies\lib\cookies.js:123:20)
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 3504
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:57:59,472 ERROR 16900 [-/192.168.0.254/-/26ms POST /login] nodejs.AssertionError: argument value is invalid
+    at new Cookie (F:\WorkerCV\node_modules\egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (F:\WorkerCV\node_modules\egg-cookies\lib\cookies.js:123:20)
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 16900
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 17:58:32,736 ERROR 10388 [-/192.168.0.254/-/31ms POST /login] nodejs.AssertionError: argument value is invalid
+    at new Cookie (F:\WorkerCV\node_modules\egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (F:\WorkerCV\node_modules\egg-cookies\lib\cookies.js:123:20)
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 10388
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 18:00:05,138 WARN 11024 [-/192.168.0.254/-/3ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-09 18:00:05,140 WARN 11024 [-/192.168.0.254/-/4ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\WorkerCV\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\WorkerCV\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\WorkerCV\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\WorkerCV\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 11024
+hostname: DESKTOP-RN33ASL
+

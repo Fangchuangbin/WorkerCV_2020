@@ -27,7 +27,8 @@ $(document).ready(function() {
       },
       data: {
         "username": username,
-        "password": password
+        "password": password,
+        "csrfToken": getCookie("csrfToken")
       },
       success: function(result) {
         console.log(result);
