@@ -67,3 +67,72 @@
 2020-10-09 09:24:49,977 INFO 12948 [Timer] F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68710025ms at 2020-10-10 04:30:00.002
 2020-10-09 09:24:49,977 INFO 12948 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52510023ms at 2020-10-10 00:00:00.000
 2020-10-09 09:24:49,977 INFO 12948 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52511023ms at 2020-10-10 00:00:01.000
+2020-10-09 09:35:32,108 INFO 12784 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 09:35:32,108 INFO 12784 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 09:35:32,108 INFO 12784 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 09:35:32,346 INFO 15660 [Timer] F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68067658ms at 2020-10-10 04:30:00.004
+2020-10-09 09:35:32,347 INFO 15660 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51867653ms at 2020-10-10 00:00:00.000
+2020-10-09 09:35:32,348 INFO 15660 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51868653ms at 2020-10-10 00:00:01.001
+2020-10-09 09:37:02,707 INFO 212 [Timer] F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67977295ms at 2020-10-10 04:30:00.002
+2020-10-09 09:37:02,708 INFO 212 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51777292ms at 2020-10-10 00:00:00.000
+2020-10-09 09:37:02,708 INFO 212 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51778292ms at 2020-10-10 00:00:01.000
+2020-10-09 09:37:02,479 INFO 4912 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 09:37:02,479 INFO 4912 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 09:37:02,480 INFO 4912 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 09:41:01,771 INFO 9096 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 09:41:01,771 INFO 9096 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 09:41:01,771 INFO 9096 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 09:41:02,187 INFO 1264 [Timer] F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67737819ms at 2020-10-10 04:30:00.006
+2020-10-09 09:41:02,188 INFO 1264 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51537813ms at 2020-10-10 00:00:00.001
+2020-10-09 09:41:02,188 INFO 1264 [Timer] F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51538812ms at 2020-10-10 00:00:01.000
+2020-10-09 10:07:51,975 INFO 3892 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:07:51,975 INFO 3892 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:07:51,975 INFO 3892 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:08:46,588 INFO 16252 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:08:46,588 INFO 16252 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:08:46,588 INFO 16252 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:10:03,539 INFO 13496 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:10:03,539 INFO 13496 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:10:03,539 INFO 13496 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:10:18,549 INFO 3404 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:10:18,549 INFO 3404 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:10:18,549 INFO 3404 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:16:46,294 INFO 10900 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:16:46,294 INFO 10900 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:16:46,294 INFO 10900 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:17:01,179 INFO 16152 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:17:01,179 INFO 16152 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:17:01,179 INFO 16152 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:18:55,904 INFO 880 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:18:55,904 INFO 880 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:18:55,904 INFO 880 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:21:10,054 INFO 9032 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:21:10,054 INFO 9032 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:21:10,055 INFO 9032 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:23:52,330 INFO 15104 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:23:52,330 INFO 15104 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:23:52,330 INFO 15104 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:29:40,642 INFO 1008 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:29:40,642 INFO 1008 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:29:40,642 INFO 1008 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:30:50,578 INFO 7428 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:30:50,578 INFO 7428 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:30:50,578 INFO 7428 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:32:11,710 INFO 5076 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:32:11,710 INFO 5076 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:32:11,710 INFO 5076 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:32:38,904 INFO 10908 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:32:38,904 INFO 10908 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:32:38,904 INFO 10908 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:32:58,311 INFO 12868 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:32:58,311 INFO 12868 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:32:58,311 INFO 12868 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:33:40,741 INFO 4912 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:33:40,741 INFO 4912 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:33:40,741 INFO 4912 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:34:06,647 INFO 4136 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:34:06,647 INFO 4136 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:34:06,647 INFO 4136 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-09 10:37:34,922 INFO 5656 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-09 10:37:34,922 INFO 5656 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-09 10:37:34,922 INFO 5656 [egg-schedule]: register schedule F:\WorkerCV\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

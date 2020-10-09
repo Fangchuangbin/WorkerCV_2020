@@ -33,18 +33,9 @@
       "connectionLimit": "F:\\WorkerCV\\node_modules\\egg-mysql\\config\\config.default.js"
     }
   },
-  "session": {
-    "maxAge": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js"
-  },
   "security": {
-    "domainWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "F:\\WorkerCV\\config\\config.default.js",
       "type": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "ignoreJSON": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
@@ -55,6 +46,9 @@
       "queryName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "value": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
@@ -92,6 +86,12 @@
       "ipBlackList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "session": {
+    "maxAge": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
