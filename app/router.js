@@ -5,8 +5,8 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/', controller.frontend.index.default);
-  router.post('/login', controller.frontend.user.login);
+  router.get('/', controller.frontend.index.homepage);
+  router.post('/login', controller.frontend.account.login);
 
   router.get('/edit/:tempid', controller.frontend.index.edit);
   router.get('/createPDF', controller.frontend.index.createPDF);

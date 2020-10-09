@@ -1746,3 +1746,894 @@ hostname: DESKTOP-RN33ASL
 pid: 4912
 hostname: DESKTOP-RN33ASL
 
+2020-10-09 15:40:21,910 ERROR 16124 [-/192.168.0.254/-/97ms POST /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `0` = 'f' AND `1` = 'a' AND `2` = 'n' AND `3` = 'g' AND `4` = 'c' AND `5` = 'h' AND `6` = 'u' AND `7` = 'a' AND `8` = 'n' AND `9` = 'g' AND `10` = 'b' AND `11` = 'i' AND `12` = 'n' AND `13` = '@' AND `14` = 'q' AND `15` = 'q' AND `16` = '.' AND `17` = 'c' AND `18` = 'o' AND `19` = 'm' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `0` = 'f' AND `1` = 'a' AND `2` = 'n' AND `3` = 'g' AND `4` = 'c' AND `5` = 'h' AND `6` = 'u' AND `7` = 'a' AND `8` = 'n' AND `9` = 'g' AND `10` = 'b' AND `11` = 'i' AND `12` = 'n' AND `13` = '@' AND `14` = 'q' AND `15` = 'q' AND `16` = '.' AND `17` = 'c' AND `18` = 'o' AND `19` = 'm' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16124
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:44:18,030 ERROR 12576 [-/192.168.0.254/-/62ms POST /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `0` = 'f' AND `1` = 'a' AND `2` = 'n' AND `3` = 'g' AND `4` = 'c' AND `5` = 'h' AND `6` = 'u' AND `7` = 'a' AND `8` = 'n' AND `9` = 'g' AND `10` = 'b' AND `11` = 'i' AND `12` = 'n' AND `13` = '@' AND `14` = 'q' AND `15` = 'q' AND `16` = '.' AND `17` = 'c' AND `18` = 'o' AND `19` = 'm' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `0` = 'f' AND `1` = 'a' AND `2` = 'n' AND `3` = 'g' AND `4` = 'c' AND `5` = 'h' AND `6` = 'u' AND `7` = 'a' AND `8` = 'n' AND `9` = 'g' AND `10` = 'b' AND `11` = 'i' AND `12` = 'n' AND `13` = '@' AND `14` = 'q' AND `15` = 'q' AND `16` = '.' AND `17` = 'c' AND `18` = 'o' AND `19` = 'm' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12576
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:47:32,791 ERROR 13824 [-/192.168.0.254/-/73ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of email =' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = 'fangchuangbin@qq.com' of email = 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of email =' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = 'fangchuangbin@qq.com' of email = "
+name: "ER_PARSE_ERRORError"
+pid: 13824
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:47:55,880 ERROR 7520 [-/192.168.0.254/-/127ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email =' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ? of email = 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email =' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ? of email = "
+name: "ER_PARSE_ERRORError"
+pid: 7520
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:48:28,893 ERROR 7520 [-/192.168.0.254/-/30ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email =' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ? of email = 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email =' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ? of email = "
+name: "ER_PARSE_ERRORError"
+pid: 7520
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:48:36,428 ERROR 11716 [-/192.168.0.254/-/63ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? or email =' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ? or email = 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? or email =' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ? or email = "
+name: "ER_PARSE_ERRORError"
+pid: 11716
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:49:51,039 ERROR 5944 [-/192.168.0.254/-/75ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email = ?' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ? of email = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email = ?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ? of email = ?"
+name: "ER_PARSE_ERRORError"
+pid: 5944
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:49:52,878 ERROR 5944 [-/192.168.0.254/-/26ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email = ?' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ? of email = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? of email = ?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ? of email = ?"
+name: "ER_PARSE_ERRORError"
+pid: 5944
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:50:05,526 ERROR 16984 [-/192.168.0.254/-/52ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ?"
+name: "ER_PARSE_ERRORError"
+pid: 16984
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:50:06,792 ERROR 16984 [-/192.168.0.254/-/28ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ?"
+name: "ER_PARSE_ERRORError"
+pid: 16984
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:50:07,459 ERROR 16984 [-/192.168.0.254/-/26ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ?"
+name: "ER_PARSE_ERRORError"
+pid: 16984
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:50:07,989 ERROR 16984 [-/192.168.0.254/-/31ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ?"
+name: "ER_PARSE_ERRORError"
+pid: 16984
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:50:09,565 ERROR 16984 [-/192.168.0.254/-/29ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ?"
+name: "ER_PARSE_ERRORError"
+pid: 16984
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:52:33,628 ERROR 16936 [-/192.168.0.254/-/117ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{username}' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ${username}
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{username}' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ${username}"
+name: "ER_PARSE_ERRORError"
+pid: 16936
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:53:13,836 ERROR 16936 [-/192.168.0.254/-/35ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{username}' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = ${username}
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{username}' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = ${username}"
+name: "ER_PARSE_ERRORError"
+pid: 16936
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:53:14,706 ERROR 3220 [-/192.168.0.254/-/54ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = fangchuangbin@qq.com
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = fangchuangbin@qq.com"
+name: "ER_PARSE_ERRORError"
+pid: 3220
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:53:16,374 ERROR 3220 [-/192.168.0.254/-/29ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where phone = fangchuangbin@qq.com
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where phone = fangchuangbin@qq.com"
+name: "ER_PARSE_ERRORError"
+pid: 3220
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:53:45,100 ERROR 12276 [-/192.168.0.254/-/47ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = fangchuangbin@qq.com
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = fangchuangbin@qq.com"
+name: "ER_PARSE_ERRORError"
+pid: 12276
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:53:48,042 ERROR 12276 [-/192.168.0.254/-/22ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = fangchuangbin@qq.com
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = fangchuangbin@qq.com"
+name: "ER_PARSE_ERRORError"
+pid: 12276
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:53:49,152 ERROR 12276 [-/192.168.0.254/-/25ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = fangchuangbin@qq.com
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = fangchuangbin@qq.com"
+name: "ER_PARSE_ERRORError"
+pid: 12276
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:54:04,182 ERROR 12276 [-/192.168.0.254/-/21ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = fangchuangbin@qq.com
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = fangchuangbin@qq.com"
+name: "ER_PARSE_ERRORError"
+pid: 12276
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 15:57:48,395 ERROR 5872 [-/192.168.0.254/-/81ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password = ''' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where and password = ''
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password = ''' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where and password = ''"
+name: "ER_PARSE_ERRORError"
+pid: 5872
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 16:01:50,431 ERROR 14964 [-/192.168.0.254/-/61ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com and password = 'cWlWaFFjTGN0MWh4''' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com and password = 'cWlWaFFjTGN0MWh4''
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com and password = 'cWlWaFFjTGN0MWh4''' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com and password = 'cWlWaFFjTGN0MWh4''"
+name: "ER_PARSE_ERRORError"
+pid: 14964
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 16:02:09,895 ERROR 7140 [-/192.168.0.254/-/60ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4''' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4''
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4''' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4''"
+name: "ER_PARSE_ERRORError"
+pid: 7140
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 16:02:53,182 ERROR 13324 [-/192.168.0.254/-/50ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4'' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com' and password = 'cWlWaFFjTGN0MWh4'"
+name: "ER_PARSE_ERRORError"
+pid: 13324
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 16:03:27,118 ERROR 7608 [-/192.168.0.254/-/57ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com'' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com'"
+name: "ER_PARSE_ERRORError"
+pid: 7608
+hostname: DESKTOP-RN33ASL
+
+2020-10-09 16:03:50,065 ERROR 7608 [-/192.168.0.254/-/33ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com'' at line 1
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'of phone = 'fangchuangbin@qq.com'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from user where email = 'fangchuangbin@qq.com' of phone = 'fangchuangbin@qq.com'"
+name: "ER_PARSE_ERRORError"
+pid: 7608
+hostname: DESKTOP-RN33ASL
+

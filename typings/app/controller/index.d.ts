@@ -2,14 +2,14 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
+import ExportFrontendAccount = require('../../../app/controller/frontend/account');
 import ExportFrontendIndex = require('../../../app/controller/frontend/index');
-import ExportFrontendUser = require('../../../app/controller/frontend/user');
 
 declare module 'egg' {
   interface IController {
     frontend: {
+      account: ExportFrontendAccount;
       index: ExportFrontendIndex;
-      user: ExportFrontendUser;
     }
   }
 }

@@ -5,13 +5,12 @@ const wkhtmltopdf = require('wkhtmltopdf');
 const fs = require('fs');
 
 class IndexController extends Controller {
-  async default() {
+  async homepage() {
     const { ctx } = this;
     await ctx.render('frontend/index', {
       title: '极速简历WorkerCV - 智能简历制作工具,免费简历模板下载,应届生求职简历模板'
     });
   }
-
 
   async edit() {
     const { ctx } = this;

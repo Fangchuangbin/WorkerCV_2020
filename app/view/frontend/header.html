@@ -9,27 +9,28 @@
 		</div>
 		<div class="user float-right font-size-14">
 			<p class="icon font-size-16"><a href="#"><i class="iconfont">&#xe63f;</i></a><a href="#" class="ml-3"><i class="iconfont">&#xe63e;</i></a></p>
-			<p class="login" data-toggle="modal" data-target="#myModal"><a href="javascript:void(0);">登录</a></p>
+			<p class="login" data-toggle="modal" data-target="#accountLogin"><a href="javascript:void(0);">登录</a></p>
 			<p class="register"><a href="#">注册</a></p>
 		</div>
 	</div>
 </div>
-<div class="modal fade" id="myModal">
+<div class="modal fade" id="accountLogin">
 	<div class="modal-dialog mt-5 pt-5">
 		<div class="modal-content p-5">
 			<script src="/frontend/js/login.js"></script>
 			<h3 class="text-center">用户登录</h3>
 			<div class="username">
-				<label class="font-size-16">账号：</label><input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="请输入邮箱或手机号...">
+				<label class="font-size-16">账号：</label><input type="text" class="form-control" id="username">
 			</div>
 			<div class="password mt-2">
 				<label class="font-size-16">密码：</label><input type="password" class="form-control" id="password">
 			</div>
 			<div class="form-group form-check mt-2">
-				<input type="checkbox" class="form-check-input float-left" id="exampleCheck1" autocomplete="off">
-				<label class="form-check-label font-size-14" for="exampleCheck1">记住密码</label>
+				<input type="checkbox" class="form-check-input float-left mt-2" id="checkStatus" autocomplete="on">
+				<label class="form-check-label font-size-14 mt-1" for="checkStatus">记住密码</label>
 			</div>
-			<button type="submit" class="btn btn-primary" id="login">登录</button>
+			<button type="submit" class="btn btn-primary mt-2" id="login">登录</button>
+			<p class="font-size-14 mt-2"><a href="" class="text-secondary float-left">忘记密码</a><a href="" class="text-secondary float-right">注册账号</a></p>
 		</div>
 	</div>
 </div>
