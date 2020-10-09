@@ -92,3 +92,13 @@
 2020-10-09 01:10:36,430 INFO 11076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"F:\\workercv\\app\\service\\frontend\\user.js","stat":{"dev":170409243,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":8725724278030400,"size":271,"blocks":0,"atimeMs":1602177036382.579,"mtimeMs":1602177036382.579,"ctimeMs":1602177036382.579,"birthtimeMs":1602152526691.612,"atime":"2020-10-08T17:10:36.383Z","mtime":"2020-10-08T17:10:36.383Z","ctime":"2020-10-08T17:10:36.383Z","birthtime":"2020-10-08T10:22:06.692Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-10-09 01:10:36,431 INFO 11076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"F:\\workercv\\app\\service\\frontend\\user.js","stat":{"dev":170409243,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":8725724278030400,"size":271,"blocks":0,"atimeMs":1602177036382.579,"mtimeMs":1602177036382.579,"ctimeMs":1602177036382.579,"birthtimeMs":1602152526691.612,"atime":"2020-10-08T17:10:36.383Z","mtime":"2020-10-08T17:10:36.383Z","ctime":"2020-10-08T17:10:36.383Z","birthtime":"2020-10-08T10:22:06.692Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-10-09 01:10:38,171 WARN 11076 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-10-09 09:24:47,448 INFO 12948 [egg:logger] init all loggers with options: {"dir":"F:\\WorkerCV\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-09 09:24:47,455 INFO 12948 [egg:core] dump config after load, 3ms
+2020-10-09 09:24:47,497 INFO 12948 [egg-watcher] Start watching: ["F:\\WorkerCV\\app","F:\\WorkerCV\\config","F:\\WorkerCV\\mocks","F:\\WorkerCV\\mocks_proxy","F:\\WorkerCV\\app.js"]
+2020-10-09 09:24:47,497 INFO 12948 [egg-watcher] Start watching: "F:\\WorkerCV\\app"
+2020-10-09 09:24:47,498 INFO 12948 [egg-watcher] Start watching: "F:\\WorkerCV\\config"
+2020-10-09 09:24:47,498 INFO 12948 [egg-watcher] Start watching: "F:\\WorkerCV\\mocks"
+2020-10-09 09:24:47,498 INFO 12948 [egg-watcher] Start watching: "F:\\WorkerCV\\mocks_proxy"
+2020-10-09 09:24:47,498 INFO 12948 [egg-watcher] Start watching: "F:\\WorkerCV\\app.js"
+2020-10-09 09:24:47,498 INFO 12948 [egg-watcher:agent] watcher start success
+2020-10-09 09:24:47,522 INFO 12948 [egg:core] dump config after ready, 6ms
