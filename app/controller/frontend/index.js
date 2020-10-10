@@ -5,21 +5,11 @@ const wkhtmltopdf = require('wkhtmltopdf');
 const fs = require('fs');
 
 class IndexController extends Controller {
-  async homepage() {
+  async default() {
     const { ctx } = this;
     await ctx.render('frontend/index', {
       title: '极速简历WorkerCV - 智能简历制作工具,免费简历模板下载,应届生求职简历模板'
     });
-  }
-
-  async admin() {
-    const { ctx } = this;
-    var userId = ctx.params.id;
-    //var tokenData = ctx.cookies.get("loginToken");
-    var data = await ctx.service.frontend.token.loginToken(userId);
-    ctx.body = {
-      data
-    };
   }
 
   async edit() {

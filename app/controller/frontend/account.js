@@ -3,24 +3,21 @@
 const Controller = require('egg').Controller;
 const crypto = require('crypto');
 
+//用户控制器
 class AccountController extends Controller {
+  //用户登录
   async login() {
     const { ctx } = this;
-    var verifySuccess = { code: 20000, message: '已登录，欢迎使用极速简历！' };
-    var verifyFail = { code: 40001, message: '已超时，请重新登录！' };
     var username = ctx.request.body.username;
     var password = crypto.createHash('md5').update(ctx.request.body.password).digest('hex');
-    var tokenData = Buffer.from(crypto.createHash('sha1').update(username).digest('hex')).toString('base64');
-    //const password = Buffer.from(ctx.request.body.password).toString('base64');
+    var tokenData = Buffer.from(crypto.createHash('sha1').update(username).digest('hex') + new Date().getTime()).toString('base64');
     var data = await ctx.service.frontend.account.login(username, password, tokenData);
-    //ctx.set('Authorization', data.setToken);
-    if(data){
-      ctx.cookies.set('loginToken', tokenData);
-      ctx.body = data;
-    }else{
-      ctx.body = data;
+    if(data.result.code == 20000){
+      ctx.cookies.set('loginToken', tokenData, {
+        httpOnly: false
+      });
     }
-    
+    ctx.body = data;
   }
 }
 
