@@ -12,6 +12,16 @@ class IndexController extends Controller {
     });
   }
 
+  async admin() {
+    const { ctx } = this;
+    var userId = ctx.params.id;
+    //var tokenData = ctx.cookies.get("loginToken");
+    var data = await ctx.service.frontend.token.loginToken(userId);
+    ctx.body = {
+      data
+    };
+  }
+
   async edit() {
     const { ctx } = this;
     await ctx.render('frontend/edit', {

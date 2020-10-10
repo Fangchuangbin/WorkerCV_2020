@@ -75,7 +75,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\WorkerCV\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "F:\\workercv\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -88,8 +88,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "F:\\WorkerCV\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\WorkerCV\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "F:\\workercv\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\workercv\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -136,14 +136,14 @@
     },
     "static": {
       "prefix": "/",
-      "dir": "F:\\WorkerCV\\app\\public",
+      "dir": "F:\\workercv\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "F:\\WorkerCV\\app\\view",
+      "root": "F:\\workercv\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -192,6 +192,7 @@
         "declarations": true
       },
       "dependencies": {
+        "crypto": "^1.0.1",
         "egg": "^2.15.1",
         "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0",
@@ -232,9 +233,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "F:\\WorkerCV",
+    "baseDir": "F:\\workercv",
     "HOME": "C:\\Users\\Fang",
-    "rundir": "F:\\WorkerCV\\run",
+    "rundir": "F:\\workercv\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -266,7 +267,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "F:\\WorkerCV\\logs\\workercv",
+      "dir": "F:\\workercv\\logs\\workercv",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -342,8 +343,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-session",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-session",
       "version": "3.2.0"
     },
     "security": {
@@ -355,8 +356,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-security",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-security",
       "version": "2.8.0"
     },
     "jsonp": {
@@ -368,8 +369,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-jsonp",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -381,8 +382,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-onerror",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -392,8 +393,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-i18n",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -403,8 +404,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-watcher",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -414,8 +415,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-schedule",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-schedule",
       "version": "3.6.5"
     },
     "multipart": {
@@ -427,8 +428,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-multipart",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-multipart",
       "version": "2.10.3"
     },
     "development": {
@@ -442,8 +443,8 @@
       "env": [
         "local"
       ],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-development",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -455,8 +456,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-logrotator",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -466,8 +467,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-static",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -477,8 +478,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-view",
+      "from": "F:\\workercv\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -491,8 +492,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-view-nunjucks",
+      "from": "F:\\workercv\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     },
     "mysql": {
@@ -502,8 +503,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-mysql",
+      "from": "F:\\workercv\\config\\plugin.js",
+      "path": "F:\\workercv\\node_modules\\egg-mysql",
       "version": "3.0.0"
     }
   }

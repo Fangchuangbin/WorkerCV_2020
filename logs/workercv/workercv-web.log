@@ -3160,3 +3160,1467 @@ message: "invalid csrf token"
 pid: 11024
 hostname: DESKTOP-RN33ASL
 
+2020-10-10 10:03:14,697 ERROR 9012 [-/192.168.0.254/-/58ms POST /login] nodejs.ReferenceError: Cookies is not defined
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:39:63
+
+pid: 9012
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:05:47,619 WARN 11492 [-/192.168.0.254/-/1ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-10 10:05:47,627 WARN 11492 [-/192.168.0.254/-/8ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\WorkerCV\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\WorkerCV\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\WorkerCV\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\WorkerCV\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 11492
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:06:14,068 WARN 11492 [-/192.168.0.254/-/0ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-10 10:06:14,069 WARN 11492 [-/192.168.0.254/-/1ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\WorkerCV\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\WorkerCV\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\WorkerCV\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\WorkerCV\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 11492
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:41:41,314 WARN 5452 [-/192.168.0.254/-/23ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-10 10:41:41,315 WARN 5452 [-/192.168.0.254/-/24ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (F:\workercv\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\workercv\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\workercv\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\workercv\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\workercv\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\workercv\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 5452
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:41:48,237 ERROR 5452 [-/192.168.0.254/-/24ms POST /login] nodejs.ReferenceError: accountToken is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:12:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5452
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:54:44,188 ERROR 5220 [-/192.168.0.254/-/27ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:54:46,616 ERROR 5220 [-/192.168.0.254/-/28ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:55:45,799 ERROR 5220 [-/192.168.0.254/-/28ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:57:44,647 ERROR 5220 [-/192.168.0.254/-/26ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:09:10,064 ERROR 17068 [-/192.168.0.254/-/45ms POST /login] nodejs.ReferenceError: app is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:14:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 17068
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:13:49,032 WARN 512 [-/192.168.0.254/-/44ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 512
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:13:53,300 WARN 512 [-/192.168.0.254/-/1ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 512
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:14:31,628 WARN 2388 [-/192.168.0.254/-/4ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2388
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:14:38,416 WARN 2388 [-/192.168.0.254/-/1ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2388
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:14:40,320 WARN 2388 [-/192.168.0.254/-/1ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2388
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:14:42,369 WARN 2388 [-/192.168.0.254/-/1ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2388
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:22:52,316 WARN 8544 [-/192.168.0.254/-/12ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 8544
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:27:37,338 WARN 7056 [-/192.168.0.254/-/1ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 7056
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:28:01,645 WARN 7056 [-/192.168.0.254/-/2ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 7056
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:28:28,866 WARN 852 [-/192.168.0.254/-/11ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 852
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:28:39,092 WARN 852 [-/192.168.0.254/-/2ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 852
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:31:06,608 WARN 852 [-/192.168.0.254/-/2ms GET /admin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:81:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+pid: 852
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:31:45,417 WARN 852 [-/192.168.0.254/-/2ms GET /admin] nodejs.UnauthorizedError: invalid token
+    at F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (F:\workercv\node_modules\_jsonwebtoken@8.5.1@jsonwebtoken\verify.js:75:12)
+    at decoded (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:114:27)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "UnauthorizedError"
+message: "invalid token"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"invalid token"}
+pid: 852
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:50:28,204 WARN 14572 [-/192.168.0.254/-/3ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 14572
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:50:32,186 WARN 14572 [-/192.168.0.254/-/2ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 14572
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:53:29,662 WARN 4760 [-/192.168.0.254/-/5ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 4760
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:54:44,218 WARN 1980 [-/192.168.0.254/-/14ms GET /admin] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 1980
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:12:07,916 WARN 5684 [-/192.168.0.254/-/3ms GET /admin?id=10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 5684
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:13:16,823 WARN 3832 [-/192.168.0.254/-/10ms GET /admin?id=10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 3832
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:13:17,922 WARN 3832 [-/192.168.0.254/-/2ms GET /admin?id=10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 3832
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:13:39,281 WARN 3832 [-/192.168.0.254/-/4ms GET /admin?id=10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 3832
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:14:44,936 ERROR 17224 [-/192.168.0.254/-/111ms POST /login] nodejs.ReferenceError: setToken is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:13:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 17224
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:16:53,040 WARN 17300 [-/192.168.0.254/-/2ms GET /admin?id=10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 17300
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:17:10,967 WARN 17300 [-/192.168.0.254/-/2ms GET /admin?id=10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 17300
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:50:42,469 WARN 12632 [-/192.168.0.254/-/6ms GET /admin?id=10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12632
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 14:44:29,776 WARN 13768 [-/192.168.0.254/-/17ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-10 14:44:29,777 WARN 13768 [-/192.168.0.254/-/18ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (F:\workercv\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\workercv\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\workercv\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\workercv\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\workercv\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\workercv\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 13768
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 14:45:50,378 WARN 1348 [-/192.168.0.254/-/14ms GET /admin/123] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 1348
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 14:51:21,485 WARN 1348 [-/192.168.0.254/-/23ms GET /admin/123] nodejs.UnauthorizedError: invalid token
+    at F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (F:\workercv\node_modules\_jsonwebtoken@8.5.1@jsonwebtoken\verify.js:75:12)
+    at decoded (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:114:27)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "UnauthorizedError"
+message: "invalid token"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"invalid token"}
+pid: 1348
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 14:59:57,029 WARN 736 [-/192.168.0.254/-/2ms GET /admin/10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 736
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:06:52,913 WARN 736 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 736
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:11:23,296 WARN 736 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 736
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:13:46,301 WARN 736 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 736
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:16:20,997 WARN 736 [-/192.168.0.254/-/1ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 736
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:17:24,029 WARN 736 [-/192.168.0.254/-/1ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 736
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:17:30,258 WARN 2916 [-/192.168.0.254/-/11ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2916
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:17:45,277 WARN 2860 [-/192.168.0.254/-/13ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2860
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:17:46,205 WARN 5116 [-/192.168.0.254/-/15ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 5116
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:17:47,338 WARN 5116 [-/192.168.0.254/-/1ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 5116
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:18:18,828 WARN 2776 [-/192.168.0.254/-/11ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2776
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:18:19,714 WARN 2776 [-/192.168.0.254/-/2ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2776
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:18:20,860 WARN 2776 [-/192.168.0.254/-/1ms GET /admin/1] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:89:15)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\workercv\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\workercv\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 2776
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:18:22,319 ERROR 9676 [-/192.168.0.254/-/34ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:01,065 ERROR 9676 [-/192.168.0.254/-/30ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:09,254 ERROR 9676 [-/192.168.0.254/-/26ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:10,372 ERROR 9676 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:30,359 ERROR 11472 [-/192.168.0.254/-/37ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11472
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:32,487 ERROR 9376 [-/192.168.0.254/-/38ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:33,103 ERROR 9376 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,116 ERROR 9376 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,153 ERROR 9376 [-/undefined/-/27ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,281 ERROR 9376 [-/undefined/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,308 ERROR 9376 [-/undefined/-/29ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,439 ERROR 9376 [-/192.168.0.254/-/24ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:35,054 ERROR 9376 [-/192.168.0.254/-/27ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:35,131 ERROR 9376 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:41,659 ERROR 9376 [-/192.168.0.254/-/29ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:21:00,400 ERROR 13608 [-/192.168.0.254/-/12ms GET /admin/1] nodejs.ReferenceError: data is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:22:16)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 13608
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:26,304 ERROR 14880 [-/192.168.0.254/-/9ms GET /admin/10001] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14880
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:28,726 ERROR 4240 [-/192.168.0.254/-/9ms GET /admin/10001] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:36,979 ERROR 4240 [-/192.168.0.254/-/2ms GET /admin/1] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:50,253 ERROR 4240 [-/192.168.0.254/-/2ms GET /admin/1] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:50,994 ERROR 4240 [-/192.168.0.254/-/1ms GET /admin/1] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:23:35,786 WARN 6904 [-/192.168.0.254/-/2ms GET /admin/10001] nodejs.UnauthorizedError: invalid token
+    at F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (F:\workercv\node_modules\_jsonwebtoken@8.5.1@jsonwebtoken\verify.js:75:12)
+    at decoded (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:114:27)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "UnauthorizedError"
+message: "invalid token"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"invalid token"}
+pid: 6904
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:23:37,779 WARN 6904 [-/192.168.0.254/-/14ms GET /admin/10001] nodejs.UnauthorizedError: invalid token
+    at F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (F:\workercv\node_modules\_jsonwebtoken@8.5.1@jsonwebtoken\verify.js:75:12)
+    at decoded (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (F:\workercv\node_modules\_koa-jwt2@1.0.3@koa-jwt2\lib\index.js:114:27)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "UnauthorizedError"
+message: "invalid token"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"invalid token"}
+pid: 6904
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:45:41,607 ERROR 9504 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.ReferenceError: cookie is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:12)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9504
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:45:47,597 ERROR 9504 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.ReferenceError: cookie is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:12)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9504
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:45:48,541 ERROR 9504 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.ReferenceError: cookie is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:12)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9504
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:47:31,242 ERROR 2936 [-/192.168.0.254/-/11ms GET /admin/10001] nodejs.TypeError: Cannot read property 'get' of undefined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:29)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 2936
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:04:28,524 ERROR 8388 [-/192.168.0.254/-/91ms POST /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '_defaultCookieOptions' in 'field list'
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '_defaultCookieOptions' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 8388
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:05:54,048 ERROR 11240 [-/192.168.0.254/-/48ms POST /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '_defaultCookieOptions' in 'field list'
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '_defaultCookieOptions' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:07:56,740 ERROR 11840 [-/192.168.0.254/-/53ms POST /login] nodejs.ReferenceError: loginToken is not defined
+    at AccountService.login (F:\workercv\app\service\frontend\account.js:15:75)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\workercv\app\controller\frontend\account.js:13:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11840
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:08:17,363 ERROR 17320 [-/192.168.0.254/-/97ms POST /login] nodejs.ReferenceError: selectAccount is not defined
+    at AccountService.login (F:\workercv\app\service\frontend\account.js:17:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\workercv\app\controller\frontend\account.js:13:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 17320
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:35:04,308 ERROR 10872 [-/192.168.0.254/-/26ms POST /login] nodejs.ReferenceError: verifyFail is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 10872
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:35:20,407 ERROR 10872 [-/192.168.0.254/-/25ms POST /login] nodejs.ReferenceError: verifyFail is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 10872
+hostname: DESKTOP-RN33ASL
+

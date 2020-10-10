@@ -2841,3 +2841,624 @@ operator: "=="
 pid: 10388
 hostname: DESKTOP-RN33ASL
 
+2020-10-10 10:03:14,661 ERROR 9012 [-/192.168.0.254/-/58ms POST /login] nodejs.ReferenceError: Cookies is not defined
+    at AccountController.login (F:\WorkerCV\app\controller\frontend\account.js:11:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:39:63
+
+pid: 9012
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:41:48,237 ERROR 5452 [-/192.168.0.254/-/24ms POST /login] nodejs.ReferenceError: accountToken is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:12:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5452
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:54:44,188 ERROR 5220 [-/192.168.0.254/-/27ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:54:46,616 ERROR 5220 [-/192.168.0.254/-/28ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:55:45,799 ERROR 5220 [-/192.168.0.254/-/28ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 10:57:44,647 ERROR 5220 [-/192.168.0.254/-/26ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:19:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 5220
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 11:09:10,064 ERROR 17068 [-/192.168.0.254/-/45ms POST /login] nodejs.ReferenceError: app is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:14:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 17068
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 12:14:44,935 ERROR 17224 [-/192.168.0.254/-/111ms POST /login] nodejs.ReferenceError: setToken is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:13:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 17224
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:18:22,319 ERROR 9676 [-/192.168.0.254/-/34ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:01,065 ERROR 9676 [-/192.168.0.254/-/30ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:09,254 ERROR 9676 [-/192.168.0.254/-/26ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:10,371 ERROR 9676 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9676
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:30,359 ERROR 11472 [-/192.168.0.254/-/37ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11472
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:32,487 ERROR 9376 [-/192.168.0.254/-/38ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:33,103 ERROR 9376 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,116 ERROR 9376 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,153 ERROR 9376 [-/undefined/-/27ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,281 ERROR 9376 [-/undefined/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,308 ERROR 9376 [-/undefined/-/29ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:34,439 ERROR 9376 [-/192.168.0.254/-/24ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:35,053 ERROR 9376 [-/192.168.0.254/-/27ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:35,131 ERROR 9376 [-/192.168.0.254/-/25ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:19:41,659 ERROR 9376 [-/192.168.0.254/-/29ms GET /admin/1] nodejs.TypeError: Cannot read property 'token' of null
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:20:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9376
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:21:00,400 ERROR 13608 [-/192.168.0.254/-/12ms GET /admin/1] nodejs.ReferenceError: data is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:22:16)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 13608
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:26,304 ERROR 14880 [-/192.168.0.254/-/9ms GET /admin/10001] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 14880
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:28,726 ERROR 4240 [-/192.168.0.254/-/9ms GET /admin/10001] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:36,979 ERROR 4240 [-/192.168.0.254/-/2ms GET /admin/1] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:50,253 ERROR 4240 [-/192.168.0.254/-/2ms GET /admin/1] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:22:50,994 ERROR 4240 [-/192.168.0.254/-/1ms GET /admin/1] nodejs.ReferenceError: token is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:24)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 4240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:45:41,607 ERROR 9504 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.ReferenceError: cookie is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:12)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9504
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:45:47,597 ERROR 9504 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.ReferenceError: cookie is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:12)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9504
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:45:48,541 ERROR 9504 [-/192.168.0.254/-/1ms GET /admin/10001] nodejs.ReferenceError: cookie is not defined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:12)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9504
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 15:47:31,241 ERROR 2936 [-/192.168.0.254/-/11ms GET /admin/10001] nodejs.TypeError: Cannot read property 'get' of undefined
+    at IndexController.admin (F:\workercv\app\controller\frontend\index.js:18:29)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 2936
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:04:28,523 ERROR 8388 [-/192.168.0.254/-/91ms POST /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '_defaultCookieOptions' in 'field list'
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '_defaultCookieOptions' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 8388
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:05:54,048 ERROR 11240 [-/192.168.0.254/-/48ms POST /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '_defaultCookieOptions' in 'field list'
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '_defaultCookieOptions' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `user` SET `id` = 10001, `login_token` = `_keys` = 'workercv_1601824398896_3176', `_defaultCookieOptions` = '[object Object]', `ctx` = '[object Object]', `secure` = false, `app` = '[object Object]' WHERE `id` = 10001"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11240
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:07:56,739 ERROR 11840 [-/192.168.0.254/-/53ms POST /login] nodejs.ReferenceError: loginToken is not defined
+    at AccountService.login (F:\workercv\app\service\frontend\account.js:15:75)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\workercv\app\controller\frontend\account.js:13:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11840
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:08:17,363 ERROR 17320 [-/192.168.0.254/-/97ms POST /login] nodejs.ReferenceError: selectAccount is not defined
+    at AccountService.login (F:\workercv\app\service\frontend\account.js:17:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.login (F:\workercv\app\controller\frontend\account.js:13:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 17320
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:35:04,307 ERROR 10872 [-/192.168.0.254/-/26ms POST /login] nodejs.ReferenceError: verifyFail is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 10872
+hostname: DESKTOP-RN33ASL
+
+2020-10-10 16:35:20,406 ERROR 10872 [-/192.168.0.254/-/25ms POST /login] nodejs.ReferenceError: verifyFail is not defined
+    at AccountController.login (F:\workercv\app\controller\frontend\account.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:39:63
+
+pid: 10872
+hostname: DESKTOP-RN33ASL
+

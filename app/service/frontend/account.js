@@ -1,19 +1,28 @@
 const Service = require('egg').Service;
+const crypto = require('crypto');
 
 class AccountService extends Service {
-  async login(username, password) {
-    const emailRule = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
-    var selectAccount;
+  async login(username, password, loginToken) {
+    const { ctx, app } = this;
+    var emailRule = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+    var verifyAccount;
+    var verifySuccess = { code: 20000, message: '已登录，欢迎使用极速简历！' };
+    var verifyFail = { code: 40001, message: '已超时，请重新登录！' };
     if(emailRule.test(username)){
-      selectAccount = await this.app.mysql.get('user', { email: username, password: password });
+      verifyAccount = await app.mysql.get('user', { email: username, password: password });
     }else{
-      selectAccount = await this.app.mysql.get('user', { phone: username, password: password });
+      verifyAccount = await app.mysql.get('user', { phone: username, password: password });
     }
-    if(selectAccount) {
-      // await this.app.mysql.update('user', { id: selectAccount.id, csrf_token: csrfToken })
-      return selectAccount
+    if(verifyAccount) {
+      await app.mysql.update('user', { id: verifyAccount.id, login_token: loginToken });
+      return {
+        result: verifySuccess,
+        verifyAccount
+      };
     }else{
-      return null
+      return {
+        result: verifyFail
+      };
     }
   }
 }

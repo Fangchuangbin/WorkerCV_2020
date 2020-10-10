@@ -1,13 +1,4 @@
 $(document).ready(function() {
-  //获取getCookie方法
-  function getCookie(name){
-    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
-    if(arr=document.cookie.match(reg))
-    return unescape(arr[2]);
-    else
-    return null;
-  }
-
   //用户登录
   $('#accountLogin #login').click(function() {
     var checkStatus = false;
@@ -23,14 +14,20 @@ $(document).ready(function() {
       dataType: 'json',
       timeout: 5000,
       headers: {
-        "x-csrf-token": getCookie("csrfToken")
+        "x-csrf-token": $.cookie('csrfToken')
       },
       data: {
         "username": username,
         "password": password
       },
-      success: function(result) {
-        console.log(result);
+      success: function(response) {
+        console.log(response);
+        if(response.result.code == 20000){
+          alert('登录成功');
+          $(location).attr('href', '/admin/' + response.verifyAccount.id);
+        }else{
+          alert('账号或密码出现错误！');
+        }
       },
       error: function(error) {
         console.log(error);
