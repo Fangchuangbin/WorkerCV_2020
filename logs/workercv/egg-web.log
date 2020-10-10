@@ -7310,3 +7310,19 @@ hostname: DESKTOP-RN33ASL
 2020-10-10 18:25:54,561 INFO 7384 [egg-watcher:application] watcher start success
 2020-10-10 18:25:54,606 INFO 7384 [egg-mysql] instance[0] status OK, rds currentTime: Sat Oct 10 2020 18:25:55 GMT+0800 (GMT+08:00)
 2020-10-10 18:25:54,617 INFO 7384 [egg:core] dump config after ready, 8ms
+2020-10-10 18:25:57,940 INFO 15572 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-10 18:25:57,973 INFO 15572 [egg-multipart] stream mode enable
+2020-10-10 18:25:57,977 INFO 15572 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-10 18:25:58,296 INFO 15572 [egg-static] starting static serve / -> F:\workercv\app\public
+2020-10-10 18:25:58,301 INFO 15572 [egg-security] use csrf middleware
+2020-10-10 18:25:58,302 INFO 15572 [egg-security] use methodnoallow middleware
+2020-10-10 18:25:58,303 INFO 15572 [egg-security] use noopen middleware
+2020-10-10 18:25:58,303 INFO 15572 [egg-security] use nosniff middleware
+2020-10-10 18:25:58,304 INFO 15572 [egg-security] use xssProtection middleware
+2020-10-10 18:25:58,305 INFO 15572 [egg-security] use xframe middleware
+2020-10-10 18:25:58,305 INFO 15572 [egg-security] use dta middleware
+2020-10-10 18:25:58,305 INFO 15572 [egg-security] compose 7 middlewares into one security middleware
+2020-10-10 18:25:58,335 INFO 15572 [egg:core] dump config after load, 12ms
+2020-10-10 18:25:58,351 INFO 15572 [egg-watcher:application] watcher start success
+2020-10-10 18:25:58,390 INFO 15572 [egg-mysql] instance[0] status OK, rds currentTime: Sat Oct 10 2020 18:25:58 GMT+0800 (GMT+08:00)
+2020-10-10 18:25:58,402 INFO 15572 [egg:core] dump config after ready, 7ms
