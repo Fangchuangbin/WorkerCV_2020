@@ -36,12 +36,12 @@
   "security": {
     "csrf": {
       "enable": "F:\\WorkerCV\\config\\config.default.js",
+      "headerName": "F:\\WorkerCV\\config\\config.default.js",
       "type": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "ignoreJSON": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "cookieName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "sessionName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "bodyName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "queryName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"

@@ -7,10 +7,7 @@ class AccountController extends Controller {
     const { ctx } = this;
     const username = ctx.request.body.username;
     const password = Buffer.from(ctx.request.body.password).toString('base64');
-    const csrfToken = ctx.request.body.csrfToken;
-    ctx.cookies.set('fcb', 'fcb1212');
-    console.log(ctx.cookies.get('fcb'));
-    const response = await ctx.service.frontend.account.login(username, password, csrfToken);
+    const response = await ctx.service.frontend.account.login(username, password);
     ctx.body = response;
   }
 }
