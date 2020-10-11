@@ -14,7 +14,8 @@ class AccountController extends Controller {
     var data = await ctx.service.frontend.account.login(username, password, tokenData);
     if(data.result.code == 20000){
       ctx.cookies.set('loginToken', tokenData, {
-        httpOnly: false
+        httpOnly: false,
+        maxAge: 259200000
       });
     }
     ctx.body = data;

@@ -4,6 +4,7 @@ const Controller = require('egg').Controller;
 const wkhtmltopdf = require('wkhtmltopdf');
 const fs = require('fs');
 
+//网站首页
 class IndexController extends Controller {
   async default() {
     const { ctx } = this;

@@ -31,8 +31,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/center",
-    "regexp": "/^\\/center(?:\\/(?=$))?$/",
+    "path": "/home",
+    "regexp": "/^\\/home(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

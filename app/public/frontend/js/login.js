@@ -6,9 +6,12 @@ $(document).ready(() => {
   if($.cookie('loginToken')) {
     loginStatus = true;
     $('#loginButton').text('个人中心');
-    $('#loginButton').attr('href', '/center');
+    $('#loginButton').attr('href', '/home');
     $('#registerButton').text('退出');
     $('#registerButton').attr('id', 'clearCookie');
+    $('.user .login').attr('data-toggle', '');
+  }else{
+    $('.login').mouseover(() => { $('.accountMenu').css('display', 'none'); })
   }
 
   //退出登录
@@ -20,7 +23,7 @@ $(document).ready(() => {
   //用户登录
   $('#accountLogin #login').click(() => {
     if(loginStatus) {
-      $(location).attr('href', '/center');
+      $(location).attr('href', '/home');
     }else{
       const username = $('#accountLogin #username').val();
       const password = $('#accountLogin #password').val();
@@ -32,8 +35,7 @@ $(document).ready(() => {
         success: function(response) {
           console.log(response);
           if(response.result.code == 20000){
-            alert('登录成功');
-            $(location).attr('href', '/center');
+            $(location).attr('href', '/home');
           }else{
             alert('账号或密码出现错误！');
           }

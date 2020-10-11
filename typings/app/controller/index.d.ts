@@ -3,14 +3,14 @@
 
 import 'egg';
 import ExportFrontendAccount = require('../../../app/controller/frontend/account');
-import ExportFrontendAdmin = require('../../../app/controller/frontend/admin');
+import ExportFrontendHome = require('../../../app/controller/frontend/home');
 import ExportFrontendIndex = require('../../../app/controller/frontend/index');
 
 declare module 'egg' {
   interface IController {
     frontend: {
       account: ExportFrontendAccount;
-      admin: ExportFrontendAdmin;
+      home: ExportFrontendHome;
       index: ExportFrontendIndex;
     }
   }
