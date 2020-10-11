@@ -29,3 +29,4 @@
 2020-10-11 16:47:33,193 INFO 12016 [egg-watcher:application] watcher start success
 2020-10-11 16:47:33,273 INFO 12016 [egg-mysql] instance[0] status OK, rds currentTime: Sun Oct 11 2020 16:47:32 GMT+0800 (GMT+08:00)
 2020-10-11 16:47:33,298 INFO 12016 [egg:core] dump config after ready, 23ms
+2020-10-11 16:49:10,929 INFO 12016 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]
