@@ -22,3 +22,13 @@
 2020-10-11 16:43:40,907 INFO 5880 [egg-watcher] Start watching: "F:\\workercv\\app.js"
 2020-10-11 16:43:40,908 INFO 5880 [egg-watcher:agent] watcher start success
 2020-10-11 16:43:40,940 INFO 5880 [egg:core] dump config after ready, 28ms
+2020-10-11 16:47:32,084 INFO 11644 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-11 16:47:32,098 INFO 11644 [egg:core] dump config after load, 11ms
+2020-10-11 16:47:32,132 INFO 11644 [egg-watcher] Start watching: ["F:\\workercv\\app","F:\\workercv\\config","F:\\workercv\\mocks","F:\\workercv\\mocks_proxy","F:\\workercv\\app.js"]
+2020-10-11 16:47:32,132 INFO 11644 [egg-watcher] Start watching: "F:\\workercv\\app"
+2020-10-11 16:47:32,132 INFO 11644 [egg-watcher] Start watching: "F:\\workercv\\config"
+2020-10-11 16:47:32,132 INFO 11644 [egg-watcher] Start watching: "F:\\workercv\\mocks"
+2020-10-11 16:47:32,132 INFO 11644 [egg-watcher] Start watching: "F:\\workercv\\mocks_proxy"
+2020-10-11 16:47:32,132 INFO 11644 [egg-watcher] Start watching: "F:\\workercv\\app.js"
+2020-10-11 16:47:32,133 INFO 11644 [egg-watcher:agent] watcher start success
+2020-10-11 16:47:32,161 INFO 11644 [egg:core] dump config after ready, 24ms
