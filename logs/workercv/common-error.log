@@ -1,0 +1,36 @@
+2020-10-12 00:09:32,412 ERROR 18664 [-/127.0.0.1/-/21ms GET /home] nodejs.TypeError: Cannot read property 'avatar' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:17:29)
+
+pid: 18664
+hostname: DESKTOP-EF7P7GO
+
+2020-10-12 00:09:41,275 ERROR 18664 [-/127.0.0.1/-/1ms GET /home] nodejs.TypeError: Cannot read property 'avatar' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:17:29)
+
+pid: 18664
+hostname: DESKTOP-EF7P7GO
+
+2020-10-12 00:09:45,708 ERROR 18664 [-/127.0.0.1/-/1ms GET /home] nodejs.TypeError: Cannot read property 'avatar' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:17:29)
+
+pid: 18664
+hostname: DESKTOP-EF7P7GO
+
+2020-10-12 00:09:51,085 ERROR 18664 [-/127.0.0.1/-/0ms GET /home] nodejs.TypeError: Cannot read property 'avatar' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:17:29)
+
+pid: 18664
+hostname: DESKTOP-EF7P7GO
+
+2020-10-12 00:10:10,188 ERROR 20332 [-/127.0.0.1/-/8ms GET /home] nodejs.TypeError: Cannot read property 'avatar' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:17:29)
+
+pid: 20332
+hostname: DESKTOP-EF7P7GO
+
+2020-10-12 00:10:11,377 ERROR 20332 [-/127.0.0.1/-/1ms GET /home] nodejs.TypeError: Cannot read property 'avatar' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:17:29)
+
+pid: 20332
+hostname: DESKTOP-EF7P7GO
+

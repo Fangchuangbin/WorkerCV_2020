@@ -31,7 +31,7 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .header{height: 56px;width: 100%;position: fixed;top: 0;z-index: 99;}
 .header .logo{height: 32px;width: 127px;background: url(/frontend/images/blue-logo.png) no-repeat;background-size: 160px 32px;margin: 12px 0;}
 .header .logo a{display: block;height: 32px;width: 127px;}
-.header .menu{overflow: hidden;margin: 11px auto 11px 280px;display: inline-block;}
+.header .menu{overflow: hidden;margin: 11px auto 11px 260px;display: inline-block;}
 .header .menu p{float: left;margin: 0 20px;}
 .header .menu a{color: #fff!important;display: block;height: 34px;line-height: 34px;}
 .header .menu a:hover{border-bottom: 1px dotted #fff;}

@@ -43,6 +43,19 @@
       "HEAD",
       "GET"
     ],
+    "paramNames": [],
+    "path": "/home/collect",
+    "regexp": "/^\\/home\\/collect(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
     "paramNames": [
       {
         "name": "tempid",

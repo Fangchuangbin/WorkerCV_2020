@@ -9,7 +9,7 @@ class TokenService extends Service {
     if(tokenData == null) {
       return { result: verifyFail };
     }else{
-      userData = await app.mysql.get('user', { login_token: tokenData });
+      userData = await app.mysql.get('users', { login_token: tokenData });
       if(tokenData == userData.login_token){
         return { result: verifySuccess, userData };
       }else{

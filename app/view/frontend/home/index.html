@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="shortcut icon" href="/frontend/images/favicon.ico">
+  <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.css">
+  <link rel="stylesheet" href="/frontend/css/style.css">
+  <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+  <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
+</head>
+<body>
+  {% include "../header.html" %}
+  <script src="/frontend/js/home.js"></script>
+  <link rel="stylesheet" href="/frontend/css/home.css">
+  <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
+    {% include "./left-nav.html" %}
+    <div class="float-right w-75" style="width: 74%!important;">
+      <div class="card">
+        <div class="card-header">个人信息</div>
+        <div class="col mt-4 mb-4">
+          <div class="col-2 float-left">
+            <img src="{{ avatar }}" class="card-img" alt="" style="width: 120px;">
+          </div>
+          <div class="col-10 float-right pl-3">
+            <div class="card-body p-0">
+              <h5 class="card-title">{{ realname }}</h5>
+              <p class="card-text text-secondary font-size-16">{{ school }} · {{ education }}</p>
+              <p class="card-text text-secondary font-size-14 mt-1">更新于 {{ update_time }}</p>
+              <p><a href="javascript:void(0);" class="btn btn-success mt-3" style="color: #fff!important;">修改信息</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-4">
+        <div class="card-header">我的简历<small class="ml-1 text-secondary">（共有1份简历）</small></div>
+        <div class="col mt-4 mb-4">
+          <p class="pt-3 pb-5">我的简历</p>
+          <p>{{ data }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "../footer.html" %}
+</body>
+</html>

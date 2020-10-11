@@ -1,0 +1,20 @@
+<div class="float-left w-25" style="width: 24%!important;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">新建简历</h5>
+        <p class="card-text font-size-13 text-secondary">步骤：选择模板 -> 制作简历</p>
+        <a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;">选择模板</a>
+        <a href="javascript:void(0);" class="btn btn-primary mt-3 ml-2" style="color: #fff!important;">导入简历</a>
+      </div>
+    </div>
+    <div class="card mt-4">
+      <div class="card-header">个人中心</div>
+      <script>$(document).ready(() => { $('.list-group-item').each(function() { if(document.location.pathname == $(this).attr('href')) { $(this).addClass('font-weight-bold') } }) })</script>
+      <div class="nav-list list-group list-group-flush font-size-14">
+        <a href="/home" class="list-group-item list-group-item-action text-dark">我的简历</a>
+        <a href="/home/collect" class="list-group-item list-group-item-action text-dark">我的收藏</a>
+        <a href="/home/settings" class="list-group-item list-group-item-action text-dark">账户设置</a>
+        <a href="/home/feedback" class="list-group-item list-group-item-action text-dark">建议反馈</a>
+      </div>
+    </div>
+  </div>
