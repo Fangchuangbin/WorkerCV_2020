@@ -97,3 +97,6 @@
 2020-10-12 00:34:45,977 INFO 15484 [egg-security] compose 7 middlewares into one security middleware
 2020-10-12 00:34:45,997 INFO 15484 [egg:core] dump config after load, 13ms
 2020-10-12 00:34:46,010 INFO 15484 [egg-watcher:application] watcher start success
+2020-10-12 00:34:47,121 INFO 15484 [egg-mysql] instance[0] status OK, rds currentTime: Mon Oct 12 2020 00:34:46 GMT+0800 (GMT+08:00)
+2020-10-12 00:34:47,141 INFO 15484 [egg:core] dump config after ready, 18ms
+2020-10-12 00:40:37,356 INFO 15484 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]
