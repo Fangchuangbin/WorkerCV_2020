@@ -541,3 +541,6 @@
 2020-10-12 18:14:53,112 INFO 5712 [egg-schedule]: register schedule F:\workercv\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-10-12 18:14:53,112 INFO 5712 [egg-schedule]: register schedule F:\workercv\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-10-12 18:14:53,112 INFO 5712 [egg-schedule]: register schedule F:\workercv\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-10-12 18:15:38,782 INFO 17088 [egg-schedule]: register schedule F:\workercv\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-10-12 18:15:38,782 INFO 17088 [egg-schedule]: register schedule F:\workercv\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-10-12 18:15:38,782 INFO 17088 [egg-schedule]: register schedule F:\workercv\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
