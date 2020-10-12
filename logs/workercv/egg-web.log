@@ -2859,3 +2859,53 @@
 2020-10-12 17:17:47,280 INFO 7352 [egg-mysql] instance[0] status OK, rds currentTime: Mon Oct 12 2020 17:17:47 GMT+0800 (GMT+08:00)
 2020-10-12 17:17:47,292 INFO 7352 [egg:core] dump config after ready, 10ms
 2020-10-12 17:17:48,479 INFO 7352 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]
+2020-10-12 17:54:37,953 INFO 7088 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-12 17:54:37,985 INFO 7088 [egg-multipart] stream mode enable
+2020-10-12 17:54:37,986 INFO 7088 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-12 17:54:38,157 INFO 7088 [egg-static] starting static serve / -> F:\workercv\app\public
+2020-10-12 17:54:38,161 INFO 7088 [egg-security] use csrf middleware
+2020-10-12 17:54:38,162 INFO 7088 [egg-security] use methodnoallow middleware
+2020-10-12 17:54:38,162 INFO 7088 [egg-security] use noopen middleware
+2020-10-12 17:54:38,163 INFO 7088 [egg-security] use nosniff middleware
+2020-10-12 17:54:38,163 INFO 7088 [egg-security] use xssProtection middleware
+2020-10-12 17:54:38,164 INFO 7088 [egg-security] use xframe middleware
+2020-10-12 17:54:38,165 INFO 7088 [egg-security] use dta middleware
+2020-10-12 17:54:38,165 INFO 7088 [egg-security] compose 7 middlewares into one security middleware
+2020-10-12 17:54:38,178 INFO 7088 [egg:core] dump config after load, 5ms
+2020-10-12 17:54:38,188 INFO 7088 [egg-watcher:application] watcher start success
+2020-10-12 17:54:38,237 INFO 7088 [egg-mysql] instance[0] status OK, rds currentTime: Mon Oct 12 2020 17:54:38 GMT+0800 (GMT+08:00)
+2020-10-12 17:54:38,251 INFO 7088 [egg:core] dump config after ready, 11ms
+2020-10-12 17:54:41,019 INFO 12412 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-12 17:54:41,046 INFO 12412 [egg-multipart] stream mode enable
+2020-10-12 17:54:41,047 INFO 12412 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-12 17:54:41,227 INFO 12412 [egg-static] starting static serve / -> F:\workercv\app\public
+2020-10-12 17:54:41,230 INFO 12412 [egg-security] use csrf middleware
+2020-10-12 17:54:41,232 INFO 12412 [egg-security] use methodnoallow middleware
+2020-10-12 17:54:41,236 INFO 12412 [egg-security] use noopen middleware
+2020-10-12 17:54:41,237 INFO 12412 [egg-security] use nosniff middleware
+2020-10-12 17:54:41,240 INFO 12412 [egg-security] use xssProtection middleware
+2020-10-12 17:54:41,241 INFO 12412 [egg-security] use xframe middleware
+2020-10-12 17:54:41,241 INFO 12412 [egg-security] use dta middleware
+2020-10-12 17:54:41,242 INFO 12412 [egg-security] compose 7 middlewares into one security middleware
+2020-10-12 17:54:41,272 INFO 12412 [egg:core] dump config after load, 10ms
+2020-10-12 17:54:41,296 INFO 12412 [egg-watcher:application] watcher start success
+2020-10-12 17:54:41,343 INFO 12412 [egg-mysql] instance[0] status OK, rds currentTime: Mon Oct 12 2020 17:54:41 GMT+0800 (GMT+08:00)
+2020-10-12 17:54:41,356 INFO 12412 [egg:core] dump config after ready, 10ms
+2020-10-12 17:55:22,257 INFO 12412 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]
+2020-10-12 18:14:53,085 INFO 5712 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-12 18:14:53,112 INFO 5712 [egg-multipart] stream mode enable
+2020-10-12 18:14:53,114 INFO 5712 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-12 18:14:53,297 INFO 5712 [egg-static] starting static serve / -> F:\workercv\app\public
+2020-10-12 18:14:53,300 INFO 5712 [egg-security] use csrf middleware
+2020-10-12 18:14:53,301 INFO 5712 [egg-security] use methodnoallow middleware
+2020-10-12 18:14:53,301 INFO 5712 [egg-security] use noopen middleware
+2020-10-12 18:14:53,302 INFO 5712 [egg-security] use nosniff middleware
+2020-10-12 18:14:53,302 INFO 5712 [egg-security] use xssProtection middleware
+2020-10-12 18:14:53,303 INFO 5712 [egg-security] use xframe middleware
+2020-10-12 18:14:53,303 INFO 5712 [egg-security] use dta middleware
+2020-10-12 18:14:53,303 INFO 5712 [egg-security] compose 7 middlewares into one security middleware
+2020-10-12 18:14:53,317 INFO 5712 [egg:core] dump config after load, 6ms
+2020-10-12 18:14:53,329 INFO 5712 [egg-watcher:application] watcher start success
+2020-10-12 18:14:53,401 INFO 5712 [egg-mysql] instance[0] status OK, rds currentTime: Mon Oct 12 2020 18:14:53 GMT+0800 (GMT+08:00)
+2020-10-12 18:14:53,419 INFO 5712 [egg:core] dump config after ready, 14ms
+2020-10-12 18:14:58,538 INFO 5712 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]

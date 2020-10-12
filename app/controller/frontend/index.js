@@ -24,7 +24,6 @@ class IndexController extends Controller {
   async createPDF() {
     const { ctx } = this;
     const html = ctx.request.body.html;
-    console.log(html);
     wkhtmltopdf(html, { pageSize: 'a4', encoding: 'utf-8' }).pipe(fs.createWriteStream('./app/public/out.pdf'));
     ctx.status = 200;
     ctx.body = {
@@ -36,8 +35,6 @@ class IndexController extends Controller {
   async setResume() {
     const { ctx } = this;
     const resumeData = ctx.request.body.resumeData;
-    //console.log(Date.parse(new Date()));
-    //console.log(moment(Date.parse(new Date())).format('YYYY-MM-DD hh:mm:ss'));
     var setResume = await ctx.service.frontend.resume.setResume(resumeData);
     ctx.body = setResume;
   }

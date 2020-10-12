@@ -14,8 +14,8 @@ class HomeController extends Controller {
     await ctx.render('frontend/home/index', {
       title: '个人中心 - 极速简历',
       data: JSON.stringify(data),
-      avatar: data.userData.avatar, realname: data.userData.realname, education: data.userData.education, school: data.userData.school, update_time: data.userData.update_time,
-      work_status: data.userData.work_status, resumeList: getResumeList.resumeList
+      avatar: data.userData.avatar, realname: data.userData.realname, identity: data.userData.identity, update_time: data.userData.update_time,
+      work_status: data.userData.work_status, work_time: data.userData.work_time, resumeList: getResumeList.resumeList
     })
   }
 
