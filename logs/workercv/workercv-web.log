@@ -34,3 +34,1700 @@ hostname: DESKTOP-EF7P7GO
 pid: 20332
 hostname: DESKTOP-EF7P7GO
 
+2020-10-12 09:14:36,386 ERROR 8652 [-/undefined/-/4ms GET /frontend/images/favicon.ico] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 8652
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 09:48:21,880 ERROR 16332 [-/192.168.0.254/-/9ms GET /home] nodejs.TypeError: Cannot read property 'avatar' of undefined
+    at HomeController.default (F:\WorkerCV\app\controller\frontend\home.js:15:29)
+
+pid: 16332
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 10:10:58,150 ERROR 12328 [-/192.168.0.254/-/56ms GET /home] nodejs.SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.default (F:\WorkerCV\app\controller\frontend\home.js:19:60)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12328
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 10:11:01,619 ERROR 12328 [-/192.168.0.254/-/46ms GET /home] nodejs.SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.default (F:\WorkerCV\app\controller\frontend\home.js:19:60)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12328
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 10:11:16,683 ERROR 12328 [-/192.168.0.254/-/44ms GET /home] nodejs.SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.default (F:\WorkerCV\app\controller\frontend\home.js:19:60)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12328
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 10:30:53,866 ERROR 11484 [-/192.168.0.254/-/76ms GET /home] nodejs.SyntaxError: Unexpected token ' in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.default (F:\WorkerCV\app\controller\frontend\home.js:19:60)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11484
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 10:31:14,833 ERROR 11484 [-/192.168.0.254/-/105ms GET /home] nodejs.SyntaxError: Unexpected token ' in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.default (F:\WorkerCV\app\controller\frontend\home.js:19:60)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11484
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 11:47:30,428 WARN 16812 [-/192.168.0.254/-/91ms POST /createPDF] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-10-12 11:47:30,438 WARN 16812 [-/192.168.0.254/-/101ms POST /createPDF] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\WorkerCV\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (F:\WorkerCV\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\WorkerCV\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\WorkerCV\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 16812
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 12:06:20,437 ERROR 9132 [-/192.168.0.254/-/31ms POST /setResume] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'workercv.result' doesn't exist
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: INSERT INTO `result`(`user_id`, `resume_name`, `resume_code`, `update_time`) VALUES(1, '方创斌_测试简历', NULL, '2020-10-12 12:06:20.394')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'workercv.result' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `result`(`user_id`, `resume_name`, `resume_code`, `update_time`) VALUES(1, '方创斌_测试简历', NULL, '2020-10-12 12:06:20.394')"
+name: "ER_NO_SUCH_TABLEError"
+pid: 9132
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 12:07:03,222 ERROR 9132 [-/192.168.0.254/-/26ms POST /setResume] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'workercv.result' doesn't exist
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: INSERT INTO `result`(`user_id`, `resume_name`, `resume_code`, `update_time`) VALUES(1, '方创斌_测试简历', NULL, '2020-10-12 12:07:03.191')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'workercv.result' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `result`(`user_id`, `resume_name`, `resume_code`, `update_time`) VALUES(1, '方创斌_测试简历', NULL, '2020-10-12 12:07:03.191')"
+name: "ER_NO_SUCH_TABLEError"
+pid: 9132
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 12:08:22,061 ERROR 15168 [-/192.168.0.254/-/121ms POST /setResume] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'workercv.result' doesn't exist
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: INSERT INTO `result`(`user_id`, `resume_name`, `resume_code`, `update_time`) VALUES(1, '方创斌_测试简历', '\n\t\t\t\t<style>\n\t\t\t\t\t#temp-name{padding: 10px;}\n\t\t\t\t\t#temp-description{padding: 10px;}\n\t\t\t\t</style>\n\t\t\t\t<div style=\"overflow: hidden;\">\n\t\t\t\t\t<div style=\"width: 80%;overflow: hidden;float: left;text-align: center;\">\n\t\t\t\t\t\t<h2 id=\"temp-name\" style=\"font-family: \'微软雅黑\'\">你的名字</h2>\n\t\t\t\t\t\t<p style=\"color: #999;font-family: \'微软雅黑\'\">一句话介绍自己，告诉HR为什么选择你而不是别人</p>\n\t\t\t\t\t\t<p style=\"color: #999;font-family: \'微软雅黑\'\">年龄 | 工作年限 | 联系电话 | 电子邮箱</p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div style=\"width: 20%;overflow: hidden;float: right;\"><img src=\"https://photo.wondercv.com/uploads/profile/avatar/4522284/3c6db046-1b87-4f52-a31c-ea3425721e06.jpg\" alt=\"\"></div>\n\t\t\t\t</div>\n\t\t\t\t<div style=\"width: 100%;overflow: hidden;\">\n\t\t\t\t\t<h4 style=\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \'微软雅黑\'\">求职意向</h4>\n\t\t\t\t\t<div style=\"overflow: hidden;width: 100%;margin-bottom: 50px;color: #999;margin-top: 0;\">\n\t\t\t\t\t\t<b style=\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \'微软雅黑\'\">意向岗位：</b>\n\t\t\t\t\t\t<b style=\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \'微软雅黑\'\">意向城市：</b>\n\t\t\t\t\t\t<b style=\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \'微软雅黑\'\">期望薪资：</b>\n\t\t\t\t\t\t<b style=\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \'微软雅黑\'\">入职时间：</b>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div style=\"width: 100%;overflow: hidden;margin-bottom: 50px;\">\n\t\t\t\t\t<h4 style=\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \'微软雅黑\'\">教育背景</h4>\n\t\t\t\t\t<p style=\"overflow: hidden;color: #999;\" class=\"mb-3 font-size-14\"><b style=\"float: left;font-family: \'微软雅黑\'\">填写时间</b><b style=\"float: right;font-family: \'微软雅黑\'\">填写学校</b></p>\n\t\t\t\t\t<p style=\"overflow: height;color: #999;font-family: \'微软雅黑\'\">尽量简洁，突出重点，成绩优异的话建议写上GPA及排名等信息，如：GPA：3.72/4(专业前10%)GRE：324</p>\n\t\t\t\t</div>\n\t\t\t\t<div style=\"width: 100%;overflow: hidden;margin-bottom: 50px;\">\n\t\t\t\t\t<h4 style=\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \'微软雅黑\'\">工作经验</h4>\n\t\t\t\t\t<p style=\"overflow: hidden;color: #999;font-family: \'微软雅黑\'\" class=\"mb-3 font-size-14\"><b style=\"float: left;\">填写时间</b><b style=\"float: right;\">填写单位</b></p>\n\t\t\t\t\t<p style=\"overflow: height;color: #999;font-family: \'微软雅黑\'\">详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。</p>\n\t\t\t\t</div>\n\t\t\t\t<div style=\"width: 100%;overflow: hidden;margin-bottom: 50px;\">\n\t\t\t\t\t<h4 style=\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \'微软雅黑\'\">自我评价</h4>\n\t\t\t\t\t<p style=\"overflow: height;color: #999;font-family: \'微软雅黑\'\">篇幅不要太长，注意结合简历整体的美观度，如果真的有很多话要说，建议以求职信的形式附上。自我评价应做到突出自身符合目标岗位要求的“卖点”，避免过多使用形容词，而应该通过数据及实例来对自身价值进行深化.\n\t\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t', '2020-10-12 12:08:21.916')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'workercv.result' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `result`(`user_id`, `resume_name`, `resume_code`, `update_time`) VALUES(1, '方创斌_测试简历', '\\n\\t\\t\\t\\t<style>\\n\\t\\t\\t\\t\\t#temp-name{padding: 10px;}\\n\\t\\t\\t\\t\\t#temp-description{padding: 10px;}\\n\\t\\t\\t\\t</style>\\n\\t\\t\\t\\t<div style=\\\"overflow: hidden;\\\">\\n\\t\\t\\t\\t\\t<div style=\\\"width: 80%;overflow: hidden;float: left;text-align: center;\\\">\\n\\t\\t\\t\\t\\t\\t<h2 id=\\\"temp-name\\\" style=\\\"font-family: \\'微软雅黑\\'\\\">你的名字</h2>\\n\\t\\t\\t\\t\\t\\t<p style=\\\"color: #999;font-family: \\'微软雅黑\\'\\\">一句话介绍自己，告诉HR为什么选择你而不是别人</p>\\n\\t\\t\\t\\t\\t\\t<p style=\\\"color: #999;font-family: \\'微软雅黑\\'\\\">年龄 | 工作年限 | 联系电话 | 电子邮箱</p>\\n\\t\\t\\t\\t\\t</div>\\n\\t\\t\\t\\t\\t<div style=\\\"width: 20%;overflow: hidden;float: right;\\\"><img src=\\\"https://photo.wondercv.com/uploads/profile/avatar/4522284/3c6db046-1b87-4f52-a31c-ea3425721e06.jpg\\\" alt=\\\"\\\"></div>\\n\\t\\t\\t\\t</div>\\n\\t\\t\\t\\t<div style=\\\"width: 100%;overflow: hidden;\\\">\\n\\t\\t\\t\\t\\t<h4 style=\\\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \\'微软雅黑\\'\\\">求职意向</h4>\\n\\t\\t\\t\\t\\t<div style=\\\"overflow: hidden;width: 100%;margin-bottom: 50px;color: #999;margin-top: 0;\\\">\\n\\t\\t\\t\\t\\t\\t<b style=\\\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \\'微软雅黑\\'\\\">意向岗位：</b>\\n\\t\\t\\t\\t\\t\\t<b style=\\\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \\'微软雅黑\\'\\\">意向城市：</b>\\n\\t\\t\\t\\t\\t\\t<b style=\\\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \\'微软雅黑\\'\\\">期望薪资：</b>\\n\\t\\t\\t\\t\\t\\t<b style=\\\"float: left;width: 25%;overflow: hidden;font-size: 14px;font-family: \\'微软雅黑\\'\\\">入职时间：</b>\\n\\t\\t\\t\\t\\t</div>\\n\\t\\t\\t\\t</div>\\n\\t\\t\\t\\t<div style=\\\"width: 100%;overflow: hidden;margin-bottom: 50px;\\\">\\n\\t\\t\\t\\t\\t<h4 style=\\\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \\'微软雅黑\\'\\\">教育背景</h4>\\n\\t\\t\\t\\t\\t<p style=\\\"overflow: hidden;color: #999;\\\" class=\\\"mb-3 font-size-14\\\"><b style=\\\"float: left;font-family: \\'微软雅黑\\'\\\">填写时间</b><b style=\\\"float: right;font-family: \\'微软雅黑\\'\\\">填写学校</b></p>\\n\\t\\t\\t\\t\\t<p style=\\\"overflow: height;color: #999;font-family: \\'微软雅黑\\'\\\">尽量简洁，突出重点，成绩优异的话建议写上GPA及排名等信息，如：GPA：3.72/4(专业前10%)GRE：324</p>\\n\\t\\t\\t\\t</div>\\n\\t\\t\\t\\t<div style=\\\"width: 100%;overflow: hidden;margin-bottom: 50px;\\\">\\n\\t\\t\\t\\t\\t<h4 style=\\\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \\'微软雅黑\\'\\\">工作经验</h4>\\n\\t\\t\\t\\t\\t<p style=\\\"overflow: hidden;color: #999;font-family: \\'微软雅黑\\'\\\" class=\\\"mb-3 font-size-14\\\"><b style=\\\"float: left;\\\">填写时间</b><b style=\\\"float: right;\\\">填写单位</b></p>\\n\\t\\t\\t\\t\\t<p style=\\\"overflow: height;color: #999;font-family: \\'微软雅黑\\'\\\">详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。</p>\\n\\t\\t\\t\\t</div>\\n\\t\\t\\t\\t<div style=\\\"width: 100%;overflow: hidden;margin-bottom: 50px;\\\">\\n\\t\\t\\t\\t\\t<h4 style=\\\"border-bottom: 1px solid #aaa;padding-bottom: 10px;font-size: 22px;font-family: \\'微软雅黑\\'\\\">自我评价</h4>\\n\\t\\t\\t\\t\\t<p style=\\\"overflow: height;color: #999;font-family: \\'微软雅黑\\'\\\">篇幅不要太长，注意结合简历整体的美观度，如果真的有很多话要说，建议以求职信的形式附上。自我评价应做到突出自身符合目标岗位要求的“卖点”，避免过多使用形容词，而应该通过数据及实例来对自身价值进行深化.\\n\\t\\t\\t\\t\\t\\t</p>\\n\\t\\t\\t\\t</div>\\n\\t\\t\\t', '2020-10-12 12:08:21.916')"
+name: "ER_NO_SUCH_TABLEError"
+pid: 15168
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 14:41:14,099 ERROR 16256 [-/192.168.0.254/-/53ms GET /home] nodejs.TypeError: Cannot read property 'resume_code' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:19:99)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 16256
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 14:51:39,658 ERROR 4388 [-/192.168.0.254/-/32ms GET /home] nodejs.ReferenceError: order is not defined
+    at ResumeService.getResumeList (F:\workercv\app\service\frontend\resume.js:9:82)
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 4388
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 14:51:44,908 ERROR 4388 [-/192.168.0.254/-/25ms GET /home] nodejs.ReferenceError: order is not defined
+    at ResumeService.getResumeList (F:\workercv\app\service\frontend\resume.js:9:82)
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 4388
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 14:56:28,500 ERROR 12244 [-/192.168.0.254/-/78ms GET /home] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{userId} order by resume_id desc' at line 1
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: select * from resume where user_id = ${userId} order by resume_id desc
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{userId} order by resume_id desc' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from resume where user_id = ${userId} order by resume_id desc"
+name: "ER_PARSE_ERRORError"
+pid: 12244
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 14:56:50,128 ERROR 12244 [-/192.168.0.254/-/66ms GET /home] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{userId} order by resume_id desc' at line 1
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: select * from resume where user_id = ${userId} order by resume_id desc
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{userId} order by resume_id desc' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from resume where user_id = ${userId} order by resume_id desc"
+name: "ER_PARSE_ERRORError"
+pid: 12244
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:41:48,598 ERROR 7324 [-/192.168.0.254/-/27ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7324
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:41:50,581 ERROR 7324 [-/192.168.0.254/-/25ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7324
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:42:06,668 ERROR 7324 [-/192.168.0.254/-/25ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7324
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:42:08,172 ERROR 2536 [-/192.168.0.254/-/60ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 2536
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:42:54,708 ERROR 2536 [-/192.168.0.254/-/34ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 2536
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:42:55,620 ERROR 2536 [-/192.168.0.254/-/32ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 2536
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:43:04,329 ERROR 2536 [-/192.168.0.254/-/36ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 2536
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:43:05,672 ERROR 2536 [-/192.168.0.254/-/32ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 2536
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:43:07,101 ERROR 10820 [-/192.168.0.254/-/46ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10820
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:01,871 ERROR 9408 [-/192.168.0.254/-/42ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9408
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:03,139 ERROR 9408 [-/192.168.0.254/-/36ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9408
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:04,353 ERROR 9408 [-/192.168.0.254/-/35ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 9408
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:05,498 ERROR 1816 [-/192.168.0.254/-/12ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 1816
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:06,453 ERROR 1816 [-/192.168.0.254/-/2ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 1816
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:08,869 ERROR 1816 [-/192.168.0.254/-/2ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 1816
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:30,083 ERROR 11632 [-/192.168.0.254/-/38ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:36,595 ERROR 11632 [-/192.168.0.254/-/26ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:44:38,015 ERROR 11632 [-/192.168.0.254/-/26ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:04,004 ERROR 13080 [-/192.168.0.254/-/36ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13080
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:04,930 ERROR 13080 [-/192.168.0.254/-/24ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13080
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:05,795 ERROR 13080 [-/192.168.0.254/-/23ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13080
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:14,280 ERROR 13080 [-/192.168.0.254/-/23ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13080
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:15,361 ERROR 13080 [-/192.168.0.254/-/24ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13080
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:16,400 ERROR 13080 [-/192.168.0.254/-/24ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13080
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:42,821 ERROR 10360 [-/192.168.0.254/-/32ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10360
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:53,879 ERROR 7248 [-/192.168.0.254/-/39ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7248
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:54,811 ERROR 7248 [-/192.168.0.254/-/22ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7248
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:55,894 ERROR 7248 [-/192.168.0.254/-/23ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7248
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:56,710 ERROR 7248 [-/192.168.0.254/-/24ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7248
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:45:57,704 ERROR 7248 [-/192.168.0.254/-/35ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7248
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:03,865 ERROR 12708 [-/192.168.0.254/-/28ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12708
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:06,071 ERROR 12708 [-/192.168.0.254/-/22ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12708
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:06,860 ERROR 12708 [-/192.168.0.254/-/23ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12708
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:42,315 ERROR 11632 [-/192.168.0.254/-/57ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:43,106 ERROR 11632 [-/192.168.0.254/-/40ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:43,730 ERROR 11632 [-/192.168.0.254/-/42ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:43,995 ERROR 11632 [-/192.168.0.254/-/43ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:44,603 ERROR 11632 [-/192.168.0.254/-/48ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:44,734 ERROR 11632 [-/192.168.0.254/-/42ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:45,315 ERROR 11632 [-/192.168.0.254/-/40ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:45,998 ERROR 11632 [-/192.168.0.254/-/43ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:46,700 ERROR 11632 [-/192.168.0.254/-/42ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:46,754 ERROR 11632 [-/192.168.0.254/-/41ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:46:47,080 ERROR 11632 [-/192.168.0.254/-/45ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:47:00,947 ERROR 11632 [-/192.168.0.254/-/42ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11632
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:47:04,172 ERROR 4200 [-/192.168.0.254/-/41ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4200
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:47:19,672 ERROR 15580 [-/192.168.0.254/-/41ms GET /home] nodejs.TypeError: Cannot read property 'userData' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:78)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 15580
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:55:29,784 ERROR 14504 [-/192.168.0.254/-/26ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:10:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+
+pid: 14504
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:55:58,053 ERROR 6792 [-/192.168.0.254/-/37ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:10:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6792
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:55:59,880 ERROR 6792 [-/192.168.0.254/-/26ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:10:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6792
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:56:01,895 ERROR 6792 [-/192.168.0.254/-/26ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:10:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6792
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:56:17,754 ERROR 6792 [-/192.168.0.254/-/30ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:10:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6792
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:56:19,913 ERROR 3476 [-/192.168.0.254/-/41ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3476
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:56:24,539 ERROR 3476 [-/192.168.0.254/-/28ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3476
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:29,780 ERROR 12452 [-/192.168.0.254/-/38ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12452
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:30,480 ERROR 12452 [-/192.168.0.254/-/25ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12452
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:31,601 ERROR 12452 [-/192.168.0.254/-/26ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12452
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:31,766 ERROR 12452 [-/192.168.0.254/-/24ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12452
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:41,509 ERROR 11676 [-/192.168.0.254/-/37ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11676
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:42,870 ERROR 11676 [-/192.168.0.254/-/27ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11676
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:49,538 ERROR 11676 [-/192.168.0.254/-/31ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11676
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:57:55,100 ERROR 11676 [-/192.168.0.254/-/26ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11676
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:58:23,000 ERROR 15160 [-/192.168.0.254/-/43ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15160
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 15:58:24,376 ERROR 15160 [-/192.168.0.254/-/27ms GET /home] nodejs.TypeError: Cannot read property 'login_token' of null
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:11:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15160
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:04:14,474 ERROR 13996 [-/192.168.0.254/-/33ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13996
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:04:37,551 ERROR 13996 [-/192.168.0.254/-/34ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13996
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:04:42,206 ERROR 5400 [-/192.168.0.254/-/47ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 5400
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:04:46,296 ERROR 5400 [-/192.168.0.254/-/36ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 5400
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:05:06,332 ERROR 13036 [-/192.168.0.254/-/63ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13036
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:05:13,675 ERROR 13036 [-/192.168.0.254/-/44ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:13:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13036
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:05:35,379 ERROR 6320 [-/192.168.0.254/-/44ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 6320
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:06:01,602 ERROR 5676 [-/192.168.0.254/-/47ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 5676
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:06:27,902 ERROR 7248 [-/192.168.0.254/-/60ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 7248
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:06:33,369 ERROR 4752 [-/192.168.0.254/-/38ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4752
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:06:34,416 ERROR 4752 [-/192.168.0.254/-/32ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4752
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:06:35,239 ERROR 4752 [-/192.168.0.254/-/32ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4752
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:06:35,984 ERROR 4752 [-/192.168.0.254/-/32ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4752
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:07:14,129 ERROR 4752 [-/192.168.0.254/-/36ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4752
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:07:26,130 ERROR 4752 [-/192.168.0.254/-/34ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4752
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:08:06,451 ERROR 6296 [-/192.168.0.254/-/50ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 6296
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:08:16,084 ERROR 6296 [-/192.168.0.254/-/34ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 6296
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:09:51,938 ERROR 15288 [-/192.168.0.254/-/48ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 15288
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:09:53,300 ERROR 15288 [-/192.168.0.254/-/33ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 15288
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:09:54,372 ERROR 15288 [-/192.168.0.254/-/32ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 15288
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:09:59,774 ERROR 15288 [-/192.168.0.254/-/50ms GET /home] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.default (F:\workercv\app\controller\frontend\home.js:14:87)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 15288
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:43:36,398 ERROR 9112 [-/192.168.0.254/-/14ms POST /setResume] nodejs.ReferenceError: time is not defined
+    at IndexController.setResume (F:\workercv\app\controller\frontend\index.js:40:28)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9112
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:46:24,059 ERROR 11240 [-/192.168.0.254/-/21ms POST /setResume] nodejs.ReferenceError: moment is not defined
+    at IndexController.setResume (F:\workercv\app\controller\frontend\index.js:40:13)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 11240
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 16:47:05,209 ERROR 9480 [-/192.168.0.254/-/16ms POST /setResume] nodejs.ReferenceError: moment is not defined
+    at IndexController.setResume (F:\workercv\app\controller\frontend\index.js:40:13)
+    at Object.callFn (F:\workercv\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\workercv\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\workercv\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\workercv\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at next (F:\workercv\node_modules\koa-compose\index.js:45:18)
+    at F:\workercv\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\workercv\node_modules\koa-compose\index.js:44:32)
+    at F:\workercv\node_modules\koa-compose\index.js:36:12
+
+pid: 9480
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 17:17:30,142 ERROR 13064 [-/192.168.0.254/-/50ms GET /home] nodejs.ReferenceError: moment is not defined
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:14:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13064
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 17:17:39,104 ERROR 7464 [-/192.168.0.254/-/51ms GET /home] nodejs.ReferenceError: verifyAccount is not defined
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:15:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7464
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 17:17:40,293 ERROR 7464 [-/192.168.0.254/-/34ms GET /home] nodejs.ReferenceError: verifyAccount is not defined
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:15:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7464
+hostname: DESKTOP-RN33ASL
+
+2020-10-12 17:17:45,927 ERROR 15980 [-/192.168.0.254/-/42ms GET /home] nodejs.ReferenceError: verifyAccount is not defined
+    at TokenService.loginToken (F:\workercv\app\service\frontend\token.js:15:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.default (F:\workercv\app\controller\frontend\home.js:10:16)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15980
+hostname: DESKTOP-RN33ASL
+

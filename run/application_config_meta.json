@@ -193,6 +193,7 @@
       "egg-mysql": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+      "moment": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
       "wkhtmltopdf": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {

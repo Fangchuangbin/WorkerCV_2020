@@ -7,12 +7,14 @@ type AnyFunc<T = any> = (...args: any[]) => T;
 type CanExportFunc = AnyFunc<Promise<any>> | AnyFunc<IterableIterator<any>>;
 type AutoInstanceType<T, U = T extends CanExportFunc ? T : T extends AnyFunc ? ReturnType<T> : T> = U extends AnyClass ? InstanceType<U> : U;
 import ExportFrontendAccount = require('../../../app/service/frontend/account');
+import ExportFrontendResume = require('../../../app/service/frontend/resume');
 import ExportFrontendToken = require('../../../app/service/frontend/token');
 
 declare module 'egg' {
   interface IService {
     frontend: {
       account: AutoInstanceType<typeof ExportFrontendAccount>;
+      resume: AutoInstanceType<typeof ExportFrontendResume>;
       token: AutoInstanceType<typeof ExportFrontendToken>;
     }
   }

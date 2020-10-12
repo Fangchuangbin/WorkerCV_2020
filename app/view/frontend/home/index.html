@@ -14,12 +14,12 @@
 <body>
   {% include "../header.html" %}
   <script src="/frontend/js/home.js"></script>
-  <link rel="stylesheet" href="/frontend/css/home.css">
+  <!-- <link rel="stylesheet" href="/frontend/css/home.css"> -->
   <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
     {% include "./left-nav.html" %}
     <div class="float-right w-75" style="width: 74%!important;">
       <div class="card">
-        <div class="card-header">个人信息</div>
+        <div class="card-header">个人信息<small class="ml-1 text-secondary">（请完善信息，新建简历可直接导入）</small></div>
         <div class="col mt-4 mb-4">
           <div class="col-2 float-left">
             <img src="{{ avatar }}" class="card-img" alt="" style="width: 120px;">
@@ -29,16 +29,55 @@
               <h5 class="card-title">{{ realname }}</h5>
               <p class="card-text text-secondary font-size-16">{{ school }} · {{ education }}</p>
               <p class="card-text text-secondary font-size-14 mt-1">更新于 {{ update_time }}</p>
-              <p><a href="javascript:void(0);" class="btn btn-success mt-3" style="color: #fff!important;">修改信息</a></p>
+              <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;">修改信息</a></p>
             </div>
           </div>
         </div>
       </div>
       <div class="card mt-4">
-        <div class="card-header">我的简历<small class="ml-1 text-secondary">（共有1份简历）</small></div>
-        <div class="col mt-4 mb-4">
-          <p class="pt-3 pb-5">我的简历</p>
-          <p>{{ data }}</p>
+        <div class="card-header">我的简历<small class="ml-1 text-secondary">（排列顺序 -> 最近修改）</small></div>
+        <div class="col p-0">
+          <div class="list-group list-group-flush m-3" style="margin-bottom: 0!important;">
+            {% for item in resumeList %}
+              <div class="media mt-1 mb-3">
+                <img src="/frontend/images/file-pdf.png" class="mr-3 img-thumbnail p-2" alt="{{ item.resume_name }}" style="width: 80px;">
+                <div class="media-body">
+                  <h5 class="mt-0 font-size-16 text-body">{{ item.resume_name }}</h5>
+                  <div class="mt-2 pt-1 w-100" style="overflow: hidden;">
+                    <span class="badge badge-warning float-left mr-2 font-weight-normal">中文</span>
+                    <span class="badge badge-danger float-left mr-2 font-weight-normal">免费</span>
+                    <span class="badge badge-info float-left mr-2 font-weight-normal">评分 8.0</span>
+                  </div>
+                  <div class="text-secondary font-size-14 w-100 mt-2 pt-1">更新于 {{ item.update_time }}</div>
+                </div>
+                <p>
+                  <a href="javascript:void(0);" class="btn btn-success mt-4 font-size-14" style="color: #fff!important;">编辑</a>
+                  <a href="javascript:void(0);" class="btn btn-secondary mt-4 font-size-14 ml-1" style="color: #fff!important;">删除</a>
+                </p>
+              </div>
+            {% endfor %}
+          </ul>
+          </div>
+          <!-- <script>
+            $(document).ready(() => {
+              $('#resume_code').append($('#mycode').text());
+              $('#resume_code_1').append($('#resume_code').text());
+              var p1 = document.createElement('p');
+              var p2 = document.createElement('p');
+              //console.log($('#resume_code_1').html())
+              p1.innerText = $('#resume_code_1').html();
+              p2.innerText = $(p1).html();
+              //$('#id2').html(p2);
+              console.log(p2)
+              //$('#id1').text($('#resume_code_1').html());
+              //$('#id2').text($('#id1').html());
+            })
+          </script>
+          <div id="resume_code" style="display: none;"></div>
+          <div id="resume_code_1"></div>
+          <p id="mycode" style="display: none;">{{ resume }}</p>
+          <p id="id1" style="display: none;"></p>
+          <p id="id2"></p> -->
         </div>
       </div>
     </div>

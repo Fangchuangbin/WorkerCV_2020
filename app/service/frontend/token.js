@@ -1,21 +1,24 @@
 const Service = require('egg').Service;
+const moment = require('moment');
 
 class TokenService extends Service {
   async loginToken(tokenData) {
     const { ctx, app } = this;
     var userData;
-    var verifySuccess = { code: 20000, message: '已登录，欢迎使用极速简历！' };
-    var verifyFail = { code: 40001, message: '已超时，请重新登录！' }
-    if(tokenData == null) {
-      return { result: verifyFail };
-    }else{
-      userData = await app.mysql.get('users', { login_token: tokenData });
-      if(tokenData == userData.login_token){
-        return { result: verifySuccess, userData };
+    var verifySuccess = { code: 20000, message: '登录成功，欢迎使用极速简历！' };
+    var verifyFail = { code: 40001, message: '未知错误，请重新登录！' }
+    userData = await app.mysql.get('user', { login_token: tokenData });
+    if(userData) {
+      if(tokenData !== userData.login_token){
+        return { result: verifyFail, userData };
       }else{
-        return { result: verifyFail };
+        userData.update_time = moment(Number(userData.update_time)).format('YYYY年MM月DD日 hh时mm分ss秒')
+        return { result: verifySuccess, userData };
       }
+    }else{
+      return { result: verifyFail, userData };
     }
+    
   }
 }
 

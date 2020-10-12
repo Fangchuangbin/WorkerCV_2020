@@ -9,7 +9,7 @@ module.exports = app => {
   router.post('/login', controller.frontend.account.login); //登录
   router.get('/home', controller.frontend.home.default); //用户中心
   router.get('/home/collect', controller.frontend.home.collect); //我的收藏
-  
+  router.post('/setResume', controller.frontend.index.setResume); //保存简历
   router.get('/edit/:tempid', controller.frontend.index.edit);
-  router.get('/createPDF', controller.frontend.index.createPDF);
+  router.post('/createPDF', controller.frontend.index.createPDF);
 };
