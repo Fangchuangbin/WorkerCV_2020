@@ -1732,3 +1732,13 @@ hostname: DESKTOP-RN33ASL
 pid: 15980
 hostname: DESKTOP-RN33ASL
 
+2020-10-13 22:03:38,187 ERROR 11984 [-/undefined/-/2ms GET /frontend/images/favicon.ico] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 11984
+hostname: DESKTOP-EF7P7GO
+
