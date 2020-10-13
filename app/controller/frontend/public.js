@@ -4,9 +4,9 @@ const Controller = require('egg').Controller;
 const wkhtmltopdf = require('wkhtmltopdf');
 const fs = require('fs');
 
-//网站首页
-class IndexController extends Controller {
-  async default() {
+//公共控制器
+class PublicController extends Controller {
+  async index() {
     const { ctx } = this;
     await ctx.render('frontend/index', {
       title: '极速简历WorkerCV - 智能简历制作工具,免费简历模板下载,应届生求职简历模板',
@@ -15,12 +15,15 @@ class IndexController extends Controller {
     });
   }
 
+  //临时 -> 简历编辑
   async edit() {
     const { ctx } = this;
     await ctx.render('frontend/edit', {
       tempid: ctx.params.tempid
     });
   }
+
+  //临时 -> 生成简历文件
   async createPDF() {
     const { ctx } = this;
     const html = ctx.request.body.html;
@@ -31,13 +34,7 @@ class IndexController extends Controller {
       outpdf: 'out.pdf'
     }
   }
-
-  async setResume() {
-    const { ctx } = this;
-    const resumeData = ctx.request.body.resumeData;
-    var setResume = await ctx.service.frontend.resume.setResume(resumeData);
-    ctx.body = setResume;
-  }
+  
 }
 
-module.exports = IndexController;
+module.exports = PublicController;

@@ -11,14 +11,23 @@ class AccountController extends Controller {
     var username = ctx.request.body.username;
     var password = crypto.createHash('md5').update(ctx.request.body.password).digest('hex');
     var tokenData = Buffer.from(crypto.createHash('sha1').update(username).digest('hex') + new Date().getTime()).toString('base64');
-    var data = await ctx.service.frontend.account.login(username, password, tokenData);
-    if(data.result.code == 20000){
+    var verifyAccount = await ctx.service.frontend.account.login(username, password, tokenData);
+    if(verifyAccount.result.code == 20000){
       ctx.cookies.set('loginToken', tokenData, {
         httpOnly: false,
         maxAge: 259200000
       });
     }
-    ctx.body = data;
+    ctx.body = verifyAccount;
+  }
+
+  //修改个人信息
+  async reviseInfo() {
+    const { ctx } = this;
+    var reviseInfoData = ctx.request.body;
+    var setReviseInfo = await ctx.service.frontend.account.reviseInfo(reviseInfoData);
+    ctx.body = setReviseInfo;
+    console.log(setReviseInfo);
   }
 }
 

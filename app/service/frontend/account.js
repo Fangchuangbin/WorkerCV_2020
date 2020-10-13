@@ -1,6 +1,8 @@
 const Service = require('egg').Service;
+const moment = require('moment').Service;
 
 class AccountService extends Service {
+  //用户登录
   async login(username, password, loginToken) {
     const { ctx, app } = this;
     var emailRule = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
@@ -17,6 +19,23 @@ class AccountService extends Service {
       return { result: verifySuccess, verifyAccount };
     }else{
       return { result: verifyFail };
+    }
+  }
+
+  //修改个人信息
+  async reviseInfo(reviseInfoData) {
+    const { ctx, app } = this;
+    var setSuccess = { code: 20000, message: '修改个人信息成功' };
+    var setFail = { code: 40004, message: '修改个人信息失败' };
+    var setReviseInfo;
+    var updateTime = Date.parse(new Date());
+    if(reviseInfoData) {
+      setReviseInfo = await app.mysql.update('user', {
+        id: reviseInfoData.id, realname: reviseInfoData.realname, sex: reviseInfoData.sex, birth: reviseInfoData.birth, update_time: updateTime,
+        identity: reviseInfoData.identity, native_place: reviseInfoData.native_place, phone: reviseInfoData.phone, email: reviseInfoData.email })
+      return { result: setSuccess, setReviseInfo }
+    }else{
+      return { result: setFail }
     }
   }
 }

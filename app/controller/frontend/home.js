@@ -4,7 +4,7 @@ const Controller = require('egg').Controller;
 
 //用户中心
 class HomeController extends Controller {
-  async default() {
+  async index() {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var data = await ctx.service.frontend.token.loginToken(tokenData);
@@ -14,11 +14,22 @@ class HomeController extends Controller {
     await ctx.render('frontend/home/index', {
       title: '个人中心 - 极速简历',
       data: JSON.stringify(data),
-      avatar: data.userData.avatar, realname: data.userData.realname, identity: data.userData.identity, update_time: data.userData.update_time,
-      work_status: data.userData.work_status, work_time: data.userData.work_time, resumeList: getResumeList.resumeList
+      id: data.userData.id, //用户Id
+      avatar: data.userData.avatar, //头像
+      realname: data.userData.realname, //姓名
+      identity: data.userData.identity, //身份
+      update_time: data.userData.update_time, //更新时间
+      work_status: data.userData.work_status, //工作状态
+      sex: data.userData.sex, //性别
+      birth: data.userData.birth, //出生日期
+      native_place: data.userData.native_place, //籍贯
+      phone: data.userData.phone, //联系电话
+      email: data.userData.email, //电子邮箱
+      resumeList: getResumeList.resumeList, //简历列表 
     })
   }
 
+  //我的收藏
   async collect() {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');

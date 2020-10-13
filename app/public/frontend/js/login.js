@@ -33,7 +33,6 @@ $(document).ready(() => {
         headers: { "x-csrf-token": $.cookie('csrfToken') },
         data: { "username": username, "password": password },
         success: function(response) {
-          console.log(response);
           if(response.result.code == 20000){
             $(location).attr('href', '/home');
           }else{

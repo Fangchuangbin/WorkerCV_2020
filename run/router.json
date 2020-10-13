@@ -15,18 +15,6 @@
   {
     "name": null,
     "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/login",
-    "regexp": "/^\\/login(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
       "HEAD",
       "GET"
     ],
@@ -46,18 +34,6 @@
     "paramNames": [],
     "path": "/home/collect",
     "regexp": "/^\\/home\\/collect(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/setResume",
-    "regexp": "/^\\/setResume(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -94,6 +70,42 @@
     "paramNames": [],
     "path": "/createPDF",
     "regexp": "/^\\/createPDF(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/login",
+    "regexp": "/^\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/setResume",
+    "regexp": "/^\\/setResume(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/reviseInfo",
+    "regexp": "/^\\/reviseInfo(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

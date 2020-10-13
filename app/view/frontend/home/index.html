@@ -13,14 +13,12 @@
 </head>
 <body>
   {% include "../header.html" %}
-  <script src="/frontend/js/home.js"></script>
-  <!-- <link rel="stylesheet" href="/frontend/css/home.css"> -->
   <!-- 修改信息 -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal fade" id="reviseInfo" tabindex="-1" role="dialog" aria-labelledby="reviseInfo" aria-hidden="true">
+    <div class="modal-dialog mt-5 pt-5">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title font-size-16" id="exampleModalLabel">修改个人信息</h5>
+          <h5 class="modal-title font-size-16" id="reviseInfo">修改个人信息<small class="text-secondary font-size-14">（用户ID：{{ id }}）</small><p style="display: none;" id="id">{{ id }}</p></h5>
           <button type="button" class="close" data-dismiss="modal">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -30,56 +28,69 @@
             <div class="input-group-prepend">
               <span class="input-group-text pl-3 pr-3">姓名</span>
             </div>
-            <input type="text" class="form-control" placeholder="请输入你的姓名..." aria-label="realname">
+            <input type="text" class="form-control" placeholder="请输入你的姓名..." id="realname" value="{{ realname }}" autocomplete="off">
           </div>
           <div class="input-group input-group-sm mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text pl-3 pr-3">性别</span>
             </div>
-            <select class="form-control">
-              <option>男</option>
-              <option>女</option>
+            <select class="form-control" id="sex">
+              <script>
+                $(document).ready(() => { var sex = '{{ sex }}';
+                  switch(sex) {
+                    case '男': $('#sex1').attr('selected', 'selected'); break;
+                    case '女': $('#sex2').attr('selected', 'selected'); break;
+                  }
+                })
+              </script>
+              <option id="sex1" value="男">男</option>
+              <option id="sex2" value="女">女</option>
             </select>
+          </div>
+          <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text pl-3 pr-3">出生日期</span>
+            </div>
+            <input type="date" class="form-control" placeholder="请输入你的出生日期..." id="birth" value="{{ birth }}" autocomplete="off">
           </div>
           <div class="input-group input-group-sm mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text pl-3 pr-3">身份</span>
             </div>
-            <select class="form-control">
-              <option>群众</option>
-              <option>共青团员</option>
-              <option>党员</option>
-              <option>军人</option>
+            <select class="form-control" id="identity">
+              <script>
+                $(document).ready(() => { var identity = '{{ identity }}';
+                  switch(identity) {
+                    case '职场人': $('#identity1').attr('selected', 'selected'); break;
+                    case '学生': $('#identity2').attr('selected', 'selected'); break;
+                  }
+                })
+              </script>
+              <option id="identity1" value="职场人">职场人</option>
+              <option id="identity2" value="学生">学生</option>
             </select>
           </div>
           <div class="input-group input-group-sm mb-3">
             <div class="input-group-prepend">
-              <span class="input-group-text pl-3 pr-3">学历</span>
+              <span class="input-group-text pl-3 pr-3">籍贯</span>
             </div>
-            <select class="form-control">
-              <option>中专</option>
-              <option>大专</option>
-              <option>本科</option>
-              <option>硕士</option>
-              <option>博士</option>
-            </select>
-          </div>
-          <div class="input-group input-group-sm mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text pl-3 pr-3">学校</span>
-            </div>
-            <input type="text" class="form-control" placeholder="请输入你的学校名称..." aria-label="realname">
+            <input type="text" class="form-control" placeholder="请输入你的籍贯..." id="native_place" value="{{ native_place }}" autocomplete="off">
           </div>
           <div class="input-group input-group-sm mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text pl-3 pr-3">联系电话</span>
             </div>
-            <input type="text" class="form-control" placeholder="请输入你的联系电话..." aria-label="realname">
+            <input type="text" class="form-control" placeholder="请输入你的联系电话..." id="phone" value="{{ phone }}" autocomplete="off">
           </div>
-          
+          <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text pl-3 pr-3">电子邮箱</span>
+            </div>
+            <input type="text" class="form-control" placeholder="请输入你的电子邮箱..." id="email" value="{{ email }}" autocomplete="off">
+          </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary font-size-14">修改</button>
+          <button type="button" class="btn btn-danger font-size-14" id="revise">修改</button>
           <button type="button" class="btn btn-secondary font-size-14" data-dismiss="modal">取消</button>
         </div>
       </div>
@@ -92,14 +103,14 @@
         <div class="card-header">个人信息<small class="ml-1 text-secondary">（完善信息，新建简历可直接导入）</small></div>
         <div class="col mt-4 mb-4">
           <div class="col-2 float-left">
-            <img src="{{ avatar }}" class="card-img" alt="" style="width: 120px;">
+            <img src="{{ avatar }}" class="card-img" alt="{{ realname }}" style="width: 118px;">
           </div>
           <div class="col-10 float-right pl-3">
             <div class="card-body p-0">
               <h5 class="card-title">{{ realname }}</h5>
-              <p class="card-text text-secondary font-size-16">{{ identity }} · {{ work_status }} · 已工作{{ work_time }}</p>
+              <p class="card-text text-secondary font-size-16">{{ native_place }} · {{ identity }}</p>
               <p class="card-text text-secondary font-size-14 mt-1">更新于 {{ update_time }}</p>
-              <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;" data-toggle="modal" data-target="#exampleModal">修改信息</a></p>
+              <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;" data-toggle="modal" data-target="#reviseInfo">修改信息</a></p>
             </div>
           </div>
         </div>
@@ -110,13 +121,13 @@
           <div class="list-group list-group-flush m-3" style="margin-bottom: 0!important;">
             {% for item in resumeList %}
               <div class="media mt-1 mb-3">
-                <img src="/frontend/images/file-pdf.png" class="mr-3 img-thumbnail p-2" alt="{{ item.resume_name }}" style="width: 92px;">
+                <img src="/frontend/images/file-pdf.png" class="mr-3 img-thumbnail p-2" alt="{{ item.resume_name }}" style="width: 82px;">
                 <div class="media-body">
                   <h5 class="mt-0 font-size-16 text-body">{{ item.resume_name }}</h5>
                   <div class="mt-2 pt-1 w-100" style="overflow: hidden;">
-                    <span class="badge badge-danger float-left p-2 mr-2 font-weight-normal">中文</span>
-                    <span class="badge badge-info float-left p-2 mr-2 font-weight-normal">免费</span>
-                    <span class="badge badge-warning float-left p-2 mr-2 font-weight-normal">评分 9.0</span>
+                    <span class="badge badge-danger float-left mr-2 font-weight-normal">中文</span>
+                    <span class="badge badge-info float-left mr-2 font-weight-normal">免费</span>
+                    <span class="badge badge-warning float-left mr-2 font-weight-normal">评分 9.0</span>
                   </div>
                   <div class="text-secondary font-size-14 w-100 mt-2 pt-1">更新于 {{ item.update_time }}</div>
                 </div>
