@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="shortcut icon" href="/frontend/images/favicon.ico">
+  <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.css">
+  <link rel="stylesheet" href="/frontend/css/style.css">
+  <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+  <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
+</head>
+<body>
+  {% include "../header.html" %}
+  <link rel="stylesheet" href="/frontend/css/resume.css">
+  <script src="/frontend/js/resume.js"></script>
+  <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
+    {% include "./left-nav.html" %}
+    <div class="float-right w-75" style="width: 74%!important;">
+      <div class="card">
+        <div class="card-header">工具栏<small class="ml-1 text-secondary">（调整样式，让面试官知道你是一个注重细节的人）</small></div>
+        <div class="col mt-4 mb-4">
+          <h2 class="text-muted text-center">...</h2>
+        </div>
+      </div>
+      <div class="card mt-4">
+        <div class="card-header">
+          <p class="float-left pr-1 resume-name" id="resumeName" contenteditable="true">{{ resumeName }}</p>
+          <small class="text-secondary">（点击修改简历名称）</small>
+          <div class="float-right dropdown" style="line-height: 14px;">
+            <button class="btn btn-sm btn-secondary dropdown-toggle" style="line-height: 14px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多</button>
+            <div class="dropdown-menu mt-2 font-size-14" aria-labelledby="dropdownMenuButton" style="min-width: 100%;line-height: 20px;">
+              <a class="dropdown-item" id="setResume" href="javascript:void(0);">保存简历</a>
+              <a class="dropdown-item" id="downResume" href="javascript:void(0);">下载简历</a>
+              <a class="dropdown-item" id="printResume" href="javascript:void(0);">打印简历</a>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div class="list-group list-group-flush" style="margin-bottom: 0!important;">
+            <div id="Rsc" style="display: none;">{{ resumeData }}</div>
+            <div id="RscToText" style="display: none;"></div>
+            <div id="resumeToken" style="display: none;">{{ resumeToken }}</div>
+            <div id="TextToHtml" class="resume-box p-4" contenteditable="true"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "../footer.html" %}
+</body>
+</html>

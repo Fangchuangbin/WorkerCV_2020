@@ -23,17 +23,17 @@ class AccountService extends Service {
   }
 
   //修改个人信息
-  async reviseInfo(reviseInfoData) {
+  async setUserInfo(userInfoData) {
     const { ctx, app } = this;
     var setSuccess = { code: 20000, message: '修改个人信息成功' };
     var setFail = { code: 40004, message: '修改个人信息失败' };
-    var setReviseInfo;
+    var setUserInfo;
     var updateTime = Date.parse(new Date());
-    if(reviseInfoData) {
-      setReviseInfo = await app.mysql.update('user', {
-        id: reviseInfoData.id, realname: reviseInfoData.realname, sex: reviseInfoData.sex, birth: reviseInfoData.birth, update_time: updateTime,
-        identity: reviseInfoData.identity, native_place: reviseInfoData.native_place, phone: reviseInfoData.phone, email: reviseInfoData.email })
-      return { result: setSuccess, setReviseInfo }
+    if(userInfoData) {
+      setUserInfo = await app.mysql.update('user', {
+        id: userInfoData.id, realname: userInfoData.realname, sex: userInfoData.sex, birth: userInfoData.birth, update_time: updateTime,
+        identity: userInfoData.identity, native_place: userInfoData.native_place, phone: userInfoData.phone, email: userInfoData.email })
+      return { result: setSuccess, setUserInfo }
     }else{
       return { result: setFail }
     }

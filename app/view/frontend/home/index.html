@@ -14,11 +14,11 @@
 <body>
   {% include "../header.html" %}
   <!-- 修改信息 -->
-  <div class="modal fade" id="reviseInfo" tabindex="-1" role="dialog" aria-labelledby="reviseInfo" aria-hidden="true">
+  <div class="modal fade" id="userInfo" tabindex="-1" role="dialog" aria-labelledby="userInfo" aria-hidden="true">
     <div class="modal-dialog mt-5 pt-5">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title font-size-16" id="reviseInfo">修改个人信息<small class="text-secondary font-size-14">（用户ID：{{ id }}）</small><p style="display: none;" id="id">{{ id }}</p></h5>
+          <h5 class="modal-title font-size-16" id="userInfo">修改个人信息<small class="text-secondary font-size-14">（用户ID：{{ id }}）</small><p style="display: none;" id="id">{{ id }}</p></h5>
           <button type="button" class="close" data-dismiss="modal">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger font-size-14" id="revise">修改</button>
+          <button type="button" class="btn btn-danger font-size-14" id="setUserInfo">修改</button>
           <button type="button" class="btn btn-secondary font-size-14" data-dismiss="modal">取消</button>
         </div>
       </div>
@@ -110,7 +110,7 @@
               <h5 class="card-title">{{ realname }}</h5>
               <p class="card-text text-secondary font-size-16">{{ native_place }} · {{ identity }}</p>
               <p class="card-text text-secondary font-size-14 mt-1">更新于 {{ update_time }}</p>
-              <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;" data-toggle="modal" data-target="#reviseInfo">修改信息</a></p>
+              <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;" data-toggle="modal" data-target="#userInfo">修改信息</a></p>
             </div>
           </div>
         </div>
@@ -127,17 +127,16 @@
                   <div class="mt-2 pt-1 w-100" style="overflow: hidden;">
                     <span class="badge badge-danger float-left mr-2 font-weight-normal">中文</span>
                     <span class="badge badge-info float-left mr-2 font-weight-normal">免费</span>
-                    <span class="badge badge-warning float-left mr-2 font-weight-normal">评分 9.0</span>
+                    <span class="badge badge-warning float-left mr-2 font-weight-normal">评分 {{ item.resume_score }}</span>
                   </div>
                   <div class="text-secondary font-size-14 w-100 mt-2 pt-1">更新于 {{ item.update_time }}</div>
                 </div>
                 <p>
-                  <a href="javascript:void(0);" class="btn btn-success mt-4 font-size-14" style="color: #fff!important;">编辑</a>
+                  <a href="/resume/edit/{{ item.resume_token }}" class="btn btn-success mt-4 font-size-14" style="color: #fff!important;">编辑</a>
                   <a href="javascript:void(0);" class="btn btn-secondary mt-4 font-size-14 ml-1" style="color: #fff!important;">删除</a>
                 </p>
               </div>
             {% endfor %}
-          </ul>
           </div>
           <!-- <script>
             $(document).ready(() => {

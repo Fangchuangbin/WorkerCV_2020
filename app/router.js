@@ -14,21 +14,19 @@ module.exports = app => {
 
   router.get('/home/collect', controller.frontend.home.collect); //我的收藏
 
-  router.get('/edit/:tempid', controller.frontend.public.edit); //临时->编辑简历
-
-  //router.get('/home/edit/:resumeId', controller.frontend.resume.)
+  router.get('/resume/edit/:resumeId', controller.frontend.resume.editResume) //编辑简历
 
 
 
   //接口路由
 
-  router.post('/createPDF', controller.frontend.public.createPDF); //临时->生成简历
+  router.post('/api/downResume', controller.frontend.resume.downResume); //下载简历
 
-  router.post('/login', controller.frontend.account.login); //登录
+  router.post('/api/getUser', controller.frontend.account.getUser); //用户登录
 
-  router.post('/setResume', controller.frontend.resume.setResume); //保存简历
+  router.post('/api/setResume', controller.frontend.resume.setResume); //保存简历
 
-  router.post('/reviseInfo', controller.frontend.account.reviseInfo); //修改个人信息
+  router.post('/api/setUserInfo', controller.frontend.account.setUserInfo); //修改个人信息
 
   
 };

@@ -12,7 +12,7 @@ class TokenService extends Service {
       if(tokenData !== userData.login_token){
         return { result: verifyFail, userData };
       }else{
-        userData.update_time = moment(Number(userData.update_time)).format('YYYY年MM月DD日 hh时mm分ss秒')
+        userData.update_time = moment(Number(userData.update_time)).format('YYYY-MM-DD HH:mm:ss')
         return { result: verifySuccess, userData };
       }
     }else{

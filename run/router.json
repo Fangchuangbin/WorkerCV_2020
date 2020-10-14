@@ -46,7 +46,7 @@
     ],
     "paramNames": [
       {
-        "name": "tempid",
+        "name": "resumeId",
         "prefix": "/",
         "delimiter": "/",
         "optional": false,
@@ -56,8 +56,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/edit/:tempid",
-    "regexp": "/^\\/edit\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "path": "/resume/edit/:resumeId",
+    "regexp": "/^\\/resume\\/edit\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -68,8 +68,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/createPDF",
-    "regexp": "/^\\/createPDF(?:\\/(?=$))?$/",
+    "path": "/api/downResume",
+    "regexp": "/^\\/api\\/downResume(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -80,8 +80,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/login",
-    "regexp": "/^\\/login(?:\\/(?=$))?$/",
+    "path": "/api/getUser",
+    "regexp": "/^\\/api\\/getUser(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -92,8 +92,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/setResume",
-    "regexp": "/^\\/setResume(?:\\/(?=$))?$/",
+    "path": "/api/setResume",
+    "regexp": "/^\\/api\\/setResume(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -104,8 +104,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/reviseInfo",
-    "regexp": "/^\\/reviseInfo(?:\\/(?=$))?$/",
+    "path": "/api/setUserInfo",
+    "regexp": "/^\\/api\\/setUserInfo(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
