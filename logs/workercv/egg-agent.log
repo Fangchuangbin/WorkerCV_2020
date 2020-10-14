@@ -5920,3 +5920,13 @@ hostname: DESKTOP-RN33ASL
 2020-10-14 17:28:05,206 INFO 32 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"F:\\WorkerCV\\app\\public\\frontend\\js\\public.js","stat":{"dev":392227,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":2251799813747344,"size":1645,"blocks":8,"atimeMs":1602667685202.9937,"mtimeMs":1602667685202.9937,"ctimeMs":1602667685202.9937,"birthtimeMs":1602205684491.995,"atime":"2020-10-14T09:28:05.203Z","mtime":"2020-10-14T09:28:05.203Z","ctime":"2020-10-14T09:28:05.203Z","birthtime":"2020-10-09T01:08:04.492Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-10-14 17:28:11,480 INFO 32 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"F:\\WorkerCV\\app\\public\\方创斌_前端开发工程师_20201014.pdf","remove":true,"isDirectory":false,"isFile":false}
 2020-10-14 17:28:11,597 INFO 32 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"F:\\WorkerCV\\app\\public","stat":{"dev":392227,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":2814749767168636,"size":0,"blocks":0,"atimeMs":1602667691478.2766,"mtimeMs":1602667691478.2766,"ctimeMs":1602667691478.2766,"birthtimeMs":1602205684462.0088,"atime":"2020-10-14T09:28:11.478Z","mtime":"2020-10-14T09:28:11.478Z","ctime":"2020-10-14T09:28:11.478Z","birthtime":"2020-10-09T01:08:04.462Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-10-14 22:22:36,886 INFO 15012 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-14 22:22:36,901 INFO 15012 [egg:core] dump config after load, 12ms
+2020-10-14 22:22:37,133 INFO 15012 [egg-watcher] Start watching: ["F:\\workercv\\app","F:\\workercv\\config","F:\\workercv\\mocks","F:\\workercv\\mocks_proxy","F:\\workercv\\app.js"]
+2020-10-14 22:22:37,133 INFO 15012 [egg-watcher] Start watching: "F:\\workercv\\app"
+2020-10-14 22:22:37,134 INFO 15012 [egg-watcher] Start watching: "F:\\workercv\\config"
+2020-10-14 22:22:37,134 INFO 15012 [egg-watcher] Start watching: "F:\\workercv\\mocks"
+2020-10-14 22:22:37,134 INFO 15012 [egg-watcher] Start watching: "F:\\workercv\\mocks_proxy"
+2020-10-14 22:22:37,134 INFO 15012 [egg-watcher] Start watching: "F:\\workercv\\app.js"
+2020-10-14 22:22:37,134 INFO 15012 [egg-watcher:agent] watcher start success
+2020-10-14 22:22:37,162 INFO 15012 [egg:core] dump config after ready, 22ms
