@@ -6818,3 +6818,20 @@ hostname: DESKTOP-RN33ASL
 2020-10-14 17:40:46,273 INFO 14528 [egg-watcher:application] watcher start success
 2020-10-14 17:40:46,320 INFO 14528 [egg-mysql] instance[0] status OK, rds currentTime: Wed Oct 14 2020 17:40:46 GMT+0800 (GMT+08:00)
 2020-10-14 17:40:46,360 INFO 14528 [egg:core] dump config after ready, 37ms
+2020-10-14 17:40:52,908 INFO 7664 [egg:logger] init all loggers with options: {"dir":"F:\\WorkerCV\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-14 17:40:52,937 INFO 7664 [egg-multipart] stream mode enable
+2020-10-14 17:40:52,939 INFO 7664 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-14 17:40:53,083 INFO 7664 [egg-static] starting static serve / -> F:\WorkerCV\app\public
+2020-10-14 17:40:53,086 INFO 7664 [egg-security] use csrf middleware
+2020-10-14 17:40:53,087 INFO 7664 [egg-security] use methodnoallow middleware
+2020-10-14 17:40:53,087 INFO 7664 [egg-security] use noopen middleware
+2020-10-14 17:40:53,088 INFO 7664 [egg-security] use nosniff middleware
+2020-10-14 17:40:53,088 INFO 7664 [egg-security] use xssProtection middleware
+2020-10-14 17:40:53,089 INFO 7664 [egg-security] use xframe middleware
+2020-10-14 17:40:53,089 INFO 7664 [egg-security] use dta middleware
+2020-10-14 17:40:53,089 INFO 7664 [egg-security] compose 7 middlewares into one security middleware
+2020-10-14 17:40:53,104 INFO 7664 [egg:core] dump config after load, 6ms
+2020-10-14 17:40:53,115 INFO 7664 [egg-watcher:application] watcher start success
+2020-10-14 17:40:53,166 INFO 7664 [egg-mysql] instance[0] status OK, rds currentTime: Wed Oct 14 2020 17:40:53 GMT+0800 (GMT+08:00)
+2020-10-14 17:40:53,176 INFO 7664 [egg:core] dump config after ready, 9ms
+2020-10-14 17:41:21,603 INFO 7664 [egg-view-nunjucks] loading templates from ["F:\\WorkerCV\\app\\view"]
