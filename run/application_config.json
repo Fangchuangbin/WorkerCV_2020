@@ -143,7 +143,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\Fang\\AppData\\Local\\Temp\\egg-multipart-tmp\\workercv",
+      "tmpdir": "C:\\Users\\FANGCH\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\workercv",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -268,7 +268,7 @@
       "license": "MIT"
     },
     "baseDir": "F:\\workercv",
-    "HOME": "C:\\Users\\Fang",
+    "HOME": "C:\\Users\\Fangchuangbin",
     "rundir": "F:\\workercv\\run",
     "dump": {
       "ignore": "<Set>"
