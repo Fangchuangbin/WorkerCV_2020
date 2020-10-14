@@ -1,7 +1,4 @@
 $(document).ready(() => {
-  //登录盒子按钮
-	$('.login').mouseover(() => { $('.accountMenu').css('display', 'block'); });
-  $('.user').mouseleave(() => { $('.accountMenu').css('display', 'none'); });
   
   //修改个人信息
   $('#userInfo #setUserInfo').click(() => {

@@ -1,12 +1,16 @@
 $(document).ready(() => {
+  //公共变量
+  var loginStatus = false; //登录状态
 
   //登录状态
   if($.cookie('loginToken')) {
+    loginStatus = true;
     $('#loginButton').text('个人中心');
     $('#loginButton').attr('href', '/home');
     $('#registerButton').text('退出');
     $('#registerButton').attr('id', 'clearCookie');
     $('.user .login').attr('data-toggle', '');
+    $('.user .register').attr('data-toggle', '');
     $('.menu-item-home').css('display', 'block');
     $('.menu').css('margin-left', '200px');
     $('.menu-item').each(function() {
@@ -19,10 +23,17 @@ $(document).ready(() => {
   }
 
   //退出登录
-  $('#clearCookie').click(() => {
-    $.removeCookie('loginToken', { path: '/' });
-    window.location.reload();
-  })
+  $('#clearCookie').click(() => { $.removeCookie('loginToken', { path: '/' }); window.location.reload(); })
+
+  //已有账号
+  $('#RegisterOff').click(() => {$('#accountRegister').modal('hide')})
+
+  //注册账号
+  $('#LoginOff').click(() => {$('#accountLogin').modal('hide')})
+
+  //登录盒子按钮
+	$('.login').mouseover(() => { $('.accountMenu').css('display', 'block'); });
+  $('.user').mouseleave(() => { $('.accountMenu').css('display', 'none'); });
 
   //用户登录
   $('#accountLogin #login').click(() => {
@@ -44,7 +55,7 @@ $(document).ready(() => {
           }
         },
         error: function(error) {
-          console.log(error);
+          alert('账号或密码出现错误！');
         }
       })
     }
