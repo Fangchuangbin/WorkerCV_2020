@@ -14,13 +14,15 @@ module.exports = app => {
 
   router.get('/home/collect', controller.frontend.home.collect); //我的收藏
 
-  router.get('/edit/:tempid', controller.frontend.public.edit); //编辑简历
+  router.get('/edit/:tempid', controller.frontend.public.edit); //临时->编辑简历
+
+  //router.get('/home/edit/:resumeId', controller.frontend.resume.)
 
 
 
   //接口路由
 
-  router.post('/createPDF', controller.frontend.public.createPDF); //生成简历
+  router.post('/createPDF', controller.frontend.public.createPDF); //临时->生成简历
 
   router.post('/login', controller.frontend.account.login); //登录
 
