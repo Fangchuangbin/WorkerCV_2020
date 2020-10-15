@@ -7620,3 +7620,20 @@ hostname: DESKTOP-RN33ASL
 2020-10-15 17:27:04,880 INFO 1748 [egg-mysql] instance[0] status OK, rds currentTime: Thu Oct 15 2020 17:27:04 GMT+0800 (GMT+08:00)
 2020-10-15 17:27:04,891 INFO 1748 [egg:core] dump config after ready, 9ms
 2020-10-15 17:27:59,924 INFO 1748 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]
+2020-10-15 17:43:43,352 INFO 7000 [egg:logger] init all loggers with options: {"dir":"F:\\workercv\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-15 17:43:43,387 INFO 7000 [egg-multipart] stream mode enable
+2020-10-15 17:43:43,389 INFO 7000 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-15 17:43:43,570 INFO 7000 [egg-static] starting static serve / -> F:\workercv\app\public
+2020-10-15 17:43:43,573 INFO 7000 [egg-security] use csrf middleware
+2020-10-15 17:43:43,573 INFO 7000 [egg-security] use methodnoallow middleware
+2020-10-15 17:43:43,574 INFO 7000 [egg-security] use noopen middleware
+2020-10-15 17:43:43,575 INFO 7000 [egg-security] use nosniff middleware
+2020-10-15 17:43:43,575 INFO 7000 [egg-security] use xssProtection middleware
+2020-10-15 17:43:43,576 INFO 7000 [egg-security] use xframe middleware
+2020-10-15 17:43:43,576 INFO 7000 [egg-security] use dta middleware
+2020-10-15 17:43:43,576 INFO 7000 [egg-security] compose 7 middlewares into one security middleware
+2020-10-15 17:43:43,591 INFO 7000 [egg:core] dump config after load, 5ms
+2020-10-15 17:43:43,602 INFO 7000 [egg-watcher:application] watcher start success
+2020-10-15 17:43:43,641 INFO 7000 [egg-mysql] instance[0] status OK, rds currentTime: Thu Oct 15 2020 17:43:43 GMT+0800 (GMT+08:00)
+2020-10-15 17:43:43,650 INFO 7000 [egg:core] dump config after ready, 7ms
+2020-10-15 17:43:48,027 INFO 7000 [egg-view-nunjucks] loading templates from ["F:\\workercv\\app\\view"]
