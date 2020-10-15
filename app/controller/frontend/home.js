@@ -19,7 +19,7 @@ class HomeController extends Controller {
     await ctx.render('frontend/home/index', {
       title: '个人中心 - 极速简历',
       id: loginTokenData.userData.id, //用户Id
-      type: loginTokenData.userData.type, //用户Id
+      vip: loginTokenData.userData.vip, //用户Id
       avatar: loginTokenData.userData.avatar, //头像
       realname: loginTokenData.userData.realname, //姓名
       identity: loginTokenData.userData.identity, //身份

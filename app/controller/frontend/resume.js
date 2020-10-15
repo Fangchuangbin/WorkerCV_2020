@@ -34,7 +34,7 @@ class ResumeController extends Controller {
       resumeName: getResumeData.resumeData.resume_name, //简历名称
       resumeData: getResumeData.resumeData.resume_code, //简历代码
       resumeScore: getResumeData.resumeData.resume_score, //简历评分
-      resumeKey: getResumeData.resumeData.resume_key //简历Token
+      resumeKey: getResumeData.resumeData.resume_key //简历秘钥
     })
   }
 
@@ -59,14 +59,25 @@ class ResumeController extends Controller {
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
     if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
-
+    
     var resumeTeamplateData = ctx.request.body;
-
     //获取简历模板
     var getResumeTemplateData = await ctx.service.frontend.resume.getResumeTemplate(resumeTeamplateData.templateKey);
     //创建简历
     var createResumeData = await ctx.service.frontend.resume.createResume(getResumeTemplateData, resumeTeamplateData);
     ctx.body = createResumeData;
+  }
+
+  //接口->删除简历
+  async deleteResume() {
+    const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
+
+    var resumeData = ctx.request.body;
+    var deleteResume = await ctx.service.frontend.resume.deleteResume(resumeData);
+    ctx.body = deleteResume;
   }
 }
 

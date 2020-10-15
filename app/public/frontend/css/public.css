@@ -105,7 +105,7 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .footer .box-qrcode{overflow: hidden;}
 .footer .box-qrcode img{border-radius: 10px;}
 .footer .link{overflow: hidden;}
-.footer .link p{float: left;margin-left: 10px;}
+.footer .link p{float: left;margin: 0 5px 0 5px;}
 .footer .link p a{color: #6c757d;}
 .footer .link .head{margin: 0;}
 

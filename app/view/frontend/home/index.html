@@ -133,7 +133,7 @@
           </div>
           <div class="col-10 float-right pl-3">
             <div class="card-body p-0">
-              <h5 class="card-title">{{ realname }}<span class="badge badge-secondary ml-2 font-size-13 font-weight vip" data-target="{{ type }}" data-toggle="tooltip" data-placement="right" title="非会员用户">VIP</span></h5>
+              <h5 class="card-title">{{ realname }}<span class="badge badge-secondary ml-2 font-size-13 font-weight vip" data-target="{{ vip }}" data-toggle="tooltip" data-placement="right" title="非会员用户">VIP</span></h5>
               <p class="card-text text-secondary font-size-16">{{ native_place }} · {{ identity }}</p>
               <p class="card-text text-secondary font-size-14 mt-1">更新于 {{ update_time }}</p>
               <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;" data-toggle="modal" data-target="#userInfo">修改信息</a></p>
@@ -159,7 +159,7 @@
                 </div>
                 <p>
                   <a href="/resume/edit/{{ item.resume_key }}" class="btn btn-success mt-4 font-size-14" style="color: #fff!important;">管理</a>
-                  <a href="javascript:void(0);" id="deleteResume" class="btn btn-secondary mt-4 font-size-14 ml-1" style="color: #fff!important;" data-target="{{ item.resume_key }}">删除</a>
+                  <a href="javascript:void(0);" onclick="deleteResume('{{ item.resume_key }}')" class="btn btn-secondary mt-4 font-size-14 ml-1" style="color: #fff!important;">删除</a>
                 </p>
               </div>
             {% endfor %}

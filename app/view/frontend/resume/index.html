@@ -15,11 +15,12 @@
   {% include "../header.html" %}
   <link rel="stylesheet" href="/frontend/css/resume.css">
   <script src="/frontend/js/resume.js"></script>
+  <script>$('.menu-item-home').text('返回主页');</script>
   <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
     {% include "./left-nav.html" %}
     <div class="float-right w-75" style="width: 74%!important;">
       <div class="card">
-        <div class="card-header">工具栏<small class="ml-1 text-secondary">（调整样式，让面试官认为你是一个注重细节的人）</small></div>
+        <div class="card-header">工具栏<small class="ml-1 text-secondary">（调整样式，让你的简历更加完美！）</small></div>
         <div class="col mt-4 mb-4">
           <h2 class="text-muted text-center">···</h2>
         </div>
@@ -31,9 +32,9 @@
           <div class="float-right dropdown" style="line-height: 14px;">
             <button class="btn btn-sm btn-secondary dropdown-toggle" style="line-height: 14px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多</button>
             <div class="dropdown-menu mt-2 font-size-14" aria-labelledby="dropdownMenuButton" style="min-width: 100%;line-height: 20px;">
-              <a class="dropdown-item" id="setResume" href="javascript:void(0);">保存简历</a>
-              <a class="dropdown-item" id="downResume" href="javascript:void(0);">下载简历</a>
               <a class="dropdown-item" id="printResume" href="javascript:void(0);">打印简历</a>
+              <a class="dropdown-item" id="shareResume" href="javascript:void(0);">分享简历</a>
+              <a class="dropdown-item" onclick="deleteResume('{{ resumeKey }}')" href="javascript:void(0);">删除简历</a>
             </div>
           </div>
         </div>

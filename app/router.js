@@ -32,5 +32,7 @@ module.exports = app => {
 
   router.post('/api/createResume', controller.frontend.resume.createResume); //创建简历
 
+  router.post('/api/deleteResume', controller.frontend.resume.deleteResume); //删除简历
+
   
 };

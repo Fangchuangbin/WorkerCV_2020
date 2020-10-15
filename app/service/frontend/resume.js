@@ -8,7 +8,7 @@ class ResumeService extends Service {
     const { ctx, app } = this;
     var getSuccess = { code: 20000, message: '获取用户简历列表成功' };
     var getFail = { code: 40004, message: '获取用户简历列表失败' };
-    var resumeList = await app.mysql.query(`select * from frontend_resume where user_id = ${userId} order by update_time desc`);
+    var resumeList = await app.mysql.select('frontend_resume', { where: { user_id: userId }, orders: [['update_time', 'desc']] });
     for (let i = 0; i < resumeList.length; i++) {
       resumeList[i].update_time = moment(Number(resumeList[i].update_time)).format('YYYY-MM-DD HH:mm:ss')
     }
@@ -55,7 +55,7 @@ class ResumeService extends Service {
     const { ctx, app } = this;
     var getSuccess = { code: 20000, message: '获取简历模板成功' };
     var getFail = { code: 40004, message: '获取简历模板失败' };
-    var resumeTemplateListData = await app.mysql.select('frontend_template')
+    var resumeTemplateListData = await app.mysql.select('frontend_template', { limit: 12 })
     if(resumeTemplateListData) {
       return { result: getSuccess, resumeTemplateListData }
     }else{
@@ -91,12 +91,25 @@ class ResumeService extends Service {
       resume_key: resumeKey, //简历秘钥
       resume_type: getResumeTemplateData.resumeTemplateData.template_type, //简历类型
       resume_language: getResumeTemplateData.resumeTemplateData.template_language, //简历类型
-      resume_score: 6.0
+      resume_score: 6.0 //简历评分
     });
     if(createResume.affectedRows === 1) {
       return { result: setSuccess, resumeKey: resumeKey, createResume }
     }else{
       return { result: setFail }
+    }
+  }
+
+  //删除简历
+  async deleteResume(resumeData) {
+    const { ctx, app } = this;
+    var deleteSuccess = { code: 20000, message: '删除用户简历成功' };
+    var deleteFail = { code: 40004, message: '删除用户简历失败' };
+    var deleteResume = await app.mysql.delete('frontend_resume', { resume_key: resumeData.resumeKey })
+    if(deleteResume.affectedRows === 1) {
+      return { result: deleteSuccess, deleteResume }
+    }else{
+      return { result: deleteFail }
     }
   }
 }

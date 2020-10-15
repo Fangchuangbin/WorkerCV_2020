@@ -19,7 +19,7 @@ $(document).ready(() => {
 				resumeName: $('#resumeName').text(), resumeKey: $('#resumeKey').text(),
 				resumeCode: TextToRsc.innerText = $(HtmlToText).html()
 			},
-			success: function(response) { if(response.result.code == 20000) { alert('保存成功！'); }else{ alert('未知错误，请重试！'); } },
+			success: function(response) { if(response.result.code == 20000) { alert('保存成功！');window.location.reload(); }else{ alert('未知错误，请重试！'); } },
 			error: function(error) { alert('未知错误，请重试！'); }
 		});
 	});
@@ -40,8 +40,7 @@ $(document).ready(() => {
 					var download = document.createElement('a');
 					download.href = '/' + response.pdfUrl;
 					download.download = $('#resumeName').text();
-					download.click();
-					download.remove();
+					download.click(); download.remove();
 				}, 1500);
 			}else{ alert('下载失败，请重试！'); } },
 			error: function(error) { console.log(error) ; alert('下载失败，请重试！'); }
@@ -49,14 +48,16 @@ $(document).ready(() => {
 	});
 
 	//打印简历
-	$('#printResume').click(() => {
-		alert('敬请期待...');
-	})
+	$('#printResume').click(() => { alert('敬请期待...'); });
+
+	//打印简历
+	$('#shareResume').click(() => { alert('敬请期待...'); });
 
 	//选择模板
 	$('.select-template-item').click(function() {
 		$(this).addClass('hover').siblings().removeClass('hover');
-	})
+	});
+
 
 	//创建简历
 	$('#createResume').click(() => {
@@ -75,27 +76,32 @@ $(document).ready(() => {
 					"templateKey": templateKey
 				},
 				success: function(response) {
-					console.log(response);
-					if(response.result.code == 20000) {
-						alert('创建简历成功！');
-						window.location.href = '/resume/edit/' + response.resumeKey
-					}
+					if(response.result.code == 20000) { alert('创建简历成功！'); window.location.href = '/resume/edit/' + response.resumeKey; }
 				},
-				error: function(error) {
-					console.log(error);
-					alert('创建简历失败！');
-				}
+				error: function(error) { console.log(error); alert('创建简历失败！'); }
 			})
-		}else{
-			alert('请选择简历模板！');
-		}
-	})
-	
-	//删除简历
-	$('#deleteResume').click(() => {
-		var confirmDel = window.confirm('确定删除所选的简历吗？');
-		if(confirmDel) {
-			console.log($('#deleteResume').attr('data-target'));
-		}
-	})
+		}else{ alert('请选择简历模板！'); }
+	});
+
 })
+
+//删除简历
+function deleteResume(e) {
+	var confirmDel = window.confirm('确定删除所选的简历吗？');
+	var resumeKey = e;
+	if(confirmDel) {
+		$.ajax({
+			url: '/api/deleteResume',
+			type: 'post',
+			dataType: 'json',
+			headers: { "x-csrf-token": $.cookie('csrfToken') },
+			data: {
+				"resumeKey": resumeKey
+			},
+			success: function(response) {
+				if(response.result.code == 20000) { alert('删除简历成功！'); window.location.reload(); }
+			},
+			error: function(error) { console.log(error); alert('创建简历失败！'); }
+		})
+	}
+}

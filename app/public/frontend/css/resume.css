@@ -4,3 +4,5 @@
 .resume-box{transition: 0.3s;}
 .resume-box div{transition: 0.3s;}
 .resume-box div:hover{background-color: #f1f5f9;}
+.resume-box-item{width: calc(100%/2);padding: 13px 0;text-align: center;cursor: pointer;transition: 0.3s;}
+.resume-box-item:hover{background-color: #f8f9fa;}

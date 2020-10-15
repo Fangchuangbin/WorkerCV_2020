@@ -1,49 +1,55 @@
 <div class="float-left w-25" style="width: 24%!important;">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">简历评分：<small class="text-danger font-size-20">{{ resumeScore }}</small></h5>
-        <p class="card-text font-size-13 text-secondary">你的简历已较为完善，建议根据智能建议继续优化，或者通过申请简历定制化服务，使你的简历更加完美！</p>
-        <a href="javascript:void(0);" class="btn btn-success mt-3" style="color: #fff!important;">申请定制</a>
-      </div>
-    </div>
-    <div class="card mt-4">
-      <div class="card-header">优化建议</div>
-      <ul class="list-unstyled card-body">
-        <li class="media">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1 font-size-16">工作经历（1条）</h5>
-            <p class="text-muted font-size-14 mt-2">
-              工作经历应该为简历的主体内容，目前这部分篇幅和其他内容相比较少，建议多添加一些内容或者删减其他部分内容
-            </p>
-          </div>
-        </li>
-        <li class="media my-4">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1 font-size-16">专业细节（3条）</h5>
-            <p class="text-muted font-size-14 mt-2">
-            1、简历中不要使用不必要的标点符号，建议用陈述性语句<br>
-            2、简历中请尽可能不要使用任何人称，避免使用你，我，他，他们等代词进行描述<br>
-            3、简历中可能存在大小写错误，请再次检查
-            </p>
-          </div>
-        </li>
-        <li class="media">
-          <div class="media-body">
-            <h5 class="mt-0 mb-1 font-size-16">其他模块（1条）</h5>
-            <p class="text-muted font-size-14 mt-2">
-              建议添加语言能力描述，以增强竞争力
-            </p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="card mt-4">
-      <div class="card-header">个人中心</div>
-      <div class="nav-list list-group list-group-flush font-size-14">
-        <a href="/home" class="list-group-item list-group-item-action text-dark">返回主页</a>
-        <a href="/home/collect" class="list-group-item list-group-item-action text-dark">我的收藏</a>
-        <a href="/home/settings" class="list-group-item list-group-item-action text-dark">账户设置</a>
-        <a href="/home/feedback" class="list-group-item list-group-item-action text-dark">建议反馈</a>
-      </div>
+  <div class="card border-0">
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item resume-box-item" id="setResume">保存简历</li>
+      <li class="list-group-item resume-box-item" id="downResume">下载简历</li>
+    </ul>
+  </div>
+  <div class="card mt-4">
+    <div class="card-body">
+      <h5 class="card-title">简历评分：<small class="text-danger font-size-20">{{ resumeScore }}</small></h5>
+      <p class="card-text font-size-13 text-secondary">你的简历已较为完善，建议根据智能建议继续优化，或者通过申请简历定制化服务，使你的简历更加完美！</p>
+      <a href="javascript:void(0);" class="btn btn-success mt-3" style="color: #fff!important;">申请定制</a>
     </div>
   </div>
+  <div class="card mt-4">
+    <div class="card-header">优化建议</div>
+    <ul class="list-unstyled card-body">
+      <li class="media">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1 font-size-16">工作经历（1条）</h5>
+          <p class="text-muted font-size-14 mt-2">
+            工作经历应该为简历的主体内容，目前这部分篇幅和其他内容相比较少，建议多添加一些内容或者删减其他部分内容
+          </p>
+        </div>
+      </li>
+      <li class="media my-4">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1 font-size-16">专业细节（3条）</h5>
+          <p class="text-muted font-size-14 mt-2">
+          1、简历中不要使用不必要的标点符号，建议用陈述性语句<br>
+          2、简历中请尽可能不要使用任何人称，避免使用你，我，他，他们等代词进行描述<br>
+          3、简历中可能存在大小写错误，请再次检查
+          </p>
+        </div>
+      </li>
+      <li class="media">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1 font-size-16">其他模块（1条）</h5>
+          <p class="text-muted font-size-14 mt-2">
+            建议添加语言能力描述，以增强竞争力
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- <div class="card mt-4">
+    <div class="card-header">个人中心</div>
+    <div class="nav-list list-group list-group-flush font-size-14">
+      <a href="/home" class="list-group-item list-group-item-action text-dark">返回主页</a>
+      <a href="/home/collect" class="list-group-item list-group-item-action text-dark">我的收藏</a>
+      <a href="/home/settings" class="list-group-item list-group-item-action text-dark">账户设置</a>
+      <a href="/home/feedback" class="list-group-item list-group-item-action text-dark">建议反馈</a>
+    </div>
+  </div> -->
+</div>
