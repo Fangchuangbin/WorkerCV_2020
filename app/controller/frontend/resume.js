@@ -10,6 +10,10 @@ class ResumeController extends Controller {
   //接口->保存简历
   async setResume() {
     const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+
     const resumeData = ctx.request.body;
     var setResumeData = await ctx.service.frontend.resume.setResume(resumeData);
     ctx.body = setResumeData;
@@ -22,15 +26,15 @@ class ResumeController extends Controller {
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
     if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
 
-    const resumeToken = ctx.params.resumeId;
-    var getResumeData = await ctx.service.frontend.resume.getResumeData(resumeToken);
+    const resumeKey = ctx.params.resumeId;
+    var getResumeData = await ctx.service.frontend.resume.getResumeData(resumeKey);
     await ctx.render('/frontend/resume/index', {
       title: '编辑简历 - 极速简历',
       data: JSON.stringify(getResumeData), //测试数据
       resumeName: getResumeData.resumeData.resume_name, //简历名称
       resumeData: getResumeData.resumeData.resume_code, //简历代码
       resumeScore: getResumeData.resumeData.resume_score, //简历评分
-      resumeToken: getResumeData.resumeData.resume_token //简历Token
+      resumeKey: getResumeData.resumeData.resume_key //简历Token
     })
   }
 
@@ -47,6 +51,22 @@ class ResumeController extends Controller {
      result: loginTokenData.result,
      pdfUrl: resumeData.resumeName + '.pdf'
     }
+  }
+
+  //接口->创建简历
+  async createResume() {
+    const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
+
+    var resumeTeamplateData = ctx.request.body;
+
+    //获取简历模板
+    var getResumeTemplateData = await ctx.service.frontend.resume.getResumeTemplate(resumeTeamplateData.templateKey);
+    //创建简历
+    var createResumeData = await ctx.service.frontend.resume.createResume(getResumeTemplateData, resumeTeamplateData);
+    ctx.body = createResumeData;
   }
 }
 

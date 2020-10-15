@@ -32,6 +32,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/home/settings",
+    "regexp": "/^\\/home\\/settings(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/home/collect",
     "regexp": "/^\\/home\\/collect(?:\\/(?=$))?$/",
     "stack": [
@@ -106,6 +119,18 @@
     "paramNames": [],
     "path": "/api/setUserInfo",
     "regexp": "/^\\/api\\/setUserInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/createResume",
+    "regexp": "/^\\/api\\/createResume(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

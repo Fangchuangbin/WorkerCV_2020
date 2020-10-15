@@ -110,8 +110,14 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .footer .link .head{margin: 0;}
 
 .login-box{background-color: #fff;width: 500px;margin: auto;}
+.img-box{text-align: center;}
+.img-box img{max-height: 310px;text-align: center;cursor: pointer;transition: 0.3s;}
+.title-box{height: 25px;line-height: 25px;overflow: hidden;display: block;margin: 0px 15px;cursor: pointer;}
+.select-template-group li{width: calc(100%/4);float: left;margin-bottom: 10px;}
+.select-template-group li:hover img{border: 1px solid #313539;}
+.select-template-group .hover .img-thumbnail{border: 1px solid #313539;transition: 0.3s;}
+.vip{cursor: pointer;}
 
 .temp-box{border: 1px solid #d1d5d9;padding: 20px;transition: 0.3s;}
 .temp-box .temp-edit{border: 1px solid #fff;}
 .temp-box:focus{background-color: #e1e5e9;border: 1px solid #f5f8f9!important;}
-/* .temp-box:hover{border: 1px dotted #c1c5c9;} */

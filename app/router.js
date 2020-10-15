@@ -12,6 +12,8 @@ module.exports = app => {
 
   router.get('/home', controller.frontend.home.index); //用户中心
 
+  router.get('/home/settings', controller.frontend.home.settings); //用户中心
+
   router.get('/home/collect', controller.frontend.home.collect); //我的收藏
 
   router.get('/resume/edit/:resumeId', controller.frontend.resume.editResume) //编辑简历
@@ -27,6 +29,8 @@ module.exports = app => {
   router.post('/api/setResume', controller.frontend.resume.setResume); //保存简历
 
   router.post('/api/setUserInfo', controller.frontend.account.setUserInfo); //修改个人信息
+
+  router.post('/api/createResume', controller.frontend.resume.createResume); //创建简历
 
   
 };

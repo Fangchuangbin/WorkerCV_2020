@@ -6,7 +6,7 @@
   <title>{{ title }}</title>
   <link rel="shortcut icon" href="/frontend/images/favicon.ico">
   <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.css">
-  <link rel="stylesheet" href="/frontend/css/style.css">
+  <link rel="stylesheet" href="/frontend/css/public.css">
   <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
   <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
@@ -14,11 +14,11 @@
 <body>
   {% include "../header.html" %}
   <!-- 修改信息 -->
-  <div class="modal fade" id="userInfo" tabindex="-1" role="dialog" aria-labelledby="userInfo" aria-hidden="true">
+  <div class="modal fade" id="userInfo" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="userInfo" aria-hidden="true">
     <div class="modal-dialog mt-5 pt-5">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title font-size-16" id="userInfo">修改个人信息<small class="text-secondary font-size-14">（用户ID：{{ id }}）</small><p style="display: none;" id="id">{{ id }}</p></h5>
+          <h5 class="modal-title font-size-16" id="userInfo">修改个人信息<small class="text-secondary font-size-14">（用户ID：{{ id }}）</small><p style="display: none;" id="setUserInfoId">{{ id }}</p></h5>
           <button type="button" class="close" data-dismiss="modal">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -28,7 +28,7 @@
             <div class="input-group-prepend">
               <span class="input-group-text pl-3 pr-3">姓名</span>
             </div>
-            <input type="text" class="form-control" placeholder="请输入你的姓名..." id="realname" value="{{ realname }}" autocomplete="off">
+            <input type="text" id="realname" class="form-control" placeholder="请输入你的姓名..." value="{{ realname }}" autocomplete="off">
           </div>
           <div class="input-group input-group-sm mb-3">
             <div class="input-group-prepend">
@@ -37,10 +37,7 @@
             <select class="form-control" id="sex">
               <script>
                 $(document).ready(() => { var sex = '{{ sex }}';
-                  switch(sex) {
-                    case '男': $('#sex1').attr('selected', 'selected'); break;
-                    case '女': $('#sex2').attr('selected', 'selected'); break;
-                  }
+                  switch(sex) { case '男': $('#sex1').attr('selected', 'selected'); break; case '女': $('#sex2').attr('selected', 'selected'); break; }
                 })
               </script>
               <option id="sex1" value="男">男</option>
@@ -90,12 +87,41 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger font-size-14" id="setUserInfo">修改</button>
+          <button type="button" class="btn btn-danger font-size-14" id="setUserInfo">确定</button>
           <button type="button" class="btn btn-secondary font-size-14" data-dismiss="modal">取消</button>
         </div>
       </div>
     </div>
   </div>
+  <!-- 选择模板 -->
+  <script src="/frontend/js/resume.js"></script>
+  <div class="modal fade mt-4" id="selectTemplate" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="selectTemplateLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" style="max-width: 1000px!important;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-size-16" id="selectTemplateLabel">选择模板<p id="selectTeamplateUserId" style="display: none;">{{ id }}</p><p id="selectTeamplateRealname" style="display: none;">{{ realname }}</p></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-2 pt-3">
+          <ul class="select-template-group" style="overflow-y: scroll;height: 700px;">
+            {% for item in resumeTemplateList %}
+            <li class="select-template-item" data-target="{{ item.template_key }}">
+              <p class="img-box"><img src="{{ item.template_img }}" alt="{{ item.template_name }}" class="img-thumbnail"></p>
+              <p class="title-box text-center font-size-14 mt-2 text-body"><span class="badge badge-secondary font-size-13 mr-2 font-weight-normal">{{ item.template_type }}</span>{{ item.template_name }}</p>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success font-size-14" id="createResume">创建简历</button>
+          <button type="button" class="btn btn-secondary font-size-14" data-dismiss="modal">取消</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
     {% include "./left-nav.html" %}
     <div class="float-right w-75" style="width: 74%!important;">
@@ -107,7 +133,7 @@
           </div>
           <div class="col-10 float-right pl-3">
             <div class="card-body p-0">
-              <h5 class="card-title">{{ realname }}</h5>
+              <h5 class="card-title">{{ realname }}<span class="badge badge-secondary ml-2 font-size-13 font-weight vip" data-target="{{ type }}" data-toggle="tooltip" data-placement="right" title="非会员用户">VIP</span></h5>
               <p class="card-text text-secondary font-size-16">{{ native_place }} · {{ identity }}</p>
               <p class="card-text text-secondary font-size-14 mt-1">更新于 {{ update_time }}</p>
               <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;" data-toggle="modal" data-target="#userInfo">修改信息</a></p>
@@ -116,48 +142,28 @@
         </div>
       </div>
       <div class="card mt-4">
-        <div class="card-header">我的简历<small class="ml-1 text-secondary">（排列顺序 -> 最近修改）</small></div>
+        <div class="card-header">我的简历<small class="ml-1 text-secondary">（排列顺序，根据最近修改简历排列）</small></div>
         <div class="col p-0">
-          <div class="list-group list-group-flush m-3" style="margin-bottom: 0!important;">
+          <div class="list-group resume-list-group list-group-flush m-3" style="margin-bottom: 0!important;" data-target="{{ resumeList }}">
             {% for item in resumeList %}
               <div class="media mt-1 mb-3">
                 <img src="/frontend/images/file-pdf.png" class="mr-3 img-thumbnail p-2" alt="{{ item.resume_name }}" style="width: 82px;">
                 <div class="media-body">
                   <h5 class="mt-0 font-size-16 text-body">{{ item.resume_name }}</h5>
                   <div class="mt-2 pt-1 w-100" style="overflow: hidden;">
-                    <span class="badge badge-danger float-left mr-2 font-weight-normal">中文</span>
-                    <span class="badge badge-info float-left mr-2 font-weight-normal">免费</span>
+                    <span class="badge badge-danger float-left mr-2 font-weight-normal">{{ item.resume_language }}</span>
+                    <span class="badge badge-info float-left mr-2 font-weight-normal">{{ item.resume_type }}</span>
                     <span class="badge badge-warning float-left mr-2 font-weight-normal">评分 {{ item.resume_score }}</span>
                   </div>
                   <div class="text-secondary font-size-14 w-100 mt-2 pt-1">更新于 {{ item.update_time }}</div>
                 </div>
                 <p>
-                  <a href="/resume/edit/{{ item.resume_token }}" class="btn btn-success mt-4 font-size-14" style="color: #fff!important;">编辑</a>
-                  <a href="javascript:void(0);" class="btn btn-secondary mt-4 font-size-14 ml-1" style="color: #fff!important;">删除</a>
+                  <a href="/resume/edit/{{ item.resume_key }}" class="btn btn-success mt-4 font-size-14" style="color: #fff!important;">管理</a>
+                  <a href="javascript:void(0);" id="deleteResume" class="btn btn-secondary mt-4 font-size-14 ml-1" style="color: #fff!important;" data-target="{{ item.resume_key }}">删除</a>
                 </p>
               </div>
             {% endfor %}
           </div>
-          <!-- <script>
-            $(document).ready(() => {
-              $('#resume_code').append($('#mycode').text());
-              $('#resume_code_1').append($('#resume_code').text());
-              var p1 = document.createElement('p');
-              var p2 = document.createElement('p');
-              //console.log($('#resume_code_1').html())
-              p1.innerText = $('#resume_code_1').html();
-              p2.innerText = $(p1).html();
-              //$('#id2').html(p2);
-              console.log(p2)
-              //$('#id1').text($('#resume_code_1').html());
-              //$('#id2').text($('#id1').html());
-            })
-          </script>
-          <div id="resume_code" style="display: none;"></div>
-          <div id="resume_code_1"></div>
-          <p id="mycode" style="display: none;">{{ resume }}</p>
-          <p id="id1" style="display: none;"></p>
-          <p id="id2"></p> -->
         </div>
       </div>
     </div>

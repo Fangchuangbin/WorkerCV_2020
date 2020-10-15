@@ -1,6 +1,11 @@
 $(document).ready(() => {
   //公共变量
   var loginStatus = false; //登录状态
+  $('.vip').tooltip(); //VIP用户提示
+
+  //登录盒子按钮
+	$('.login').mouseover(() => { $('.accountMenu').css('display', 'block'); });
+  $('.user').mouseleave(() => { $('.accountMenu').css('display', 'none'); });
 
   //登录状态
   if($.cookie('loginToken')) {
@@ -13,11 +18,7 @@ $(document).ready(() => {
     $('.user .register').attr('data-toggle', '');
     $('.menu-item-home').css('display', 'block');
     $('.menu').css('margin-left', '200px');
-    $('.menu-item').each(function() {
-      if(document.location.pathname == $(this).attr('href')) {
-        $(this).css('border-bottom', '1px dotted #fff') }
-      }
-    )
+    $('.menu-item').each(function() { if(document.location.pathname == $(this).attr('href')) { $(this).css('border-bottom', '1px dotted #fff') } })
   }else{
     $('.login').mouseover(() => { $('.accountMenu').css('display', 'none'); })
   }
@@ -30,10 +31,6 @@ $(document).ready(() => {
 
   //注册账号
   $('#LoginOff').click(() => {$('#accountLogin').modal('hide')})
-
-  //登录盒子按钮
-	$('.login').mouseover(() => { $('.accountMenu').css('display', 'block'); });
-  $('.user').mouseleave(() => { $('.accountMenu').css('display', 'none'); });
 
   //用户登录
   $('#accountLogin #login').click(() => {
@@ -50,15 +47,14 @@ $(document).ready(() => {
         success: function(response) {
           if(response.result.code == 20000){
             $(location).attr('href', '/home');
-          }else{
-            alert('账号或密码出现错误！');
-          }
+          }else{ alert('账号或密码出现错误！'); }
         },
-        error: function(error) {
-          alert('账号或密码出现错误！');
-        }
+        error: function(error) { console.log(error); alert('账号或密码出现错误！'); }
       })
     }
   })
-  
+
+  if($('.resume-list-group').attr('data-target') == '') {
+    $('.resume-list-group').append('<h3 class="text-secondary text-center p-5">暂无简历，快去新建一份简历吧 (๑╹◡╹)ﾉ"""</h3>');
+  }
 })

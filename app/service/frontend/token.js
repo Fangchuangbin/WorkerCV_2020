@@ -7,7 +7,7 @@ class TokenService extends Service {
     var userData;
     var verifySuccess = { code: 20000, message: '登录成功，欢迎使用极速简历！' };
     var verifyFail = { code: 40001, message: '未知错误，请重新登录！' }
-    userData = await app.mysql.get('user', { login_token: tokenData });
+    userData = await app.mysql.get('frontend_user', { login_token: tokenData });
     if(userData) {
       if(tokenData !== userData.login_token){
         return { result: verifyFail, userData };

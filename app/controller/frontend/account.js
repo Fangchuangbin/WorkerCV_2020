@@ -24,6 +24,10 @@ class AccountController extends Controller {
   //接口->修改个人信息
   async setUserInfo() {
     const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+    
     var userInfoData = ctx.request.body;
     var setUserInfoData = await ctx.service.frontend.account.setUserInfo(userInfoData);
     ctx.body = setUserInfoData;

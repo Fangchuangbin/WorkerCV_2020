@@ -10,12 +10,12 @@ class AccountService extends Service {
     var getSuccess = { code: 20000, message: '登录成功，欢迎使用极速简历！' };
     var getFail = { code: 40001, message: '未知错误，请重新登录！' };
     if(emailRule.test(username)) {
-      getAccount = await app.mysql.get('user', { email: username, password: password });
+      getAccount = await app.mysql.get('frontend_user', { email: username, password: password });
     }else{
-      getAccount = await app.mysql.get('user', { phone: username, password: password });
+      getAccount = await app.mysql.get('frontend_user', { phone: username, password: password });
     }
     if(getAccount) {
-      await app.mysql.update('user', { id: getAccount.id, login_token: loginToken });
+      await app.mysql.update('frontend_user', { id: getAccount.id, login_token: loginToken });
       return { result: getSuccess, getAccount };
     }else{
       return { result: getFail };
@@ -30,7 +30,7 @@ class AccountService extends Service {
     var setUserInfo;
     var updateTime = Date.parse(new Date());
     if(userInfoData) {
-      setUserInfo = await app.mysql.update('user', {
+      setUserInfo = await app.mysql.update('frontend_user', {
         id: userInfoData.id, realname: userInfoData.realname, sex: userInfoData.sex, birth: userInfoData.birth, update_time: updateTime,
         identity: userInfoData.identity, native_place: userInfoData.native_place, phone: userInfoData.phone, email: userInfoData.email })
       return { result: setSuccess, setUserInfo }

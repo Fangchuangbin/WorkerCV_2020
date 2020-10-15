@@ -1,12 +1,13 @@
 $(document).ready(() => {
   
   //修改个人信息
-  $('#userInfo #setUserInfo').click(() => {
-    var id = $('#id').text(); var realname = $('#realname').val();
-    var sex = $('#sex').val(); var birth = $('#birth').val();
-    var identity = $('#identity').val(); var native_place = $('#native_place').val();
-    var phone = $('#phone').val(); var email = $('#email').val();
-    if(id && realname && sex && birth && identity && native_place && phone && email) {
+  $('#setUserInfo').click(() => {
+    console.log($('#userInfo').find('#realname').val())
+    var id = $('#userInfo').find('#setUserInfoId').text(); var realname = $('#userInfo').find('#realname').val();
+    var sex = $('#userInfo').find('#sex').val(); var birth = $('#userInfo').find('#birth').val();
+    var identity = $('#userInfo').find('#identity').val(); var native_place = $('#userInfo').find('#native_place').val();
+    var phone = $('#userInfo').find('#phone').val(); var email = $('#userInfo').find('#email').val();
+    if(id, realname, sex, birth, identity, native_place, phone, email) {
       $.ajax({
         url: '/api/setUserInfo', type: 'post',
         dataType: 'json', timeout: 5000,
@@ -23,6 +24,9 @@ $(document).ready(() => {
         },
         error: function(error) { alert('未知错误，修改个人信息失败！'); }
       })
-    }else{ alert('未知错误，修改个人信息失败！'); }
+    }else{ alert('请填写完整个人信息！'); }
   });
+
+  //判断VIP用户
+  if($('.vip').attr('data-target') == 1) { $('.vip').addClass('badge-warning'); $('.vip').attr('title', 'VIP用户'); }
 })

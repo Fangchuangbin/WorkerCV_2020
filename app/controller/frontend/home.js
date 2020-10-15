@@ -10,13 +10,16 @@ class HomeController extends Controller {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
-    if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
-    //获取简历列表
-    var getResumeListData = await ctx.service.frontend.resume.getResumeList(loginTokenData.userData.id);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+    //获取用户简历列表
+    var getResumeList = await ctx.service.frontend.resume.getResumeList(loginTokenData.userData.id);
+
+    //获取所有简历模板列表
+    var getResumeTemplateList = await ctx.service.frontend.resume.getResumeTemplateList();
     await ctx.render('frontend/home/index', {
       title: '个人中心 - 极速简历',
-      data: JSON.stringify(loginTokenData), //测试数据
       id: loginTokenData.userData.id, //用户Id
+      type: loginTokenData.userData.type, //用户Id
       avatar: loginTokenData.userData.avatar, //头像
       realname: loginTokenData.userData.realname, //姓名
       identity: loginTokenData.userData.identity, //身份
@@ -27,7 +30,8 @@ class HomeController extends Controller {
       native_place: loginTokenData.userData.native_place, //籍贯
       phone: loginTokenData.userData.phone, //联系电话
       email: loginTokenData.userData.email, //电子邮箱
-      resumeList: getResumeListData.resumeList, //简历列表 
+      resumeList: getResumeList.resumeList, //用户简历列表
+      resumeTemplateList: getResumeTemplateList.resumeTemplateListData //简历模板列表
     })
   }
 
@@ -36,9 +40,21 @@ class HomeController extends Controller {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var data = await ctx.service.frontend.token.loginToken(tokenData);
-    if(data.result.code !== 20000) { ctx.redirect('/');ctx.redirect('/');ctx.cookies.set('loginToken', '');return false; }
+    if(data.result.code !== 20000) { ctx.redirect('/'); ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
     await ctx.render('frontend/home/collect', {
       title: '我的收藏 - 极速简历',
+      data: data
+    })
+  }
+
+  //页面->账户设置
+  async settings() {
+    const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var data = await ctx.service.frontend.token.loginToken(tokenData);
+    if(data.result.code !== 20000) { ctx.redirect('/'); ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+    await ctx.render('frontend/home/settings', {
+      title: '账户设置 - 极速简历',
       data: data
     })
   }
