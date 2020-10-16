@@ -2745,3 +2745,21 @@ hostname: DESKTOP-EF7P7GO
 pid: 8992
 hostname: DESKTOP-EF7P7GO
 
+2020-10-16 08:59:42,191 ERROR 13640 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13640
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 08:59:42,284 ERROR 13640 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13640
+hostname: DESKTOP-RN33ASL
+
