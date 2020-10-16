@@ -18,7 +18,7 @@ module.exports = app => {
 
   router.get('/resume/edit/:resumeId', controller.frontend.resume.editResume) //编辑简历
 
-
+  router.get('/edit', controller.frontend.public.edit); //临时
 
   //接口路由
 
@@ -34,5 +34,6 @@ module.exports = app => {
 
   router.post('/api/deleteResume', controller.frontend.resume.deleteResume); //删除简历
 
-  
+  router.post('/api/registerAccount', controller.frontend.account.registerAccount); //注册用户
+
 };

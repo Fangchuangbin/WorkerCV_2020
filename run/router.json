@@ -78,6 +78,19 @@
   {
     "name": null,
     "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/edit",
+    "regexp": "/^\\/edit(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "POST"
     ],
     "paramNames": [],
@@ -143,6 +156,18 @@
     "paramNames": [],
     "path": "/api/deleteResume",
     "regexp": "/^\\/api\\/deleteResume(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/registerAccount",
+    "regexp": "/^\\/api\\/registerAccount(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

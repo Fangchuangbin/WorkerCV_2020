@@ -91,7 +91,7 @@ class ResumeService extends Service {
       resume_key: resumeKey, //简历秘钥
       resume_type: getResumeTemplateData.resumeTemplateData.template_type, //简历类型
       resume_language: getResumeTemplateData.resumeTemplateData.template_language, //简历类型
-      resume_score: 6.0 //简历评分
+      resume_score: '6.0' //简历评分
     });
     if(createResume.affectedRows === 1) {
       return { result: setSuccess, resumeKey: resumeKey, createResume }

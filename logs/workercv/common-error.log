@@ -2763,3 +2763,156 @@ name: "unhandledExceptionError"
 pid: 13640
 hostname: DESKTOP-RN33ASL
 
+2020-10-16 10:15:49,035 ERROR 13504 [-/192.168.0.254/-/37ms POST /api/registerAccount] nodejs.ReferenceError: Data is not defined
+    at AccountService.registerAccount (F:\WorkerCV\app\service\frontend\account.js:47:22)
+    at AccountController.registerAccount (F:\WorkerCV\app\controller\frontend\account.js:40:62)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+
+pid: 13504
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 10:16:56,604 ERROR 1652 [-/192.168.0.254/-/20ms POST /api/registerAccount] nodejs.ReferenceError: Data is not defined
+    at AccountService.registerAccount (F:\WorkerCV\app\service\frontend\account.js:47:22)
+    at AccountController.registerAccount (F:\WorkerCV\app\controller\frontend\account.js:40:62)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+
+pid: 1652
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 10:17:08,853 ERROR 1652 [-/192.168.0.254/-/2ms POST /api/registerAccount] nodejs.ReferenceError: Data is not defined
+    at AccountService.registerAccount (F:\WorkerCV\app\service\frontend\account.js:47:22)
+    at AccountController.registerAccount (F:\WorkerCV\app\controller\frontend\account.js:40:62)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+
+pid: 1652
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 10:17:27,150 ERROR 16604 [-/192.168.0.254/-/62ms POST /api/registerAccount] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'avater' in 'field list'
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: INSERT INTO `frontend_user`(`phone`, `email`, `password`, `update_time`, `vip`, `avater`) VALUES(NULL, '13333333333@qq.com', 'fE9RqVCTi4NBURu', 1602814647000, 0, '/frontend/images/account-img.png')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'avater' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `frontend_user`(`phone`, `email`, `password`, `update_time`, `vip`, `avater`) VALUES(NULL, '13333333333@qq.com', 'fE9RqVCTi4NBURu', 1602814647000, 0, '/frontend/images/account-img.png')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16604
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 10:37:10,543 ERROR 8204 [-/192.168.0.254/-/32ms POST /api/getUser] nodejs.TypeError: Cannot read property 'affectedRows' of null
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:18:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.getUser (F:\WorkerCV\app\controller\frontend\account.js:14:20)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8204
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 10:37:13,715 ERROR 8204 [-/192.168.0.254/-/32ms POST /api/getUser] nodejs.TypeError: Cannot read property 'affectedRows' of null
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:18:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.getUser (F:\WorkerCV\app\controller\frontend\account.js:14:20)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8204
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 10:37:17,712 ERROR 8204 [-/192.168.0.254/-/31ms POST /api/getUser] nodejs.TypeError: Cannot read property 'affectedRows' of null
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:18:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.getUser (F:\WorkerCV\app\controller\frontend\account.js:14:20)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8204
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 10:37:23,174 ERROR 8204 [-/192.168.0.254/-/34ms POST /api/getUser] nodejs.TypeError: Cannot read property 'affectedRows' of null
+    at AccountService.login (F:\WorkerCV\app\service\frontend\account.js:18:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async AccountController.getUser (F:\WorkerCV\app\controller\frontend\account.js:14:20)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8204
+hostname: DESKTOP-RN33ASL
+
+2020-10-16 17:00:13,359 ERROR 12484 nodejs.Error: Exit with code 
+1 due to network error: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:12484)
+1 due to network error: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:12484)
+    at handleError (F:\workercv\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\workercv\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 12484
+hostname: DESKTOP-RN33ASL
+

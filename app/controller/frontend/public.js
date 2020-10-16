@@ -13,6 +13,12 @@ class PublicController extends Controller {
       description: '极速简历WorkerCV提供各行业求职简历模板免费下载和求职简历范文参考,是一个专业的智能简历制作工具.还有智能简历优化建议和求职简历定制服务,以及大量简历制作攻略和职场攻略.'
     });
   }
+
+  //页面->网站首页
+  async edit() {
+    const { ctx } = this;
+    await ctx.render('frontend/edit');
+  }
  
 }
 

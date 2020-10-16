@@ -14,7 +14,7 @@ $(document).ready(() => {
 			url: '/api/setResume',
 			type: 'post',
 			dataType: 'json',
-			headers: { "x-csrf-token": $.cookie('csrfToken') },
+			headers: { 'x-csrf-token': $.cookie('csrfToken') },
 			data: {
 				resumeName: $('#resumeName').text(), resumeKey: $('#resumeKey').text(),
 				resumeCode: TextToRsc.innerText = $(HtmlToText).html()
@@ -30,17 +30,19 @@ $(document).ready(() => {
 			url: '/api/downResume',
 			type: 'post',
 			dataType: 'json',
-			headers: { "x-csrf-token": $.cookie('csrfToken') },
+			headers: { 'x-csrf-token': $.cookie('csrfToken') },
 			data: {
 				resumeName: $('#resumeName').text(),
 				resumeCode: $('#TextToHtml').html()
 			},
 			success: function(response) { if(response.result.code === 20000) { 
 				setTimeout(function() {
-					var download = document.createElement('a');
-					download.href = '/' + response.pdfUrl;
-					download.download = $('#resumeName').text();
-					download.click(); download.remove();
+					window.location.href= '/' + response.pdfUrl;
+
+					// var download = document.createElement('a');
+					// download.href = '/' + response.pdfUrl;
+					// download.download = $('#resumeName').text();
+					// download.click(); download.remove();
 				}, 1500);
 			}else{ alert('下载失败，请重试！'); } },
 			error: function(error) { console.log(error) ; alert('下载失败，请重试！'); }
@@ -48,9 +50,9 @@ $(document).ready(() => {
 	});
 
 	//打印简历
-	$('#printResume').click(() => { alert('敬请期待...'); });
+	$('#printResume').click(() => { window.print(); });
 
-	//打印简历
+	//分享简历
 	$('#shareResume').click(() => { alert('敬请期待...'); });
 
 	//选择模板
@@ -71,9 +73,9 @@ $(document).ready(() => {
 				dataType: 'json',
 				headers: { "x-csrf-token": $.cookie('csrfToken') },
 				data: {
-					"userId": userId,
-					"realname": realname,
-					"templateKey": templateKey
+					userId: userId,
+					realname: realname,
+					templateKey: templateKey
 				},
 				success: function(response) {
 					if(response.result.code == 20000) { alert('创建简历成功！'); window.location.href = '/resume/edit/' + response.resumeKey; }
@@ -94,9 +96,9 @@ function deleteResume(e) {
 			url: '/api/deleteResume',
 			type: 'post',
 			dataType: 'json',
-			headers: { "x-csrf-token": $.cookie('csrfToken') },
+			headers: { 'x-csrf-token': $.cookie('csrfToken') },
 			data: {
-				"resumeKey": resumeKey
+				resumeKey: resumeKey
 			},
 			success: function(response) {
 				if(response.result.code == 20000) { alert('删除简历成功！'); window.location.reload(); }

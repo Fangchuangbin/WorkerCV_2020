@@ -1,5 +1,6 @@
 const Service = require('egg').Service;
 const moment = require('moment').Service;
+const crypto = require('crypto');
 
 class AccountService extends Service {
   //用户登录
@@ -36,6 +37,21 @@ class AccountService extends Service {
       return { result: setSuccess, setUserInfo }
     }else{
       return { result: setFail }
+    }
+  }
+
+  //注册用户
+  async registerAccount(registerAccountData) {
+    const { ctx, app } = this;
+    var registerSuccess = { code: 20000, message: '注册用户成功' };
+    var registerFail = { code: 40004, message: '注册用户失败' };
+    var updateTime = Date.parse(new Date());
+    var password = crypto.createHash('md5').update(registerAccountData.password).digest('hex');
+    var registerAccount = await app.mysql.insert('frontend_user', { phone: registerAccountData.phone, realname: registerAccountData.realname, email: registerAccountData.email, password: password, update_time: updateTime, vip: 0, avatar: '/frontend/images/account-img.png' })
+    if(registerAccount.affectedRows === 1) {
+      return { result: registerSuccess, registerAccount }
+    }else{
+      return { result: registerFail }
     }
   }
 }

@@ -27,10 +27,10 @@ $(document).ready(() => {
   $('#clearCookie').click(() => { $.removeCookie('loginToken', { path: '/' }); window.location.reload(); })
 
   //已有账号
-  $('#RegisterOff').click(() => {$('#accountRegister').modal('hide')})
+  $('#registerOff').click(() => {$('#accountRegister').modal('hide')})
 
   //注册账号
-  $('#LoginOff').click(() => {$('#accountLogin').modal('hide')})
+  $('#loginOff').click(() => {$('#accountLogin').modal('hide')})
 
   //用户登录
   $('#accountLogin #login').click(() => {
@@ -42,19 +42,51 @@ $(document).ready(() => {
       $.ajax({
         url: '/api/getUser', type: 'post',
         dataType: 'json', timeout: 5000,
-        headers: { "x-csrf-token": $.cookie('csrfToken') },
-        data: { "username": username, "password": password },
+        headers: { 'x-csrf-token': $.cookie('csrfToken') },
+        data: { username: username, password: password },
         success: function(response) {
           if(response.result.code == 20000){
             $(location).attr('href', '/home');
-          }else{ alert('账号或密码出现错误！'); }
+          }else{
+            alert('账号或密码出现错误！');
+            $.alert.alert('ok')
+         }
         },
         error: function(error) { console.log(error); alert('账号或密码出现错误！'); }
       })
     }
   })
 
+  //判断简历
   if($('.resume-list-group').attr('data-target') == '') {
     $('.resume-list-group').append('<h3 class="text-secondary text-center p-5">暂无简历，快去新建一份简历吧 (๑╹◡╹)ﾉ"""</h3>');
   }
+
+  //用户注册
+  $('#register').click(() => {
+    var realname = $('#accountRegister').find('#realname').val();
+    var phone = $('#accountRegister').find('#phone').val();
+    var email = $('#accountRegister').find('#email').val();
+    var password = $('#accountRegister').find('#password').val();
+    if(realname && username && email && password) {
+      $.ajax({
+        url: '/api/registerAccount', type: 'post',
+        dataType: 'json', timeout: 5000,
+        headers: { 'x-csrf-token': $.cookie('csrfToken') },
+        data: { realname: realname, phone: phone, email: email, password: password },
+        success: function(response) {
+          if(response.result.code == 20000){
+            alert('注册成功，快去新建一份简历吧 (๑╹◡╹)ﾉ"""');
+            $('#registerOff').click();
+          }else{ alert('注册用户失败！'); }
+        },
+        error: function(error) {
+          alert('注册失败，请重试！！');
+          console.log(error);
+        }
+      })
+    }else{
+      alert('请填写完整信息！');
+    }
+  })
 })
