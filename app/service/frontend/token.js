@@ -9,7 +9,7 @@ class TokenService extends Service {
     var verifyFail = { code: 40001, message: '未知错误，请重新登录！' }
     userData = await app.mysql.get('frontend_user', { login_token: tokenData });
     if(userData) {
-      if(tokenData !== userData.login_token){
+      if(tokenData !== userData.login_token) {
         return { result: verifyFail, userData };
       }else{
         userData.update_time = moment(Number(userData.update_time)).format('YYYY-MM-DD HH:mm:ss')

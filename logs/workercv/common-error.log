@@ -2916,3 +2916,131 @@ wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:12484)
 pid: 12484
 hostname: DESKTOP-RN33ASL
 
+2020-10-19 10:00:14,044 ERROR 13668 [-/192.168.0.254/-/3ms GET /%E6%96%B9%E5%88%9B%E6%96%8C_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88.pdf] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf'
+ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "F:\\WorkerCV\\app\\public\\方创斌_前端开发工程师.pdf"
+name: "ENOENTError"
+pid: 13668
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 10:00:15,788 ERROR 13668 [-/192.168.0.254/-/1ms GET /%E6%96%B9%E5%88%9B%E6%96%8C_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88.pdf] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf'
+ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "F:\\WorkerCV\\app\\public\\方创斌_前端开发工程师.pdf"
+name: "ENOENTError"
+pid: 13668
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 10:00:16,587 ERROR 13668 [-/192.168.0.254/-/1ms GET /%E6%96%B9%E5%88%9B%E6%96%8C_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88.pdf] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf'
+ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "F:\\WorkerCV\\app\\public\\方创斌_前端开发工程师.pdf"
+name: "ENOENTError"
+pid: 13668
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 10:24:59,354 ERROR 13668 nodejs.Error: Exit with code 1 due to
+ network error: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:13668)
+ network error: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:13668)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 13668
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 10:24:59,496 ERROR 13668 nodejs.Error: Exit with code 1 due to network error: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 2 times on pid:13668)
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 2 times on pid:13668)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 13668
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 10:52:50,877 ERROR 13944 nodejs.EBUSYError: EBUSY: resource busy or locked, open 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:13944)
+EBUSYError: EBUSY: resource busy or locked, open 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:13944)
+errno: -4082
+code: "EBUSY"
+syscall: "open"
+path: "F:\\WorkerCV\\app\\public\\方创斌_前端开发工程师.pdf"
+name: "EBUSYError"
+pid: 13944
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 10:53:30,452 ERROR 4076 nodejs.EBUSYError: EBUSY: resource busy or locked, open 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:4076)
+EBUSYError: EBUSY: resource busy or locked, open 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:4076)
+errno: -4082
+code: "EBUSY"
+syscall: "open"
+path: "F:\\WorkerCV\\app\\public\\方创斌_前端开发工程师.pdf"
+name: "EBUSYError"
+pid: 4076
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 11:03:57,295 ERROR 1080 nodejs.EBUSYError: EBUSY: resource busy or locked, open 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:1080)
+EBUSYError: EBUSY: resource busy or locked, open 'F:\WorkerCV\app\public\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:1080)
+errno: -4082
+code: "EBUSY"
+syscall: "open"
+path: "F:\\WorkerCV\\app\\public\\方创斌_前端开发工程师.pdf"
+name: "EBUSYError"
+pid: 1080
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 16:39:12,594 ERROR 4904 [-/192.168.0.254/-/62ms GET /resume/edit/MS0xNjAzMDkxODYxMDAw] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.editResume (F:\WorkerCV\app\controller\frontend\resume.js:34:44)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 4904
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 17:05:32,717 ERROR 4904 [-/undefined/-/4ms GET /frontend/css/resume.css] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 4904
+hostname: DESKTOP-RN33ASL
+
+2020-10-19 17:29:45,773 ERROR 16000 [-/192.168.0.254/-/94ms GET /resume/edit/MS0xNjAzMDk3MDU4MDAw] nodejs.ReferenceError: userData is not defined
+    at ResumeController.editResume (F:\WorkerCV\app\controller\frontend\resume.js:39:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 16000
+hostname: DESKTOP-RN33ASL
+

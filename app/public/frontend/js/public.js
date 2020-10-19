@@ -29,8 +29,12 @@ $(document).ready(() => {
   //已有账号
   $('#registerOff').click(() => {$('#accountRegister').modal('hide')})
 
+  //返回登录
+  $('#resetOff').click(() => {$('#resetPassword').modal('hide')})
+
   //注册账号
-  $('#loginOff').click(() => {$('#accountLogin').modal('hide')})
+  $('#login1Off').click(() => {$('#accountLogin').modal('hide')}) //忘记密码
+  $('#login2Off').click(() => {$('#accountLogin').modal('hide')}) //注册账号
 
   //用户登录
   $('#accountLogin #login').click(() => {
@@ -80,13 +84,8 @@ $(document).ready(() => {
             $('#registerOff').click();
           }else{ alert('注册用户失败！'); }
         },
-        error: function(error) {
-          alert('注册失败，请重试！！');
-          console.log(error);
-        }
+        error: function(error) { alert('注册失败，请重试！！'); console.log(error); }
       })
-    }else{
-      alert('请填写完整信息！');
-    }
+    }else{ alert('请填写完整信息！'); }
   })
 })

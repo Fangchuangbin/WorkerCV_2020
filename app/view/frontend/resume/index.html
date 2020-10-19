@@ -21,8 +21,20 @@
     <div class="float-right w-75" style="width: 74%!important;">
       <div class="card">
         <div class="card-header">工具栏<small class="ml-1 text-secondary">（调整样式，让你的简历更加完美！）</small></div>
-        <div class="col mt-4 mb-4">
-          <h2 class="text-muted text-center">···</h2>
+        <div class="resume-tool col m-1 mt-3 mb-3">
+          <div class="w-25 m-0 float-left font-size-13"><p class="float-left">页边距：</p><input id="pagePadding" class="float-left font-size-13 text-center" type="text" placeholder="1.75" value="1.75" autocomplete="off"><p class="float-left">CM</p></div>
+          <div class="w-25 m-0 float-left font-size-13"><p class="float-left">行边距：</p><input id="pageLineHeight" class="float-left font-size-13 text-center" type="text" placeholder="25" value="25" autocomplete="off"><p class="float-left">PX</p></div>
+          <div class="w-25 m-0 float-left font-size-13"><p class="float-left">文字大小：</p><input id="pageFontSize" class="float-left font-size-13 text-center" type="text" placeholder="14" value="14" autocomplete="off"><p class="float-left">PX</p></div>
+          <div class="w-25 m-0 float-left font-size-13">
+            <p class="float-left">字体：</p>
+            <select id="pageFontFamily">
+              <option>微软雅黑</option>
+              <option>黑体</option>
+              <option>宋体</option>
+              <option>楷体</option>
+              <option>仿宋</option>
+            </select>
+          </div>
         </div>
       </div>
       <div class="card mt-4">
@@ -43,7 +55,10 @@
             <div id="Rsc" style="display: none;">{{ resumeData }}</div>
             <div id="RscToText" style="display: none;"></div>
             <div id="resumeKey" style="display: none;">{{ resumeKey }}</div>
-            <div id="TextToHtml" class="resume-box" contenteditable="true" style="height: 1080px;"></div>
+            <div id="userData" style="display: none;">
+              <p id="forRealname">{{ userData.userData.realname }}</p><p id="forAvatar">{{ userData.userData.avatar }}</p>
+            </div>
+            <div id="TextToHtml" class="resume-box" contenteditable="true"></div>
           </div>
         </div>
       </div>

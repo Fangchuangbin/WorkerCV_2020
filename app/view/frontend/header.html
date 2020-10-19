@@ -40,7 +40,7 @@
 				<label class="form-check-label font-size-14 mt-1" for="checkStatus">记住密码</label>
 			</div>
 			<button type="submit" class="btn btn-primary mt-1 pt-2 pb-2" id="login" data-dismiss="alert">登录</button>
-			<p class="font-size-14 mt-2"><a href="javascript:void(0);" id="loginOff" class="text-secondary float-left" data-toggle="modal" data-target="#resetPassword">忘记密码</a><a href="javascript:void(0);" id="loginOff" class="text-secondary float-right" data-toggle="modal" data-target="#accountRegister">注册账号</a></p>
+			<p class="font-size-14 mt-2"><a href="javascript:void(0);" class="text-secondary float-left" id="login1Off" data-toggle="modal" data-target="#resetPassword">忘记密码</a><a href="javascript:void(0);" class="text-secondary float-right" id="login2Off" data-toggle="modal" data-target="#accountRegister">注册账号</a></p>
 		</div>
 	</div>
 </div>
@@ -85,6 +85,7 @@
 				<label class="font-size-16">密码：</label><input type="password" class="form-control" id="password">
 			</div>
 			<button type="submit" class="btn btn-danger mt-4 pt-2 pb-2" id="reset">重置密码</button>
+			<p class="font-size-14 mt-2"><a href="javascript:void(0);" class="text-secondary float-left" id="resetOff" data-toggle="modal" data-target="#accountLogin">返回登录</a></p>
 		</div>
 	</div>
 </div>

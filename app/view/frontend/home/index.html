@@ -109,7 +109,7 @@
             {% for item in resumeTemplateList %}
             <li class="select-template-item" data-target="{{ item.template_key }}">
               <p class="img-box"><img src="{{ item.template_img }}" alt="{{ item.template_name }}" class="img-thumbnail"></p>
-              <p class="title-box text-center font-size-14 mt-2 text-body"><span class="badge badge-secondary font-size-13 mr-2 font-weight-normal">{{ item.template_type }}</span>{{ item.template_name }}</p>
+              <p class="title-box text-center font-size-14 mt-2 text-body"><span class="badge badge-secondary font-size-13 mr-2 font-weight-normal teamplate-type">{{ item.template_type }}</span>{{ item.template_name }}</p>
             </li>
             {% endfor %}
           </ul>
@@ -136,7 +136,7 @@
               <h5 class="card-title">{{ realname }}<span class="badge badge-secondary ml-2 font-size-13 font-weight vip" data-target="{{ vip }}" data-toggle="tooltip" data-placement="right" title="非会员用户">VIP</span></h5>
               <p class="card-text text-secondary font-size-16">{{ native_place }} · {{ identity }}</p>
               <p class="card-text text-secondary font-size-14 mt-1">更新于 {{ update_time }}</p>
-              <p><a href="javascript:void(0);" class="btn btn-danger mt-3" style="color: #fff!important;" data-toggle="modal" data-target="#userInfo">修改信息</a></p>
+              <p class="mt-3"><a href="javascript:void(0);" class="btn btn-danger" style="color: #fff!important;" data-toggle="modal" data-target="#userInfo">修改信息</a></p>
             </div>
           </div>
         </div>

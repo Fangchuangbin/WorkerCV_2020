@@ -3,6 +3,7 @@
 const Controller = require('egg').Controller;
 const wkhtmltopdf = require('wkhtmltopdf');
 const fs = require('fs');
+const { join } = require('path');
 
 //简历控制器
 class ResumeController extends Controller {
@@ -34,7 +35,8 @@ class ResumeController extends Controller {
       resumeName: getResumeData.resumeData.resume_name, //简历名称
       resumeData: getResumeData.resumeData.resume_code, //简历代码
       resumeScore: getResumeData.resumeData.resume_score, //简历评分
-      resumeKey: getResumeData.resumeData.resume_key //简历秘钥
+      resumeKey: getResumeData.resumeData.resume_key, //简历秘钥
+      userData: loginTokenData, //用户信息
     })
   }
 
@@ -64,7 +66,7 @@ class ResumeController extends Controller {
     //获取简历模板
     var getResumeTemplateData = await ctx.service.frontend.resume.getResumeTemplate(resumeTeamplateData.templateKey);
     //创建简历
-    var createResumeData = await ctx.service.frontend.resume.createResume(getResumeTemplateData, resumeTeamplateData);
+    var createResumeData = await ctx.service.frontend.resume.createResume(getResumeTemplateData, resumeTeamplateData, loginTokenData);
     ctx.body = createResumeData;
   }
 

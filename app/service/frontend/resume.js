@@ -1,6 +1,5 @@
 const Service = require('egg').Service;
 const moment = require('moment');
-const crypto = require('crypto');
 
 class ResumeService extends Service {
   //获取用户简历列表
@@ -26,9 +25,10 @@ class ResumeService extends Service {
     var setFail = { code: 40004, message: '保存用户简历失败' };
     var updateTime = Date.parse(new Date());
     var setResume = await app.mysql.update('frontend_resume', {
-      resume_name: resumeData.resumeName,
-      resume_code: resumeData.resumeCode,
-      update_time: updateTime
+      resume_name: resumeData.resumeName, //简历名称
+      resume_code: resumeData.resumeCode, //简历数据
+      resume_score: resumeData.resumeScore, //评分
+      update_time: updateTime //更新时间
     }, { where: { resume_key: resumeData.resumeKey } });
     if(setResume.affectedRows === 1) {
       return { result: setSuccess, setResume }
@@ -77,15 +77,21 @@ class ResumeService extends Service {
   }
 
   //新建简历
-  async createResume(getResumeTemplateData, resumeTeamplateData) {
+  async createResume(getResumeTemplateData, resumeTeamplateData, loginTokenData) {
     const { ctx, app } = this;
     var setSuccess = { code: 20000, message: '新建用户简历成功' };
     var setFail = { code: 40004, message: '新建用户简历失败' };
+    var setNotVip = { code: 40001, message: '新建用户简历失败' };
     var createTime = Date.parse(new Date());
+    if(getResumeTemplateData.resumeTemplateData.template_type !== '免费') {
+      if(loginTokenData.userData.vip !== 1) {
+        return { result: setNotVip }
+      }
+    }
     var resumeKey = Buffer.from(resumeTeamplateData.userId + '-' + createTime).toString('base64');
     var createResume = await app.mysql.insert('frontend_resume', {
       user_id: resumeTeamplateData.userId, //用户ID
-      resume_name: resumeTeamplateData.realname + '_' + getResumeTemplateData.resumeTemplateData.template_name, //简历名称
+      resume_name: resumeTeamplateData.realname + '_' + getResumeTemplateData.resumeTemplateData.template_name + '_' + createTime, //简历名称
       resume_code: getResumeTemplateData.resumeTemplateData.template_code, //简历代码
       update_time: createTime, //创建时间
       resume_key: resumeKey, //简历秘钥

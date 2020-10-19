@@ -15,7 +15,7 @@ a:focus{outline: none;}
 dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-type: none;}
 .iconfont{font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
 .modal-open{overflow-y: scroll!important;}
-.wrapper{width: 1200px;margin: auto;overflow: auto;}
+.wrapper{width: 1200px;margin: auto;overflow: auto;overflow-x: hidden;}
 .bg-black{background-color: #212529;}
 .bg-blue{background-color: #0073fa;}
 .text-blue{color: #0073fa;}
@@ -112,8 +112,8 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .login-box{background-color: #fff;width: 500px;margin: auto;}
 .img-box{text-align: center;}
 .img-box img{max-height: 310px;text-align: center;cursor: pointer;transition: 0.3s;}
-.title-box{height: 25px;line-height: 25px;overflow: hidden;display: block;margin: 0px 15px;cursor: pointer;}
-.select-template-group li{width: calc(100%/4);float: left;margin-bottom: 10px;}
+.title-box{height: 25px;line-height: 25px;overflow: hidden;display: block;margin: 0px 15px;}
+.select-template-group li{width: calc(100%/4);float: left;margin-bottom: 10px;cursor: pointer;}
 .select-template-group li:hover img{border: 1px solid #313539;}
 .select-template-group .hover .img-thumbnail{border: 1px solid #313539;transition: 0.3s;}
 .vip{cursor: pointer;}

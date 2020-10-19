@@ -24,6 +24,12 @@ $(document).ready(() => {
     }else{ alert('请填写完整个人信息！'); }
   });
 
-  //判断VIP用户
+  //VIP用户
   if($('.vip').attr('data-target') == 1) { $('.vip').addClass('badge-warning'); $('.vip').attr('title', 'VIP用户'); }
+  //VIP简历
+  $('.teamplate-type').each(function() {
+    if($(this).text() == 'VIP') {
+      $(this).css('background-color', '#dc3545');
+    }
+  })
 })
