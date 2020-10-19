@@ -57,6 +57,11 @@ $(document).ready(() => {
 		$(this).addClass('hover').siblings().removeClass('hover');
 	});
 
+	//用户信息
+	if($('#accountInfo').attr('data-target') == '') {
+		$('#accountInfo').text('信息未完善 (≖ᴗ≖)✧')
+	}
+
 	//创建简历
 	$('#createResume').click(() => {
 		if($('.select-template-group').find('.hover').attr('data-target') !== undefined){

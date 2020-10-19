@@ -51,11 +51,15 @@ class HomeController extends Controller {
   async settings() {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
-    var data = await ctx.service.frontend.token.loginToken(tokenData);
-    if(data.result.code !== 20000) { ctx.redirect('/'); ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+
+    //获取所有简历模板列表
+    var getResumeTemplateList = await ctx.service.frontend.resume.getResumeTemplateList();
+
     await ctx.render('frontend/home/settings', {
       title: '账户设置 - 极速简历',
-      data: data
+      data: loginTokenData
     })
   }
 }

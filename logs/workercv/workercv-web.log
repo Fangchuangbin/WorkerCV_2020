@@ -2940,3 +2940,143 @@ hostname: DESKTOP-RN33ASL
 pid: 16000
 hostname: DESKTOP-RN33ASL
 
+2020-10-19 21:44:44,736 ERROR 16172 [-/undefined/-/2ms GET /frontend/images/favicon.ico] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 16172
+hostname: DESKTOP-EF7P7GO
+
+2020-10-19 22:20:25,560 ERROR 16172 [-/undefined/-/1ms GET /frontend/images/favicon.ico] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 16172
+hostname: DESKTOP-EF7P7GO
+
+2020-10-19 22:53:20,938 ERROR 13124 [-/127.0.0.1/-/524ms POST /api/createResume] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'user_id' at row 1
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: INSERT INTO `frontend_resume`(`user_id`, `resume_name`, `resume_code`, `update_time`, `resume_key`, `resume_type`, `resume_language`, `resume_score`) VALUES('', '_通用大学生实习简历模板_1603119200000', '&lt;style&gt;\t\t\t\t\t.resume-template div{overflow: hidden;}.diy-h1{font-size: 30px;font-weight: bold;letter-spacing: 1px;}.diy-h4{font-size: 18px;font-weight: bold;letter-spacing: 1px;}\t\t\t\t\t.diy-p{line-height: 25px;font-size: 14px;}.diy-f-c-000{color: #000;}.diy-f-f-w{font-family: \'宋体\';}.diy-t-a-c{text-align: center;}.diy-p-b-5{margin-bottom: 15px;}\t\t\t\t\t.diy-f-l{float: left;}.diy-f-r{float: right;}.diy-w-85{width: 85%;}.diy-w-15{width: 15%;}.diy-w-20{width: 20%;}.diy-w-25{width: 25%;}.diy-w-100{width: 100%;}.f-s-14{font-size: 14px;}\t\t\t\t\t.diy-b-b-1{border-bottom: 1px solid #000;}.diy-m-b-3{margin-bottom: 20px;}.diy-p-b-2{padding-bottom: 3px;}.diy-p-t-2{padding-top: 3px;}\t\t\t\t\t.diy-m-b-2{margin-bottom: 15px;}.diy-p-5{padding: 50px;}.diy-f-w-b{font-weight: bold;}\t\t\t\t&lt;/style&gt;\t\t\t\t&lt;div class=\"resume-template diy-p-5\" style=\"padding: 1.45cm;\"&gt;\t\t\t\t\t&lt;div id=\"resume-header\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-w-85 diy-t-a-c diy-f-l\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t\t&lt;div id=\"realname\" class=\"diy-h1 diy-f-f-w diy-m-b-2\" style=\"font-family: 仿宋;\"&gt;你的名字&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-f-w diy-f-s-14 diy-mb-2\" style=\"font-family: 仿宋;\"&gt;一句话介绍自己，告诉HR为什么选择你而不是别人&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-f-w diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;年龄 | 工作年限 | 联系电话 | 电子邮箱&lt;/div&gt;\t\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-w-15 diy-f-r diy-t-a-c\" style=\"font-family: 仿宋;\"&gt;&lt;img class=\"diy-w-100\" id=\"avatar\" src=\"https://s1.ax1x.com/2020/10/19/0vrCgx.png\"&gt;&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;求职意向&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-w-100 diy-f-s-14 diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;意向岗位：&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;意向城市：&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;期望薪资：&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;入职时间：&lt;/div&gt;\t\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;教育背景&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-f-s-14 diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-l diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写时间&lt;/div&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-r diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写学校&lt;/div&gt;&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-p diy-w-100 diy-f-s-14 diy-f-f-w\" style=\"font-family: 仿宋;\"&gt;尽量简洁，突出重点，成绩优异的话建议写上GPA及排名等信息，如：GPA：3.72/4(专业前10%) GRE：324&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;工作经验&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-f-s-14 diy-f-f-w diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-l diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写时间&lt;/div&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-r diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写单位&lt;/div&gt;&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w\" style=\"font-family: 仿宋;\"&gt;详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;自我评价&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;篇幅不要太长，注意结合简历整体的美观度，如果真的有很多话要说，建议以求职信的形式附上。自我评价应做到突出自身符合目标岗位要求的“卖点”，避免过多使用形容词，而应该通过数据及实例来对自身价值进行深化.&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t&lt;/div&gt;', 1603119200000, 'LTE2MDMxMTkyMDAwMDA=', '免费', '中文', '6.0')
+code: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD"
+errno: 1366
+sqlMessage: "Incorrect integer value: '' for column 'user_id' at row 1"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `frontend_resume`(`user_id`, `resume_name`, `resume_code`, `update_time`, `resume_key`, `resume_type`, `resume_language`, `resume_score`) VALUES('', '_通用大学生实习简历模板_1603119200000', '&lt;style&gt;\\t\\t\\t\\t\\t.resume-template div{overflow: hidden;}.diy-h1{font-size: 30px;font-weight: bold;letter-spacing: 1px;}.diy-h4{font-size: 18px;font-weight: bold;letter-spacing: 1px;}\\t\\t\\t\\t\\t.diy-p{line-height: 25px;font-size: 14px;}.diy-f-c-000{color: #000;}.diy-f-f-w{font-family: \\'宋体\\';}.diy-t-a-c{text-align: center;}.diy-p-b-5{margin-bottom: 15px;}\\t\\t\\t\\t\\t.diy-f-l{float: left;}.diy-f-r{float: right;}.diy-w-85{width: 85%;}.diy-w-15{width: 15%;}.diy-w-20{width: 20%;}.diy-w-25{width: 25%;}.diy-w-100{width: 100%;}.f-s-14{font-size: 14px;}\\t\\t\\t\\t\\t.diy-b-b-1{border-bottom: 1px solid #000;}.diy-m-b-3{margin-bottom: 20px;}.diy-p-b-2{padding-bottom: 3px;}.diy-p-t-2{padding-top: 3px;}\\t\\t\\t\\t\\t.diy-m-b-2{margin-bottom: 15px;}.diy-p-5{padding: 50px;}.diy-f-w-b{font-weight: bold;}\\t\\t\\t\\t&lt;/style&gt;\\t\\t\\t\\t&lt;div class=\\\"resume-template diy-p-5\\\" style=\\\"padding: 1.45cm;\\\"&gt;\\t\\t\\t\\t\\t&lt;div id=\\\"resume-header\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-85 diy-t-a-c diy-f-l\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div id=\\\"realname\\\" class=\\\"diy-h1 diy-f-f-w diy-m-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;你的名字&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-f-w diy-f-s-14 diy-mb-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;一句话介绍自己，告诉HR为什么选择你而不是别人&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-f-w diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;年龄 | 工作年限 | 联系电话 | 电子邮箱&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-15 diy-f-r diy-t-a-c\\\" style=\\\"font-family: 仿宋;\\\"&gt;&lt;img class=\\\"diy-w-100\\\" id=\\\"avatar\\\" src=\\\"https://s1.ax1x.com/2020/10/19/0vrCgx.png\\\"&gt;&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;求职意向&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-f-s-14 diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;意向岗位：&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;意向城市：&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;期望薪资：&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;入职时间：&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;教育背景&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-f-s-14 diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-l diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写时间&lt;/div&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-r diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写学校&lt;/div&gt;&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-w-100 diy-f-s-14 diy-f-f-w\\\" style=\\\"font-family: 仿宋;\\\"&gt;尽量简洁，突出重点，成绩优异的话建议写上GPA及排名等信息，如：GPA：3.72/4(专业前10%) GRE：324&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;工作经验&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-f-s-14 diy-f-f-w diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-l diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写时间&lt;/div&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-r diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写单位&lt;/div&gt;&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w\\\" style=\\\"font-family: 仿宋;\\\"&gt;详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;自我评价&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;篇幅不要太长，注意结合简历整体的美观度，如果真的有很多话要说，建议以求职信的形式附上。自我评价应做到突出自身符合目标岗位要求的“卖点”，避免过多使用形容词，而应该通过数据及实例来对自身价值进行深化.&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t&lt;/div&gt;', 1603119200000, 'LTE2MDMxMTkyMDAwMDA=', '免费', '中文', '6.0')"
+name: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError"
+pid: 13124
+hostname: DESKTOP-EF7P7GO
+
+2020-10-19 22:53:28,721 ERROR 13124 [-/127.0.0.1/-/148ms POST /api/createResume] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'user_id' at row 1
+    at Query.Sequence._packetToError (F:\workercv\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\workercv\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\workercv\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\workercv\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\workercv\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (F:\workercv\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\workercv\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\workercv\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\workercv\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\workercv\node_modules\co\index.js:65:19)
+    at F:\workercv\node_modules\co\index.js:54:5
+    sql: INSERT INTO `frontend_resume`(`user_id`, `resume_name`, `resume_code`, `update_time`, `resume_key`, `resume_type`, `resume_language`, `resume_score`) VALUES('', '_通用大学生实习简历模板_1603119208000', '&lt;style&gt;\t\t\t\t\t.resume-template div{overflow: hidden;}.diy-h1{font-size: 30px;font-weight: bold;letter-spacing: 1px;}.diy-h4{font-size: 18px;font-weight: bold;letter-spacing: 1px;}\t\t\t\t\t.diy-p{line-height: 25px;font-size: 14px;}.diy-f-c-000{color: #000;}.diy-f-f-w{font-family: \'宋体\';}.diy-t-a-c{text-align: center;}.diy-p-b-5{margin-bottom: 15px;}\t\t\t\t\t.diy-f-l{float: left;}.diy-f-r{float: right;}.diy-w-85{width: 85%;}.diy-w-15{width: 15%;}.diy-w-20{width: 20%;}.diy-w-25{width: 25%;}.diy-w-100{width: 100%;}.f-s-14{font-size: 14px;}\t\t\t\t\t.diy-b-b-1{border-bottom: 1px solid #000;}.diy-m-b-3{margin-bottom: 20px;}.diy-p-b-2{padding-bottom: 3px;}.diy-p-t-2{padding-top: 3px;}\t\t\t\t\t.diy-m-b-2{margin-bottom: 15px;}.diy-p-5{padding: 50px;}.diy-f-w-b{font-weight: bold;}\t\t\t\t&lt;/style&gt;\t\t\t\t&lt;div class=\"resume-template diy-p-5\" style=\"padding: 1.45cm;\"&gt;\t\t\t\t\t&lt;div id=\"resume-header\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-w-85 diy-t-a-c diy-f-l\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t\t&lt;div id=\"realname\" class=\"diy-h1 diy-f-f-w diy-m-b-2\" style=\"font-family: 仿宋;\"&gt;你的名字&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-f-w diy-f-s-14 diy-mb-2\" style=\"font-family: 仿宋;\"&gt;一句话介绍自己，告诉HR为什么选择你而不是别人&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-f-w diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;年龄 | 工作年限 | 联系电话 | 电子邮箱&lt;/div&gt;\t\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-w-15 diy-f-r diy-t-a-c\" style=\"font-family: 仿宋;\"&gt;&lt;img class=\"diy-w-100\" id=\"avatar\" src=\"https://s1.ax1x.com/2020/10/19/0vrCgx.png\"&gt;&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;求职意向&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-w-100 diy-f-s-14 diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;意向岗位：&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;意向城市：&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;期望薪资：&lt;/div&gt;\t\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\" style=\"font-family: 仿宋;\"&gt;入职时间：&lt;/div&gt;\t\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;教育背景&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-f-s-14 diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-l diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写时间&lt;/div&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-r diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写学校&lt;/div&gt;&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-p diy-w-100 diy-f-s-14 diy-f-f-w\" style=\"font-family: 仿宋;\"&gt;尽量简洁，突出重点，成绩优异的话建议写上GPA及排名等信息，如：GPA：3.72/4(专业前10%) GRE：324&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;工作经验&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-f-s-14 diy-f-f-w diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-l diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写时间&lt;/div&gt;&lt;div class=\"diy-p diy-f-f-w diy-f-r diy-f-w-b\" style=\"font-family: 仿宋;\"&gt;填写单位&lt;/div&gt;&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w\" style=\"font-family: 仿宋;\"&gt;详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t\t&lt;div class=\"diy-w-100 diy-m-b-3\" id=\"resume-section\" style=\"font-family: 仿宋;\"&gt;\t\t\t\t\t\t&lt;div class=\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\" style=\"font-family: 仿宋;\"&gt;自我评价&lt;/div&gt;\t\t\t\t\t\t&lt;div class=\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w diy-p-t-2\" style=\"font-family: 仿宋;\"&gt;篇幅不要太长，注意结合简历整体的美观度，如果真的有很多话要说，建议以求职信的形式附上。自我评价应做到突出自身符合目标岗位要求的“卖点”，避免过多使用形容词，而应该通过数据及实例来对自身价值进行深化.&lt;/div&gt;\t\t\t\t\t&lt;/div&gt;\t\t\t\t&lt;/div&gt;', 1603119208000, 'LTE2MDMxMTkyMDgwMDA=', '免费', '中文', '6.0')
+code: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD"
+errno: 1366
+sqlMessage: "Incorrect integer value: '' for column 'user_id' at row 1"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `frontend_resume`(`user_id`, `resume_name`, `resume_code`, `update_time`, `resume_key`, `resume_type`, `resume_language`, `resume_score`) VALUES('', '_通用大学生实习简历模板_1603119208000', '&lt;style&gt;\\t\\t\\t\\t\\t.resume-template div{overflow: hidden;}.diy-h1{font-size: 30px;font-weight: bold;letter-spacing: 1px;}.diy-h4{font-size: 18px;font-weight: bold;letter-spacing: 1px;}\\t\\t\\t\\t\\t.diy-p{line-height: 25px;font-size: 14px;}.diy-f-c-000{color: #000;}.diy-f-f-w{font-family: \\'宋体\\';}.diy-t-a-c{text-align: center;}.diy-p-b-5{margin-bottom: 15px;}\\t\\t\\t\\t\\t.diy-f-l{float: left;}.diy-f-r{float: right;}.diy-w-85{width: 85%;}.diy-w-15{width: 15%;}.diy-w-20{width: 20%;}.diy-w-25{width: 25%;}.diy-w-100{width: 100%;}.f-s-14{font-size: 14px;}\\t\\t\\t\\t\\t.diy-b-b-1{border-bottom: 1px solid #000;}.diy-m-b-3{margin-bottom: 20px;}.diy-p-b-2{padding-bottom: 3px;}.diy-p-t-2{padding-top: 3px;}\\t\\t\\t\\t\\t.diy-m-b-2{margin-bottom: 15px;}.diy-p-5{padding: 50px;}.diy-f-w-b{font-weight: bold;}\\t\\t\\t\\t&lt;/style&gt;\\t\\t\\t\\t&lt;div class=\\\"resume-template diy-p-5\\\" style=\\\"padding: 1.45cm;\\\"&gt;\\t\\t\\t\\t\\t&lt;div id=\\\"resume-header\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-85 diy-t-a-c diy-f-l\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div id=\\\"realname\\\" class=\\\"diy-h1 diy-f-f-w diy-m-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;你的名字&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-f-w diy-f-s-14 diy-mb-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;一句话介绍自己，告诉HR为什么选择你而不是别人&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-f-w diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;年龄 | 工作年限 | 联系电话 | 电子邮箱&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-15 diy-f-r diy-t-a-c\\\" style=\\\"font-family: 仿宋;\\\"&gt;&lt;img class=\\\"diy-w-100\\\" id=\\\"avatar\\\" src=\\\"https://s1.ax1x.com/2020/10/19/0vrCgx.png\\\"&gt;&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;求职意向&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-f-s-14 diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;意向岗位：&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;意向城市：&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;期望薪资：&lt;/div&gt;\\t\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-l diy-f-f-w diy-w-25 diy-f-s-14\\\" style=\\\"font-family: 仿宋;\\\"&gt;入职时间：&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;教育背景&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-f-s-14 diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-l diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写时间&lt;/div&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-r diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写学校&lt;/div&gt;&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-w-100 diy-f-s-14 diy-f-f-w\\\" style=\\\"font-family: 仿宋;\\\"&gt;尽量简洁，突出重点，成绩优异的话建议写上GPA及排名等信息，如：GPA：3.72/4(专业前10%) GRE：324&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;工作经验&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-f-s-14 diy-f-f-w diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-l diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写时间&lt;/div&gt;&lt;div class=\\\"diy-p diy-f-f-w diy-f-r diy-f-w-b\\\" style=\\\"font-family: 仿宋;\\\"&gt;填写单位&lt;/div&gt;&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w\\\" style=\\\"font-family: 仿宋;\\\"&gt;详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t\\t&lt;div class=\\\"diy-w-100 diy-m-b-3\\\" id=\\\"resume-section\\\" style=\\\"font-family: 仿宋;\\\"&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-h4 diy-b-b-1 diy-f-f-w diy-w-100 diy-p-b-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;自我评价&lt;/div&gt;\\t\\t\\t\\t\\t\\t&lt;div class=\\\"diy-p diy-f-s-14 diy-w-100 diy-f-f-w diy-p-t-2\\\" style=\\\"font-family: 仿宋;\\\"&gt;篇幅不要太长，注意结合简历整体的美观度，如果真的有很多话要说，建议以求职信的形式附上。自我评价应做到突出自身符合目标岗位要求的“卖点”，避免过多使用形容词，而应该通过数据及实例来对自身价值进行深化.&lt;/div&gt;\\t\\t\\t\\t\\t&lt;/div&gt;\\t\\t\\t\\t&lt;/div&gt;', 1603119208000, 'LTE2MDMxMTkyMDgwMDA=', '免费', '中文', '6.0')"
+name: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError"
+pid: 13124
+hostname: DESKTOP-EF7P7GO
+
+2020-10-19 22:55:24,080 ERROR 4512 [-/127.0.0.1/-/122ms GET /home/settings] nodejs.ReferenceError: loginTokenData is not defined
+    at HomeController.settings (F:\workercv\app\controller\frontend\home.js:62:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\workercv\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\workercv\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\workercv\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\workercv\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\workercv\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\workercv\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\workercv\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\workercv\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4512
+hostname: DESKTOP-EF7P7GO
+
+2020-10-19 23:20:50,282 ERROR 20664 [-/undefined/-/2ms GET /frontend/images/favicon.ico] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 20664
+hostname: DESKTOP-EF7P7GO
+
+2020-10-19 23:22:58,314 ERROR 20664 [-/undefined/-/1ms GET /frontend/css/public.css] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 20664
+hostname: DESKTOP-EF7P7GO
+
+2020-10-19 23:23:17,150 ERROR 20664 [-/undefined/-/1ms GET /frontend/images/favicon.ico] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:786:11)
+    at Socket._write (net.js:798:8)
+    at doWrite (_stream_writable.js:403:12)
+    at clearBuffer (_stream_writable.js:542:7)
+    at Socket.Writable.uncork (_stream_writable.js:338:7)
+    at ServerResponse.end (_http_outgoing.js:774:17)
+    at ReadStream.onend (_stream_readable.js:681:10)
+    at Object.onceWrapper (events.js:421:28)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 20664
+hostname: DESKTOP-EF7P7GO
+

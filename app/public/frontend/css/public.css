@@ -117,6 +117,7 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .select-template-group li:hover img{border: 1px solid #313539;}
 .select-template-group .hover .img-thumbnail{border: 1px solid #313539;transition: 0.3s;}
 .vip{cursor: pointer;}
+.nav-list a{transition: .0s!important;}
 
 .temp-box{border: 1px solid #d1d5d9;padding: 20px;transition: 0.3s;}
 .temp-box .temp-edit{border: 1px solid #fff;}
