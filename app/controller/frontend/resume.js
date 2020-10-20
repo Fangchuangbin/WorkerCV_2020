@@ -3,7 +3,6 @@
 const Controller = require('egg').Controller;
 const wkhtmltopdf = require('wkhtmltopdf');
 const fs = require('fs');
-const { join } = require('path');
 
 //简历控制器
 class ResumeController extends Controller {
@@ -31,7 +30,6 @@ class ResumeController extends Controller {
     var getResumeData = await ctx.service.frontend.resume.getResumeData(resumeKey);
     await ctx.render('/frontend/resume/index', {
       title: '编辑简历 - 极速简历',
-      data: JSON.stringify(getResumeData), //测试数据
       resumeName: getResumeData.resumeData.resume_name, //简历名称
       resumeData: getResumeData.resumeData.resume_code, //简历代码
       resumeScore: getResumeData.resumeData.resume_score, //简历评分

@@ -57,6 +57,19 @@
       "HEAD",
       "GET"
     ],
+    "paramNames": [],
+    "path": "/home/feedback",
+    "regexp": "/^\\/home\\/feedback(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
     "paramNames": [
       {
         "name": "resumeId",
@@ -71,19 +84,6 @@
     ],
     "path": "/resume/edit/:resumeId",
     "regexp": "/^\\/resume\\/edit\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/edit",
-    "regexp": "/^\\/edit(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -168,6 +168,54 @@
     "paramNames": [],
     "path": "/api/registerAccount",
     "regexp": "/^\\/api\\/registerAccount(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/modifyPassword",
+    "regexp": "/^\\/api\\/modifyPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/resetPassword",
+    "regexp": "/^\\/api\\/resetPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/resetNewPassword",
+    "regexp": "/^\\/api\\/resetNewPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/setSecurity",
+    "regexp": "/^\\/api\\/setSecurity(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

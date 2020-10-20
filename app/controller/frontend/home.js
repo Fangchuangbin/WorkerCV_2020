@@ -54,12 +54,24 @@ class HomeController extends Controller {
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
     if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
 
-    //获取所有简历模板列表
-    var getResumeTemplateList = await ctx.service.frontend.resume.getResumeTemplateList();
-
     await ctx.render('frontend/home/settings', {
       title: '账户设置 - 极速简历',
-      data: loginTokenData
+      data: loginTokenData, //测试数据
+      question: loginTokenData.userData.question, //密保问题
+      answer: loginTokenData.userData.answer, //密保答案
+    })
+  }
+
+  //页面->建议反馈
+  async feedback() {
+    const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+
+    await ctx.render('/frontend/home/feedback', {
+      title: '建议反馈 - 极速简历',
+      data: loginTokenData, //测试数据
     })
   }
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="shortcut icon" href="/frontend/images/favicon.ico">
+  <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.css">
+  <link rel="stylesheet" href="/frontend/css/public.css">
+  <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+  <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
+</head>
+<body>
+  {% include "../header.html" %}
+  <script src="/frontend/js/home.js"></script>
+  <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
+    {% include "./left-nav.html" %}
+    <div class="float-right w-75" style="width: 74%!important;">
+      <div class="card">
+        <div class="card-header">建议反馈</div>
+        <div class="p-3 m-1" style="padding-bottom: 0!important;">
+          <div class="form-group">
+            <div class="w-100">
+              <label for="feedbackTitle">反馈主题</label>
+              <input type="text" class="form-control form-control-sm" id="feedbackTitle">
+            </div>
+            <div class="mt-3 w-100">
+              <label for="feedbackContent">反馈内容</label>
+              <textarea class="form-control form-control-sm" id="feedbackContent" rows="10"></textarea>
+            </div>
+            <p class="mt-1 w-100"><a href="javascript:void(0);" class="btn btn-success mt-3" style="color: #fff!important;">提交反馈</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "../footer.html" %}
+</body>
+</html>

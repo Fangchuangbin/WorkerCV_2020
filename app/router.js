@@ -12,13 +12,15 @@ module.exports = app => {
 
   router.get('/home', controller.frontend.home.index); //用户中心
 
-  router.get('/home/settings', controller.frontend.home.settings); //用户中心
+  router.get('/home/settings', controller.frontend.home.settings); //账户设置
 
   router.get('/home/collect', controller.frontend.home.collect); //我的收藏
 
+  router.get('/home/feedback', controller.frontend.home.feedback); //建议反馈
+
   router.get('/resume/edit/:resumeId', controller.frontend.resume.editResume) //编辑简历
 
-  router.get('/edit', controller.frontend.public.edit); //临时
+  
 
   //接口路由
 
@@ -35,5 +37,13 @@ module.exports = app => {
   router.post('/api/deleteResume', controller.frontend.resume.deleteResume); //删除简历
 
   router.post('/api/registerAccount', controller.frontend.account.registerAccount); //注册用户
+
+  router.post('/api/modifyPassword', controller.frontend.account.modifyPassword); //用户中心->修改密码
+
+  router.post('/api/resetPassword', controller.frontend.account.resetPassword); //重置密码
+
+  router.post('/api/resetNewPassword', controller.frontend.account.resetNewPassword); //重置新密码
+
+  router.post('/api/setSecurity', controller.frontend.account.setSecurity); //设置密保
 
 };

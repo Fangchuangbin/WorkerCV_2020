@@ -1,323 +1,323 @@
 {
-  "keys": "F:\\workercv\\config\\config.default.js",
-  "middleware": "F:\\workercv\\config\\config.default.js",
+  "keys": "F:\\WorkerCV\\config\\config.default.js",
+  "middleware": "F:\\WorkerCV\\config\\config.default.js",
   "static": {
-    "prefix": "F:\\workercv\\config\\config.default.js",
-    "buffer": "F:\\workercv\\config\\config.default.js",
-    "preload": "F:\\workercv\\config\\config.default.js",
-    "dir": "F:\\workercv\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "F:\\workercv\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "F:\\workercv\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "F:\\WorkerCV\\config\\config.default.js",
+    "buffer": "F:\\WorkerCV\\config\\config.default.js",
+    "preload": "F:\\WorkerCV\\config\\config.default.js",
+    "dir": "F:\\WorkerCV\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "F:\\WorkerCV\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\WorkerCV\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
-    "defaultViewEngine": "F:\\workercv\\config\\config.default.js",
+    "defaultViewEngine": "F:\\WorkerCV\\config\\config.default.js",
     "mapping": {
-      ".html": "F:\\workercv\\config\\config.default.js"
+      ".html": "F:\\WorkerCV\\config\\config.default.js"
     },
-    "root": "F:\\workercv\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "F:\\workercv\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "F:\\workercv\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "F:\\WorkerCV\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "F:\\WorkerCV\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "F:\\WorkerCV\\node_modules\\egg-view\\config\\config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "F:\\workercv\\config\\config.default.js",
-      "port": "F:\\workercv\\config\\config.default.js",
-      "user": "F:\\workercv\\config\\config.default.js",
-      "password": "F:\\workercv\\config\\config.default.js",
-      "database": "F:\\workercv\\config\\config.default.js"
+      "host": "F:\\WorkerCV\\config\\config.default.js",
+      "port": "F:\\WorkerCV\\config\\config.default.js",
+      "user": "F:\\WorkerCV\\config\\config.default.js",
+      "password": "F:\\WorkerCV\\config\\config.default.js",
+      "database": "F:\\WorkerCV\\config\\config.default.js"
     },
-    "app": "F:\\workercv\\config\\config.default.js",
-    "agent": "F:\\workercv\\config\\config.default.js",
+    "app": "F:\\WorkerCV\\config\\config.default.js",
+    "agent": "F:\\WorkerCV\\config\\config.default.js",
     "default": {
-      "database": "F:\\workercv\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "F:\\workercv\\node_modules\\egg-mysql\\config\\config.default.js"
+      "database": "F:\\WorkerCV\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\WorkerCV\\node_modules\\egg-mysql\\config\\config.default.js"
     }
   },
   "security": {
     "csrf": {
-      "enable": "F:\\workercv\\config\\config.default.js",
-      "headerName": "F:\\workercv\\config\\config.default.js",
-      "type": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\config\\config.default.js",
+      "headerName": "F:\\WorkerCV\\config\\config.default.js",
+      "type": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "session": {
-    "maxAge": "F:\\workercv\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "F:\\workercv\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\workercv\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "F:\\workercv\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\WorkerCV\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "F:\\workercv\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "F:\\WorkerCV\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "F:\\workercv\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "F:\\workercv\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "F:\\workercv\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "F:\\WorkerCV\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\WorkerCV\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\WorkerCV\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "F:\\workercv\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "F:\\workercv\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "F:\\workercv\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "F:\\WorkerCV\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\WorkerCV\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "F:\\WorkerCV\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "F:\\workercv\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "F:\\workercv\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "F:\\workercv\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "F:\\workercv\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "F:\\workercv\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "F:\\workercv\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "F:\\WorkerCV\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\WorkerCV\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\WorkerCV\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\WorkerCV\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "F:\\WorkerCV\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\WorkerCV\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "F:\\workercv\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "F:\\WorkerCV\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "F:\\workercv\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "F:\\workercv\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "F:\\WorkerCV\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "F:\\WorkerCV\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "F:\\workercv\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "F:\\workercv\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "F:\\WorkerCV\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\WorkerCV\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "F:\\workercv\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "F:\\WorkerCV\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "F:\\workercv\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "F:\\WorkerCV\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "F:\\workercv\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "F:\\workercv\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "F:\\workercv\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "F:\\workercv\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "F:\\workercv\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideIgnore": "F:\\workercv\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "F:\\WorkerCV\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\WorkerCV\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "F:\\WorkerCV\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\WorkerCV\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\WorkerCV\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "F:\\WorkerCV\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "F:\\workercv\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "F:\\workercv\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "F:\\workercv\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "F:\\workercv\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "F:\\workercv\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "F:\\workercv\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "F:\\workercv\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "F:\\WorkerCV\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\WorkerCV\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\WorkerCV\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\WorkerCV\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\WorkerCV\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\WorkerCV\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\WorkerCV\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "F:\\workercv\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "F:\\workercv\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "F:\\workercv\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "F:\\workercv\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "F:\\workercv\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "F:\\WorkerCV\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "F:\\WorkerCV\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "F:\\WorkerCV\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "F:\\WorkerCV\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "F:\\WorkerCV\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
-  "env": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "name": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+  "env": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "name": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "version": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "description": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "private": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+    "name": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "version": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "description": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "private": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
     "egg": {
-      "declarations": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "declarations": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
-      "crypto": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "egg": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "moment": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "wkhtmltopdf": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "crypto": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "egg": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "moment": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "wkhtmltopdf": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "autod": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "node": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "stop": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "dev": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "debug": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "test": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "cov": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "lint": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "ci": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "autod": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "start": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "stop": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "dev": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "debug": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "test": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "cov": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "lint": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "ci": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "autod": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "version": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "url": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "type": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "url": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "license": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "author": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "license": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "strict": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+    "enable": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "strict": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "depth": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "depth": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
-    "onerror": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "env": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "level": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+    "dir": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "F:\\workercv\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "F:\\WorkerCV\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "logging": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "enable": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "logging": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "port": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+      "path": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "port": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "F:\\workercv\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "F:\\workercv\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "F:\\WorkerCV\\node_modules\\egg\\config\\config.default.js"
 }

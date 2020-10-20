@@ -53,7 +53,6 @@ $(document).ready(() => {
             $(location).attr('href', '/home');
           }else{
             alert('账号或密码出现错误！');
-            $.alert.alert('ok')
          }
         },
         error: function(error) { console.log(error); alert('账号或密码出现错误！'); }

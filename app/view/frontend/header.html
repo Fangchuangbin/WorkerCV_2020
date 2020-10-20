@@ -69,22 +69,33 @@
 	</div>
 </div>
 
-<!--重置密码-->
+<!--找回密码-->
 <div class="modal fade" id="resetPassword">
 	<div class="modal-dialog mt-5 pt-5">
 		<div class="modal-content p-5">
 			<script src="//cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-			<h3 class="text-center">重置密码</h3>
+			<h3 class="text-center">找回密码</h3>
+			<div class="realname mt-2">
+				<label class="font-size-16">姓名：</label><input type="text" class="form-control" id="realname">
+			</div>
 			<div class="phone mt-2">
 				<label class="font-size-16">手机号码：</label><input type="text" class="form-control" id="phone">
 			</div>
 			<div class="email mt-2">
 				<label class="font-size-16">电子邮箱：</label><input type="text" class="form-control" id="email">
 			</div>
-			<div class="password mt-2">
-				<label class="font-size-16">密码：</label><input type="password" class="form-control" id="password">
+			<div class="modify mt-2">
+				<label class="font-size-16">密保问题：</label>
+				<select class="form-control" id="resetQuestion" autocomplete="off">
+					<option>我曾经就读的高中的名字？</option>
+					<option>我喜欢看的电影是哪一部？</option>
+					<option>我毕业于哪一所初中？</option>
+					<option>我的母亲叫什么名字？</option>
+					<option>我的外号叫什么？</option>
+				</select>
+				<div class="mt-2"><label class="font-size-16">密保答案：</label><input type="text" class="form-control" id="resetAnswer" autocomplete="off"></div>
 			</div>
-			<button type="submit" class="btn btn-danger mt-4 pt-2 pb-2" id="reset">重置密码</button>
+			<button type="submit" class="btn btn-danger mt-4 pt-2 pb-2" id="reset">找回密码</button>
 			<p class="font-size-14 mt-2"><a href="javascript:void(0);" class="text-secondary float-left" id="resetOff" data-toggle="modal" data-target="#accountLogin">返回登录</a></p>
 		</div>
 	</div>

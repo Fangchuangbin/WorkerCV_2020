@@ -1,21 +1,21 @@
 <div class="float-left w-25" style="width: 24%!important;">
-    <script>$(document).ready(() => { $('.createResume').each(function() { if(document.location.pathname !== '/home') { $(this).remove() }}) })</script>
-    <div class="card createResume mb-4">
-      <div class="card-body">
-        <h5 class="card-title">新建简历</h5>
-        <p class="card-text font-size-13 text-secondary">步骤：选择模板 -> 创建简历</p>
-        <a href="javascript:void(0);" class="btn btn-success mt-3" data-toggle="modal" data-target="#selectTemplate" style="color: #fff!important;">选择模板</a>
-        <a href="javascript:alert('敬请期待...');" class="btn btn-primary mt-3 ml-2" style="color: #fff!important;">导入简历</a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header border-bottom-0">个人中心</div>
-      <script>$(document).ready(() => { $('.list-group-item').each(function() { if(document.location.pathname == $(this).attr('href')) { $(this).addClass('font-weight-bold'); $(this).css('border-left', '2px solid #ffc107'); $(this).css('text-indent', '-2px'); } }) })</script>
-      <div class="nav-list list-group list-group-flush font-size-14">
-        <a href="/home" class="list-group-item list-group-item-action text-dark">我的简历</a>
-        <a href="/home/collect" class="list-group-item list-group-item-action text-dark">我的收藏</a>
-        <a href="/home/settings" class="list-group-item list-group-item-action text-dark">账户设置</a>
-        <a href="/home/feedback" class="list-group-item list-group-item-action text-dark">建议反馈</a>
-      </div>
+  <script>$(document).ready(() => { $('.createResume').each(function() { if(document.location.pathname !== '/home') { $(this).remove() }}) })</script>
+  <div class="card createResume mb-4">
+    <div class="card-body">
+      <h5 class="card-title">新建简历</h5>
+      <p class="card-text font-size-13 text-secondary">步骤：选择模板 -> 创建简历</p>
+      <a href="javascript:void(0);" class="btn btn-success mt-3" data-toggle="modal" data-target="#selectTemplate" style="color: #fff!important;">选择模板</a>
+      <a href="javascript:alert('敬请期待...');" class="btn btn-primary mt-3 ml-2" style="color: #fff!important;">导入简历</a>
     </div>
   </div>
+  <div class="card">
+    <div class="card-header border-bottom-0">个人中心</div>
+    <script>$(document).ready(() => { $('.list-group-item').each(function() { if(document.location.pathname == $(this).attr('href')) { $(this).addClass('font-weight-bold'); $(this).css('border-left', '2px solid #ffc107'); $(this).css('text-indent', '-2px'); } }) })</script>
+    <div class="nav-list list-group list-group-flush font-size-14">
+      <a href="/home" class="list-group-item list-group-item-action text-dark">我的简历</a>
+      <a href="/home/collect" class="list-group-item list-group-item-action text-dark">我的收藏</a>
+      <a href="/home/settings" class="list-group-item list-group-item-action text-dark">账户设置</a>
+      <a href="/home/feedback" class="list-group-item list-group-item-action text-dark">建议反馈</a>
+    </div>
+  </div>
+</div>

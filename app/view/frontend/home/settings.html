@@ -13,28 +13,39 @@
 </head>
 <body>
   {% include "../header.html" %}
-  <script src="/frontend/js/home.js"></script>
   <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
     {% include "./left-nav.html" %}
     <div class="float-right w-75" style="width: 74%!important;">
-      <div class="card">
+      <div class="card" id="accountSettings">
         <div class="card-header">账户设置</div>
         <div class="p-3 m-1">
-          <div class="form-group w-50">
-            <label for="exampleFormControlSelect1">密保问题</label>
-            <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-              <option>我读的第一所高中的名字？</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+          <div class="form-group mb-3 w-50">
+            <label for="nowPassword">当前密码</label>
+            <input type="text" id="nowPassword" class="form-control form-control-sm" aria-label="nowPassword" aria-describedby="nowPassword" autocomplete="off">
+          </div>
+          <div class="form-group mb-2 w-50">
+            <label for="newPassword">新密码</label>
+            <input type="text" id="newPassword" class="form-control form-control-sm" aria-label="newPassword" aria-describedby="newPassword" autocomplete="off">
+          </div>
+          <p class="mt-3"><a href="javascript:void(0);" id="modifyPassword" class="btn btn-danger" style="color: #fff!important;">修改密码</a></p>
+          <hr class="my-4">
+          <div class="form-group w-50 mt-4">
+            <label for="securityQuestion">密保问题</label>
+            <script>$(document).ready(() => { var question = '{{ question }}'; $('#securityQuestion').find('option').each(function() { if($(this).text() == question) {$(this).attr('selected', 'selected')} })})</script>
+            <select class="form-control form-control-sm" id="securityQuestion" autocomplete="off">
+              <option>我曾经就读的高中的名字？</option>
+              <option>我喜欢看的电影是哪一部？</option>
+              <option>我毕业于哪一所初中？</option>
+              <option>我的母亲叫什么名字？</option>
+              <option>我的外号叫什么？</option>
             </select>
           </div>
-          <div class="form-group mb-3 w-50">
-            <label for="">密保答案</label>
-            <input type="text" class="form-control form-control-sm" aria-label="accountEmail" aria-describedby="accountEmail">
+          <div class="form-group mb-2 w-50">
+            <label for="securityAnswer">密保答案</label>
+            <input type="text" class="form-control form-control-sm" id="securityAnswer" aria-label="securityAnswer" aria-describedby="securityAnswer" value="{{ answer }}" autocomplete="off">
           </div>
-          <p class="mt-3"><a href="javascript:void(0);" class="btn btn-danger" style="color: #fff!important;">更新设置</a></p>
+          <p class="mt-3"><a href="javascript:void(0);" id="setSecurity" class="btn btn-danger" style="color: #fff!important;">设置密保</a></p>
+          
         </div>
       </div>
     </div>
