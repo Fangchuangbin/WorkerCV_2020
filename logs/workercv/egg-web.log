@@ -13374,3 +13374,20 @@ hostname: DESKTOP-RN33ASL
 2020-10-21 15:15:43,405 INFO 10672 [egg-mysql] instance[0] status OK, rds currentTime: Wed Oct 21 2020 15:15:45 GMT+0800 (GMT+08:00)
 2020-10-21 15:15:43,419 INFO 10672 [egg:core] dump config after ready, 11ms
 2020-10-21 15:15:44,790 INFO 10672 [egg-view-nunjucks] loading templates from ["F:\\WorkerCV\\app\\view"]
+2020-10-21 15:15:45,547 INFO 2700 [egg:logger] init all loggers with options: {"dir":"F:\\WorkerCV\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-21 15:15:45,586 INFO 2700 [egg-multipart] stream mode enable
+2020-10-21 15:15:45,588 INFO 2700 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-21 15:15:46,037 INFO 2700 [egg-static] starting static serve / -> F:\WorkerCV\app\public
+2020-10-21 15:15:46,042 INFO 2700 [egg-security] use csrf middleware
+2020-10-21 15:15:46,044 INFO 2700 [egg-security] use methodnoallow middleware
+2020-10-21 15:15:46,047 INFO 2700 [egg-security] use noopen middleware
+2020-10-21 15:15:46,049 INFO 2700 [egg-security] use nosniff middleware
+2020-10-21 15:15:46,050 INFO 2700 [egg-security] use xssProtection middleware
+2020-10-21 15:15:46,051 INFO 2700 [egg-security] use xframe middleware
+2020-10-21 15:15:46,052 INFO 2700 [egg-security] use dta middleware
+2020-10-21 15:15:46,052 INFO 2700 [egg-security] compose 7 middlewares into one security middleware
+2020-10-21 15:15:46,106 INFO 2700 [egg:core] dump config after load, 20ms
+2020-10-21 15:15:46,128 INFO 2700 [egg-watcher:application] watcher start success
+2020-10-21 15:15:46,187 INFO 2700 [egg-mysql] instance[0] status OK, rds currentTime: Wed Oct 21 2020 15:15:48 GMT+0800 (GMT+08:00)
+2020-10-21 15:15:46,211 INFO 2700 [egg:core] dump config after ready, 22ms
+2020-10-21 15:15:47,852 INFO 2700 [egg-view-nunjucks] loading templates from ["F:\\WorkerCV\\app\\view"]
