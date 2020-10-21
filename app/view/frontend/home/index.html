@@ -121,16 +121,36 @@
       </div>
     </div>
   </div>
+  <!-- 更换头像 -->
+  <div class="modal fade" id="userAvatar" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="userAvatar" aria-hidden="true">
+    <div class="modal-dialog mt-5 pt-5">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-size-16">设置个人头像</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mt-1">
+          <p class="mt-2 font-size-14"><input type="file" id="avatarFile" name="avatarFile" autocomplete="off"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger font-size-14" id="changeAvatar">设置</button>
+          <button type="button" class="btn btn-secondary font-size-14" data-dismiss="modal">取消</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
     {% include "./left-nav.html" %}
     <div class="float-right w-75" style="width: 74%!important;">
       <div class="card">
         <div class="card-header">个人信息<small class="ml-1 text-secondary">（完善信息，新建简历可直接导入）</small></div>
-        <div class="col mt-4 mb-4">
-          <div class="col-2 float-left">
-            <img src="{{ avatar }}" class="card-img" alt="{{ realname }}" style="width: 118px;">
+        <div class="col my-4 px-1 mx-1">
+          <div class="float-left col-2 rounded" style="overflow: hidden;height: 145px;">
+            <img src="{{ avatar }}" id="userAvatarOn" class="card-img userAvatar" alt="{{ realname }}" style="height: 100%;width: auto;cursor: pointer;" data-toggle="modal" data-target="#userAvatar" data-toggle="tooltip" data-placement="bottom" title="点击更换头像">
           </div>
-          <div class="col-10 float-right pl-3">
+          <div class="col-10 float-right pl-0">
             <div class="card-body p-0">
               <h5 class="card-title">{{ realname }}<span class="badge badge-secondary ml-2 font-size-13 font-weight vip" data-target="{{ vip }}" data-toggle="tooltip" data-placement="right" title="非会员用户">VIP</span></h5>
               <p class="card-text text-secondary font-size-16" id="accountInfo" data-target="{{ identity }}">{{ native_place }} · {{ identity }}</p>

@@ -20,21 +20,22 @@
     {% include "./left-nav.html" %}
     <div class="float-right w-75" style="width: 74%!important;">
       <div class="card">
-        <div class="card-header">工具栏<small class="ml-1 text-secondary">（调整样式，让你的简历更加完美！）</small></div>
-        <div class="resume-tool col m-1 mt-3 mb-3">
-          <div class="w-25 m-0 float-left font-size-13"><p class="float-left">页边距：</p><input id="pagePadding" class="float-left font-size-13 text-center" type="text" placeholder="1.75" value="1.75" autocomplete="off"><p class="float-left">CM</p></div>
-          <div class="w-25 m-0 float-left font-size-13"><p class="float-left">行边距：</p><input id="pageLineHeight" class="float-left font-size-13 text-center" type="text" placeholder="25" value="25" autocomplete="off"><p class="float-left">PX</p></div>
-          <div class="w-25 m-0 float-left font-size-13"><p class="float-left">文字大小：</p><input id="pageFontSize" class="float-left font-size-13 text-center" type="text" placeholder="14" value="14" autocomplete="off"><p class="float-left">PX</p></div>
-          <div class="w-25 m-0 float-left font-size-13">
-            <p class="float-left">字体：</p>
-            <select id="pageFontFamily">
+        <!-- <div class="card-header">工具栏<small class="ml-1 text-secondary">（调整样式，让你的简历更加完美！）</small></div> -->
+        <div class="resume-tool col m-1 my-2 py-1">
+          <div class="float-left font-size-13 border px-1 mr-3 rounded pt-1"><input id="pageFontColor" type="color" value="#313539" class="m-0" style="width: 20px;height: 20px;cursor: pointer;" autocomplete="off"></div>
+          <div class="float-left font-size-13 border p-1 px-2 mr-3 rounded"><input id="pageFontSize" class="float-left font-size-13 text-center" type="text" placeholder="14" value="14" autocomplete="off"><p class="float-left">px</p></div>
+          <div class="float-left font-size-13 border p-1 px-2 mr-3 rounded">
+            <select id="pageFontFamily" autocomplete="off" class="font-size-12">
               <option>微软雅黑</option>
               <option>黑体</option>
               <option>宋体</option>
               <option>楷体</option>
-              <option>仿宋</option>
+              <option selected="selected">仿宋</option>
             </select>
           </div>
+          <div class="float-left font-size-13 border p-1 px-2 mr-3 rounded"><p class="float-left">页边距：</p><input id="pagePadding" class="float-left font-size-13 text-center" type="text" placeholder="1.75" value="1.75" autocomplete="off"><p class="float-left">cm</p></div>
+          <div class="float-left font-size-13 border p-1 px-2 mr-3 rounded"><p class="float-left">行边距：</p><input id="pageLineHeight" class="float-left font-size-13 text-center" type="text" placeholder="25" value="25" autocomplete="off"><p class="float-left">px</p></div>
+
         </div>
       </div>
       <div class="card mt-4">

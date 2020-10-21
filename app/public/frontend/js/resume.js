@@ -34,12 +34,12 @@ $(document).ready(() => {
 			data: { resumeName: $('#resumeName').text(), resumeCode: $('#TextToHtml').html() },
 			success: function(response) { if(response.result.code === 20000) { 
 				setTimeout(function() {
-					window.location.href= '/' + response.pdfUrl;
+					//window.location.href= '/' + response.pdfUrl;
 
-					// var download = document.createElement('a');
-					// download.href = '/' + response.pdfUrl;
-					// download.download = $('#resumeName').text();
-					// download.click(); download.remove();
+					var download = document.createElement('a');
+					download.href = '/' + response.pdfUrl;
+					download.download = $('#resumeName').text();
+					download.click(); download.remove();
 				}, 1500);
 			}else{ alert('下载失败，请重试！'); } },
 			error: function(error) { console.log(error) ; alert('下载失败，请重试！'); }
@@ -90,7 +90,7 @@ $(document).ready(() => {
 
 	//渲染数据
 	$('#TextToHtml').bind('DOMNodeInserted', function() {
-		var resumeScore = $('#TextToHtml').text().length * 0.0466 / 10; //简历评分
+		var resumeScore = $('#TextToHtml').text().length * 0.033 / 10; //简历评分
 		$('#resumeScore').text(resumeScore.toFixed(1));
 	});
 	
@@ -111,6 +111,10 @@ $(document).ready(() => {
 	$('#pageFontFamily').bind('input propertychange', function() {
 		setTimeout(() => { $('.resume-template').find('div').css('font-family', $(this).val()); }, 400)
 	});
+	//工具栏 -> 字体颜色
+	$('#pageFontColor').bind('input propertychange', function() {
+		setTimeout(() => { $('.diy-h4').css('color', $(this).val()); $('.diy-h4').css('border-bottom', '1px solid ' + $(this).val()); $('.diy-f-w-b').css('color', $(this).val()); }, 400)
+	})
 
 })
 

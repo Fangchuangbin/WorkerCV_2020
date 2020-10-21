@@ -32,6 +32,8 @@ module.exports = app => {
 
   router.post('/api/setUserInfo', controller.frontend.account.setUserInfo); //修改个人信息
 
+  router.post('/api/changeAvatar', controller.frontend.account.changeAvatar); //更换个人头像
+
   router.post('/api/createResume', controller.frontend.resume.createResume); //创建简历
 
   router.post('/api/deleteResume', controller.frontend.resume.deleteResume); //删除简历

@@ -19,7 +19,7 @@
       <div class="card" id="accountSettings">
         <div class="card-header">账户设置</div>
         <div class="p-3 m-1">
-          <div class="form-group mb-3 w-50">
+          <div class="form-group mb-2 w-50">
             <label for="nowPassword">当前密码</label>
             <input type="text" id="nowPassword" class="form-control form-control-sm" aria-label="nowPassword" aria-describedby="nowPassword" autocomplete="off">
           </div>
@@ -29,7 +29,7 @@
           </div>
           <p class="mt-3"><a href="javascript:void(0);" id="modifyPassword" class="btn btn-danger" style="color: #fff!important;">修改密码</a></p>
           <hr class="my-4">
-          <div class="form-group w-50 mt-4">
+          <div class="form-group w-50 mt-4 mb-2">
             <label for="securityQuestion">密保问题</label>
             <script>$(document).ready(() => { var question = '{{ question }}'; $('#securityQuestion').find('option').each(function() { if($(this).text() == question) {$(this).attr('selected', 'selected')} })})</script>
             <select class="form-control form-control-sm" id="securityQuestion" autocomplete="off">
@@ -44,7 +44,7 @@
             <label for="securityAnswer">密保答案</label>
             <input type="text" class="form-control form-control-sm" id="securityAnswer" aria-label="securityAnswer" aria-describedby="securityAnswer" value="{{ answer }}" autocomplete="off">
           </div>
-          <p class="mt-3"><a href="javascript:void(0);" id="setSecurity" class="btn btn-danger" style="color: #fff!important;">设置密保</a></p>
+          <p class="mt-3"><a href="javascript:void(0);" id="setSecurity" class="btn btn-success" style="color: #fff!important;">设置密保</a></p>
           
         </div>
       </div>

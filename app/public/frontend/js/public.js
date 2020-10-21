@@ -2,6 +2,7 @@ $(document).ready(() => {
   //公共变量
   var loginStatus = false; //登录状态
   $('.vip').tooltip(); //VIP用户提示
+  $('.userAvatar').tooltip(); //设置个人头像提示
 
   //登录盒子按钮
 	$('.login').mouseover(() => { $('.accountMenu').css('display', 'block'); });
@@ -64,6 +65,26 @@ $(document).ready(() => {
   if($('.resume-list-group').attr('data-target') == '') {
     $('.resume-list-group').append('<h3 class="text-secondary text-center p-5">暂无简历，快去新建一份简历吧 (๑╹◡╹)ﾉ"""</h3>');
   }
+
+  //设置个人头像
+  $('#changeAvatar').click(() => {
+    var formData = new FormData();
+    var fileData = $('#avatarFile')[0].files[0];
+    formData.append('name', $('#avatarFile').val());
+    formData.append('image', fileData);
+    $.ajax({
+      url: '/api/changeAvatar?_csrf=' + $.cookie('csrfToken'), type: 'post',
+      contentType: false, processData: false,
+      data: formData,
+      success: function(response) {
+        console.log(response);
+        if(response.result.code == 20000) { alert('设置个人头像成功！'); window.location.reload();
+        }else{ alert('设置个人头像失败！'); }
+      },
+      error: function(error) { console.log(error); alert('更换个人头像失败！'); }
+
+    })
+  })
 
   //用户注册
   $('#register').click(() => {

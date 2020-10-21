@@ -3308,3 +3308,190 @@ hostname: DESKTOP-RN33ASL
 pid: 12052
 hostname: DESKTOP-RN33ASL
 
+2020-10-21 11:44:04,728 ERROR 11384 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 11384
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:44:33,904 ERROR 11384 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 11384
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:45:07,353 ERROR 4280 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 4280
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:45:22,261 ERROR 4280 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 4280
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:51:34,855 ERROR 5956 [-/192.168.0.254/-/32ms POST /api/changeAvatar?_csrf=ugRIuAPBv_vhx41Wj9g8qfpm] nodejs.TypeError: stream.on is not a function
+    at destroyer (F:\WorkerCV\node_modules\pump\index.js:26:10)
+    at F:\WorkerCV\node_modules\pump\index.js:70:12
+    at Array.map (<anonymous>)
+    at pump (F:\WorkerCV\node_modules\pump\index.js:67:26)
+    at F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:20:11
+    at new Promise (<anonymous>)
+    at wrapped (F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:12:12)
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:62:11)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5956
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:52:17,969 ERROR 5956 [-/192.168.0.254/-/12ms POST /api/changeAvatar?_csrf=ugRIuAPBv_vhx41Wj9g8qfpm] nodejs.TypeError: stream.on is not a function
+    at destroyer (F:\WorkerCV\node_modules\pump\index.js:26:10)
+    at F:\WorkerCV\node_modules\pump\index.js:70:12
+    at Array.map (<anonymous>)
+    at pump (F:\WorkerCV\node_modules\pump\index.js:67:26)
+    at F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:20:11
+    at new Promise (<anonymous>)
+    at wrapped (F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:12:12)
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:62:11)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5956
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:58:48,361 ERROR 10532 [-/192.168.0.254/-/27ms POST /api/changeAvatar?_csrf=ugRIuAPBv_vhx41Wj9g8qfpm] nodejs.TypeError: Cannot read property 'putFile' of undefined
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:54:15)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10532
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:11:32,684 ERROR 17100 nodejs.ClusterClientNoResponseError: client no response in 4163741ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\WorkerCV\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17100
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:16:39,205 ERROR 8244 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 8244
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:17:02,857 ERROR 1676 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 1676
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:21:06,263 ERROR 13032 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 13032
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:21:51,334 ERROR 14032 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 14032
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:22:18,226 ERROR 6516 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 6516
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:22:51,848 ERROR 6888 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 6888
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:34:36,756 ERROR 6848 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 6848
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:34:57,477 ERROR 4208 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 4208
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 14:36:47,100 ERROR 10096 nodejs.unhandledRejectionError: upyun - response error: Request failed with status code 401
+    at F:\WorkerCV\node_modules\upyun\dist\upyun.common.js:79:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+code: 40100005
+name: "unhandledRejectionError"
+pid: 10096
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 15:02:26,466 ERROR 8640 [-/192.168.0.254/-/32ms POST /api/changeAvatar?_csrf=tNbL609yClaHuZdNBKas9oW9] nodejs.TypeError: The "path" argument must be of type string. Received an instance of FileStream
+    at validateString (internal/validators.js:120:11)
+    at Object.extname (path.js:752:5)
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:54:22)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 8640
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 15:05:58,893 ERROR 6344 [-/192.168.0.254/-/39ms POST /api/changeAvatar?_csrf=tNbL609yClaHuZdNBKas9oW9] nodejs.ReferenceError: ctypto is not defined
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:55:20)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:38:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6344
+hostname: DESKTOP-RN33ASL
+

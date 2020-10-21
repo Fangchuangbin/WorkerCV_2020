@@ -27,6 +27,18 @@ class AccountController extends Controller {
     ctx.body = setUserInfoData;
   }
 
+  //接口->更换个人头像
+  async changeAvatar() {
+    const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+
+    var fileStream = await ctx.getFileStream();
+    var changeAvatar = await ctx.service.frontend.account.changeAvatar(fileStream, loginTokenData);
+    ctx.body = changeAvatar;
+  }
+
   //接口->注册用户
   async registerAccount() {
     const { ctx } = this;

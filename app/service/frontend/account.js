@@ -1,6 +1,10 @@
 const Service = require('egg').Service;
 const moment = require('moment').Service;
+const path = require('path');
 const crypto = require('crypto');
+const upyun = require('upyun');
+const service = new upyun.Service('image-workercv', 'fangchuangbin', 'ozQ76iKwl4jFhrClvf10PIJL75t1QgoZ');
+const client = new upyun.Client(service);
 
 class AccountService extends Service {
   //用户登录
@@ -30,15 +34,32 @@ class AccountService extends Service {
     const { ctx, app } = this;
     var setSuccess = { code: 20000, message: '修改个人信息成功' };
     var setFail = { code: 40004, message: '修改个人信息失败' };
-    var setUserInfo;
     var updateTime = Date.parse(new Date());
-    if(userInfoData) {
-      setUserInfo = await app.mysql.update('frontend_user', {
-        id: userInfoData.id, realname: userInfoData.realname, sex: userInfoData.sex, birth: userInfoData.birth, update_time: updateTime,
-        identity: userInfoData.identity, native_place: userInfoData.native_place, phone: userInfoData.phone, email: userInfoData.email })
+    var setUserInfo = await app.mysql.update('frontend_user', {
+      id: userInfoData.id, realname: userInfoData.realname, sex: userInfoData.sex, birth: userInfoData.birth, update_time: updateTime,
+      identity: userInfoData.identity, native_place: userInfoData.native_place, phone: userInfoData.phone, email: userInfoData.email })
+    if(setUserInfo.affectedRows === 1) {
       return { result: setSuccess, setUserInfo }
     }else{
       return { result: setFail }
+    }
+  }
+
+  //更换个人头像
+  async changeAvatar(fileStream, loginTokenData) {
+    const { ctx, app } = this;
+    var changeSuccess = { code: 20000, message: '更换个人头像成功' };
+    var changeFail = { code: 40004, message: '更换个人头像失败' };
+    var extname = path.extname(fileStream.filename);
+    var filename = crypto.createHash('md5').update(fileStream.filename + Date.parse(new Date())).digest('hex');
+    try {
+      await client.putFile('/' + filename + extname, fileStream);
+      var saveAvatar = await app.mysql.update('frontend_user', { avatar: 'http://image-workercv.test.upcdn.net/' + filename + extname }, { where: { id: loginTokenData.userData.id } })
+      if(saveAvatar.affectedRows === 1) {
+        return { result: changeSuccess, fileUrl: 'http://image-workercv.test.upcdn.net/' + filename + extname }
+      }
+    } catch (error) {
+      return { result: changeFail }
     }
   }
 
@@ -68,7 +89,11 @@ class AccountService extends Service {
       return { result: resetFail }
     }else{
       var modifyPassword = await app.mysql.update('frontend_user', { id: loginTokenData.userData.id, password: newPassword });
-      return { result: resetSuccess, modifyPassword }
+      if(modifyPassword.effectedRows === 1) {
+        return { result: resetSuccess, modifyPassword }
+      }else{
+        return { result: resetFail }
+      }
     }
   }
 
@@ -77,8 +102,8 @@ class AccountService extends Service {
     const { ctx, app } = this;
     var setSuccess = { code: 20000, message: '设置密保成功' };
     var setFail = { code: 40004, message: '设置密保失败' };
-    if(securityData && loginTokenData) {
-      var setSecurity = await app.mysql.update('frontend_user', { id: loginTokenData.userData.id, question: securityData.securityQuestion, answer: securityData.securityAnswer })
+    var setSecurity = await app.mysql.update('frontend_user', { id: loginTokenData.userData.id, question: securityData.securityQuestion, answer: securityData.securityAnswer })
+    if(setSecurity.affectedRows === 1) {
       return { result: setSuccess, setSecurity }
     }else{
       return { result: setFail }
@@ -103,9 +128,9 @@ class AccountService extends Service {
     const { ctx, app } = this;
     var resetNewSuccess = { code: 20000, message: '重置密码成功' };
     var resetNewFail = { code: 40004, message: '重置密码失败' };
-    var newPassword = crypto.createHash('md5').update(resetNewData.newPassword).digest('hex');s
-    if(resetNewData) {
-      var resetNewPassword = await app.mysql.update('frontend_user', { password: newPassword }, { where: { id: resetNewData.userId, password: resetNewData.nowPassword } });
+    var newPassword = crypto.createHash('md5').update(resetNewData.newPassword).digest('hex');
+    var resetNewPassword = await app.mysql.update('frontend_user', { password: newPassword }, { where: { id: resetNewData.userId, password: resetNewData.nowPassword } });
+    if(resetNewPassword.affectedRows === 1) {
       return { result: resetNewSuccess, resetNewPassword }
     }else{
       return { result: resetNewFail }

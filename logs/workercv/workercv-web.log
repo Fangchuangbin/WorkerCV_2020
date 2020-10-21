@@ -3204,3 +3204,123 @@ hostname: DESKTOP-RN33ASL
 pid: 12052
 hostname: DESKTOP-RN33ASL
 
+2020-10-21 10:47:22,499 WARN 11812 [-/192.168.0.254/-/3ms POST /api/changAvatar] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.multipart (F:\WorkerCV\node_modules\egg-multipart\app\extend\context.js:167:17)
+    at Object.getFileStream (F:\WorkerCV\node_modules\egg-multipart\app\extend\context.js:215:24)
+    at AccountController.changAvatar (F:\WorkerCV\app\controller\frontend\account.js:38:30)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 11812
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 10:48:01,510 WARN 13232 [-/192.168.0.254/-/5ms POST /api/changAvatar] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (F:\WorkerCV\node_modules\koa\lib\context.js:97:11)
+    at Object.multipart (F:\WorkerCV\node_modules\egg-multipart\app\extend\context.js:167:17)
+    at Object.getFileStream (F:\WorkerCV\node_modules\egg-multipart\app\extend\context.js:215:24)
+    at AccountController.changAvatar (F:\WorkerCV\app\controller\frontend\account.js:39:30)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 13232
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:17:14,120 WARN 4264 [-/192.168.0.254/-/3ms POST /api/changAvatar?_csrf=ugRIuAPBv_vhx41Wj9g8qfpm] nodejs.Error: Invalid filename: dfdsf.txt
+    at checkFile (F:\WorkerCV\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (F:\WorkerCV\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.emit (F:\WorkerCV\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (F:\WorkerCV\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at HeaderParser.<anonymous> (F:\WorkerCV\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser._finish (F:\WorkerCV\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (F:\WorkerCV\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 4264
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:51:34,902 ERROR 5956 [-/192.168.0.254/-/32ms POST /api/changeAvatar?_csrf=ugRIuAPBv_vhx41Wj9g8qfpm] nodejs.TypeError: stream.on is not a function
+    at destroyer (F:\WorkerCV\node_modules\pump\index.js:26:10)
+    at F:\WorkerCV\node_modules\pump\index.js:70:12
+    at Array.map (<anonymous>)
+    at pump (F:\WorkerCV\node_modules\pump\index.js:67:26)
+    at F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:20:11
+    at new Promise (<anonymous>)
+    at wrapped (F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:12:12)
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:62:11)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5956
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:52:18,024 ERROR 5956 [-/192.168.0.254/-/12ms POST /api/changeAvatar?_csrf=ugRIuAPBv_vhx41Wj9g8qfpm] nodejs.TypeError: stream.on is not a function
+    at destroyer (F:\WorkerCV\node_modules\pump\index.js:26:10)
+    at F:\WorkerCV\node_modules\pump\index.js:70:12
+    at Array.map (<anonymous>)
+    at pump (F:\WorkerCV\node_modules\pump\index.js:67:26)
+    at F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:20:11
+    at new Promise (<anonymous>)
+    at wrapped (F:\WorkerCV\node_modules\mz-modules\lib\wrap.js:12:12)
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:62:11)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5956
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 11:58:48,372 ERROR 10532 [-/192.168.0.254/-/27ms POST /api/changeAvatar?_csrf=ugRIuAPBv_vhx41Wj9g8qfpm] nodejs.TypeError: Cannot read property 'putFile' of undefined
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:54:15)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10532
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 15:02:26,477 ERROR 8640 [-/192.168.0.254/-/32ms POST /api/changeAvatar?_csrf=tNbL609yClaHuZdNBKas9oW9] nodejs.TypeError: The "path" argument must be of type string. Received an instance of FileStream
+    at validateString (internal/validators.js:120:11)
+    at Object.extname (path.js:752:5)
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:54:22)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:34:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 8640
+hostname: DESKTOP-RN33ASL
+
+2020-10-21 15:05:58,914 ERROR 6344 [-/192.168.0.254/-/39ms POST /api/changeAvatar?_csrf=tNbL609yClaHuZdNBKas9oW9] nodejs.ReferenceError: ctypto is not defined
+    at AccountService.changeAvatar (F:\WorkerCV\app\service\frontend\account.js:55:20)
+    at AccountController.changeAvatar (F:\WorkerCV\app\controller\frontend\account.js:38:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6344
+hostname: DESKTOP-RN33ASL
+
