@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ title }}</title>
+  <meta name="keywords" content="{{ keywords }}">
+  <meta name="description" content="{{ description }}">
+  <link rel="shortcut icon" href="/frontend/images/favicon.ico">
+  <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.css">
+  <link rel="stylesheet" href="/frontend/css/public.css">
+  <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+  <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
+</head>
+<body>
+  {% include "../header.html" %}
+  <div class="wrapper" style="margin-top: 56px">
+    <h1>{{ title }}</h1>
+    <p>{{ data }}</p>
+    <p><a href="/template/list-1-0-0-0-0.html">分类列表首页</a></p>
+    <p><a href="/template/list-1-0-0-0-1.html">分类列表第1页</a></p>
+    <p><a href="/template/list-1-0-0-0-2.html">分类列表第2页</a></p>
+    <p><a href="/template/list-1-0-0-0-3.html">分类列表第3页</a></p>
+    <p><a href="/template/list-1-0-0-0-4.html">分类列表第4页</a></p>
+  </div>
+  {% include "../footer.html" %}
+</body>
+</html>

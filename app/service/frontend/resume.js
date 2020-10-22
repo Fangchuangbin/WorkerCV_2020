@@ -55,7 +55,7 @@ class ResumeService extends Service {
     const { ctx, app } = this;
     var getSuccess = { code: 20000, message: '获取简历模板成功' };
     var getFail = { code: 40004, message: '获取简历模板失败' };
-    var resumeTemplateListData = await app.mysql.select('frontend_template', { limit: 12 })
+    var resumeTemplateListData = await app.mysql.select('frontend_template', { limit: 12, orders: [['template_id', 'desc']] })
     if(resumeTemplateListData) {
       return { result: getSuccess, resumeTemplateListData }
     }else{
@@ -91,6 +91,7 @@ class ResumeService extends Service {
     var resumeKey = Buffer.from(resumeTeamplateData.userId + '-' + createTime).toString('base64');
     var createResume = await app.mysql.insert('frontend_resume', {
       user_id: resumeTeamplateData.userId, //用户ID
+      template_id: getResumeTemplateData.resumeTemplateData.template_id, //简历模板ID
       resume_name: resumeTeamplateData.realname + '_' + getResumeTemplateData.resumeTemplateData.template_name + '_' + createTime, //简历名称
       resume_code: getResumeTemplateData.resumeTemplateData.template_code, //简历代码
       update_time: createTime, //创建时间

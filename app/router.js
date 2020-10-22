@@ -18,9 +18,19 @@ module.exports = app => {
 
   router.get('/home/feedback', controller.frontend.home.feedback); //建议反馈
 
-  router.get('/resume/edit/:resumeId', controller.frontend.resume.editResume) //编辑简历
+  router.get('/resume/:resumeId', controller.frontend.resume.resumeEdit); //编辑简历
 
+  router.get('/template', controller.frontend.public.template); //简历模板列表->所有
+
+  router.get('/template/list-:typeId-:industryId-:positionId-:schoolId-:pageId.html', controller.frontend.public.templateList); //简历模板列表->分类
+
+  router.get('/template/item-:templateId.html', controller.frontend.public.templateItem); //简历模板详情
+
+  router.get('/optimize', controller.frontend.public.optimize); //简历优化
   
+  router.get('/custom', controller.frontend.public.custom); //简历定制
+
+  router.get('/article', controller.frontend.public.article); //求职攻略
 
   //接口路由
 

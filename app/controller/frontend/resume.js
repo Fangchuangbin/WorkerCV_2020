@@ -20,14 +20,15 @@ class ResumeController extends Controller {
   }
 
   //页面->编辑简历
-  async editResume() {
+  async resumeEdit() {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
-    if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
 
     const resumeKey = ctx.params.resumeId;
     var getResumeData = await ctx.service.frontend.resume.getResumeData(resumeKey);
+    if(getResumeData.result.code !== 20000) { return false; }
     await ctx.render('/frontend/resume/index', {
       title: '编辑简历 - 极速简历',
       resumeName: getResumeData.resumeData.resume_name, //简历名称
@@ -43,10 +44,10 @@ class ResumeController extends Controller {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
-    if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
 
     var resumeData = ctx.request.body;
-    await wkhtmltopdf(resumeData.resumeCode, { pageSize: 'a4', encoding: 'utf-8' }).pipe(fs.createWriteStream('./app/public/' + resumeData.resumeName + '.pdf'));
+    await wkhtmltopdf(resumeData.resumeCode, { pageSize: 'a4', encoding: 'utf-8' }).pipe(fs.createWriteStream('./app/public/file/' + resumeData.resumeName + '.pdf'));
     ctx.body = {
      result: loginTokenData.result,
      pdfUrl: resumeData.resumeName + '.pdf'
@@ -58,7 +59,7 @@ class ResumeController extends Controller {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
-    if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
     
     var resumeTeamplateData = ctx.request.body;
     //获取简历模板
@@ -73,7 +74,7 @@ class ResumeController extends Controller {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
-    if(loginTokenData.result.code !== 20000) { ctx.redirect('/');ctx.cookies.set('loginToken', ''); return false; }
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
 
     var resumeData = ctx.request.body;
     var deleteResume = await ctx.service.frontend.resume.deleteResume(resumeData);

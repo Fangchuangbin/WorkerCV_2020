@@ -37,10 +37,10 @@ $(document).ready(() => {
 					//window.location.href= '/' + response.pdfUrl;
 
 					var download = document.createElement('a');
-					download.href = '/' + response.pdfUrl;
+					download.href = '/file/' + response.pdfUrl;
 					download.download = $('#resumeName').text();
 					download.click(); download.remove();
-				}, 1500);
+				}, 1200);
 			}else{ alert('下载失败，请重试！'); } },
 			error: function(error) { console.log(error) ; alert('下载失败，请重试！'); }
 		});
@@ -75,7 +75,7 @@ $(document).ready(() => {
 				headers: { "x-csrf-token": $.cookie('csrfToken') },
 				data: { userId: userId, realname: realname, templateKey: templateKey },
 				success: function(response) {
-					if(response.result.code == 20000) { window.location.href = '/resume/edit/' + response.resumeKey; }
+					if(response.result.code == 20000) { window.location.href = '/resume/' + response.resumeKey; }
 					if(response.result.code == 40001) { alert('该简历模板为VIP特权专用！') } //VIP特权验证
 				},
 				error: function(error) { console.log(error); alert('创建简历失败！'); }

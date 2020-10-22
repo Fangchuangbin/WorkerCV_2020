@@ -3324,3 +3324,1723 @@ hostname: DESKTOP-RN33ASL
 pid: 6344
 hostname: DESKTOP-RN33ASL
 
+2020-10-22 10:29:32,925 ERROR 10552 [-/192.168.0.254/-/33ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'update_time' in 'order clause'
+    at Query.Sequence._packetToError (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\WorkerCV\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\WorkerCV\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\WorkerCV\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+    --------------------
+    at Pool.query (F:\WorkerCV\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\WorkerCV\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\WorkerCV\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\WorkerCV\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\WorkerCV\node_modules\co\index.js:65:19)
+    at F:\WorkerCV\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `frontend_template` ORDER BY `update_time` DESC LIMIT 0, 12
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'update_time' in 'order clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `frontend_template` ORDER BY `update_time` DESC LIMIT 0, 12"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10552
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 10:33:52,781 ERROR 12120 [-/192.168.0.254/-/56ms GET /resume/item/3] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.editResume (F:\WorkerCV\app\controller\frontend\resume.js:33:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12120
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 10:34:02,108 ERROR 12120 [-/192.168.0.254/-/49ms GET /resume/item/4] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.editResume (F:\WorkerCV\app\controller\frontend\resume.js:33:44)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12120
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 10:34:27,433 ERROR 12120 [-/192.168.0.254/-/57ms GET /resume/item/4] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.editResume (F:\WorkerCV\app\controller\frontend\resume.js:33:44)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12120
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:34:37,891 ERROR 8304 [-/192.168.0.254/-/67ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:33:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 8304
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:43:35,573 ERROR 12716 [-/192.168.0.254/-/52ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12716
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:43:37,904 ERROR 12716 [-/192.168.0.254/-/49ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12716
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:43:59,289 ERROR 12716 [-/192.168.0.254/-/63ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12716
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:00,457 ERROR 11912 [-/192.168.0.254/-/63ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:00,878 ERROR 11912 [-/undefined/-/48ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:00,940 ERROR 11912 [-/undefined/-/64ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:00,961 ERROR 11912 [-/undefined/-/59ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,028 ERROR 11912 [-/undefined/-/61ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,070 ERROR 11912 [-/undefined/-/77ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,123 ERROR 11912 [-/undefined/-/80ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,128 ERROR 11912 [-/undefined/-/129ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,161 ERROR 11912 [-/undefined/-/64ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,225 ERROR 11912 [-/undefined/-/108ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,228 ERROR 11912 [-/undefined/-/102ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,261 ERROR 11912 [-/undefined/-/90ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,294 ERROR 11912 [-/undefined/-/87ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,327 ERROR 11912 [-/undefined/-/81ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,359 ERROR 11912 [-/undefined/-/83ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,394 ERROR 11912 [-/undefined/-/88ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,422 ERROR 11912 [-/undefined/-/81ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,460 ERROR 11912 [-/undefined/-/57ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,494 ERROR 11912 [-/undefined/-/63ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,534 ERROR 11912 [-/undefined/-/66ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:01,557 ERROR 11912 [-/192.168.0.254/-/51ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11912
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:44:51,139 ERROR 11532 [-/192.168.0.254/-/64ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 11532
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:15,461 ERROR 12308 [-/192.168.0.254/-/68ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12308
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:16,246 ERROR 12308 [-/192.168.0.254/-/42ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12308
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:16,857 ERROR 12308 [-/192.168.0.254/-/44ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12308
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:17,492 ERROR 12308 [-/192.168.0.254/-/44ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 12308
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:35,873 ERROR 13108 [-/192.168.0.254/-/63ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:36,635 ERROR 13108 [-/192.168.0.254/-/48ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:37,241 ERROR 13108 [-/192.168.0.254/-/50ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:37,937 ERROR 13108 [-/192.168.0.254/-/58ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,375 ERROR 13108 [-/192.168.0.254/-/53ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,462 ERROR 13108 [-/undefined/-/110ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,500 ERROR 13108 [-/undefined/-/100ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,559 ERROR 13108 [-/undefined/-/154ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,593 ERROR 13108 [-/undefined/-/120ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,659 ERROR 13108 [-/undefined/-/167ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,723 ERROR 13108 [-/undefined/-/157ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,761 ERROR 13108 [-/undefined/-/230ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,794 ERROR 13108 [-/undefined/-/230ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,895 ERROR 13108 [-/undefined/-/97ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,955 ERROR 13108 [-/undefined/-/282ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:38,994 ERROR 13108 [-/undefined/-/265ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,045 ERROR 13108 [-/undefined/-/271ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,161 ERROR 13108 [-/undefined/-/383ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,291 ERROR 13108 [-/undefined/-/470ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,328 ERROR 13108 [-/undefined/-/516ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,345 ERROR 13108 [-/undefined/-/384ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,375 ERROR 13108 [-/undefined/-/316ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,392 ERROR 13108 [-/undefined/-/309ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,473 ERROR 13108 [-/undefined/-/165ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,478 ERROR 13108 [-/undefined/-/141ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,493 ERROR 13108 [-/undefined/-/136ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,507 ERROR 13108 [-/undefined/-/139ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,523 ERROR 13108 [-/undefined/-/157ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,527 ERROR 13108 [-/undefined/-/171ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,543 ERROR 13108 [-/undefined/-/173ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,557 ERROR 13108 [-/undefined/-/190ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,561 ERROR 13108 [-/undefined/-/201ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,576 ERROR 13108 [-/undefined/-/205ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,589 ERROR 13108 [-/192.168.0.254/-/216ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:39,808 ERROR 13108 [-/192.168.0.254/-/53ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:40,242 ERROR 13108 [-/192.168.0.254/-/44ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:40,556 ERROR 13108 [-/192.168.0.254/-/61ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:40,939 ERROR 13108 [-/192.168.0.254/-/95ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:41,192 ERROR 13108 [-/192.168.0.254/-/58ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:41,395 ERROR 13108 [-/192.168.0.254/-/49ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:41,726 ERROR 13108 [-/192.168.0.254/-/70ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:42,009 ERROR 13108 [-/192.168.0.254/-/53ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:42,294 ERROR 13108 [-/192.168.0.254/-/51ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:42,589 ERROR 13108 [-/192.168.0.254/-/74ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:42,812 ERROR 13108 [-/192.168.0.254/-/51ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:43,141 ERROR 13108 [-/192.168.0.254/-/45ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:43,608 ERROR 13108 [-/192.168.0.254/-/67ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:43,940 ERROR 13108 [-/192.168.0.254/-/44ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13108
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:45:58,439 ERROR 14860 [-/192.168.0.254/-/62ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:34:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 14860
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:46:00,661 ERROR 14860 [-/192.168.0.254/-/56ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:34:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 14860
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:13,327 ERROR 5888 [-/192.168.0.254/-/64ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:38:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 5888
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:27,991 ERROR 5888 [-/192.168.0.254/-/66ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:38:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 5888
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:29,229 ERROR 10740 [-/192.168.0.254/-/73ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10740
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:29,725 ERROR 10740 [-/192.168.0.254/-/55ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10740
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:30,175 ERROR 10740 [-/192.168.0.254/-/57ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10740
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:30,421 ERROR 10740 [-/192.168.0.254/-/54ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10740
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:39,937 ERROR 10740 [-/192.168.0.254/-/56ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:36:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10740
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:41,057 ERROR 16940 [-/192.168.0.254/-/62ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:37:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 16940
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:41,702 ERROR 16940 [-/192.168.0.254/-/50ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:37:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 16940
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 15:47:42,158 ERROR 16940 [-/192.168.0.254/-/50ms GET /resume/MS0xNjAzMDk3MDU4MDAw1] nodejs.TypeError: Cannot read property 'resume_name' of undefined
+    at ResumeController.resumeEdit (F:\WorkerCV\app\controller\frontend\resume.js:37:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 16940
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:31,487 ERROR 10772 [-/192.168.0.254/-/8ms GET /template] nodejs.AssertionError: Can't find template/index from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.template (F:\WorkerCV\app\controller\frontend\public.js:29:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10772
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:31,794 ERROR 10772 [-/192.168.0.254/-/1ms GET /template] nodejs.AssertionError: Can't find template/index from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.template (F:\WorkerCV\app\controller\frontend\public.js:29:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10772
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:49,389 ERROR 10772 [-/192.168.0.254/-/2ms GET /template] nodejs.AssertionError: Can't find template/index from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.template (F:\WorkerCV\app\controller\frontend\public.js:29:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10772
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:50,044 ERROR 10772 [-/192.168.0.254/-/2ms GET /template] nodejs.AssertionError: Can't find template/index from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.template (F:\WorkerCV\app\controller\frontend\public.js:29:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10772
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:50,589 ERROR 10772 [-/192.168.0.254/-/2ms GET /template] nodejs.AssertionError: Can't find template/index from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.template (F:\WorkerCV\app\controller\frontend\public.js:29:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10772
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:51,059 ERROR 6884 [-/192.168.0.254/-/21ms GET /template] nodejs.Template render error: (F:\WorkerCV\app\view\frontend\template\index.html)
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+    at Object._prettifyError (F:\WorkerCV\node_modules\nunjucks\src\lib.js:36:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (F:\WorkerCV\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:18:11)
+    at createTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:293:11)
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:328:7)
+    at handle (F:\WorkerCV\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:337:9
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (F:\WorkerCV\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:319:9)
+name: "Template render error"
+pid: 6884
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:51,506 ERROR 6884 [-/192.168.0.254/-/13ms GET /template] nodejs.Template render error: (F:\WorkerCV\app\view\frontend\template\index.html)
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+    at Object._prettifyError (F:\WorkerCV\node_modules\nunjucks\src\lib.js:36:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (F:\WorkerCV\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:18:11)
+    at createTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:293:11)
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:328:7)
+    at handle (F:\WorkerCV\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:337:9
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (F:\WorkerCV\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:319:9)
+name: "Template render error"
+pid: 6884
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:52,092 ERROR 6884 [-/192.168.0.254/-/6ms GET /template] nodejs.Template render error: (F:\WorkerCV\app\view\frontend\template\index.html)
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+    at Object._prettifyError (F:\WorkerCV\node_modules\nunjucks\src\lib.js:36:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (F:\WorkerCV\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:18:11)
+    at createTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:293:11)
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:328:7)
+    at handle (F:\WorkerCV\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:337:9
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (F:\WorkerCV\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:319:9)
+name: "Template render error"
+pid: 6884
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:52,463 ERROR 6884 [-/192.168.0.254/-/7ms GET /template] nodejs.Template render error: (F:\WorkerCV\app\view\frontend\template\index.html)
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+    at Object._prettifyError (F:\WorkerCV\node_modules\nunjucks\src\lib.js:36:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (F:\WorkerCV\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:18:11)
+    at createTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:293:11)
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:328:7)
+    at handle (F:\WorkerCV\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:337:9
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (F:\WorkerCV\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:319:9)
+name: "Template render error"
+pid: 6884
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:52,805 ERROR 6884 [-/192.168.0.254/-/3ms GET /template] nodejs.Template render error: (F:\WorkerCV\app\view\frontend\template\index.html)
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+    at Object._prettifyError (F:\WorkerCV\node_modules\nunjucks\src\lib.js:36:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (F:\WorkerCV\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:18:11)
+    at createTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:293:11)
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:328:7)
+    at handle (F:\WorkerCV\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:337:9
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (F:\WorkerCV\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:319:9)
+name: "Template render error"
+pid: 6884
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:02:53,326 ERROR 6884 [-/192.168.0.254/-/9ms GET /template] nodejs.Template render error: (F:\WorkerCV\app\view\frontend\template\index.html)
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+  Error: template not found: F:\WorkerCV\app\view\frontend\template\header.html
+    at Object._prettifyError (F:\WorkerCV\node_modules\nunjucks\src\lib.js:36:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (F:\WorkerCV\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:18:11)
+    at createTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:293:11)
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:328:7)
+    at handle (F:\WorkerCV\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\WorkerCV\node_modules\nunjucks\src\environment.js:337:9
+    at next (F:\WorkerCV\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (F:\WorkerCV\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (F:\WorkerCV\node_modules\nunjucks\src\environment.js:319:9)
+name: "Template render error"
+pid: 6884
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:07:37,707 ERROR 9712 [-/192.168.0.254/-/6ms GET /template/list-1-2-3-4-1.html] nodejs.AssertionError: Can't find frontend/list from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.templateList (F:\WorkerCV\app\controller\frontend\public.js:33:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9712
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:08:06,062 ERROR 9712 [-/192.168.0.254/-/2ms GET /template/list-1-2-3-4-1.html] nodejs.AssertionError: Can't find frontend/list from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.templateList (F:\WorkerCV\app\controller\frontend\public.js:33:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9712
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:08:06,775 ERROR 9712 [-/192.168.0.254/-/1ms GET /template/list-1-2-3-4-1.html] nodejs.AssertionError: Can't find frontend/list from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.templateList (F:\WorkerCV\app\controller\frontend\public.js:33:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9712
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:08:07,278 ERROR 9712 [-/192.168.0.254/-/1ms GET /template/list-1-2-3-4-1.html] nodejs.AssertionError: Can't find frontend/list from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.templateList (F:\WorkerCV\app\controller\frontend\public.js:33:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9712
+hostname: DESKTOP-RN33ASL
+
+2020-10-22 16:08:07,792 ERROR 9712 [-/192.168.0.254/-/2ms GET /template/list-1-2-3-4-1.html] nodejs.AssertionError: Can't find frontend/list from F:\WorkerCV\app\view
+    at Map.resolve (F:\WorkerCV\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (F:\WorkerCV\node_modules\egg-view\lib\context_view.js:50:22)
+    at async PublicController.templateList (F:\WorkerCV\app\controller\frontend\public.js:33:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9712
+hostname: DESKTOP-RN33ASL
+
