@@ -9,24 +9,122 @@
   <link rel="shortcut icon" href="/frontend/images/favicon.ico">
   <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.css">
   <link rel="stylesheet" href="/frontend/css/public.css">
+  <link rel="stylesheet" href="/frontend/css/template.css">
   <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+  <script src="/frontend/js/jq-paginator.js"></script>
   <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
 </head>
 <body>
   {% include "../header.html" %}
   <div class="wrapper" style="margin-top: 56px">
-    <h1>{{ title }}</h1>
-    <p>{{ data }}</p>
-    <p><a href="/template/list-1-0-0-0-0.html">分类列表首页</a></p>
-    <p><a href="/template/list-1-0-0-0-1.html">分类列表第1页</a></p>
-    <p><a href="/template/list-1-0-0-0-2.html">分类列表第2页</a></p>
-    <p><a href="/template/list-1-0-0-0-3.html">分类列表第3页</a></p>
-    <p><a href="/template/list-1-0-0-0-4.html">分类列表第4页</a></p>
-    <div class="border mt-3">
-      <p><a href="/template/item-1.html">大学生实习简历模板</a></p>
+    <nav aria-label="breadcrumb" class="font-size-13 mt-1">
+      <ol class="breadcrumb bg-white font-size-12 px-0 mb-0">
+        <li class="breadcrumb-item"><a href="/">首页</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="/template/">简历模板</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Web前端开发工程师</li>
+      </ol>
+    </nav>
+    <div class="template-search input-group mt-2" style="margin: auto auto auto 0;position: absolute;z-index: 1111;">
+      <input type="text" class="form-control font-size-15 px-3 border-light bg-light" style="height: 50px;" placeholder="请输入关键字...（如：大学生实习简历模板）">
+      <div class="input-group-append">
+        <button class="btn btn-success px-4" type="button"><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-search mx-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+        </svg></button>
+      </div>
+    </div>
+    <div class="template-class pt-5 mt-4 font-size-14" class-data="{{ className }}">
+      <div class="template-class-item w-100">
+        <p class="class-item-title float-left">类型：</p>
+        <div class="float-left class-item-main">
+          <a href="/template/kuaiji/">会计</a>
+          <a href="/template/wenhuachuanmei/">文化/传媒</a>
+          <a href="/template/jinrong/">金融</a>
+          <a href="/template/hulianwang/">互联网</a>
+          <a href="/template/yinhang/">银行</a>
+          <a href="/template/qiche/">汽车</a>
+          <a href="/template/kuaiji/">会计</a>
+          <a href="/template/wenhuachuanmei/">文化/传媒</a>
+          <a href="/template/jinrong/">金融</a>
+          <a href="/template/hulianwang/">互联网</a>
+          <a href="/template/yinhang/">银行</a>
+          <a href="/template/qiche/">汽车</a>
+          <a href="/template/kuaiji/">会计</a>
+          <a href="/template/wenhuachuanmei/">文化/传媒</a>
+        </div>
+        <p class="float-right class-item-more text-secondary" style="display: none;"><a href="javascript:void(0);">更多 ></a></p>
+      </div>
+      <div class="template-class-item w-100">
+        <p class="class-item-title float-left">行业：</p>
+        <div class="float-left class-item-main">
+          <a href="/template/jinrong/">金融</a>
+          <a href="/template/hulianwang/">互联网</a>
+          <a href="/template/yinhang/">银行</a>
+          <a href="/template/qiche/">汽车</a>
+          <a href="/template/kuaiji/">会计</a>
+          <a href="/template/wenhuachuanmei/">文化/传媒</a>
+          <a href="/template/jinrong/">金融</a>
+          <a href="/template/hulianwang/">互联网</a>
+          <a href="/template/yinhang/">银行</a>
+          <a href="/template/qiche/">汽车</a>
+          <a href="/template/kuaiji/">会计</a>
+          <a href="/template/wenhuachuanmei/">文化/传媒</a>
+        </div>
+        <p class="float-right class-item-more text-secondary" style="display: none;"><a href="javascript:void(0);">更多 ></a></p>
+      </div>
+      <div class="template-class-item w-100">
+        <p class="class-item-title float-left">职位：</p>
+        <div class="float-left class-item-main">
+          <a href="/template/jinrong/">Node.js开发工程师</a>
+          <a href="/template/hulianwang/">互联网</a>
+          <a href="/template/yinhang/">测试开发工程师</a>
+          <a href="/template/qiche/">汽车</a>
+          <a href="/template/kuaiji/">会计</a>
+          <a href="/template/wenhuachuanmei/">文化/传媒</a>
+          <a href="/template/jinrong/">UI设计师</a>
+          <a href="/template/hulianwang/">互联网</a>
+          <a href="/template/yinhang/">PHP开发工程师</a>
+          <a href="/template/qiche/">Web前端开发工程师</a>
+          <a href="/template/kuaiji/">Java开发工程师</a>
+          <a href="/template/wenhuachuanmei/">文化/传媒</a>
+        </div>
+        <p class="float-right class-item-more text-secondary" style="display: none;"><a href="javascript:void(0);">更多 ></a></p>
+      </div>
+      <div class="template-class-item w-100">
+        <p class="class-item-title float-left">高校：</p>
+        <div class="float-left class-item-main">
+          <a href="/template/jinrong/">广东理工学院</a>
+          <a href="/template/hulianwang/">北京大学</a>
+          <a href="/template/yinhang/">清华大学</a>
+          <a href="/template/qiche/">广东体育职业技术学院</a>
+          <a href="/template/kuaiji/">广州体育学院</a>
+          <a href="/template/wenhuachuanmei/">中南大学</a>
+          <a href="/template/jinrong/">南京大学</a>
+          <a href="/template/hulianwang/">肇庆学院</a>
+          <a href="/template/yinhang/">广州工商学院</a>
+          <a href="/template/qiche/">华南师范大学</a>
+          <a href="/template/kuaiji/">惠州学院</a>
+          <a href="/template/wenhuachuanmei/">广东金融学院</a>
+        </div>
+        <p class="float-right class-item-more text-secondary" style="display: none;"><a href="javascript:void(0);">更多 ></a></p>
+      </div>
     </div>
   </div>
+  <div class="template-list-class mt-3" style="background-color: #f5f5f7;">
+    <div class="wrapper">
+      <p>{{ data }}</p>
+      <div class="border mt-3">
+        <p><a href="/template/daxuesheng/1.html">大学生实习简历模板</a></p>
+      </div>
+      <div class="template-page wrapper pb-4 mt-5" page-data="{{ pageNum }}" all-page-data="{{ allPageNum }}">
+        <nav aria-label="Page navigation">
+          <ul class="pagination mb-2" id="templateListPagination"></ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
   {% include "../footer.html" %}
 </body>
 </html>

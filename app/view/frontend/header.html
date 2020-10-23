@@ -1,21 +1,25 @@
+<script src="/frontend/js/home.js"></script>
+<script src="/frontend/js/public.js"></script>
+<script src="//cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
 <div class="header bg-black">
 	<div class="wrapper text-white" style="height: 56px;overflow: hidden;">
 		<div class="logo float-left"><a href="/" title="{{ title }}"></a></div>
 		<div class="menu font-size-14">
-			<p><a class="menu-item menu-item-home" href="/home" style="display: none;">我的简历</a></p>
-			<p><a class="menu-item" href="/template">简历模板</a></p>
-			<p><a class="menu-item" href="/optimize">简历优化</a></p>
-			<p><a class="menu-item" href="/custom">简历定制</a></p>
-			<p><a class="menu-item" href="/article">求职攻略</a></p>
+			<p><a class="menu-item menu-item-home" href="/home/" style="display: none;">我的简历</a></p>
+			<p><a class="menu-item" href="/template/">简历模板</a></p>
+			<p><a class="menu-item" href="/optimize/">简历优化</a></p>
+			<p><a class="menu-item" href="/custom/">简历定制</a></p>
+			<p><a class="menu-item" href="/article/">求职攻略</a></p>
 		</div>
 		<div class="user float-right font-size-14">
 			<p class="icon font-size-16"><a href="#"><i class="iconfont">&#xe63f;</i></a><a href="#" class="ml-3"><i class="iconfont">&#xe63e;</i></a></p>
 			<p class="login" data-toggle="modal" data-target="#accountLogin"><a href="javascript:void(0);" id="loginButton">登录</a></p>
 			<p class="accountMenu">
-				<a href="/home">我的简历</a>
-				<a href="/home/collect">我的收藏</a>
-				<a href="/home/settings">账户设置</a>
-				<a href="/home/feedback">建议反馈</a>
+				<a href="/home/">我的简历</a>
+				<a href="/home/collect/">我的收藏</a>
+				<a href="/home/settings/">账户设置</a>
+				<a href="/home/feedback/">建议反馈</a>
 			</p>
 			<p class="register" data-toggle="modal" data-target="#accountRegister"><a href="javascript:void(0);" id="registerButton">注册</a></p>
 		</div>
@@ -25,9 +29,6 @@
 <div class="modal fade" id="accountLogin">
 	<div class="modal-dialog mt-5 pt-5">
 		<div class="modal-content p-5">
-			<script src="/frontend/js/home.js"></script>
-			<script src="/frontend/js/public.js"></script>
-			<script src="//cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 			<h3 class="text-center">用户登录</h3>
 			<div class="username">
 				<label class="font-size-16">账号：</label><input type="text" class="form-control" id="username">

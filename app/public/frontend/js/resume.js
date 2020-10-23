@@ -75,7 +75,7 @@ $(document).ready(() => {
 				headers: { "x-csrf-token": $.cookie('csrfToken') },
 				data: { userId: userId, realname: realname, templateKey: templateKey },
 				success: function(response) {
-					if(response.result.code == 20000) { window.location.href = '/resume/' + response.resumeKey; }
+					if(response.result.code == 20000) { window.location.href = '/resume/' + response.resumeKey + '/'; }
 					if(response.result.code == 40001) { alert('该简历模板为VIP特权专用！') } //VIP特权验证
 				},
 				error: function(error) { console.log(error); alert('创建简历失败！'); }
@@ -132,7 +132,7 @@ function deleteResume(e) {
 				resumeKey: resumeKey
 			},
 			success: function(response) {
-				if(response.result.code == 20000) { alert('删除简历成功！'); window.location.href = '/home'; }
+				if(response.result.code == 20000) { alert('删除简历成功！'); window.location.href = '/home/'; }
 			},
 			error: function(error) { console.log(error); alert('创建简历失败！'); }
 		})

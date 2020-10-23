@@ -19,10 +19,13 @@ class PublicController extends Controller {
   //页面->简历模板列表
   async template() {
     const { ctx } = this;
+    var pageNum = ctx.query.page;
     await ctx.render('frontend/template/index', {
       title: '简历模板 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
       description: '极速简历WorkerCV提供各行业HR推荐专业简历模板免费下载,包括个人简历模板,大学生简历模板,高薪跳槽简历模板,中英文简历模板等.还有大牛真人简历案例共享,高效制作专业求职简历.',
+      pageNum: pageNum,//当前页面ID
+      allPageNum: 76,//所有页面数
     })
   }
 
@@ -30,11 +33,15 @@ class PublicController extends Controller {
   async templateList() {
     const { ctx } = this;
     var templateData = ctx.params;
+    var pageNum = ctx.query.page;
     await ctx.render('frontend/template/list', {
       title: '大学生简历模板下载 - 简历模板 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
       description: '极速简历WorkerCV提供各行业HR推荐专业简历模板免费下载,包括个人简历模板,大学生简历模板,高薪跳槽简历模板,中英文简历模板等.还有大牛真人简历案例共享,高效制作专业求职简历.',
-      data: JSON.stringify(templateData)
+      data: JSON.stringify(templateData),
+      className: 'Web前端开发工程师',
+      pageNum: pageNum,//当前页面ID
+      allPageNum: 76,//所有页面数
     })
   }
   

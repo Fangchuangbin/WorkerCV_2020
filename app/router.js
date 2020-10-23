@@ -10,27 +10,27 @@ module.exports = app => {
 
   router.get('/', controller.frontend.public.index); //首页
 
-  router.get('/home', controller.frontend.home.index); //用户中心
+  router.get('/home/', controller.frontend.home.index); //用户中心
 
-  router.get('/home/settings', controller.frontend.home.settings); //账户设置
+  router.get('/home/settings/', controller.frontend.home.settings); //账户设置
 
-  router.get('/home/collect', controller.frontend.home.collect); //我的收藏
+  router.get('/home/collect/', controller.frontend.home.collect); //我的收藏
 
-  router.get('/home/feedback', controller.frontend.home.feedback); //建议反馈
+  router.get('/home/feedback/', controller.frontend.home.feedback); //建议反馈
 
-  router.get('/resume/:resumeId', controller.frontend.resume.resumeEdit); //编辑简历
+  router.get('/resume/:resumeId/', controller.frontend.resume.resumeEdit); //编辑简历
 
-  router.get('/template', controller.frontend.public.template); //简历模板列表->所有
+  router.get('/template/', controller.frontend.public.template); //简历模板列表->所有
 
-  router.get('/template/list-:typeId-:industryId-:positionId-:schoolId-:pageId.html', controller.frontend.public.templateList); //简历模板列表->分类
+  router.get('/template/:className/', controller.frontend.public.templateList); //简历模板列表->分类
 
-  router.get('/template/item-:templateId.html', controller.frontend.public.templateItem); //简历模板详情
+  router.get('/template/:classname/:templateId.html', controller.frontend.public.templateItem); //简历模板详情
 
-  router.get('/optimize', controller.frontend.public.optimize); //简历优化
+  router.get('/optimize/', controller.frontend.public.optimize); //简历优化
   
-  router.get('/custom', controller.frontend.public.custom); //简历定制
+  router.get('/custom/', controller.frontend.public.custom); //简历定制
 
-  router.get('/article', controller.frontend.public.article); //求职攻略
+  router.get('/article/', controller.frontend.public.article); //求职攻略
 
   //接口路由
 

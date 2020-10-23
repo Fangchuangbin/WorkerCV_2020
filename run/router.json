@@ -19,7 +19,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/home",
+    "path": "/home/",
     "regexp": "/^\\/home(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -32,7 +32,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/home/settings",
+    "path": "/home/settings/",
     "regexp": "/^\\/home\\/settings(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -45,7 +45,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/home/collect",
+    "path": "/home/collect/",
     "regexp": "/^\\/home\\/collect(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -58,7 +58,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/home/feedback",
+    "path": "/home/feedback/",
     "regexp": "/^\\/home\\/feedback(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -82,7 +82,7 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/resume/:resumeId",
+    "path": "/resume/:resumeId/",
     "regexp": "/^\\/resume\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -95,7 +95,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/template",
+    "path": "/template/",
     "regexp": "/^\\/template(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -109,48 +109,8 @@
     ],
     "paramNames": [
       {
-        "name": "typeId",
-        "prefix": "",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      },
-      {
-        "name": "industryId",
-        "prefix": "",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      },
-      {
-        "name": "positionId",
-        "prefix": "",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      },
-      {
-        "name": "schoolId",
-        "prefix": "",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      },
-      {
-        "name": "pageId",
-        "prefix": "",
+        "name": "className",
+        "prefix": "/",
         "delimiter": "/",
         "optional": false,
         "repeat": false,
@@ -159,8 +119,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/template/list-:typeId-:industryId-:positionId-:schoolId-:pageId.html",
-    "regexp": "/^\\/template\\/list-((?:[^\\/]+?))-((?:[^\\/]+?))-((?:[^\\/]+?))-((?:[^\\/]+?))-((?:[^\\/]+?))\\.html(?:\\/(?=$))?$/",
+    "path": "/template/:className/",
+    "regexp": "/^\\/template\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -173,18 +133,28 @@
     ],
     "paramNames": [
       {
-        "name": "templateId",
-        "prefix": "",
+        "name": "classname",
+        "prefix": "/",
         "delimiter": "/",
         "optional": false,
         "repeat": false,
         "partial": false,
         "asterisk": false,
         "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "templateId",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": true,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/template/item-:templateId.html",
-    "regexp": "/^\\/template\\/item-((?:[^\\/]+?))\\.html(?:\\/(?=$))?$/",
+    "path": "/template/:classname/:templateId.html",
+    "regexp": "/^\\/template\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))\\.html(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -196,7 +166,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/optimize",
+    "path": "/optimize/",
     "regexp": "/^\\/optimize(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -209,7 +179,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/custom",
+    "path": "/custom/",
     "regexp": "/^\\/custom(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -222,7 +192,7 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/article",
+    "path": "/article/",
     "regexp": "/^\\/article(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
