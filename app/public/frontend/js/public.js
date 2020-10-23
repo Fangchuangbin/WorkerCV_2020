@@ -166,10 +166,17 @@ $(document).ready(() => {
         }
       })
     })
-    $('.template-class-item').each(function() {
-      if($(this).find('.class-item-main').find('a')){
-        $(this).css('height', 'auto')
-      }
+    $('.template-class').find('.item-1').each(function() {
+      if($(this).find('a').hasClass('font-weight-bold')){ $(this).css('height', 'auto'); $(this).find('.class-item-more').find('a').text('收回 <'); }
+    })
+    $('.template-class').find('.item-2').each(function() {
+      if($(this).find('a').hasClass('font-weight-bold')){ $(this).css('height', 'auto'); $(this).find('.class-item-more').find('a').text('收回 <'); }
+    })
+    $('.template-class').find('.item-3').each(function() {
+      if($(this).find('a').hasClass('font-weight-bold')){ $(this).css('height', 'auto'); $(this).find('.class-item-more').find('a').text('收回 <'); }
+    })
+    $('.template-class').find('.item-4').each(function() {
+      if($(this).find('a').hasClass('font-weight-bold')){ $(this).css('height', 'auto'); $(this).find('.class-item-more').find('a').text('收回 <'); }
     })
   })
 })

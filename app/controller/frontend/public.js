@@ -39,7 +39,7 @@ class PublicController extends Controller {
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
       description: '极速简历WorkerCV提供各行业HR推荐专业简历模板免费下载,包括个人简历模板,大学生简历模板,高薪跳槽简历模板,中英文简历模板等.还有大牛真人简历案例共享,高效制作专业求职简历.',
       data: JSON.stringify(templateData),
-      className: 'Web前端开发工程师',
+      className: '清华大学',
       pageNum: pageNum,//当前页面ID
       allPageNum: 76,//所有页面数
     })
