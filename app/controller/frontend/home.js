@@ -6,7 +6,7 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
 
   //页面->用户中心首页
-  async index() {
+  async default() {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);

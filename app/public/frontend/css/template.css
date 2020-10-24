@@ -1,4 +1,4 @@
-.breadcrumb a{color: #515559;}
+.breadcrumb a{color: #414549;}
 .template-search{width: 900px;margin: auto;}
 .template-special ul{display: flex;}
 .template-special ul li{width: 24%;margin-left: 1%;}
@@ -29,3 +29,6 @@
 .template-class .class-item-title{color: #515559;}
 .template-class .class-item-more a{color: #919599!important;}
 .template-class .class-item-main a{float: left;margin: 0 10px 0px 12px;color: #616569;}
+.template-class-list .media .img-thumbnail{width: 15%;}
+.template-class-list .media-body{width: 82.5%; float: right;}
+.template-class-list .media-body .description{height: 117px;line-height: 25px;}

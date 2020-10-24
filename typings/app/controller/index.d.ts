@@ -6,6 +6,7 @@ import ExportFrontendAccount = require('../../../app/controller/frontend/account
 import ExportFrontendHome = require('../../../app/controller/frontend/home');
 import ExportFrontendPublic = require('../../../app/controller/frontend/public');
 import ExportFrontendResume = require('../../../app/controller/frontend/resume');
+import ExportFrontendTemplate = require('../../../app/controller/frontend/template');
 
 declare module 'egg' {
   interface IController {
@@ -14,6 +15,7 @@ declare module 'egg' {
       home: ExportFrontendHome;
       public: ExportFrontendPublic;
       resume: ExportFrontendResume;
+      template: ExportFrontendTemplate;
     }
   }
 }

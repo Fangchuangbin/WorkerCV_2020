@@ -8,9 +8,9 @@ module.exports = app => {
 
   //页面路由
 
-  router.get('/', controller.frontend.public.index); //首页
+  router.get('/', controller.frontend.public.default); //首页
 
-  router.get('/home/', controller.frontend.home.index); //用户中心
+  router.get('/home/', controller.frontend.home.default); //用户中心
 
   router.get('/home/settings/', controller.frontend.home.settings); //账户设置
 
@@ -20,11 +20,11 @@ module.exports = app => {
 
   router.get('/resume/:resumeId/', controller.frontend.resume.resumeEdit); //编辑简历
 
-  router.get('/template/', controller.frontend.public.template); //简历模板列表->所有
+  router.get('/template/', controller.frontend.template.default); //简历模板列表->所有
 
-  router.get('/template/:className/', controller.frontend.public.templateList); //简历模板列表->分类
+  router.get('/template/:className/', controller.frontend.template.templateList); //简历模板列表->分类
 
-  router.get('/template/:classname/:templateId.html', controller.frontend.public.templateItem); //简历模板详情
+  router.get('/template/:classname/:templateId.html', controller.frontend.template.templateItem); //简历模板详情
 
   router.get('/optimize/', controller.frontend.public.optimize); //简历优化
   

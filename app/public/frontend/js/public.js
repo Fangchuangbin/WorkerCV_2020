@@ -129,7 +129,7 @@ $(document).ready(() => {
     if(!currentPage) { currentPage = Number('1') }
     $('#templateListPagination').jqPaginator({
       totalPages: totalPages,
-      visiblePages: 8,
+      visiblePages: 2,
       currentPage: currentPage,
       first: '<li class="page-item first"><a class="page-link text-secondary" href="javascript:void(0);">首页</a></li>',
       prev: '<li class="page-item prev"><a class="page-link text-secondary" href="javascript:void(0);">上一页</a></li>',
