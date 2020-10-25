@@ -5567,3 +5567,258 @@ name: "ECONNRESETError"
 pid: 10224
 hostname: DESKTOP-EF7P7GO
 
+2020-10-25 18:59:49,107 ERROR 7932 [-/127.0.0.1/-/26ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7932
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 18:59:57,396 ERROR 7932 [-/127.0.0.1/-/25ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7932
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 18:59:58,574 ERROR 12876 [-/127.0.0.1/-/33ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 18:59:59,152 ERROR 12876 [-/127.0.0.1/-/24ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 18:59:59,675 ERROR 12876 [-/127.0.0.1/-/25ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:00,218 ERROR 12876 [-/127.0.0.1/-/22ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:00,769 ERROR 12876 [-/127.0.0.1/-/22ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:01,357 ERROR 12876 [-/127.0.0.1/-/24ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:02,239 ERROR 12876 [-/127.0.0.1/-/22ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:03,272 ERROR 12876 [-/127.0.0.1/-/27ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:04,123 ERROR 12876 [-/127.0.0.1/-/22ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:04,859 ERROR 12876 [-/127.0.0.1/-/30ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:11,484 ERROR 12876 [-/127.0.0.1/-/22ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateService.getTemplateIndustryClass (F:\WorkerCV\app\service\frontend\template.js:11:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:12:36)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12876
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:12,430 ERROR 21828 [-/127.0.0.1/-/48ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:14:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 21828
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:13,403 ERROR 21828 [-/127.0.0.1/-/60ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:14:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 21828
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:19,356 ERROR 21828 [-/127.0.0.1/-/43ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:14:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 21828
+hostname: DESKTOP-EF7P7GO
+
+2020-10-25 19:00:20,018 ERROR 21828 [-/127.0.0.1/-/41ms GET /template/] nodejs.ReferenceError: getTemplateHotClass is not defined
+    at TemplateController.default (F:\WorkerCV\app\controller\frontend\template.js:14:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 21828
+hostname: DESKTOP-EF7P7GO
+

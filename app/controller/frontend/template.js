@@ -9,12 +9,18 @@ class TemplateController extends Controller {
   async default() {
     const { ctx } = this;
     var pageNum = ctx.query.page;
+    var getTemplateIndustryClass = await ctx.service.frontend.template.getTemplateIndustryClass();//获取模板分类->热门
+    var getTemplatePositionClass = await ctx.service.frontend.template.getTemplatePositionClass();//获取模板分类->热门
+    var getTemplateSchoolClass = await ctx.service.frontend.template.getTemplateSchoolClass();//获取模板分类->热门
     await ctx.render('frontend/template/index', {
       title: '简历模板 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
       description: '极速简历WorkerCV提供各行业HR推荐专业简历模板免费下载,包括个人简历模板,大学生简历模板,高薪跳槽简历模板,中英文简历模板等.还有大牛真人简历案例共享,高效制作专业求职简历.',
       pageNum: pageNum,//当前页面ID
-      allPageNum: 76,//所有页面数
+      allPageNum: 76,//所有页面数,
+      IndustryClass: getTemplateIndustryClass.getTemplateIndustryClass, //模板分类 -> 热门
+      PositionClass: getTemplatePositionClass.getTemplatePositionClass, //模板分类 -> 职位
+      SchoolClass: getTemplateSchoolClass.getTemplateSchoolClass, //模板分类 -> 高校
     })
   }
 
@@ -23,7 +29,6 @@ class TemplateController extends Controller {
     const { ctx } = this;
     var templateData = ctx.params;
     var pageNum = ctx.query.page;
-    console.log(templateData);
     await ctx.render('frontend/template/list', {
       title: '大学生简历模板下载 - 简历模板 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',

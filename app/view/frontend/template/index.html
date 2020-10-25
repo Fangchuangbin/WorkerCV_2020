@@ -60,7 +60,7 @@
           <a class="nav-link px-0" id="position-tab" data-toggle="tab" href="#position" role="tab" aria-controls="position" aria-selected="false">职位</a>
         </li>
         <li class="nav-item" role="presentation">
-          <a class="nav-link px-0" id="school-tab" data-toggle="tab" href="#school" role="tab" aria-controls="school" aria-selected="false">搞笑</a>
+          <a class="nav-link px-0" id="school-tab" data-toggle="tab" href="#school" role="tab" aria-controls="school" aria-selected="false">高校</a>
         </li>
       </ul>
     </div>
@@ -86,18 +86,9 @@
         </div>
         <div class="tab-pane fade" id="type" role="tabpanel" aria-labelledby="type-tab">
           <div class="list-tag wrapper">
-            <a href="/template/jinrong/" class="badge">金融</a>
-            <a href="/template/hulianwang/" class="badge">互联网</a>
-            <a href="/template/yinhang/" class="badge">银行</a>
-            <a href="/template/qiche/" class="badge">汽车</a>
-            <a href="/template/kuaiji/" class="badge">会计</a>
-            <a href="/template/wenhuachuanmei/" class="badge">文化/传媒</a>
-            <a href="/template/jinrong/" class="badge">金融</a>
-            <a href="/template/hulianwang/" class="badge">互联网</a>
-            <a href="/template/yinhang/" class="badge">银行</a>
-            <a href="/template/qiche/" class="badge">汽车</a>
-            <a href="/template/kuaiji/" class="badge">会计</a>
-            <a href="/template/wenhuachuanmei/" class="badge">文化/传媒</a>
+            {% for item in IndustryClass %}
+            <a href="{{item.url}}" class="badge">{{item.tagname}}</a>
+            {% endfor %}
           </div>
           <div class="w-100 pb-2 wrapper" style="overflow: hidden;padding: 0px 25px;width: 1250px!important;">
             <div class="list-box float-left mt-3 mb-4"><a href="#" title="#"><p class="btn btn-blue text-white font-size-16">查看模板</p><p class="img"><img src="https://photo.wondercv.com/uploads/jianlimuban/img/4/%E5%BA%94%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF_%E9%80%9A%E7%94%A8%E7%B1%BB_.jpg" alt="#"></p><p class="title px-3 font-size-14"><span class="badge badge-secondary font-size-13 mr-2 font-weight-normal teamplate-type">免费</span>零基础大学生实习简历模板</p><p class="px-3 pb-1 mb-2 description font-size-13 text-secondary" style="overflow: hidden;"><font class="float-left">免费模板</font><font class="float-right">34713人使用</font></p></a></div>
@@ -113,30 +104,9 @@
         </div>
         <div class="tab-pane fade" id="position" role="tabpanel" aria-labelledby="position-tab">
           <div class="list-tag wrapper">
-            <a href="/template/jinrong/" class="badge">金融</a>
-            <a href="/template/hulianwang/" class="badge">互联网</a>
-            <a href="/template/yinhang/" class="badge">银行</a>
-            <a href="/template/qiche/" class="badge">汽车</a>
-            <a href="/template/kuaiji/" class="badge">会计</a>
-            <a href="/template/wenhuachuanmei/" class="badge">文化/传媒</a>
-            <a href="/template/jinrong/" class="badge">金融</a>
-            <a href="/template/hulianwang/" class="badge">互联网</a>
-            <a href="/template/yinhang/" class="badge">银行</a>
-            <a href="/template/qiche/" class="badge">汽车</a>
-            <a href="/template/kuaiji/" class="badge">会计</a>
-            <a href="/template/wenhuachuanmei/" class="badge">文化/传媒</a>
-            <a href="/template/jinrong/" class="badge">金融</a>
-            <a href="/template/hulianwang/" class="badge">互联网</a>
-            <a href="/template/yinhang/" class="badge">银行</a>
-            <a href="/template/qiche/" class="badge">汽车</a>
-            <a href="/template/kuaiji/" class="badge">会计</a>
-            <a href="/template/wenhuachuanmei/" class="badge">文化/传媒</a>
-            <a href="/template/jinrong/" class="badge">金融</a>
-            <a href="/template/hulianwang/" class="badge">互联网</a>
-            <a href="/template/yinhang/" class="badge">银行</a>
-            <a href="/template/qiche/" class="badge">汽车</a>
-            <a href="/template/kuaiji/" class="badge">会计</a>
-            <a href="/template/wenhuachuanmei/" class="badge">文化/传媒</a>
+            {% for item in PositionClass %}
+            <a href="{{item.url}}" class="badge">{{item.tagname}}</a>
+            {% endfor %}
           </div>
           <div class="w-100 pb-2 wrapper" style="overflow: hidden;padding: 0px 25px;width: 1250px!important;">
             <div class="list-box float-left mt-3 mb-4"><a href="#" title="#"><p class="btn btn-blue text-white font-size-16">查看模板</p><p class="img"><img src="https://photo.wondercv.com/uploads/jianlimuban/img/4/%E5%BA%94%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF_%E9%80%9A%E7%94%A8%E7%B1%BB_.jpg" alt="#"></p><p class="title px-3 font-size-14"><span class="badge badge-secondary font-size-13 mr-2 font-weight-normal teamplate-type">免费</span>零基础大学生实习简历模板</p><p class="px-3 pb-1 mb-2 description font-size-13 text-secondary" style="overflow: hidden;"><font class="float-left">免费模板</font><font class="float-right">34713人使用</font></p></a></div>
@@ -153,12 +123,9 @@
         </div>
         <div class="tab-pane fade" id="school" role="tabpanel" aria-labelledby="school-tab">
           <div class="list-tag wrapper">
-            <a href="/template/jinrong/" class="badge">金融</a>
-            <a href="/template/hulianwang/" class="badge">互联网</a>
-            <a href="/template/yinhang/" class="badge">银行</a>
-            <a href="/template/qiche/" class="badge">汽车</a>
-            <a href="/template/kuaiji/" class="badge">会计</a>
-            <a href="/template/wenhuachuanmei/" class="badge">文化/传媒</a>
+            {% for item in SchoolClass %}
+            <a href="{{item.url}}" class="badge">{{item.tagname}}</a>
+            {% endfor %}
           </div>
           <div class="w-100 pb-2 wrapper" style="overflow: hidden;padding: 0px 25px;width: 1250px!important;">
             <div class="list-box float-left mt-3 mb-4"><a href="#" title="#"><p class="btn btn-blue text-white font-size-16">查看模板</p><p class="img"><img src="https://photo.wondercv.com/uploads/jianlimuban/img/4/%E5%BA%94%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF_%E9%80%9A%E7%94%A8%E7%B1%BB_.jpg" alt="#"></p><p class="title px-3 font-size-14"><span class="badge badge-secondary font-size-13 mr-2 font-weight-normal teamplate-type">免费</span>零基础大学生实习简历模板</p><p class="px-3 pb-1 mb-2 description font-size-13 text-secondary" style="overflow: hidden;"><font class="float-left">免费模板</font><font class="float-right">34713人使用</font></p></a></div>
