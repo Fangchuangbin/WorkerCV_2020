@@ -18920,3 +18920,19 @@ hostname: DESKTOP-RN33ASL
 2020-10-25 22:36:11,474 INFO 23732 [egg-mysql] instance[0] status OK, rds currentTime: Sun Oct 25 2020 22:36:11 GMT+0800 (GMT+08:00)
 2020-10-25 22:36:11,498 INFO 23732 [egg:core] dump config after ready, 22ms
 2020-10-25 22:36:12,585 INFO 23732 [egg-view-nunjucks] loading templates from ["F:\\WorkerCV\\app\\view"]
+2020-10-25 22:46:24,800 INFO 17832 [egg:logger] init all loggers with options: {"dir":"F:\\WorkerCV\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-25 22:46:24,822 INFO 17832 [egg-multipart] stream mode enable
+2020-10-25 22:46:24,823 INFO 17832 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-25 22:46:24,980 INFO 17832 [egg-static] starting static serve / -> F:\WorkerCV\app\public
+2020-10-25 22:46:24,983 INFO 17832 [egg-security] use csrf middleware
+2020-10-25 22:46:24,983 INFO 17832 [egg-security] use methodnoallow middleware
+2020-10-25 22:46:24,984 INFO 17832 [egg-security] use noopen middleware
+2020-10-25 22:46:24,984 INFO 17832 [egg-security] use nosniff middleware
+2020-10-25 22:46:24,985 INFO 17832 [egg-security] use xssProtection middleware
+2020-10-25 22:46:24,985 INFO 17832 [egg-security] use xframe middleware
+2020-10-25 22:46:24,986 INFO 17832 [egg-security] use dta middleware
+2020-10-25 22:46:24,986 INFO 17832 [egg-security] compose 7 middlewares into one security middleware
+2020-10-25 22:46:25,009 INFO 17832 [egg:core] dump config after load, 14ms
+2020-10-25 22:46:25,020 INFO 17832 [egg-watcher:application] watcher start success
+2020-10-25 22:46:25,083 INFO 17832 [egg-mysql] instance[0] status OK, rds currentTime: Sun Oct 25 2020 22:46:25 GMT+0800 (GMT+08:00)
+2020-10-25 22:46:25,105 INFO 17832 [egg:core] dump config after ready, 20ms
