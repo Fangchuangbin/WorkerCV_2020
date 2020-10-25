@@ -270,7 +270,7 @@
     totalCounts: 0,
     pageSize: 0,
     currentPage: 1,
-    visiblePages: 7,
+    visiblePages: 8,
     disableClass: 'disabled',
     activeClass: 'active',
     onPageChange: null

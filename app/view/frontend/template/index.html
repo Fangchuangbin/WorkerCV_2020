@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/frontend/css/template.css">
   <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
   <script src="/frontend/js/jq-paginator.js"></script>
+  <script src="/frontend/js/page.js"></script>
   <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
 </head>
@@ -84,10 +85,10 @@
             <div class="list-box float-left mt-3 mb-4"><a href="#" title="#"><p class="btn btn-blue text-white font-size-16">查看模板</p><p class="img"><img src="https://photo.wondercv.com/uploads/jianlimuban/img/4/%E5%BA%94%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF_%E9%80%9A%E7%94%A8%E7%B1%BB_.jpg" alt="#"></p><p class="title px-3 font-size-14"><span class="badge badge-secondary font-size-13 mr-2 font-weight-normal teamplate-type">VIP</span>Node.js开发工程师简历模板</p><p class="px-3 pb-1 mb-2 description font-size-13 text-secondary" style="overflow: hidden;"><font class="float-left">VIP模板</font><font class="float-right">34713人使用</font></p></a></div>
           </div>
         </div>
-        <div class="tab-pane fade" id="type" role="tabpanel" aria-labelledby="type-tab">
+        <div class="tab-pane fade" id="type" type-data-count="" role="tabpanel" aria-labelledby="type-tab">
           <div class="list-tag wrapper">
-            {% for item in IndustryClass %}
-            <a href="{{item.url}}" class="badge">{{item.tagname}}</a>
+            {% for item in industryClass %}
+            <a href="/template/{{item.url}}/" class="badge">{{item.tagname}}</a>
             {% endfor %}
           </div>
           <div class="w-100 pb-2 wrapper" style="overflow: hidden;padding: 0px 25px;width: 1250px!important;">
@@ -104,8 +105,8 @@
         </div>
         <div class="tab-pane fade" id="position" role="tabpanel" aria-labelledby="position-tab">
           <div class="list-tag wrapper">
-            {% for item in PositionClass %}
-            <a href="{{item.url}}" class="badge">{{item.tagname}}</a>
+            {% for item in positionClass %}
+            <a href="/template/{{item.url}}/" class="badge">{{item.tagname}}</a>
             {% endfor %}
           </div>
           <div class="w-100 pb-2 wrapper" style="overflow: hidden;padding: 0px 25px;width: 1250px!important;">
@@ -123,8 +124,8 @@
         </div>
         <div class="tab-pane fade" id="school" role="tabpanel" aria-labelledby="school-tab">
           <div class="list-tag wrapper">
-            {% for item in SchoolClass %}
-            <a href="{{item.url}}" class="badge">{{item.tagname}}</a>
+            {% for item in schoolClass %}
+            <a href="/template/{{item.url}}/" class="badge">{{item.tagname}}</a>
             {% endfor %}
           </div>
           <div class="w-100 pb-2 wrapper" style="overflow: hidden;padding: 0px 25px;width: 1250px!important;">
