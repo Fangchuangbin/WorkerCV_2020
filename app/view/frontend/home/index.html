@@ -8,11 +8,14 @@
   <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.5.2/css/bootstrap.css">
   <link rel="stylesheet" href="/frontend/css/public.css">
   <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+  <script src="/frontend/js/home.js"></script>
+  <script src="/frontend/js/resume.js"></script>
   <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
 </head>
 <body>
   {% include "../header.html" %}
+
   <!-- 修改信息 -->
   <div class="modal fade" id="userInfo" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="userInfo" aria-hidden="true">
     <div class="modal-dialog mt-5 pt-5">
@@ -93,8 +96,8 @@
       </div>
     </div>
   </div>
+
   <!-- 选择模板 -->
-  <script src="/frontend/js/resume.js"></script>
   <div class="modal fade mt-4" id="selectTemplate" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="selectTemplateLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" style="max-width: 1000px!important;">
       <div class="modal-content">
@@ -121,6 +124,7 @@
       </div>
     </div>
   </div>
+
   <!-- 更换头像 -->
   <div class="modal fade" id="userAvatar" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="userAvatar" aria-hidden="true">
     <div class="modal-dialog mt-5 pt-5">
@@ -141,6 +145,7 @@
       </div>
     </div>
   </div>
+  
   <div class="home wrapper pt-4 pb-4" style="margin-top: 56px;">
     {% include "./left-nav.html" %}
     <div class="float-right w-75" style="width: 74%!important;">
@@ -187,6 +192,7 @@
       </div>
     </div>
   </div>
+  
   {% include "../footer.html" %}
 </body>
 </html>

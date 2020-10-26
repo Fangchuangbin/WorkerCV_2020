@@ -15,6 +15,54 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/login",
+    "regexp": "/^\\/api\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/register",
+    "regexp": "/^\\/api\\/register(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/forgetPassword",
+    "regexp": "/^\\/api\\/forgetPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/resetNewPassword",
+    "regexp": "/^\\/api\\/resetNewPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -72,7 +120,7 @@
     ],
     "paramNames": [
       {
-        "name": "resumeId",
+        "name": "resumeKey",
         "prefix": "/",
         "delimiter": "/",
         "optional": false,
@@ -82,7 +130,7 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/resume/:resumeId/",
+    "path": "/resume/:resumeKey/",
     "regexp": "/^\\/resume\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -204,56 +252,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/downResume",
-    "regexp": "/^\\/api\\/downResume(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/getUser",
-    "regexp": "/^\\/api\\/getUser(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
     "path": "/api/setResume",
     "regexp": "/^\\/api\\/setResume(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/setUserInfo",
-    "regexp": "/^\\/api\\/setUserInfo(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/changeAvatar",
-    "regexp": "/^\\/api\\/changeAvatar(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -288,8 +288,32 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/registerAccount",
-    "regexp": "/^\\/api\\/registerAccount(?:\\/(?=$))?$/",
+    "path": "/api/downResume",
+    "regexp": "/^\\/api\\/downResume(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/setUserInfo",
+    "regexp": "/^\\/api\\/setUserInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/changeAvatar",
+    "regexp": "/^\\/api\\/changeAvatar(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -302,30 +326,6 @@
     "paramNames": [],
     "path": "/api/modifyPassword",
     "regexp": "/^\\/api\\/modifyPassword(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/resetPassword",
-    "regexp": "/^\\/api\\/resetPassword(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/resetNewPassword",
-    "regexp": "/^\\/api\\/resetNewPassword(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

@@ -2,19 +2,17 @@ const Service = require('egg').Service;
 const moment = require('moment');
 
 class ResumeService extends Service {
-  //获取用户简历列表
-  async getResumeList(userId) {
+
+  //获取编辑简历
+  async resumeData(resumeKey) {
     const { ctx, app } = this;
-    var getSuccess = { code: 20000, message: '获取用户简历列表成功' };
-    var getFail = { code: 40004, message: '获取用户简历列表失败' };
-    var resumeList = await app.mysql.select('frontend_resume', { where: { user_id: userId }, orders: [['update_time', 'desc']] });
-    for (let i = 0; i < resumeList.length; i++) {
-      resumeList[i].update_time = moment(Number(resumeList[i].update_time)).format('YYYY-MM-DD HH:mm:ss')
-    }
-    if(resumeList) {
-        return { result: getSuccess, resumeList }
+    var getSuccess = { code: 20000, message: '获取用户简历成功' };
+    var getFail = { code: 40004, message: '获取用户简历失败' };
+    var resumeData = await app.mysql.get('frontend_resume', { resume_key: resumeKey })
+    if(resumeData) {
+      return { result: getSuccess, resumeData }
     }else{
-        return { result: getFail }
+      return { result: getFail }
     }
   }
 
@@ -34,32 +32,6 @@ class ResumeService extends Service {
       return { result: setSuccess, setResume }
     }else{
       return { result: setFail }
-    }
-  }
-
-  //获取编辑简历
-  async getResumeData(resumeKey) {
-    const { ctx, app } = this;
-    var getSuccess = { code: 20000, message: '获取用户简历成功' };
-    var getFail = { code: 40004, message: '获取用户简历失败' };
-    var resumeData = await app.mysql.get('frontend_resume', { resume_key: resumeKey })
-    if(resumeData) {
-      return { result: getSuccess, resumeData }
-    }else{
-      return { result: getFail }
-    }
-  }
-
-  //获取所有简历模板列表
-  async getResumeTemplateList() {
-    const { ctx, app } = this;
-    var getSuccess = { code: 20000, message: '获取简历模板成功' };
-    var getFail = { code: 40004, message: '获取简历模板失败' };
-    var resumeTemplateListData = await app.mysql.select('frontend_template', { limit: 12, orders: [['template_id', 'desc']] })
-    if(resumeTemplateListData) {
-      return { result: getSuccess, resumeTemplateListData }
-    }else{
-      return { result: getFail }
     }
   }
 

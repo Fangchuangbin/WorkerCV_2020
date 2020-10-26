@@ -6173,3 +6173,978 @@ name: "ER_BAD_FIELD_ERRORError"
 pid: 7948
 hostname: DESKTOP-EF7P7GO
 
+2020-10-26 11:48:18,337 ERROR 14604 [-/192.168.0.254/-/18ms POST /api/getUser] nodejs.ReferenceError: crypto is not defined
+    at IndexController.login (F:\WorkerCV\app\controller\frontend\index.js:23:33)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at F:\WorkerCV\node_modules\koa-compose\index.js:36:12
+
+pid: 14604
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 11:48:32,004 ERROR 14604 [-/192.168.0.254/-/1ms POST /api/getUser] nodejs.ReferenceError: crypto is not defined
+    at IndexController.login (F:\WorkerCV\app\controller\frontend\index.js:23:33)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at F:\WorkerCV\node_modules\koa-compose\index.js:36:12
+
+pid: 14604
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 11:48:36,095 ERROR 14604 [-/192.168.0.254/-/3ms POST /api/getUser] nodejs.ReferenceError: crypto is not defined
+    at IndexController.login (F:\WorkerCV\app\controller\frontend\index.js:23:33)
+    at Object.callFn (F:\WorkerCV\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\WorkerCV\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\WorkerCV\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\WorkerCV\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at next (F:\WorkerCV\node_modules\koa-compose\index.js:45:18)
+    at F:\WorkerCV\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\WorkerCV\node_modules\koa-compose\index.js:44:32)
+    at F:\WorkerCV\node_modules\koa-compose\index.js:36:12
+
+pid: 14604
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:36:11,870 ERROR 14596 [-/192.168.0.254/-/91ms GET /home/] nodejs.TypeError: ctx.service.frontend.resume.getResumeTemplateList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:17:67)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 14596
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:38:04,277 ERROR 4456 [-/192.168.0.254/-/41ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4456
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:38:04,936 ERROR 4456 [-/192.168.0.254/-/32ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4456
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:38:05,624 ERROR 4456 [-/192.168.0.254/-/32ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4456
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:38:06,319 ERROR 4456 [-/192.168.0.254/-/30ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 4456
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:38:43,629 ERROR 10556 [-/192.168.0.254/-/35ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10556
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:12,415 ERROR 10556 [-/192.168.0.254/-/27ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10556
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:13,740 ERROR 10832 [-/192.168.0.254/-/42ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,236 ERROR 10832 [-/192.168.0.254/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,270 ERROR 10832 [-/undefined/-/31ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,305 ERROR 10832 [-/undefined/-/29ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,340 ERROR 10832 [-/undefined/-/39ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,387 ERROR 10832 [-/undefined/-/54ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,391 ERROR 10832 [-/192.168.0.254/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,423 ERROR 10832 [-/192.168.0.254/-/25ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,455 ERROR 10832 [-/192.168.0.254/-/24ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,491 ERROR 10832 [-/undefined/-/27ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,523 ERROR 10832 [-/undefined/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,555 ERROR 10832 [-/undefined/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,587 ERROR 10832 [-/192.168.0.254/-/25ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,619 ERROR 10832 [-/192.168.0.254/-/24ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,657 ERROR 10832 [-/undefined/-/28ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,687 ERROR 10832 [-/undefined/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,720 ERROR 10832 [-/192.168.0.254/-/25ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,755 ERROR 10832 [-/undefined/-/27ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,783 ERROR 10832 [-/192.168.0.254/-/25ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,819 ERROR 10832 [-/undefined/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:14,851 ERROR 10832 [-/192.168.0.254/-/27ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:15,323 ERROR 10832 [-/192.168.0.254/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:15,858 ERROR 10832 [-/192.168.0.254/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:38,854 ERROR 10832 [-/192.168.0.254/-/29ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:39:39,547 ERROR 10832 [-/192.168.0.254/-/26ms GET /home/] nodejs.TypeError: ctx.service.frontend.index.getResumeList is not a function
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:59)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10832
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:18,924 ERROR 12176 [-/192.168.0.254/-/74ms GET /home/] nodejs.ReferenceError: moment is not defined
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12176
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:19,679 ERROR 12176 [-/192.168.0.254/-/99ms GET /home/] nodejs.ReferenceError: moment is not defined
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12176
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:21,691 ERROR 12176 [-/192.168.0.254/-/67ms GET /home/] nodejs.ReferenceError: moment is not defined
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12176
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:33,095 ERROR 12176 [-/192.168.0.254/-/63ms GET /home/] nodejs.ReferenceError: moment is not defined
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12176
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:33,707 ERROR 12176 [-/192.168.0.254/-/59ms GET /home/] nodejs.ReferenceError: moment is not defined
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12176
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:34,592 ERROR 11460 [-/192.168.0.254/-/66ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:35,547 ERROR 11460 [-/192.168.0.254/-/64ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:36,207 ERROR 11460 [-/192.168.0.254/-/60ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:42,011 ERROR 11460 [-/192.168.0.254/-/59ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:42,739 ERROR 11460 [-/192.168.0.254/-/60ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,238 ERROR 11460 [-/192.168.0.254/-/64ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,297 ERROR 11460 [-/undefined/-/50ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,299 ERROR 11460 [-/undefined/-/89ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,355 ERROR 11460 [-/undefined/-/78ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,371 ERROR 11460 [-/undefined/-/60ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,392 ERROR 11460 [-/undefined/-/50ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,424 ERROR 11460 [-/undefined/-/50ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,456 ERROR 11460 [-/undefined/-/48ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,488 ERROR 11460 [-/undefined/-/50ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:43,522 ERROR 11460 [-/undefined/-/55ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,016 ERROR 11460 [-/undefined/-/419ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,265 ERROR 11460 [-/undefined/-/733ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,311 ERROR 11460 [-/undefined/-/808ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,336 ERROR 11460 [-/undefined/-/771ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,337 ERROR 11460 [-/undefined/-/674ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,363 ERROR 11460 [-/192.168.0.254/-/95ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,552 ERROR 11460 [-/undefined/-/923ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+headerSent: true
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:44,907 ERROR 11460 [-/192.168.0.254/-/93ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:41:45,159 ERROR 11460 [-/192.168.0.254/-/101ms GET /home/] nodejs.TypeError: moment is not a function
+    at HomeService.getResumeList (F:\WorkerCV\app\service\frontend\home.js:26:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:15:26)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11460
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 14:49:01,421 ERROR 228 [-/192.168.0.254/-/71ms POST /api/changeAvatar?_csrf=q954bL7DZ_jrcFOz7LZK4Q_e] nodejs.ReferenceError: path is not defined
+    at HomeService.changeAvatar (F:\WorkerCV\app\service\frontend\home.js:56:19)
+    at HomeController.changeAvatar (F:\WorkerCV\app\controller\frontend\home.js:96:56)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 228
+hostname: DESKTOP-RN33ASL
+

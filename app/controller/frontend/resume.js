@@ -7,6 +7,26 @@ const fs = require('fs');
 //简历控制器
 class ResumeController extends Controller {
 
+  //页面->编辑简历
+  async index() {
+    const { ctx } = this;
+    var tokenData = ctx.cookies.get('loginToken');
+    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
+    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+
+    const resumeKey = ctx.params.resumeKey;
+    var resumeData = await ctx.service.frontend.resume.resumeData(resumeKey);
+    if(resumeData.result.code !== 20000) { return false; }
+    await ctx.render('/frontend/resume/index', {
+      title: '编辑简历 - 极速简历',
+      resumeName: resumeData.resumeData.resume_name, //简历名称
+      resumeData: resumeData.resumeData.resume_code, //简历代码
+      resumeScore: resumeData.resumeData.resume_score, //简历评分
+      resumeKey: resumeData.resumeData.resume_key, //简历秘钥
+      userData: loginTokenData, //用户信息
+    })
+  }
+
   //接口->保存简历
   async setResume() {
     const { ctx } = this;
@@ -17,26 +37,6 @@ class ResumeController extends Controller {
     const resumeData = ctx.request.body;
     var setResumeData = await ctx.service.frontend.resume.setResume(resumeData);
     ctx.body = setResumeData;
-  }
-
-  //页面->编辑简历
-  async resumeEdit() {
-    const { ctx } = this;
-    var tokenData = ctx.cookies.get('loginToken');
-    var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
-    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
-
-    const resumeKey = ctx.params.resumeId;
-    var getResumeData = await ctx.service.frontend.resume.getResumeData(resumeKey);
-    if(getResumeData.result.code !== 20000) { return false; }
-    await ctx.render('/frontend/resume/index', {
-      title: '编辑简历 - 极速简历',
-      resumeName: getResumeData.resumeData.resume_name, //简历名称
-      resumeData: getResumeData.resumeData.resume_code, //简历代码
-      resumeScore: getResumeData.resumeData.resume_score, //简历评分
-      resumeKey: getResumeData.resumeData.resume_key, //简历秘钥
-      userData: loginTokenData, //用户信息
-    })
   }
 
   //接口->下载简历

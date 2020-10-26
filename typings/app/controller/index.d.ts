@@ -2,18 +2,16 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportFrontendAccount = require('../../../app/controller/frontend/account');
 import ExportFrontendHome = require('../../../app/controller/frontend/home');
-import ExportFrontendPublic = require('../../../app/controller/frontend/public');
+import ExportFrontendIndex = require('../../../app/controller/frontend/index');
 import ExportFrontendResume = require('../../../app/controller/frontend/resume');
 import ExportFrontendTemplate = require('../../../app/controller/frontend/template');
 
 declare module 'egg' {
   interface IController {
     frontend: {
-      account: ExportFrontendAccount;
       home: ExportFrontendHome;
-      public: ExportFrontendPublic;
+      index: ExportFrontendIndex;
       resume: ExportFrontendResume;
       template: ExportFrontendTemplate;
     }

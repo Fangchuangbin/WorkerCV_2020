@@ -1,4 +1,8 @@
 $(document).ready(() => {
+
+  //公共变量
+  $('.vip').tooltip(); //VIP用户提示
+  $('.userAvatar').tooltip(); //设置个人头像提示
   
   //修改个人信息
   $('#setUserInfo').click(() => {
@@ -24,14 +28,14 @@ $(document).ready(() => {
     }else{ alert('请填写完整个人信息！'); }
   });
 
-  //VIP用户
-  if($('.vip').attr('data-target') == 1) { $('.vip').addClass('badge-warning'); $('.vip').attr('title', 'VIP用户'); }
-  //VIP简历
-  $('.teamplate-type').each(function() {
-    if($(this).text() == 'VIP') {
-      $(this).css('background-color', '#dc3545');
-    }
-  })
+  //VIP用户高亮
+  if($('.vip').attr('data-target') == 1) { $('.vip').addClass('badge-warning'); $('.vip').attr('data-original-title', 'VIP用户'); }
+  
+  //VIP简历高亮
+  $('.teamplate-type').each(function() { if($(this).text() == 'VIP') { $(this).css('background-color', '#dc3545'); } })
+
+  //判断有无简历
+  if($('.resume-list-group').attr('data-target') == '') { $('.resume-list-group').append('<h3 class="text-secondary text-center p-5">暂无简历，快去新建一份简历吧 (๑╹◡╹)ﾉ"""</h3>'); }
 
   //修改密码
   $('#accountSettings').find('#modifyPassword').click(() => {
@@ -77,40 +81,4 @@ $(document).ready(() => {
     }
   })
 
-  //重置密码
-  $('#resetPassword').find('#reset').click(() => {
-    var realname = $('#resetPassword').find('#realname').val();
-    var phone = $('#resetPassword').find('#phone').val();
-    var email = $('#resetPassword').find('#email').val();
-    var resetQuestion = $('#resetPassword').find('#resetQuestion').val();
-    var resetAnswer = $('#resetPassword').find('#resetAnswer').val();
-    if(realname && phone && email && resetQuestion && resetAnswer) {
-      $.ajax({
-        url: '/api/resetPassword', type: 'post',
-        dataType: 'json', timeout: 5000,
-        headers: { 'x-csrf-token': $.cookie('csrfToken') },
-        data: { realname: realname, phone: phone, email: email, resetQuestion: resetQuestion, resetAnswer: resetAnswer },
-        success: function(response) {
-          if(response.result.code == 20000) {
-            var resetPassword = prompt('请输入你要设置的新密码：');
-            if(resetPassword) {
-              $.ajax({
-                url: '/api/resetNewPassword', type: 'post',
-                dataType: 'json', timeout: 5000,
-                headers: { 'x-csrf-token': $.cookie('csrfToken') },
-                data: { userId: response.resetPassword.id, nowPassword: response.resetPassword.password, newPassword: resetPassword },
-                success: function(response) {
-                  if(response.result.code == 20000) { alert('重置密码成功！'); window.location.reload(); console.log(response); }else{ console.log(response); alert('修改密码失败！'); }
-                },
-                error: function(error) { alert('重置密码失败！'); console.log(error); }
-              })
-            }
-          }else{ alert('信息填写错误，重置密码失败！'); }
-        },
-        error: function(error) { alert('信息填写错误，重置密码失败！'); console.log(error); }
-      })
-    }else{
-      alert('请填写完整信息！');
-    }
-  })
 })
