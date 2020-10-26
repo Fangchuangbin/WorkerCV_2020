@@ -19,7 +19,6 @@ class TemplateController extends Controller {
     var pageNum = ctx.query.page; //获取当前页码数
     if(pageNum == null) { pageNum = Number(1); } //如为空，则为 1
     var pageTemplateList = await ctx.service.frontend.template.getPageTemplateList(pageNum, limitNum); //获取当前页面模板
-    //console.log(pageTemplateList);
     await ctx.render('frontend/template/index', {
       title: '简历模板下载 - 免费求职简历模板 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
@@ -37,28 +36,36 @@ class TemplateController extends Controller {
   //页面->简历模板列表 -> 分类
   async list() {
     const { ctx } = this;
-    var templateClassName = ctx.params.templateClassName;//获取当前分类
-    var pageNum = ctx.query.page;//获取当前分页ID
     var templateHotClass = await ctx.service.frontend.template.getTemplateHotClass();//获取模板分类->热门
     var templateIndustryClass = await ctx.service.frontend.template.getTemplateIndustryClass();//获取模板分类->热门
     var templatePositionClass = await ctx.service.frontend.template.getTemplatePositionClass();//获取模板分类->热门
     var templateSchoolClass = await ctx.service.frontend.template.getTemplateSchoolClass();//获取模板分类->热门
 
+    var templateClassName = ctx.params.templateClassName;//获取当前分类
     var templateClassData = await ctx.service.frontend.template.getTemplateClassData(templateClassName); //获取当前分类的列表数据
+    
+    var allTemplateCount = await ctx.service.frontend.template.getAllTemplateCount(); //获取所有模板数量
+    var limitNum = 5; //每页模板数量
+    var allPageNum = Math.ceil(allTemplateCount.allTemplateCount[0].count / limitNum); //获取所有页码数
+    var pageNum = ctx.query.page; //获取当前页码数
+    if(pageNum == null) { pageNum = Number(1); } //如为空，则为 1
+    var pageTemplateList = await ctx.service.frontend.template.getPageTemplateList(pageNum, limitNum); //获取当前页面模板
+
+    
     if(templateClassData.result.code !== 20000) { return false; }
     await ctx.render('frontend/template/list', {
       title: templateClassData.templateClassData.tagname + ' - 免费求职简历模板下载 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
       description: '极速简历WorkerCV提供各行业HR推荐专业简历模板免费下载,包括个人简历模板,大学生简历模板,高薪跳槽简历模板,中英文简历模板等.还有大牛真人简历案例共享,高效制作专业求职简历.',
-      className: '北京大学',
-      pageNum: pageNum,//当前页面ID
-      allPageNum: 76,//所有页面数
+      pageNum: pageNum,//获取当前页码数
+      allPageNum: allPageNum,//获取所有页码数
       hotClass: templateHotClass.templateHotClass, //模板分类 -> 热门
       industryClass: templateIndustryClass.templateIndustryClass, //模板分类 -> 热门
       positionClass: templatePositionClass.templatePositionClass, //模板分类 -> 职位
       schoolClass: templateSchoolClass.templateSchoolClass, //模板分类 -> 高校
       templateClassData: templateClassData.templateClassData, //当前模板分类信息
       templateData: templateClassData.templateData, //当前分类的模板列表
+      pageTemplateList: pageTemplateList.pageTemplateList, //当前列表页模板
     })
   }
   
