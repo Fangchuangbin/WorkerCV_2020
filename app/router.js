@@ -14,6 +14,9 @@ module.exports = app => {
   router.post('/api/register', controller.frontend.index.register); //注册用户
   router.post('/api/forgetPassword', controller.frontend.index.forgetPassword); //首页->重置密码
   router.post('/api/resetNewPassword', controller.frontend.index.resetNewPassword); //首页->重置新密码
+  router.get('/optimize/', controller.frontend.index.optimize); //简历优化
+  router.get('/custom/', controller.frontend.index.custom); //简历定制
+  router.get('/article/', controller.frontend.index.article); //求职攻略
 
   //home.js
   router.get('/home/', controller.frontend.home.index); //用户中心首页
@@ -24,13 +27,11 @@ module.exports = app => {
   //resume.js
   router.get('/resume/:resumeKey/', controller.frontend.resume.index); //编辑简历
 
-  router.get('/template/', controller.frontend.template.default); //简历模板列表->所有
-  router.get('/template/:className/', controller.frontend.template.templateList); //简历模板列表->分类
+  //template.js
+  router.get('/template/', controller.frontend.template.index); //简历模板列表->所有
+  router.get('/template/:templateClassName/', controller.frontend.template.templateList); //简历模板列表->分类
   router.get('/template/:classname/:templateId.html', controller.frontend.template.templateItem); //简历模板详情
 
-  router.get('/optimize/', controller.frontend.index.optimize); //简历优化
-  router.get('/custom/', controller.frontend.index.custom); //简历定制
-  router.get('/article/', controller.frontend.index.article); //求职攻略
 
   //接口路由
 

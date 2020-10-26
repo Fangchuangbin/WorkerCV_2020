@@ -7148,3 +7148,13 @@ hostname: DESKTOP-RN33ASL
 pid: 228
 hostname: DESKTOP-RN33ASL
 
+2020-10-26 15:27:13,997 ERROR 6956 nodejs.ENOENTError: ENOENT: no such file or directory, open 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:6956)
+ENOENTError: ENOENT: no such file or directory, open 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师.pdf' (uncaughtException throw 1 times on pid:6956)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "F:\\WorkerCV\\app\\public\\file\\方创斌_前端开发工程师.pdf"
+name: "ENOENTError"
+pid: 6956
+hostname: DESKTOP-RN33ASL
+

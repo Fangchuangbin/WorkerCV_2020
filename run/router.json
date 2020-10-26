@@ -67,6 +67,45 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/optimize/",
+    "regexp": "/^\\/optimize(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/custom/",
+    "regexp": "/^\\/custom(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/article/",
+    "regexp": "/^\\/article(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/home/",
     "regexp": "/^\\/home(?:\\/(?=$))?$/",
     "stack": [
@@ -157,7 +196,7 @@
     ],
     "paramNames": [
       {
-        "name": "className",
+        "name": "templateClassName",
         "prefix": "/",
         "delimiter": "/",
         "optional": false,
@@ -167,7 +206,7 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/template/:className/",
+    "path": "/template/:templateClassName/",
     "regexp": "/^\\/template\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
@@ -203,45 +242,6 @@
     ],
     "path": "/template/:classname/:templateId.html",
     "regexp": "/^\\/template\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))\\.html(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/optimize/",
-    "regexp": "/^\\/optimize(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/custom/",
-    "regexp": "/^\\/custom(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/article/",
-    "regexp": "/^\\/article(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
