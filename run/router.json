@@ -220,16 +220,6 @@
     ],
     "paramNames": [
       {
-        "name": "classname",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      },
-      {
         "name": "templateId",
         "prefix": "/",
         "delimiter": "/",
@@ -240,8 +230,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/template/:classname/:templateId.html",
-    "regexp": "/^\\/template\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))\\.html(?:\\/(?=$))?$/",
+    "path": "/template/item/:templateId.html",
+    "regexp": "/^\\/template\\/item\\/((?:[^\\/]+?))\\.html(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

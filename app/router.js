@@ -29,12 +29,11 @@ module.exports = app => {
 
   //template.js
   router.get('/template/', controller.frontend.template.index); //简历模板列表->所有
-  router.get('/template/:templateClassName/', controller.frontend.template.templateList); //简历模板列表->分类
-  router.get('/template/:classname/:templateId.html', controller.frontend.template.templateItem); //简历模板详情
+  router.get('/template/:templateClassName/', controller.frontend.template.list); //简历模板列表->分类
+  router.get('/template/item/:templateId.html', controller.frontend.template.item); //简历模板详情
 
 
   //接口路由
-
 
   router.post('/api/setResume', controller.frontend.resume.setResume); //保存简历
   router.post('/api/createResume', controller.frontend.resume.createResume); //创建简历

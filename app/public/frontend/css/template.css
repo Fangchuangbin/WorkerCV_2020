@@ -1,9 +1,9 @@
 .breadcrumb a{color: #414549;}
 .template-search{width: 900px;margin: auto;}
 .template-special ul{display: flex;}
-.template-special ul li{width: 24%;margin-left: 1%;}
+.template-special ul li{width: 24%;margin-left: 1%;height: 120px;overflow: hidden;}
 .template-special ul li:nth-child(1){margin-left: 0;}
-.template-special ul li a img{width: 100%;transition: 0.3s;}
+.template-special ul li a img{width: 100%;transition: 0.3s;min-height: 100%;}
 .template-special ul li a:hover img{opacity: 0.8;}
 .template-list .nav-tabs{border-color: #fff!important;}
 .template-list .nav-item{margin-right: 30px;}

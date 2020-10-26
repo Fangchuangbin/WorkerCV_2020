@@ -7158,3 +7158,513 @@ name: "ENOENTError"
 pid: 6956
 hostname: DESKTOP-RN33ASL
 
+2020-10-26 17:20:21,779 ERROR 220 [-/192.168.0.254/-/325ms GET /template/daxuesheng/] nodejs.ReferenceError: classData is not defined
+    at TemplateService.getTemplateClassData (F:\WorkerCV\app\service\frontend\template.js:75:54)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.templateList (F:\WorkerCV\app\controller\frontend\template.js:47:29)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 220
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:20:47,164 ERROR 220 [-/192.168.0.254/-/280ms GET /template/daxuesheng/] nodejs.ReferenceError: classData is not defined
+    at TemplateService.getTemplateClassData (F:\WorkerCV\app\service\frontend\template.js:75:54)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.templateList (F:\WorkerCV\app\controller\frontend\template.js:47:29)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 220
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:20:48,155 ERROR 220 [-/192.168.0.254/-/281ms GET /template/daxuesheng/] nodejs.ReferenceError: classData is not defined
+    at TemplateService.getTemplateClassData (F:\WorkerCV\app\service\frontend\template.js:75:54)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.templateList (F:\WorkerCV\app\controller\frontend\template.js:47:29)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 220
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:50:35,659 ERROR 4560 [-/192.168.0.254/-/233ms GET /template/item-4.html] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:49:50)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 4560
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:51:29,724 ERROR 4560 [-/192.168.0.254/-/233ms GET /template/item-4.html] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:49:50)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 4560
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:52:22,683 ERROR 10996 [-/192.168.0.254/-/230ms GET /template/jinron1/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10996
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:52:53,212 ERROR 14224 [-/192.168.0.254/-/143ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 14224
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:52:55,234 ERROR 14224 [-/192.168.0.254/-/143ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 14224
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:52:56,666 ERROR 14224 [-/192.168.0.254/-/144ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 14224
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:09,683 ERROR 13420 [-/192.168.0.254/-/159ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:10,363 ERROR 13420 [-/192.168.0.254/-/159ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:10,993 ERROR 13420 [-/192.168.0.254/-/152ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,205 ERROR 13420 [-/undefined/-/184ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,269 ERROR 13420 [-/undefined/-/280ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,319 ERROR 13420 [-/undefined/-/264ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,430 ERROR 13420 [-/undefined/-/343ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,476 ERROR 13420 [-/undefined/-/360ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,492 ERROR 13420 [-/undefined/-/340ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,517 ERROR 13420 [-/undefined/-/337ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,575 ERROR 13420 [-/undefined/-/325ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,589 ERROR 13420 [-/undefined/-/369ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,637 ERROR 13420 [-/undefined/-/360ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,665 ERROR 13420 [-/undefined/-/356ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,673 ERROR 13420 [-/undefined/-/331ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,714 ERROR 13420 [-/undefined/-/340ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,720 ERROR 13420 [-/undefined/-/312ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+headerSent: true
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:11,730 ERROR 13420 [-/192.168.0.254/-/289ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:12,058 ERROR 13420 [-/192.168.0.254/-/186ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:12,475 ERROR 13420 [-/192.168.0.254/-/175ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:19,570 ERROR 13420 [-/192.168.0.254/-/182ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 13420
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:21,232 ERROR 10996 [-/192.168.0.254/-/165ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10996
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:21,927 ERROR 10996 [-/192.168.0.254/-/156ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10996
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:22,696 ERROR 10996 [-/192.168.0.254/-/154ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:50:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10996
+hostname: DESKTOP-RN33ASL
+
+2020-10-26 17:53:45,199 ERROR 10780 [-/192.168.0.254/-/250ms GET /template/jinron1g/] nodejs.TypeError: Cannot read property 'tagname' of undefined
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:51:50)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\WorkerCV\node_modules\koa-static-cache\index.js:73:16
+
+pid: 10780
+hostname: DESKTOP-RN33ASL
+

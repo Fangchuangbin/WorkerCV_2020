@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/frontend/css/template.css">
   <script src="//cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
   <script src="/frontend/js/jq-paginator.js"></script>
-  <script src="/frontend/js/paginator.js"></script>
+  <script src="/frontend/js/template.js"></script>
   <script src="//cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="//cdn.staticfile.org/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
 </head>
@@ -23,7 +23,7 @@
       <ol class="breadcrumb bg-white font-size-12 px-0 mb-0">
         <li class="breadcrumb-item"><a href="/">首页</a></li>
         <li class="breadcrumb-item active" aria-current="page"><a href="/template/">简历模板</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ classNameData.tagname }}</li>
+        <li class="breadcrumb-item active" aria-current="page">{{ templateClassData.tagname }}</li>
       </ol>
     </nav>
     <div class="template-search input-group mt-2" style="margin: auto auto auto 0;position: absolute;z-index: 95;">
@@ -35,7 +35,7 @@
         </svg></button>
       </div>
     </div>
-    <div class="template-class pt-5 mt-4 font-size-14" class-data="{{ classNameData.tagname }}">
+    <div class="template-class pt-5 mt-4 font-size-14" class-data="{{ templateClassData.tagname }}">
       <div class="template-class-item w-100 item-1">
         <p class="class-item-title float-left">类型：</p>
         <div class="float-left class-item-main">
@@ -89,8 +89,8 @@
             </button>
           </div>
           <div class="w-100">
-            {% for item in classData %}
-            <div class="media mb-3 bg-white"><a href="/template/{{item.template_id}}.html" class=" p-4">
+            {% for item in templateData %}
+            <div class="media mb-3 bg-white"><a href="/template/item/{{item.template_id}}.html" class="p-4">
               <img class="img-thumbnail" src="{{item.template_img}}" alt="{{item.template_name}}">
               <div class="media-body">
                 <h5 class="my-0 text-dark title"><span class="badge badge-secondary mr-2 template-type">{{item.template_type}}</span>{{item.template_name}}</h5>
