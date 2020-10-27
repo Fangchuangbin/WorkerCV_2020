@@ -24686,3 +24686,20 @@ hostname: DESKTOP-RN33ASL
 2020-10-27 15:38:56,682 INFO 7720 [egg-mysql] instance[0] status OK, rds currentTime: Tue Oct 27 2020 15:38:57 GMT+0800 (GMT+08:00)
 2020-10-27 15:38:56,694 INFO 7720 [egg:core] dump config after ready, 9ms
 2020-10-27 15:39:00,156 INFO 7720 [egg-view-nunjucks] loading templates from ["F:\\WorkerCV\\app\\view"]
+2020-10-27 15:39:01,198 INFO 2596 [egg:logger] init all loggers with options: {"dir":"F:\\WorkerCV\\logs\\workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-27 15:39:01,232 INFO 2596 [egg-multipart] stream mode enable
+2020-10-27 15:39:01,233 INFO 2596 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-27 15:39:01,498 INFO 2596 [egg-static] starting static serve / -> F:\WorkerCV\app\public
+2020-10-27 15:39:01,501 INFO 2596 [egg-security] use csrf middleware
+2020-10-27 15:39:01,502 INFO 2596 [egg-security] use methodnoallow middleware
+2020-10-27 15:39:01,503 INFO 2596 [egg-security] use noopen middleware
+2020-10-27 15:39:01,503 INFO 2596 [egg-security] use nosniff middleware
+2020-10-27 15:39:01,504 INFO 2596 [egg-security] use xssProtection middleware
+2020-10-27 15:39:01,505 INFO 2596 [egg-security] use xframe middleware
+2020-10-27 15:39:01,505 INFO 2596 [egg-security] use dta middleware
+2020-10-27 15:39:01,506 INFO 2596 [egg-security] compose 7 middlewares into one security middleware
+2020-10-27 15:39:01,545 INFO 2596 [egg:core] dump config after load, 11ms
+2020-10-27 15:39:01,563 INFO 2596 [egg-watcher:application] watcher start success
+2020-10-27 15:39:01,595 INFO 2596 [egg-mysql] instance[0] status OK, rds currentTime: Tue Oct 27 2020 15:39:02 GMT+0800 (GMT+08:00)
+2020-10-27 15:39:01,606 INFO 2596 [egg:core] dump config after ready, 9ms
+2020-10-27 15:39:05,299 INFO 2596 [egg-view-nunjucks] loading templates from ["F:\\WorkerCV\\app\\view"]

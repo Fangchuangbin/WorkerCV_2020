@@ -83,7 +83,7 @@ class TemplateService extends Service {
   }
 
   //获取当前分类所有子分类名称 + 子分类模板列表数据 => /template/:templateClassName/
-  async getTemplateClassData(className, pageNum, limitNum) {
+  async getTemplateClassData(className, pageNum, limitNum) {master
     const { ctx, app } = this;
     var getSuccess = { code: 20000, message: '获取当前分类所有子分类数据成功' };
     var getFail = { code: 40004, message: '获取当前分类所有子分类数据失败' };
