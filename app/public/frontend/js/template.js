@@ -42,12 +42,12 @@ $(document).ready(function() {
       }
     })
     $('.template-class-item').each(function() {
-      if($(this).height() > 35) { $(this).css('height', '35px'); $(this).find('.class-item-more').css('display', 'block'); }
+      if($(this).height() > 35) { $(this).css('height', '38px'); $(this).find('.class-item-more').css('display', 'block'); }
       $(this).find('.class-item-more').click(() => {
         if($(this).find('.class-item-more').text() == '更多 >') {
           $(this).css('height', 'auto'); $(this).find('.class-item-more').find('a').text('收回 <');
         }else{
-          $(this).css('height', '35px'); $(this).find('.class-item-more').find('a').text('更多 >');
+          $(this).css('height', '38px'); $(this).find('.class-item-more').find('a').text('更多 >');
         }
       })
     })

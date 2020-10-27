@@ -14,7 +14,7 @@ class TemplateController extends Controller {
     var templateSchoolClass = await ctx.service.frontend.template.getTemplateSchoolClass();//获取模板分类->高校
 
     var allTemplateCount = await ctx.service.frontend.template.getAllTemplateCount(); //获取所有模板数量
-    var limitNum = 5; //每页模板数量
+    var limitNum = 12; //每页模板数量
     var allPageNum = Math.ceil(allTemplateCount.allTemplateCount[0].count / limitNum); //获取所有页码数
     var pageNum = ctx.query.page; //获取当前页码数
     if(pageNum == null) { pageNum = Number(1); } //如为空，则为 1
@@ -40,19 +40,16 @@ class TemplateController extends Controller {
     var templateIndustryClass = await ctx.service.frontend.template.getTemplateIndustryClass();//获取模板分类->热门
     var templatePositionClass = await ctx.service.frontend.template.getTemplatePositionClass();//获取模板分类->热门
     var templateSchoolClass = await ctx.service.frontend.template.getTemplateSchoolClass();//获取模板分类->热门
-
-    var templateClassName = ctx.params.templateClassName;//获取当前分类
-    var templateClassData = await ctx.service.frontend.template.getTemplateClassData(templateClassName); //获取当前分类的列表数据
-    
-    var allTemplateCount = await ctx.service.frontend.template.getAllTemplateCount(); //获取所有模板数量
-    var limitNum = 5; //每页模板数量
-    var allPageNum = Math.ceil(allTemplateCount.allTemplateCount[0].count / limitNum); //获取所有页码数
     var pageNum = ctx.query.page; //获取当前页码数
     if(pageNum == null) { pageNum = Number(1); } //如为空，则为 1
-    var pageTemplateList = await ctx.service.frontend.template.getPageTemplateList(pageNum, limitNum); //获取当前页面模板
-
-    
+    var templateClassName = ctx.params.templateClassName;//获取当前分类
+    var limitNum = 12; //每页模板数量
+    var templateClassData = await ctx.service.frontend.template.getTemplateClassData(templateClassName, pageNum, limitNum); //获取当前分类的数据
     if(templateClassData.result.code !== 20000) { return false; }
+    var allTemplateCount = Number(templateClassData.allTemplateCount[0].count); //获取所有模板数量
+    var allPageNum = Math.ceil(allTemplateCount / limitNum); //获取所有页码数
+    
+    
     await ctx.render('frontend/template/list', {
       title: templateClassData.templateClassData.tagname + ' - 免费求职简历模板下载 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
@@ -65,7 +62,6 @@ class TemplateController extends Controller {
       schoolClass: templateSchoolClass.templateSchoolClass, //模板分类 -> 高校
       templateClassData: templateClassData.templateClassData, //当前模板分类信息
       templateData: templateClassData.templateData, //当前分类的模板列表
-      pageTemplateList: pageTemplateList.pageTemplateList, //当前列表页模板
     })
   }
   
