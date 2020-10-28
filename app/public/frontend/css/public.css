@@ -53,7 +53,7 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .index-1{margin-top: -85px;position: relative;z-index: 98;border-radius: 15px;box-shadow: 0px 1px 25px rgba(0,0,0,0.1);}
 .index-1-box{width: calc(60%/4);margin: 40px 5% 45px 5%;}
 .index-2 .head h1{font-size: 45px;}
-.index-2 .list-box{overflow: hidden;width: calc(91%/4);margin-left: 3%;box-shadow: 0px 2px 15px rgba(0,0,0,0.06);border-radius: 10px;transition: 0.3s;}
+.index-2 .list-box{width: calc(91%/4);margin-left: 3%;box-shadow: 0px 2px 15px rgba(0,0,0,0.06);border-radius: 10px;transition: 0.3s;overflow: hidden;}
 .index-2 .list-box a{color: #313539;}
 .index-2 .list-box .img{width: 100%;background-color: #212529;height: 385px;overflow: hidden;}
 .index-2 .list-box img{width: 100%;transition: 0.3s;}

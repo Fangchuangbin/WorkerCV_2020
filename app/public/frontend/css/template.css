@@ -24,6 +24,7 @@
 .template-list .list-box .title{display: block;height: 42px;line-height: 50px;overflow: hidden;border-top: 1px dotted #e1e5e9;}
 .template-page .active a{color: #fff!important;}
 .template-list .list-tag a{font-weight: normal;font-size: 13px;padding: 8px 15px;margin: 0 8px 10px 0;border-radius: 15px;background-color: #fff;color: #616569;}
+.template-class-list{background-color: #f5f5f7;}
 .template-class-item{overflow: hidden;height: auto;line-height: 38px;}
 .template-class .class-item-main{width: 1090px;}
 .template-class .class-item-title{color: #515559;}
@@ -34,3 +35,8 @@
 .template-class-list .media-body .description{height: 117px;line-height: 28px;overflow: hidden;display: block;}
 .template-class-list .media a h5{transition: 0.3s;}
 .template-class-list .media a:hover h5{color: #0073fa!important;}
+.template-class-list .template-type{margin-top: 2px;}
+.template-item{margin-top: 56px;background-color: #f5f5f7;}
+.bg-transparent{background: rgba(0,0,0,0);}
+
+.create-resume{ border-radius: 20px;}

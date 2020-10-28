@@ -1,6 +1,7 @@
 'use strict';
 
 const Controller = require('egg').Controller;
+const crypto = require('crypto');
 const wkhtmltopdf = require('wkhtmltopdf');
 const fs = require('fs');
 
@@ -47,7 +48,8 @@ class ResumeController extends Controller {
     if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
 
     var resumeData = ctx.request.body;
-    await wkhtmltopdf(resumeData.resumeCode, { pageSize: 'a4', encoding: 'utf-8' }).pipe(fs.createWriteStream('./app/public/file/' + resumeData.resumeName + '.pdf'));
+    //resumeData.resumeCode
+    await wkhtmltopdf('<html lang="zh-cn"><body style="margin: 0;">' + resumeData.resumeCode + '</body></html>', { pageSize: 'a4', encoding: 'utf-8', marginBottom: 0, marginTop: 0, marginLeft: 0, marginRight: 0 }).pipe(fs.createWriteStream('./app/public/file/' + resumeData.resumeName + '.pdf'));
     ctx.body = {
      result: loginTokenData.result,
      pdfUrl: resumeData.resumeName + '.pdf'
@@ -80,6 +82,7 @@ class ResumeController extends Controller {
     var deleteResume = await ctx.service.frontend.resume.deleteResume(resumeData);
     ctx.body = deleteResume;
   }
+
 }
 
 module.exports = ResumeController;

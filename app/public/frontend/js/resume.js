@@ -34,12 +34,12 @@ $(document).ready(() => {
 			data: { resumeName: $('#resumeName').text(), resumeCode: $('#TextToHtml').html() },
 			success: function(response) { if(response.result.code === 20000) { 
 				setTimeout(function() {
-					//window.location.href= '/' + response.pdfUrl;
+					window.location.href= '/file/' + response.pdfUrl;
 
-					var download = document.createElement('a');
-					download.href = '/file/' + response.pdfUrl;
-					download.download = $('#resumeName').text();
-					download.click(); download.remove();
+					// var download = document.createElement('a');
+					// download.href = '/file/' + response.pdfUrl;
+					// download.download = $('#resumeName').text();
+					// download.click(); download.remove();
 				}, 1200);
 			}else{ alert('下载失败，请重试！'); } },
 			error: function(error) { console.log(error) ; alert('下载失败，请重试！'); }
@@ -51,6 +51,9 @@ $(document).ready(() => {
 
 	//分享简历
 	$('#shareResume').click(() => { alert('敬请期待...'); });
+
+	//返回主页
+	$('.menu-item-home').text('返回主页');
 
 	//选择模板
 	$('.select-template-item').click(function() {
@@ -101,11 +104,11 @@ $(document).ready(() => {
 	});
 	//工具栏 -> 行边距
 	$('#pageLineHeight').bind('input propertychange', function() {
-		setTimeout(() => { $('.diy-p').css('line-height', $(this).val() + 'px'); }, 400);
+		setTimeout(() => { $('div').css('line-height', $(this).val() + 'px'); }, 400);
 	});
 	//工具栏 -> 文字大小
 	$('#pageFontSize').bind('input propertychange', function() {
-		setTimeout(() => { $('.diy-p').css('font-size', $(this).val() + 'px'); }, 400)
+		setTimeout(() => { $('div').css('font-size', $(this).val() + 'px'); }, 400)
 	});
 	//工具栏 -> 字体
 	$('#pageFontFamily').bind('input propertychange', function() {

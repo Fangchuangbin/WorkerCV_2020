@@ -10299,3 +10299,1361 @@ name: "ECONNRESETError"
 pid: 14036
 hostname: DESKTOP-RN33ASL
 
+2020-10-27 16:39:02,164 ERROR 5232 nodejs.ENOENTError: ENOENT: no such file or directory, open 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603353348000.pdf' (uncaughtException throw 1 times on pid:5232)
+ENOENTError: ENOENT: no such file or directory, open 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603353348000.pdf' (uncaughtException throw 1 times on pid:5232)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "F:\\WorkerCV\\app\\public\\file\\方创斌_前端开发工程师简历模板_1603353348000.pdf"
+name: "ENOENTError"
+pid: 5232
+hostname: DESKTOP-RN33ASL
+
+2020-10-27 16:39:03,430 ERROR 5232 nodejs.Error: Exit with code 1 due to n
+etwork error: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 2 times on pid:5232)
+etwork error: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 2 times on pid:5232)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 5232
+hostname: DESKTOP-RN33ASL
+
+2020-10-27 16:39:17,294 ERROR 14368 nodejs.ENOENTError: ENOENT: no such file or directory, open 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603353348000.pdf' (uncaughtException throw 1 times on pid:14368)
+ENOENTError: ENOENT: no such file or directory, open 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603353348000.pdf' (uncaughtException throw 1 times on pid:14368)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "F:\\WorkerCV\\app\\public\\file\\方创斌_前端开发工程师简历模板_1603353348000.pdf"
+name: "ENOENTError"
+pid: 14368
+hostname: DESKTOP-RN33ASL
+
+2020-10-27 16:39:18,211 ERROR 14368 nodejs.Error: Exit with code 1
+ 
+d
+ue to network error: Pro
+tocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 2 times on pid:14368)
+ 
+d
+ue to network error: Pro
+tocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 2 times on pid:14368)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 14368
+hostname: DESKTOP-RN33ASL
+
+2020-10-27 16:40:07,429 ERROR 14636 nodejs.Error: Exit with code 1 due to network error: ProtocolUnkn
+ownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:14636)
+ownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:14636)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 14636
+hostname: DESKTOP-RN33ASL
+
+2020-10-27 16:54:39,737 ERROR 11048 nodejs.Error: Exit with code 1 due to network error: ProtocolUnkno
+wnError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:11048)
+wnError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:11048)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 11048
+hostname: DESKTOP-RN33ASL
+
+2020-10-27 17:03:40,458 ERROR 11288 nodejs.Error: Exit with code 1 due to network er
+ror: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:11288)
+ror: ProtocolUnknownError
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:11288)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 11288
+hostname: DESKTOP-RN33ASL
+
+2020-10-27 17:25:41,417 ERROR 14176 nodejs.Error: Invalid argument(s) parsed to --margin-left
+
+
+Name:
+  wkhtmltopdf 0.12.6 (with patched qt)
+
+Synopsis:
+  wkhtmltopdf [GLOBAL OPTION]... [OBJECT]... <output file>
+  
+Document objects:
+  wkhtmltopdf is able to put several obje
+cts into the output file, 
+an object is
+  either 
+a single webpage, a
+ cover webp
+age or a table of cont
+ents.  The objects
+  
+are put into the 
+output document in the or
+der 
+they are specified o
+n the
+  command 
+line, options can be
+ specified on a
+ per object basis or
+ in the global
+
+  options area. Optio
+ns from the Glob
+al Options section
+ can only be placed
+ in
+  the glo
+bal options area.
+
+ 
+ A page objects 
+puts the content of
+ a single we
+bpage into the outpu
+t document.
+
+
+  (page)? <input url
+/file name> [PA
+GE OPTION]...
+  
+Options for the pag
+e object can 
+be placed in the 
+global options and the pag
+e
+  options areas. The app
+licable options ca
+n be found in t
+he Page Options
+ and 
+  Headers An
+d Footer Options
+ sections.
+
+  
+A cover objects puts 
+the content of
+ a single webpage 
+into the output document,
+  
+the 
+page does not a
+ppear in the table of 
+contents, and d
+oes not have headers
+
+  and footers.
+
+
+  cover <input url/
+file name> [PAGE OPTION]...
+  
+All optio
+ns that can be specified for a pag
+e object can als
+o be specified for
+  a
+ cover.
+
+  A 
+table of contents o
+bject inserts a table of conten
+ts into the output
+  document.
+
+
+ 
+ toc [TOC OPTION]...
+
+  All o
+ptions that can be s
+pecified for a 
+page object can 
+also be specified for
+  a toc,
+ f
+urther more the optio
+ns from the TOC Options
+ section can also be
+  
+appl
+ied. The table of 
+contents is generated
+ via XSLT whi
+ch means that it ca
+n
+  be styled 
+to look however you 
+want it to lo
+ok. To get an idea 
+of how to do
+ 
+ this you can dump
+ the default xslt 
+document by supplying the
+  --
+dum
+p-default-toc-xsl,
+ and the outline i
+t works on by supplying
+  --d
+ump
+-outline, see th
+e Outline Options 
+section.
+
+Description:
+  
+Converts one or more HTM
+L pages into a 
+PDF document, using wkh
+tmltopdf patched
+  qt.
+
+
+Global Options:
+      --collate             
+          Collate when printing mul
+tiple copies         
+                       
+      (defaul
+t)
+      --no-colla
+te                  
+  Do not colla
+te when printing mul
+tiple           
+                    
+       copies
+ 
+     --copies <numbe
+r>           
+    Number of
+ copies to print int
+o the pdf   
+                   
+            
+    file (default 1)
+
+  -H, --ext
+ended-help                 Di
+splay more extens
+ive help, detailing     
+                 
+                les
+s common co
+mmand switches
+  -g, 
+--grayscale    
+                 P
+DF will be
+ generated in grayscal
+e
+  -h, --he
+lp                  
+        Disp
+lay help
+      --lice
+nse            
+           Output
+ license in
+formation and exit
+ 
+     --log-le
+vel <level>        
+     Set
+ log level to: none, er
+ror, warn or    
+                       
+           info 
+(default none)
+  -l, 
+--lowquality    
+                Gene
+rates lower qua
+lity pdf/ps. Useful to                                      shrin
+k the result 
+document space
+  -O, --orientation
+ <orien
+tation>     Set orientati
+on to Landscape 
+o
+r Portrait                           
+           (default Portrait)
+  -
+s, --page-size <Size>        
+      Set paper s
+ize to: A4, Letter, etc.      
+                                (
+default A4)
+  -q, --quiet      
+                   Be less
+ verbose, maintained for backwar
+ds                                 
+     compatibility; Same as usi
+ng --log-level                   
+                   none (default)
+     
+ --read-args-from-stdin       
+   Read command line
+ arguments from stdin
+      
+--title <text>                 
+ The title of the generated 
+pdf file (The                  
+                    title of the
+ first document is used if no
+t                                  
+    specified)
+  -V, --version
+                       Output 
+version information and exit
+
+Page Options:
+
+      --print-media-type      
+   
+ 
+    Use print 
+media-type ins
+t
+e
+ad o
+f screen
+      --no-print-media-type       
+    Do not use print media-type ins
+tead of                     
+                
+ screen
+ (default)
+Contact:
+  If y
+ou experience bug
+s or want
+ to request new features please 
+visit 
+  <https:/
+/wkhtmltopdf.org/support.ht
+ml>
+
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:14176)
+
+
+Name:
+  wkhtmltopdf 0.12.6 (with patched qt)
+
+Synopsis:
+  wkhtmltopdf [GLOBAL OPTION]... [OBJECT]... <output file>
+  
+Document objects:
+  wkhtmltopdf is able to put several obje
+cts into the output file, 
+an object is
+  either 
+a single webpage, a
+ cover webp
+age or a table of cont
+ents.  The objects
+  
+are put into the 
+output document in the or
+der 
+they are specified o
+n the
+  command 
+line, options can be
+ specified on a
+ per object basis or
+ in the global
+
+  options area. Optio
+ns from the Glob
+al Options section
+ can only be placed
+ in
+  the glo
+bal options area.
+
+ 
+ A page objects 
+puts the content of
+ a single we
+bpage into the outpu
+t document.
+
+
+  (page)? <input url
+/file name> [PA
+GE OPTION]...
+  
+Options for the pag
+e object can 
+be placed in the 
+global options and the pag
+e
+  options areas. The app
+licable options ca
+n be found in t
+he Page Options
+ and 
+  Headers An
+d Footer Options
+ sections.
+
+  
+A cover objects puts 
+the content of
+ a single webpage 
+into the output document,
+  
+the 
+page does not a
+ppear in the table of 
+contents, and d
+oes not have headers
+
+  and footers.
+
+
+  cover <input url/
+file name> [PAGE OPTION]...
+  
+All optio
+ns that can be specified for a pag
+e object can als
+o be specified for
+  a
+ cover.
+
+  A 
+table of contents o
+bject inserts a table of conten
+ts into the output
+  document.
+
+
+ 
+ toc [TOC OPTION]...
+
+  All o
+ptions that can be s
+pecified for a 
+page object can 
+also be specified for
+  a toc,
+ f
+urther more the optio
+ns from the TOC Options
+ section can also be
+  
+appl
+ied. The table of 
+contents is generated
+ via XSLT whi
+ch means that it ca
+n
+  be styled 
+to look however you 
+want it to lo
+ok. To get an idea 
+of how to do
+ 
+ this you can dump
+ the default xslt 
+document by supplying the
+  --
+dum
+p-default-toc-xsl,
+ and the outline i
+t works on by supplying
+  --d
+ump
+-outline, see th
+e Outline Options 
+section.
+
+Description:
+  
+Converts one or more HTM
+L pages into a 
+PDF document, using wkh
+tmltopdf patched
+  qt.
+
+
+Global Options:
+      --collate             
+          Collate when printing mul
+tiple copies         
+                       
+      (defaul
+t)
+      --no-colla
+te                  
+  Do not colla
+te when printing mul
+tiple           
+                    
+       copies
+ 
+     --copies <numbe
+r>           
+    Number of
+ copies to print int
+o the pdf   
+                   
+            
+    file (default 1)
+
+  -H, --ext
+ended-help                 Di
+splay more extens
+ive help, detailing     
+                 
+                les
+s common co
+mmand switches
+  -g, 
+--grayscale    
+                 P
+DF will be
+ generated in grayscal
+e
+  -h, --he
+lp                  
+        Disp
+lay help
+      --lice
+nse            
+           Output
+ license in
+formation and exit
+ 
+     --log-le
+vel <level>        
+     Set
+ log level to: none, er
+ror, warn or    
+                       
+           info 
+(default none)
+  -l, 
+--lowquality    
+                Gene
+rates lower qua
+lity pdf/ps. Useful to                                      shrin
+k the result 
+document space
+  -O, --orientation
+ <orien
+tation>     Set orientati
+on to Landscape 
+o
+r Portrait                           
+           (default Portrait)
+  -
+s, --page-size <Size>        
+      Set paper s
+ize to: A4, Letter, etc.      
+                                (
+default A4)
+  -q, --quiet      
+                   Be less
+ verbose, maintained for backwar
+ds                                 
+     compatibility; Same as usi
+ng --log-level                   
+                   none (default)
+     
+ --read-args-from-stdin       
+   Read command line
+ arguments from stdin
+      
+--title <text>                 
+ The title of the generated 
+pdf file (The                  
+                    title of the
+ first document is used if no
+t                                  
+    specified)
+  -V, --version
+                       Output 
+version information and exit
+
+Page Options:
+
+      --print-media-type      
+   
+ 
+    Use print 
+media-type ins
+t
+e
+ad o
+f screen
+      --no-print-media-type       
+    Do not use print media-type ins
+tead of                     
+                
+ screen
+ (default)
+Contact:
+  If y
+ou experience bug
+s or want
+ to request new features please 
+visit 
+  <https:/
+/wkhtmltopdf.org/support.ht
+ml>
+
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:14176)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 14176
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 09:12:02,528 ERROR 11932 [-/192.168.0.254/-/90ms GET /template/hulianwang/] nodejs.ReferenceError: master is not defined
+    at TemplateService.getTemplateClassData (F:\WorkerCV\app\service\frontend\template.js:86:61)
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:47:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11932
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 09:35:36,097 ERROR 4416 nodejs.Error: Invalid argument(s) parsed to --margin-left
+
+Name:
+  wk
+htmltopdf 0.12.6 (with patched qt)
+
+Synopsis:
+  wkhtmltopdf [GLOBAL OPTION]... [OBJECT]... <output file>
+  
+Document object
+s:
+  wk
+htmltopdf is abl
+e to put several 
+objects into t
+he output fil
+e, an object i
+s
+  either a
+ single webpa
+ge, a cover 
+webpage or a 
+table of cont
+ents.  The object
+s
+  are put int
+o the output doc
+ument in the orde
+r they are specifie
+d on the
+  command 
+line, opt
+ions can be spec
+ified on a per
+ object basis or in the 
+global
+  options area. Options
+ from the Gl
+obal Options 
+section can on
+ly be placed 
+in
+  the globa
+l options area.
+
+
+  A pag
+e objects puts
+ the content o
+f a single web
+page into the
+ output docum
+ent.
+
+  (page
+)? <input url/fi
+le name> [PAGE O
+PTION]...
+  
+Options for the p
+age object can 
+be placed in 
+the global o
+ptions and the
+ page
+  option
+s areas. The 
+applicable opt
+ions can be f
+ound in the 
+Page Options
+ and 
+  Hea
+ders And Footer
+ Options sec
+tions.
+
+  
+A cover obj
+ects puts the
+ content of a single 
+webpage into the ou
+tput document,
+  the page doe
+s not appear in the table of conten
+ts, and does not have headers
+  
+and footers.
+
+  cover <input url/
+file name> [PAGE OPTION]...
+  Al
+l options that can be s
+pecified for a page 
+object can also be 
+specified for
+  a cover.
+
+
+  A table of contents object inserts 
+a table of contents into the o
+utput
+  document.
+
+  
+toc [TOC OPTION]...
+  All o
+ptions that can be specified
+ for a page object can al
+so 
+be specified for
+  a toc, fur
+ther more the options from 
+the TOC Options s
+ection can also be
+  applied. 
+The
+ table of conte
+nts is generated via
+ XSLT which m
+eans that it can
+  be 
+styled to look however you
+ wan
+t it to look. 
+To get an id
+ea of how to 
+do
+  this yo
+u can dump the
+ default xslt 
+document by 
+supplying the
+
+  --dump-defaul
+t-toc-xsl, and
+ the outline 
+it works on 
+by supplying
+  
+--dump-outline,
+ see the 
+Outline Opti
+ons section.
+
+
+Description:
+  
+Converts one
+ or more HTM
+L pages in
+to a PDF document, u
+sing wkhtmltopdf patch
+ed
+  qt.
+
+
+Global Options:
+    
+  --collate                       Collate when printing multiple copies      
+    
+                       
+     (def
+ault)
+      --no-coll
+ate            
+        Do not 
+collate when printin
+g multiple        
+                            
+  copies
+     
+ --copies <number>
+               N
+umber of copies to print in
+to 
+the pdf           
+                           file
+ (d
+efault 1)
+  -H, 
+--extended-help        
+         Displa
+y more extensive help,
+ detailing        
+                              le
+ss 
+common command sw
+itches
+  -g, --grayscale   
+   
+              
+ PDF will be genera
+ted in grayscale
+  -h, 
+--help         
+                 D
+isplay help
+      --license 
+                      Outp
+ut license informa
+tion
+ and exit
+      --lo
+g-level <level>  
+           Set lo
+g level to: none, error, w
+arn 
+or                   
+                   i
+nfo (default none)
+  -
+l, --lowquality      
+              
+Generates lower qua
+lity pdf/ps. 
+Useful to          
+                     
+       shrink 
+the result document
+ space
+  -O, 
+--orientation <orientat
+ion>     Set
+ orientation to La
+ndscape or Portrait         
+    
+                    
+     (default Por
+trait)
+  -s, -
+-page-size <Size>    
+         
+ Set paper si
+ze to: A4, Letter, 
+etc.           
+                    
+       (defau
+lt A4)
+  -q, --qu
+iet                    
+     Be les
+s verbose, maintaine
+d for backwar
+ds                    
+               
+   compatibility; 
+Same as using
+ --log-level         
+               
+              none
+ (default)
+   
+   --read-args-from-std
+in          R
+ead command line ar
+guments from st
+din
+      --title <te
+xt>             
+     The title
+ of the generated p
+df file (The   
+                   
+                title of t
+he f
+irst document is 
+used if not         
+                             
+spe
+cified)
+  -V, --v
+ersion               
+        Outp
+ut version informat
+ion and exit
+
+Page Options:
+ 
+     --print-me
+dia-type             
+ Use print media-ty
+pe instead of s
+creen
+      --no-prin
+t-media-type    
+       Do not use
+ print media-type ins
+tead of       
+                    
+           scree
+n (default)
+C
+ontact:
+  If you 
+experience bugs or want to r
+equ
+est new features 
+please visit 
+  <https://wkhtm
+ltopd
+f.org/support.html>
+
+
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:4416)
+
+Name:
+  wk
+htmltopdf 0.12.6 (with patched qt)
+
+Synopsis:
+  wkhtmltopdf [GLOBAL OPTION]... [OBJECT]... <output file>
+  
+Document object
+s:
+  wk
+htmltopdf is abl
+e to put several 
+objects into t
+he output fil
+e, an object i
+s
+  either a
+ single webpa
+ge, a cover 
+webpage or a 
+table of cont
+ents.  The object
+s
+  are put int
+o the output doc
+ument in the orde
+r they are specifie
+d on the
+  command 
+line, opt
+ions can be spec
+ified on a per
+ object basis or in the 
+global
+  options area. Options
+ from the Gl
+obal Options 
+section can on
+ly be placed 
+in
+  the globa
+l options area.
+
+
+  A pag
+e objects puts
+ the content o
+f a single web
+page into the
+ output docum
+ent.
+
+  (page
+)? <input url/fi
+le name> [PAGE O
+PTION]...
+  
+Options for the p
+age object can 
+be placed in 
+the global o
+ptions and the
+ page
+  option
+s areas. The 
+applicable opt
+ions can be f
+ound in the 
+Page Options
+ and 
+  Hea
+ders And Footer
+ Options sec
+tions.
+
+  
+A cover obj
+ects puts the
+ content of a single 
+webpage into the ou
+tput document,
+  the page doe
+s not appear in the table of conten
+ts, and does not have headers
+  
+and footers.
+
+  cover <input url/
+file name> [PAGE OPTION]...
+  Al
+l options that can be s
+pecified for a page 
+object can also be 
+specified for
+  a cover.
+
+
+  A table of contents object inserts 
+a table of contents into the o
+utput
+  document.
+
+  
+toc [TOC OPTION]...
+  All o
+ptions that can be specified
+ for a page object can al
+so 
+be specified for
+  a toc, fur
+ther more the options from 
+the TOC Options s
+ection can also be
+  applied. 
+The
+ table of conte
+nts is generated via
+ XSLT which m
+eans that it can
+  be 
+styled to look however you
+ wan
+t it to look. 
+To get an id
+ea of how to 
+do
+  this yo
+u can dump the
+ default xslt 
+document by 
+supplying the
+
+  --dump-defaul
+t-toc-xsl, and
+ the outline 
+it works on 
+by supplying
+  
+--dump-outline,
+ see the 
+Outline Opti
+ons section.
+
+
+Description:
+  
+Converts one
+ or more HTM
+L pages in
+to a PDF document, u
+sing wkhtmltopdf patch
+ed
+  qt.
+
+
+Global Options:
+    
+  --collate                       Collate when printing multiple copies      
+    
+                       
+     (def
+ault)
+      --no-coll
+ate            
+        Do not 
+collate when printin
+g multiple        
+                            
+  copies
+     
+ --copies <number>
+               N
+umber of copies to print in
+to 
+the pdf           
+                           file
+ (d
+efault 1)
+  -H, 
+--extended-help        
+         Displa
+y more extensive help,
+ detailing        
+                              le
+ss 
+common command sw
+itches
+  -g, --grayscale   
+   
+              
+ PDF will be genera
+ted in grayscale
+  -h, 
+--help         
+                 D
+isplay help
+      --license 
+                      Outp
+ut license informa
+tion
+ and exit
+      --lo
+g-level <level>  
+           Set lo
+g level to: none, error, w
+arn 
+or                   
+                   i
+nfo (default none)
+  -
+l, --lowquality      
+              
+Generates lower qua
+lity pdf/ps. 
+Useful to          
+                     
+       shrink 
+the result document
+ space
+  -O, 
+--orientation <orientat
+ion>     Set
+ orientation to La
+ndscape or Portrait         
+    
+                    
+     (default Por
+trait)
+  -s, -
+-page-size <Size>    
+         
+ Set paper si
+ze to: A4, Letter, 
+etc.           
+                    
+       (defau
+lt A4)
+  -q, --qu
+iet                    
+     Be les
+s verbose, maintaine
+d for backwar
+ds                    
+               
+   compatibility; 
+Same as using
+ --log-level         
+               
+              none
+ (default)
+   
+   --read-args-from-std
+in          R
+ead command line ar
+guments from st
+din
+      --title <te
+xt>             
+     The title
+ of the generated p
+df file (The   
+                   
+                title of t
+he f
+irst document is 
+used if not         
+                             
+spe
+cified)
+  -V, --v
+ersion               
+        Outp
+ut version informat
+ion and exit
+
+Page Options:
+ 
+     --print-me
+dia-type             
+ Use print media-ty
+pe instead of s
+creen
+      --no-prin
+t-media-type    
+       Do not use
+ print media-type ins
+tead of       
+                    
+           scree
+n (default)
+C
+ontact:
+  If you 
+experience bugs or want to r
+equ
+est new features 
+please visit 
+  <https://wkhtm
+ltopd
+f.org/support.html>
+
+
+
+wkhtmltopdf exited with code 1 (uncaughtException throw 1 times on pid:4416)
+    at handleError (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:142:16)
+    at ChildProcess.<anonymous> (F:\WorkerCV\node_modules\wkhtmltopdf\index.js:114:7)
+    at ChildProcess.emit (events.js:314:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+
+pid: 4416
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 10:30:11,682 ERROR 10288 [-/192.168.0.254/-/2ms GET /file/%E6%96%B9%E5%88%9B%E6%96%8C_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF_1603851150000.pdf] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603851150000.pdf'
+ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603851150000.pdf'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "F:\\WorkerCV\\app\\public\\file\\方创斌_前端开发工程师简历模板_1603851150000.pdf"
+name: "ENOENTError"
+pid: 10288
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:06,178 ERROR 11260 [-/192.168.0.254/-/45ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:13,374 ERROR 11260 [-/192.168.0.254/-/30ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:14,182 ERROR 11260 [-/192.168.0.254/-/29ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:14,962 ERROR 11260 [-/192.168.0.254/-/31ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+

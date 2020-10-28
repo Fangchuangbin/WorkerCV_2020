@@ -83,7 +83,7 @@ class TemplateService extends Service {
   }
 
   //获取当前分类所有子分类名称 + 子分类模板列表数据 => /template/:templateClassName/
-  async getTemplateClassData(className, pageNum, limitNum) {master
+  async getTemplateClassData(className, pageNum, limitNum) {
     const { ctx, app } = this;
     var getSuccess = { code: 20000, message: '获取当前分类所有子分类数据成功' };
     var getFail = { code: 40004, message: '获取当前分类所有子分类数据失败' };
@@ -111,6 +111,33 @@ class TemplateService extends Service {
       }
       return{ result: getSuccess, templateClassData, templateData, allTemplateCount }
     }else{ return { result: getFail } }
+  }
+
+  //获取简历模板详情数据
+  async getTemplateItem(templateData) {
+    const { ctx, app } = this;
+    var getSuccess = { code: 20000, message: '获取简历模板详情数据成功' };
+    var getFail = { code: 40004, message: '获取简历模板详情数据失败' };
+    var templateItem = await app.mysql.get('frontend_template', { template_id: templateData.templateId });//获取简历模板详情数据
+    if(templateItem) {
+      templateItem.update_time = moment(Number(templateItem.update_time)).format('YYYY-MM-DD HH:mm:ss')
+      return { result: getSuccess, templateItem }
+    }else{
+      return { result: getFail }
+    }
+  }
+  
+  //获取相似简历推荐数据列表
+  async getRecommendTemplateList() {
+    const { ctx, app } = this;
+    var getSuccess = { code: 20000, message: '获取相似简历推荐数据成功' };
+    var getFail = { code: 40004, message: '获取相似简历推荐数据失败' };
+    var recommendTemplateList = await app.mysql.select('frontend_template');
+    if(recommendTemplateList) {
+      return { result: getSuccess, recommendTemplateList }
+    }else{
+      return { result: getFail }
+    }
   }
 
 }

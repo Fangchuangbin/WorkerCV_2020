@@ -2,6 +2,13 @@ $(document).ready(function() {
   //当前高亮
   $('.menu-item').each(function() { if($(this).attr('href') == '/template/') { $(this).css('border-bottom', '1px dotted #fff') } })
 
+  //模板列表首页判断VIP
+  $('.list-box').find('.teamplate-type').each(function() {
+    if($(this).text() == 'VIP') {
+      $(this).addClass('badge-warning')
+    }
+  })
+
   //列表分页
   $(function listPaginator() {
     var currentPage = Number($('.template-page').attr('page-data')); //获取当前页面

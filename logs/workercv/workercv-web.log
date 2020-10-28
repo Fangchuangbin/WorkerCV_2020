@@ -9991,3 +9991,88 @@ name: "ECONNRESETError"
 pid: 14036
 hostname: DESKTOP-RN33ASL
 
+2020-10-28 09:12:02,602 ERROR 11932 [-/192.168.0.254/-/90ms GET /template/hulianwang/] nodejs.ReferenceError: master is not defined
+    at TemplateService.getTemplateClassData (F:\WorkerCV\app\service\frontend\template.js:86:61)
+    at TemplateController.list (F:\WorkerCV\app\controller\frontend\template.js:47:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11932
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 10:30:11,715 ERROR 10288 [-/192.168.0.254/-/2ms GET /file/%E6%96%B9%E5%88%9B%E6%96%8C_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF_1603851150000.pdf] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603851150000.pdf'
+ENOENTError: ENOENT: no such file or directory, stat 'F:\WorkerCV\app\public\file\方创斌_前端开发工程师简历模板_1603851150000.pdf'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "F:\\WorkerCV\\app\\public\\file\\方创斌_前端开发工程师简历模板_1603851150000.pdf"
+name: "ENOENTError"
+pid: 10288
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:06,201 ERROR 11260 [-/192.168.0.254/-/45ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:13,464 ERROR 11260 [-/192.168.0.254/-/30ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:14,204 ERROR 11260 [-/192.168.0.254/-/29ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+
+2020-10-28 16:44:14,987 ERROR 11260 [-/192.168.0.254/-/31ms GET /template/item/7.html] nodejs.ReferenceError: i is not defined
+    at TemplateService.getTemplateItem (F:\WorkerCV\app\service\frontend\template.js:122:61)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:73:24)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11260
+hostname: DESKTOP-RN33ASL
+

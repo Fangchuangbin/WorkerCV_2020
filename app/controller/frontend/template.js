@@ -69,12 +69,18 @@ class TemplateController extends Controller {
   async item() {
     const { ctx } = this;
     var templateData = ctx.params;
-    await ctx.render('frontend/template/item', {
-      title: '详情内容 - 简历模板 - 极速简历',
-      keywords: '求职简历,极速简历,简历模板下载,免费简历模板',
-      description: '极速简历WorkerCV提供各行业求职简历模板免费下载和求职简历范文参考,是一个专业的智能简历制作工具.还有智能简历优化建议和求职简历定制服务,以及大量简历制作攻略和职场攻略.',
-      data: JSON.stringify(templateData)
-    })
+    var templateItem = await ctx.service.frontend.template.getTemplateItem(templateData);//获取简历模板详情数据
+    var recommendTemplateList = await ctx.service.frontend.template.getRecommendTemplateList();//获取相似简历推荐数据列表
+    if(templateItem.result.code === 20000) {
+      await ctx.render('frontend/template/item', {
+        title: '免费简历模板下载 - 极速简历',
+        templateData: templateItem.templateItem,//当前简历模板详情小叔
+        recommendTemplateList: recommendTemplateList.recommendTemplateList,//获取相似简历推荐数据列表
+      })
+    }else{
+      return false;
+    }
+    
   }
 
 }
