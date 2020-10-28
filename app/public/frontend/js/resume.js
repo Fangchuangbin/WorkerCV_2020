@@ -55,37 +55,7 @@ $(document).ready(() => {
 	//返回主页
 	$('.menu-item-home').text('返回主页');
 
-	//选择模板
-	$('.select-template-item').click(function() {
-		$(this).addClass('hover').siblings().removeClass('hover');
-	});
-
-	//用户信息
-	if($('#accountInfo').attr('data-target') == '') {
-		$('#accountInfo').text('信息未完善 (≖ᴗ≖)✧')
-	}
-
-	//创建简历
-	$('#createResume').click(() => {
-		if($('.select-template-group').find('.hover').attr('data-target') !== undefined){
-			var userId = $('#selectTeamplateUserId').text();
-			var templateKey = $('.select-template-group').find('.hover').attr('data-target');
-			var realname = $('#selectTeamplateRealname').text();
-			$.ajax({
-				url: '/api/createResume',
-				type: 'post',
-				dataType: 'json',
-				headers: { "x-csrf-token": $.cookie('csrfToken') },
-				data: { userId: userId, realname: realname, templateKey: templateKey },
-				success: function(response) {
-					if(response.result.code == 20000) { window.location.href = '/resume/' + response.resumeKey + '/'; }
-					if(response.result.code == 40001) { alert('该简历模板为VIP特权专用！') } //VIP特权验证
-				},
-				error: function(error) { console.log(error); alert('创建简历失败！'); }
-			})
-		}else{ alert('请选择简历模板！'); }
-	});
-
+	//获取用户信息
 	$(document).each(function() {
 		$('#TextToHtml').find('#realname').text($('#forRealname').text()); //姓名
 		$('#TextToHtml').find('#avatar').attr('src', $('#forAvatar').text()); //头像
@@ -121,23 +91,23 @@ $(document).ready(() => {
 
 })
 
-//删除简历
-function deleteResume(e) {
-	var confirmDel = window.confirm('确定删除所选的简历吗？');
-	var resumeKey = e;
-	if(confirmDel) {
-		$.ajax({
-			url: '/api/deleteResume',
-			type: 'post',
-			dataType: 'json',
-			headers: { 'x-csrf-token': $.cookie('csrfToken') },
-			data: {
-				resumeKey: resumeKey
-			},
-			success: function(response) {
-				if(response.result.code == 20000) { alert('删除简历成功！'); window.location.href = '/home/'; }
-			},
-			error: function(error) { console.log(error); alert('创建简历失败！'); }
-		})
+	//删除简历
+	function deleteResume(e) {
+		var confirmDel = window.confirm('确定删除所选的简历吗？');
+		var resumeKey = e;
+		if(confirmDel) {
+			$.ajax({
+				url: '/api/deleteResume',
+				type: 'post',
+				dataType: 'json',
+				headers: { 'x-csrf-token': $.cookie('csrfToken') },
+				data: {
+					resumeKey: resumeKey
+				},
+				success: function(response) {
+					if(response.result.code == 20000) { alert('删除简历成功！'); window.location.href = '/home/'; }
+				},
+				error: function(error) { console.log(error); alert('创建简历失败！'); }
+			})
+		}
 	}
-}

@@ -56,10 +56,9 @@ class ResumeService extends Service {
     var setNotVip = { code: 40001, message: '新建用户简历失败' };
     var createTime = Date.parse(new Date());
     if(getResumeTemplateData.resumeTemplateData.template_type !== '免费') {
-      if(loginTokenData.userData.vip !== 1) {
-        return { result: setNotVip }
-      }
+      if(loginTokenData.userData.vip !== 1) { return { result: setNotVip } }
     }
+    await app.mysql.update('frontend_template', { use: getResumeTemplateData.resumeTemplateData.use + 1 }, { where: { template_key: getResumeTemplateData.resumeTemplateData.template_key } });
     var resumeKey = Buffer.from(resumeTeamplateData.userId + '-' + createTime).toString('base64');
     var createResume = await app.mysql.insert('frontend_resume', {
       user_id: resumeTeamplateData.userId, //用户ID

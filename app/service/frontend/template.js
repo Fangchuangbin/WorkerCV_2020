@@ -132,7 +132,7 @@ class TemplateService extends Service {
     const { ctx, app } = this;
     var getSuccess = { code: 20000, message: '获取相似简历推荐数据成功' };
     var getFail = { code: 40004, message: '获取相似简历推荐数据失败' };
-    var recommendTemplateList = await app.mysql.select('frontend_template');
+    var recommendTemplateList = await app.mysql.select('frontend_template', { orders: [['template_id', 'desc']] });
     if(recommendTemplateList) {
       return { result: getSuccess, recommendTemplateList }
     }else{
