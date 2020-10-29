@@ -49,7 +49,6 @@ class TemplateController extends Controller {
     var allTemplateCount = Number(templateClassData.allTemplateCount[0].count); //获取所有模板数量
     var allPageNum = Math.ceil(allTemplateCount / limitNum); //获取所有页码数
     
-    
     await ctx.render('frontend/template/list', {
       title: templateClassData.templateClassData.tagname + ' - 免费求职简历模板下载 - 极速简历',
       keywords: '简历模板,个人简历,个人简历模板,简历模板免费下载,简历模板下载',
@@ -71,11 +70,16 @@ class TemplateController extends Controller {
     var templateData = ctx.params;
     var templateItem = await ctx.service.frontend.template.getTemplateItem(templateData);//获取简历模板详情数据
     var recommendTemplateList = await ctx.service.frontend.template.getRecommendTemplateList();//获取相似简历推荐数据列表
+    var newTemplateList = await ctx.service.frontend.template.getNewTemplateList();//获取最新20条简历模板数据
+    var templateContext = await ctx.service.frontend.template.getTemplateContext(templateData);//获取当前简历模板的上下文
     if(templateItem.result.code === 20000) {
       await ctx.render('frontend/template/item', {
         title: '免费简历模板下载 - 极速简历',
         templateData: templateItem.templateItem,//当前简历模板详情小叔
         recommendTemplateList: recommendTemplateList.recommendTemplateList,//获取相似简历推荐数据列表
+        newTemplateList: newTemplateList.newTemplateList,//获取最新20条简历模板数据
+        prevTeamplateData: templateContext.prevTeamplateData,//获取上一条
+        nextTeamplateData: templateContext.nextTeamplateData,//获取下一条
       })
     }else{
       return false;

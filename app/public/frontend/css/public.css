@@ -50,6 +50,7 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .banner{width: 100%;height: 720px;background: url(/frontend/images/banner-pic-1.png) no-repeat center;position: relative;margin-top: 56px;z-index: 97;background-size: 100% 100%;}
 .banner .title h1{font-weight: bold!important;font-size: 55px;line-height: 70px;}
 .banner .btn{line-height: 46px;padding: 0px 35px;border-radius: 23px;}
+.banner .btn{color: #fff!important;}
 .index-1{margin-top: -85px;position: relative;z-index: 98;border-radius: 15px;box-shadow: 0px 1px 25px rgba(0,0,0,0.1);}
 .index-1-box{width: calc(60%/4);margin: 40px 5% 45px 5%;}
 .index-2 .head h1{font-size: 45px;}
@@ -65,14 +66,14 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .index-2 .list-box .btn{position: absolute;z-index: 96;margin: 185px auto auto 80px;width: 113px;opacity: 0;transition: 0.3s;}
 .index-2 .list-box .title{display: block;height: 45px;line-height: 45px;overflow: hidden;border-top: 1px dotted #e1e5e9;}
 .index-2 .more{overflow: hidden;margin: auto;width: 230px;}
-.index-2 .more .btn{border-radius: 23px;padding: 0 35px;height: 46px;line-height: 46px;width: 100%;}
+.index-2 .more .btn{border-radius: 23px;padding: 0 35px;height: 46px;line-height: 46px;width: 100%;color: #fff!important;}
 .index-3 .head h1{font-size: 45px;}
 .index-3 .main .tag{height: 28px;line-height: 28px;border-radius: 15px;background-color: rgba(0,115,250,0.15);padding: 0px 15px;display: inline-block;color: #0053fa;}
 .index-3 .main .pic{background: url(/frontend/images/index-pic-1.png) no-repeat right;height: 550px;}
 .index-3 .main .list li{list-style-type: disc;margin-left: 15px;margin-top: 10px;}
 .index-3 .main .w-37{width: 37%;}
 .index-3 .main .w-63{width: 63%;}
-.index-3 .main .more .btn{border-radius: 23px;width: 180px;line-height: 32px;}
+.index-3 .main .more .btn{border-radius: 23px;width: 180px;line-height: 32px;color: #fff!important;}
 .index-4 .head h1{font-size: 45px;}
 .index-4 .main .hot-list li{overflow: hidden;height: 115px;transition: 0.3s;}
 .index-4 .main .hot-list li:hover{box-shadow: 0px 1px 15px rgba(0,0,0,0.1);}
@@ -97,6 +98,7 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .index-5 .head h1{font-size: 45px;}
 .index-5 .more{margin: 0 auto;width: 260px;}
 .index-5 .more .btn{border-radius: 48px;line-height: 48px;width: 260px;font-size: 24px;}
+.index-5 .more .btn{color: #fff!important;}
 .footer{background-color: #f2f2f5;}
 .footer .box{overflow: hidden;}
 .footer .box-list{width: calc(100%/5.7);overflow: hidden;}
@@ -117,6 +119,7 @@ dl,dt,dd,ul,ol,li,p,strong,input,textarea,em{margin: 0;padding: 0;list-style-typ
 .select-template-group li{width: calc(100%/4);float: left;margin-bottom: 10px;cursor: pointer;}
 .select-template-group li:hover img{border: 1px solid #313539;}
 .select-template-group .hover .img-thumbnail{border: 1px solid #313539;transition: 0.3s;}
+.select-template-group .hover .title-box{font-weight: bold;}
 .vip{cursor: pointer;}
 .nav-list a{transition: .0s!important;}
 .userAvatar{transition: 0.3s;}

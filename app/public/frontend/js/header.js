@@ -36,20 +36,6 @@ $(document).ready(() => {
   $('#login1Off').click(() => {$('#accountLogin').modal('hide')}) //忘记密码
   $('#login2Off').click(() => {$('#accountLogin').modal('hide')}) //注册账号
 
-  //首页->查看更多模板
-  $('#moreTeamplate').click(() => {
-    if($.cookie('loginToken')) {
-      window.location.href = '/template';
-    }else{ $('#resetOff').click() }
-  })
-
-  //首页->免费制作专业简历
-  $('.makeResume').click(() => {
-    if($.cookie('loginToken')) {
-      window.location.href = '/home/';
-    }else{ $('#resetOff').click() }
-  })
-
   //用户登录
   $('#accountLogin #login').click(() => {
     if(loginStatus) {

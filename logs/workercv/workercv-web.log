@@ -10142,3 +10142,738 @@ name: "ER_BAD_FIELD_ERRORError"
 pid: 7732
 hostname: DESKTOP-EF7P7GO
 
+2020-10-29 10:54:59,225 ERROR 12600 [-/192.168.0.254/-/270ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12600
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:10,039 ERROR 12600 [-/192.168.0.254/-/252ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12600
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:11,547 ERROR 13328 [-/192.168.0.254/-/492ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:12,445 ERROR 13328 [-/192.168.0.254/-/149ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:13,337 ERROR 13328 [-/192.168.0.254/-/162ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:14,514 ERROR 13328 [-/192.168.0.254/-/154ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:16,111 ERROR 13328 [-/192.168.0.254/-/156ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:18,070 ERROR 13328 [-/192.168.0.254/-/154ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:19,244 ERROR 13328 [-/192.168.0.254/-/180ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:20,546 ERROR 13328 [-/192.168.0.254/-/158ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:24,693 ERROR 13328 [-/192.168.0.254/-/154ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:30,493 ERROR 13328 [-/192.168.0.254/-/150ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13328
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:31,935 ERROR 9872 [-/192.168.0.254/-/319ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:42)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9872
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:33,494 ERROR 9872 [-/192.168.0.254/-/302ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:42)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9872
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:40,242 ERROR 9872 [-/192.168.0.254/-/258ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:42)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9872
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:41,543 ERROR 13368 [-/192.168.0.254/-/258ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13368
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:55:42,801 ERROR 13368 [-/192.168.0.254/-/171ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13368
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:59:36,373 ERROR 12160 [-/192.168.0.254/-/461ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12160
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:59:37,090 ERROR 12160 [-/192.168.0.254/-/175ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12160
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 10:59:47,617 ERROR 12160 [-/192.168.0.254/-/210ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12160
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:00:15,376 ERROR 11968 [-/192.168.0.254/-/402ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11968
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:00:16,541 ERROR 11968 [-/192.168.0.254/-/236ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11968
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:03:39,924 ERROR 4232 [-/192.168.0.254/-/236ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 4232
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:03:55,431 ERROR 4232 [-/192.168.0.254/-/227ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 4232
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:03:56,604 ERROR 16284 [-/192.168.0.254/-/259ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:72)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16284
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:03:57,587 ERROR 16284 [-/192.168.0.254/-/252ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:72)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16284
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:03:58,462 ERROR 16284 [-/192.168.0.254/-/259ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:72)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16284
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:04:29,547 ERROR 8392 [-/192.168.0.254/-/268ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8392
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:05:03,794 ERROR 8392 [-/192.168.0.254/-/196ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8392
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:05:10,957 ERROR 8392 [-/192.168.0.254/-/182ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8392
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:05:11,960 ERROR 8392 [-/192.168.0.254/-/199ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8392
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:05:13,129 ERROR 13480 [-/192.168.0.254/-/476ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13480
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:05:13,762 ERROR 13480 [-/192.168.0.254/-/410ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13480
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:05:14,707 ERROR 13480 [-/192.168.0.254/-/441ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13480
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:03,156 ERROR 16188 [-/192.168.0.254/-/283ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:04,144 ERROR 16188 [-/192.168.0.254/-/205ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:05,372 ERROR 16188 [-/192.168.0.254/-/209ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:06,379 ERROR 16188 [-/192.168.0.254/-/193ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:07,179 ERROR 16188 [-/192.168.0.254/-/189ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:08,288 ERROR 16188 [-/192.168.0.254/-/197ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:55)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:15,305 ERROR 16248 [-/192.168.0.254/-/280ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16248
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:16,775 ERROR 16248 [-/192.168.0.254/-/260ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16248
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:17,819 ERROR 16248 [-/192.168.0.254/-/258ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16248
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:18,713 ERROR 16248 [-/192.168.0.254/-/192ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16248
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:19,538 ERROR 16248 [-/192.168.0.254/-/174ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16248
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:08:24,880 ERROR 16248 [-/192.168.0.254/-/183ms GET /template/item/7.html] nodejs.TypeError: Cannot set property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:167:69)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16248
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:09:21,042 ERROR 6116 [-/192.168.0.254/-/181ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:165:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6116
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:10:19,822 ERROR 11852 [-/192.168.0.254/-/207ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:163:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11852
+hostname: DESKTOP-RN33ASL
+
+2020-10-29 11:10:28,157 ERROR 16328 [-/192.168.0.254/-/316ms GET /template/item/7.html] nodejs.TypeError: Cannot read property 'template_name' of null
+    at TemplateService.getTemplateContext (F:\WorkerCV\app\service\frontend\template.js:163:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async TemplateController.item (F:\WorkerCV\app\controller\frontend\template.js:75:27)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16328
+hostname: DESKTOP-RN33ASL
+

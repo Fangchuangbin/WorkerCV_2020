@@ -18,6 +18,26 @@
 </head>
 <body>
   {% include "../header.html" %}
+
+  <!-- 查看大图 -->
+  <div class="modal fade template-big-img" id="templateBigImg" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">查看大图</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="{{ templateData.template_img }}" alt="{{ templateData.template_description }}">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="template-item">
     <div class="wrapper">
       <nav aria-label="breadcrumb" class="font-size-13 mt-1">
@@ -30,9 +50,9 @@
       <div class="template-item-main mt-1">
         <div class="float-left w-75">
           <div class="bg-white w-100 p-4" style="overflow: hidden;">
-            <img class="img-thumbnail float-left w-25 ml-2 mt-2" src="{{ templateData.template_img }}" alt="{{ templateData.template_name }}">
+            <img class="img-thumbnail float-left w-25 ml-2 mt-2" title="点击查看大图" src="{{ templateData.template_img }}" alt="{{ templateData.template_name }}" data-toggle="modal" data-target="#templateBigImg">
             <div class="float-right mt-4" style="width: 595px;">
-              <h4 class="w-100 text-dark">{{ templateData.template_name }}</h4>
+              <h4 class="w-100 text-dark"><span class="badge badge-secondary mr-2 font-weight-normal template-type">{{ templateData.template_type }}</span>{{ templateData.template_name }}</h4>
               <p class="w-100 mt-3 font-size-14 text-black-50">
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock mr-2 float-left mt-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
@@ -49,8 +69,8 @@
             </div>
           </div>
           <div class="mt-3 bg-white w-100 recommend-list" style="overflow: hidden;">
-            <h5 class="w-100 font-size-16 px-4 pt-4 pb-3 m-0">相似简历推荐</h5>
-            <div class="w-100 px-3" style="overflow: hidden;">
+            <h5 class="w-100 font-size-16 px-4 pt-4 pb-2 m-0">相似简历推荐</h5>
+            <div class="w-100 px-3 mt-1" style="overflow: hidden;">
               {% for item in recommendTemplateList %}
                 <div class="float-left px-2 mb-1 recommend-item"><a href="/template/item/{{item.template_id}}.html">
                   <img class="img-thumbnail mt-2" src="{{item.template_img}}" alt="{{item.template_name}}">
@@ -58,10 +78,52 @@
                 </a></div>
               {% endfor %}
             </div>
+            <h5 class="w-100 font-size-16 px-4 pt-4 pb-2 m-0 mt-1">最新简历模板</h5>
+            <div class="w-100 font-size-14 px-4 pb-4 mt-2" style="overflow: hidden;">
+              {% for item in newTemplateList %}
+                <a href="/template/item/{{item.id}}.html" class="float-left text-secondary new-template-item mr-3">{{item.template_name}}</a>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="py-3 mb-3 w-100 context font-size-13">
+            <a href="/template/item/{{prevTeamplateData.template_id}}.html" class="float-left text-secondary prev" data-target="{{prevTeamplateData.template_name}}">上一个：{{prevTeamplateData.template_name}}</a>
+            <a href="/template/item/{{nextTeamplateData.template_id}}.html" class="float-right text-secondary next" data-target="{{nextTeamplateData.template_name}}">下一个：{{nextTeamplateData.template_name}}</a>
           </div>
         </div>
         <div class="float-right" style="margin-left: 1rem;width: 284px;">
-          <div class="bg-white">78</div>
+          <div class="template-right-box bg-white p-4">
+            <h5 class="font-size-14 m-0" style="overflow: hidden"><p class="float-left font-size-16">求职攻略</p><a href="/article/" class="float-right font-weight-normal text-black-50">更多</a></h5>
+            <div class="w-100">
+              <a href=""><div class="media mt-3 pt-3">
+                <img src="https://photo.wondercv.com/uploads/page/middle_title_image/9287/title_photo-1485988412941-77a35537dae4.jpg" class="mr-2" alt="...">
+                <div class="media-body font-size-14 pl-1">
+                  <p class="mt-0 article-title">测试内容Abc1测试23</p>
+                  <p class="article-read text-black-50 font-size-13">123人阅读</p>
+                </div>
+              </div></a>
+              <a href=""><div class="media mt-3 pt-3">
+                <img src="https://photo.wondercv.com/uploads/page/middle_title_image/9287/title_photo-1485988412941-77a35537dae4.jpg" class="mr-2" alt="...">
+                <div class="media-body font-size-14 pl-1">
+                  <p class="mt-0 article-title">测试内容Abc1测试23</p>
+                  <p class="article-read text-black-50 font-size-13">123人阅读</p>
+                </div>
+              </div></a>
+              <a href=""><div class="media mt-3 pt-3">
+                <img src="https://photo.wondercv.com/uploads/page/middle_title_image/9287/title_photo-1485988412941-77a35537dae4.jpg" class="mr-2" alt="...">
+                <div class="media-body font-size-14 pl-1">
+                  <p class="mt-0 article-title">测试内容Abc1测试23</p>
+                  <p class="article-read text-black-50 font-size-13">123人阅读</p>
+                </div>
+              </div></a>
+              <a href=""><div class="media mt-3 pt-3">
+                <img src="https://photo.wondercv.com/uploads/page/middle_title_image/9287/title_photo-1485988412941-77a35537dae4.jpg" class="mr-2" alt="...">
+                <div class="media-body font-size-14 pl-1">
+                  <p class="mt-0 article-title">测试内容Abc1测试23</p>
+                  <p class="article-read text-black-50 font-size-13">123人阅读</p>
+                </div>
+              </div></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

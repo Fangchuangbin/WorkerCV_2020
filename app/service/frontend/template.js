@@ -140,6 +140,35 @@ class TemplateService extends Service {
     }
   }
 
+  //获取最新20条简历模板数据列表
+  async getNewTemplateList() {
+    const { app, ctx } = this;
+    var getSuccess = { code: 20000, message: '获取最新20条简历模板数据成功' }
+    var getFail = { code: 20000, message: '获取最新20条简历模板数据失败' }
+    var newTemplateList = await app.mysql.select('frontend_template', { limit: 20 });
+    if(newTemplateList) {
+      return { result: getSuccess, newTemplateList }
+    }else{
+      return { result: getFail }
+    }
+  }
+
+  //获取当前简历模板的上下文
+  async getTemplateContext(templateData) {
+    const { ctx, app } = this;
+    var getSuccess = { code: 20000, message: '获取简历模板的上下文数据成功' };
+    var getFail = { code: 40004, message: '获取简历模板的上下文数据失败' };
+    var prevNum = JSON.parse(templateData.templateId) - Number(1);
+    var nextNum = JSON.parse(templateData.templateId) + Number(1);
+    var prevTeamplateData = await app.mysql.get('frontend_template', { template_id: prevNum });//获取上一条数据
+    var nextTeamplateData = await app.mysql.get('frontend_template', { template_id: nextNum });//获取上下条数据
+    if(prevTeamplateData || nextTeamplateData) {
+      return { result: getSuccess, prevTeamplateData, nextTeamplateData }
+    }else{
+      return { result: getFail }
+    }
+  }
+
 }
 
 module.exports = TemplateService;

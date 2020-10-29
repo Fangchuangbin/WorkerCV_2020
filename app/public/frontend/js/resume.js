@@ -67,47 +67,46 @@ $(document).ready(() => {
 		$('#resumeScore').text(resumeScore.toFixed(1));
 	});
 	
-
 	//工具栏 -> 页边距
 	$('#pagePadding').bind('input propertychange', function() {
 		setTimeout(() => { $('.resume-template').css('padding', $(this).val() + 'cm'); }, 400)
 	});
 	//工具栏 -> 行边距
 	$('#pageLineHeight').bind('input propertychange', function() {
-		setTimeout(() => { $('div').css('line-height', $(this).val() + 'px'); }, 400);
+		setTimeout(() => { $('.resume-box').find('div').css('line-height', $(this).val() + 'px'); }, 400);
 	});
 	//工具栏 -> 文字大小
 	$('#pageFontSize').bind('input propertychange', function() {
-		setTimeout(() => { $('div').css('font-size', $(this).val() + 'px'); }, 400)
+		setTimeout(() => { $('.resume-box').find('div').css('font-size', $(this).val() + 'px'); }, 400)
 	});
 	//工具栏 -> 字体
 	$('#pageFontFamily').bind('input propertychange', function() {
-		setTimeout(() => { $('.resume-template').find('div').css('font-family', $(this).val()); }, 400)
+		setTimeout(() => { $('.resume-box').find('.resume-template').find('div').css('font-family', $(this).val()); }, 400)
 	});
 	//工具栏 -> 字体颜色
 	$('#pageFontColor').bind('input propertychange', function() {
-		setTimeout(() => { $('.diy-h4').css('color', $(this).val()); $('.diy-h4').css('border-bottom', '1px solid ' + $(this).val()); $('.diy-f-w-b').css('color', $(this).val()); }, 400)
+		setTimeout(() => { $('.resume-box').find('.diy-h4').css('color', $(this).val()); $('.diy-h4').css('border-bottom', '1px solid ' + $(this).val()); $('.diy-f-w-b').css('color', $(this).val()); }, 400)
 	})
 
 })
 
-	//删除简历
-	function deleteResume(e) {
-		var confirmDel = window.confirm('确定删除所选的简历吗？');
-		var resumeKey = e;
-		if(confirmDel) {
-			$.ajax({
-				url: '/api/deleteResume',
-				type: 'post',
-				dataType: 'json',
-				headers: { 'x-csrf-token': $.cookie('csrfToken') },
-				data: {
-					resumeKey: resumeKey
-				},
-				success: function(response) {
-					if(response.result.code == 20000) { alert('删除简历成功！'); window.location.href = '/home/'; }
-				},
-				error: function(error) { console.log(error); alert('创建简历失败！'); }
-			})
-		}
+//删除简历
+function deleteResume(e) {
+	var confirmDel = window.confirm('确定删除所选的简历吗？');
+	var resumeKey = e;
+	if(confirmDel) {
+		$.ajax({
+			url: '/api/deleteResume',
+			type: 'post',
+			dataType: 'json',
+			headers: { 'x-csrf-token': $.cookie('csrfToken') },
+			data: {
+				resumeKey: resumeKey
+			},
+			success: function(response) {
+				if(response.result.code == 20000) { alert('删除简历成功！'); window.location.href = '/home/'; }
+			},
+			error: function(error) { console.log(error); alert('创建简历失败！'); }
+		})
 	}
+}
