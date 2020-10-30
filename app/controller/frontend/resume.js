@@ -16,7 +16,9 @@ class ResumeController extends Controller {
     if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
 
     const resumeKey = ctx.params.resumeKey;
-    var resumeData = await ctx.service.frontend.resume.resumeData(resumeKey);
+    var resumeData = await ctx.service.frontend.resume.resumeData(resumeKey);//获取用户信息
+
+    var resumeProposal = await ctx.service.frontend.resume.getResumeProposal();//获取简历优化建议
     if(resumeData.result.code !== 20000) { return false; }
     await ctx.render('/frontend/resume/index', {
       title: '编辑简历 - 极速简历',
@@ -25,6 +27,7 @@ class ResumeController extends Controller {
       resumeScore: resumeData.resumeData.resume_score, //简历评分
       resumeKey: resumeData.resumeData.resume_key, //简历秘钥
       userData: loginTokenData, //用户信息
+      resumeProposal: resumeProposal.resumeProposal,//获取建议优化建议
     })
   }
 

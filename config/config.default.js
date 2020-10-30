@@ -16,7 +16,7 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1601824398896_3176';
 
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = ['token'];
 
   config.static = {
     prefix: '/',

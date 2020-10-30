@@ -10877,3 +10877,63 @@ hostname: DESKTOP-RN33ASL
 pid: 16328
 hostname: DESKTOP-RN33ASL
 
+2020-10-30 11:41:49,284 ERROR 7152 [-/192.168.0.254/-/24ms GET /home/] nodejs.TypeError: Cannot read property 'url' of undefined
+    at token (F:\WorkerCV\app\middleware\token.js:3:29)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\WorkerCV\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\WorkerCV\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 7152
+hostname: DESKTOP-RN33ASL
+
+2020-10-30 11:48:10,270 ERROR 12116 [-/192.168.0.254/-/14ms GET /home/] nodejs.TypeError: next is not a function
+    at token (F:\WorkerCV\app\middleware\token.js:4:11)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\WorkerCV\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\WorkerCV\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 12116
+hostname: DESKTOP-RN33ASL
+
+2020-10-30 11:48:11,453 ERROR 12116 [-/192.168.0.254/-/1ms GET /home/] nodejs.TypeError: next is not a function
+    at token (F:\WorkerCV\app\middleware\token.js:4:11)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\WorkerCV\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\WorkerCV\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\WorkerCV\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\WorkerCV\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 12116
+hostname: DESKTOP-RN33ASL
+
+2020-10-30 11:57:39,792 ERROR 13636 [-/192.168.0.254/-/44ms GET /home] nodejs.TypeError: Cannot read property 'id' of null
+    at HomeController.index (F:\WorkerCV\app\controller\frontend\home.js:14:96)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async token (F:\WorkerCV\app\middleware\token.js:5:5)
+    at async F:\WorkerCV\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\WorkerCV\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\WorkerCV\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\WorkerCV\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\WorkerCV\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\WorkerCV\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13636
+hostname: DESKTOP-RN33ASL
+
