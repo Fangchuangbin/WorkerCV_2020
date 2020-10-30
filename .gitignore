@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /node_modules
 /run
 /logs
+=======
+node_modules
+run
+logs
+logs/
+>>>>>>> 3a32edbb48c0a8f9b1860daf5242624843f65455
 *.log
