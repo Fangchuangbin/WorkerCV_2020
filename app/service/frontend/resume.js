@@ -90,6 +90,19 @@ class ResumeService extends Service {
       return { result: deleteFail }
     }
   }
+
+  //获取简历优化建议
+  async getResumeProposal() {
+    const { ctx, app } = this;
+    var getSuccess = { code: 20000, message: '获取简历优化建议成功' };
+    var getFail = { code: 40004, message: '获取简历优化建议失败' };
+    var resumeProposal = await app.mysql.select('frontend_resume_proposal', { limit: 5 });
+    if(resumeProposal) {
+      return { result: getSuccess, resumeProposal }
+    }else{
+      return { result: getFail }
+    }
+  }
 }
 
 module.exports = ResumeService;

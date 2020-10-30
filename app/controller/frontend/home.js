@@ -10,7 +10,7 @@ class HomeController extends Controller {
     const { ctx } = this;
     var tokenData = ctx.cookies.get('loginToken');
     var loginTokenData = await ctx.service.frontend.token.loginToken(tokenData);
-    if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
+    //if(loginTokenData.result.code !== 20000) { ctx.redirect('/'); ctx.cookies.set('loginToken', ''); return false; }
     var userResumeList = await ctx.service.frontend.home.getResumeList(loginTokenData.userData.id); //获取用户简历列表
     var resumeTemplateList = await ctx.service.frontend.home.getResumeTemplateList(); //获取12条简历模板列表
 

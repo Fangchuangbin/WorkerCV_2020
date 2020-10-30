@@ -5,6 +5,7 @@
  */
 module.exports = app => {
   const { router, controller } = app;
+  const token = app.middleware.token({});
 
   //页面路由
 
