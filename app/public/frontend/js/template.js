@@ -11,7 +11,6 @@ $(document).ready(function() {
     }
   })
 
-
   //列表分类
   $(function templateListClass() {
     $('.class-item-main').find('a').each(function() {
@@ -50,7 +49,7 @@ $(document).ready(function() {
   })
 
   //判断上下文
-  if($('.context').find('.prev').attr('data-target') == '') { $('.context').find('.prev').text('上一个：暂无'); };
+  if($('.context').find('.prev').attr('data-target') == '') { $('.context').find('.prev').text('上一个：暂无'); $('.context').find('.prev').attr('href', 'javascript:void(0);') };
   if($('.context').find('.next').attr('data-target') == '') { $('.context').find('.next').text('下一个：暂无'); $('.context').find('.next').attr('href', 'javascript:void(0);') };
 
   //判断简历类型
