@@ -75,7 +75,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\WorkerCV\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "/mnt/c/project/WorkerCV/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -88,8 +88,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "F:\\WorkerCV\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\WorkerCV\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/mnt/c/project/WorkerCV/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/mnt/c/project/WorkerCV/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -112,7 +112,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\Fang\\AppData\\Local\\Temp\\egg-multipart-tmp\\workercv",
+      "tmpdir": "/tmp/egg-multipart-tmp/workercv",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -136,14 +136,14 @@
     },
     "static": {
       "prefix": "/",
-      "dir": "F:\\WorkerCV\\app\\public",
+      "dir": "/mnt/c/project/WorkerCV/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "F:\\WorkerCV\\app\\view",
+      "root": "/mnt/c/project/WorkerCV/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -235,9 +235,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "F:\\WorkerCV",
-    "HOME": "C:\\Users\\Fang",
-    "rundir": "F:\\WorkerCV\\run",
+    "baseDir": "/mnt/c/project/WorkerCV",
+    "HOME": "/home/sugo",
+    "rundir": "/mnt/c/project/WorkerCV/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -269,7 +269,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "F:\\WorkerCV\\logs\\workercv",
+      "dir": "/mnt/c/project/WorkerCV/logs/workercv",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -347,8 +347,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-session",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-session",
       "version": "3.2.0"
     },
     "security": {
@@ -360,8 +360,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-security",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-security",
       "version": "2.8.0"
     },
     "jsonp": {
@@ -373,8 +373,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-jsonp",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -386,8 +386,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-onerror",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -397,8 +397,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-i18n",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -408,8 +408,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-watcher",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -419,8 +419,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-schedule",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-schedule",
       "version": "3.6.5"
     },
     "multipart": {
@@ -432,8 +432,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-multipart",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-multipart",
       "version": "2.10.3"
     },
     "development": {
@@ -447,8 +447,8 @@
       "env": [
         "local"
       ],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-development",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -460,8 +460,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-logrotator",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -471,8 +471,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-static",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -482,8 +482,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-view",
+      "from": "/mnt/c/project/WorkerCV/node_modules/egg/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -496,8 +496,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-view-nunjucks",
+      "from": "/mnt/c/project/WorkerCV/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
     },
     "mysql": {
@@ -507,8 +507,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\WorkerCV\\config\\plugin.js",
-      "path": "F:\\WorkerCV\\node_modules\\egg-mysql",
+      "from": "/mnt/c/project/WorkerCV/config/plugin.js",
+      "path": "/mnt/c/project/WorkerCV/node_modules/egg-mysql",
       "version": "3.0.0"
     }
   }
