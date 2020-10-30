@@ -28587,3 +28587,20 @@ hostname: DESKTOP-EF7P7GO
 2020-10-30 13:55:07,832 INFO 1595 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 30 2020 13:55:07 GMT+0800 (China Standard Time)
 2020-10-30 13:55:07,842 INFO 1595 [egg:core] dump config after ready, 5ms
 2020-10-30 13:55:43,627 INFO 1595 [egg-view-nunjucks] loading templates from ["/mnt/c/project/WorkerCV/app/view"]
+2020-10-30 14:57:43,164 INFO 1806 [egg:logger] init all loggers with options: {"dir":"/mnt/c/project/WorkerCV/logs/workercv","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"workercv-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-30 14:57:43,201 INFO 1806 [egg-multipart] stream mode enable
+2020-10-30 14:57:43,202 INFO 1806 [egg-mysql] connecting workercv@120.78.188.217:3306/workercv
+2020-10-30 14:57:43,432 INFO 1806 [egg-static] starting static serve / -> /mnt/c/project/WorkerCV/app/public
+2020-10-30 14:57:43,436 INFO 1806 [egg-security] use csrf middleware
+2020-10-30 14:57:43,437 INFO 1806 [egg-security] use methodnoallow middleware
+2020-10-30 14:57:43,438 INFO 1806 [egg-security] use noopen middleware
+2020-10-30 14:57:43,439 INFO 1806 [egg-security] use nosniff middleware
+2020-10-30 14:57:43,440 INFO 1806 [egg-security] use xssProtection middleware
+2020-10-30 14:57:43,440 INFO 1806 [egg-security] use xframe middleware
+2020-10-30 14:57:43,441 INFO 1806 [egg-security] use dta middleware
+2020-10-30 14:57:43,441 INFO 1806 [egg-security] compose 7 middlewares into one security middleware
+2020-10-30 14:57:43,458 INFO 1806 [egg:core] dump config after load, 5ms
+2020-10-30 14:57:43,472 INFO 1806 [egg-watcher:application] watcher start success
+2020-10-30 14:57:43,506 INFO 1806 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 30 2020 14:57:43 GMT+0800 (China Standard Time)
+2020-10-30 14:57:43,512 INFO 1806 [egg:core] dump config after ready, 3ms
+2020-10-30 14:58:04,291 INFO 1806 [egg-view-nunjucks] loading templates from ["/mnt/c/project/WorkerCV/app/view"]
