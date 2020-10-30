@@ -1,3 +1,5 @@
-/node_modules
-/run
-/logs
+node_modules
+run
+logs
+logs/
+*.log
